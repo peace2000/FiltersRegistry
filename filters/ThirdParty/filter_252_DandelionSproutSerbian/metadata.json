@@ -10,7 +10,8 @@
   "subscriptionUrl": "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/SerboCroatianList.txt",
   "tags": [
     "purpose:ads",
-    "lang:sr"
+    "lang:sr",
+    "lang:hr"
   ],
   "trustLevel": "high"
 }
