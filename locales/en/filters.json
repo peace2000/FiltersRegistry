@@ -309,7 +309,7 @@
 	},
 	{
 		"filter.243.name": "Frellwit's Swedish Filter",
-		"filter.243.description": "A filter for uBlock Origin that aims to remove regional Swedish ads, tracking, social media, annoyances, sponsored articles etc."
+		"filter.243.description": "Filter that aims to remove regional Swedish ads, tracking, social media, annoyances, sponsored articles etc."
 	},
 	{
 		"filter.244.name": "YousList",
