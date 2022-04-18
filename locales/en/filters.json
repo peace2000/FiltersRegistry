@@ -85,7 +85,7 @@
 	},
 	{
 		"filter.104.name": "EasyList China",
-		"filter.104.description": "Chinese supplement for EasyList."
+		"filter.104.description": "Chinese supplement for EasyList. Already included in AdGuard Chinese filter."
 	},
 	{
 		"filter.105.name": "EasyList Czech and Slovak",
