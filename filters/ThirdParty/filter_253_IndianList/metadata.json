@@ -10,7 +10,19 @@
   "subscriptionUrl": "https://easylist-downloads.adblockplus.org/indianlist.txt",
   "tags": [
     "purpose:ads",
-    "lang:in"
+    "lang:hi",
+    "lang:bn",
+    "lang:gu",
+    "lang:pa",
+    "lang:as",
+    "lang:mr",
+    "lang:ta",
+    "lang:ml",
+    "lang:te",
+    "lang:kn",
+    "lang:or",
+    "lang:ne",
+    "lang:si"
   ],
   "trustLevel": "low"
 }

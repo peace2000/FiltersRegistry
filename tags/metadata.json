@@ -265,6 +265,54 @@
   },
   {
     "tagId": 67,
-    "keyword": "lang:in"
+    "keyword": "lang:hi"
+  },
+  {
+    "tagId": 68,
+    "keyword": "lang:bn"
+  },
+  {
+    "tagId": 69,
+    "keyword": "lang:gu"
+  },
+  {
+    "tagId": 70,
+    "keyword": "lang:pa"
+  },
+  {
+    "tagId": 71,
+    "keyword": "lang:as"
+  },
+  {
+    "tagId": 72,
+    "keyword": "lang:mr"
+  },
+  {
+    "tagId": 73,
+    "keyword": "lang:ta"
+  },
+  {
+    "tagId": 74,
+    "keyword": "lang:ml"
+  },
+  {
+    "tagId": 75,
+    "keyword": "lang:te"
+  },
+  {
+    "tagId": 76,
+    "keyword": "lang:kn"
+  },
+  {
+    "tagId": 77,
+    "keyword": "lang:or"
+  },
+  {
+    "tagId": 78,
+    "keyword": "lang:ne"
+  },
+  {
+    "tagId": 79,
+    "keyword": "lang:si"
   }
 ]
