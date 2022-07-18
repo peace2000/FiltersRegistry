@@ -1543,6 +1543,7 @@ repeat-drama.info#?#.side_inner > .box:contains(スポンサーリンク)
 ##.interstitial-ad
 ##.ise-ad.csw-content-box
 ##.itiran-ad
+##.js-kb-click
 ##.master-post-advert
 ##.my_ads
 ##.p-entry__ad
@@ -2011,6 +2012,10 @@ photoshopvip.net,wotopi.jp,mag.osdn.jp,phileweb.com,joqr.co.jp,yutura.net,goethe
 !
 !
 !
+||eroerotaikendan.doorblog.jp^$subdocument,~third-party
+aikodemoneyfactory.dreamlog.jp,akasatananj.2chblog.jp##div[class^="sideads"]
+||suruga-ya.jp/pics_light/banner/*-af-1.jpg$third-party
+web-dev-qa-db-ja.com##.adnet
 ||ossnews.jp/upimg/banner/p1_
 ||uraaka-joshi.com/json/ad-
 ||uraaka-joshi.com/ad-$subdocument
@@ -2337,6 +2342,7 @@ frc-watashi.info###relatedAd
 ||any-video-converter.jp/new-images/netflix-video-downloader-banner900.jpg
 androplus.org##.my_adslotd
 city.koshigaya.saitama.jp###koukoku
+city.numazu.shizuoka.jp##[id^="koukoku"]
 conveni.getnews.jp##.ad-pc-top
 conveni.getnews.jp###jp_cgn_pc_all_right_1st
 find.5ch.net##.supporter
@@ -2409,7 +2415,7 @@ kabuyoho.ifis.co.jp##div[id^="ad_centents"]
 winxdvd.com###banner_t
 ||winxdvd.com/blog/new-fourteen/unextbanner.jpg
 eatout-hack.com##p[style] > span[style="font-size: 80%;"]
-aomori.jp,chiba.jp,hellonavi.jp,kagoshima.jp,kanagawa.jp,kyoto.jp,lg.jp,miyagi.jp,nagasaki.jp,nara.jp,shizuoka.jp,tokunoshima-town.org,tokyo.jp,yamanashi.jp###tmp_publicity
+city.fuefuki.yamanashi.jp,aomori.jp,chiba.jp,hellonavi.jp,kagoshima.jp,kanagawa.jp,kyoto.jp,lg.jp,miyagi.jp,nagasaki.jp,nara.jp,shizuoka.jp,tokunoshima-town.org,tokyo.jp,yamanashi.jp###tmp_publicity
 city.sapporo.jp,city-kirishima.jp,ehime.jp,fukushima.jp,kagoshima.jp,kanagawa.jp,lg.jp,miyagi.jp,oita.jp,shizuoka.jp,tokyo.jp,toyama.jp,yamanashi.jp###tmp_wrap_publicity
 ||kichimamasenki.com/bengo5.jpg
 ||kichimamasenki.com/tantei.jpg
@@ -2645,6 +2651,7 @@ ura-akiba.jp###rank_goods
 apollomaniacs.com##.kk_gen_top_h
 apollomaniacs.com##.kk_sdb_vertical
 javarchive.com##.all_banner_box_left_top_view_news
+hobbylog.jp##td[width="787"]
 hobbylog.jp###bottom_bnr
 46matome.net,hobbylog.jp##.right-container > div.plugin-memo:first-child
 ||3-559.com/data/ad/
@@ -5031,7 +5038,7 @@ ckworks.jp##div[style^="width:960px;height:320px"]
 ||blog.ss-blog.jp/_common/js/vc_affiliate.js
 ||excite.co.jp/jp/ad/
 sp.uta-net.com###header_banner
-sp.uta-net.com###footer_banner
+town.yoichi.hokkaido.jp,sp.uta-net.com###footer_banner
 sp.uta-net.com###kashi_adunit_above
 sp.uta-net.com##.kashi_banner2
 fujitv-view.jp##.c-adgrid
@@ -5175,7 +5182,7 @@ nicovideo.jp##.PreVideoStartPremiumLinkContainer
 ||mbadw.nan.co.jp^$subdocument
 adacomi.com##.ad01a
 adacomi.com##.menunaka > div[style^="font-size:10px;font-weight:normal;float:left;color:#996666;"]
-nan-net.com,adacomi.com##div[class^="koukoku"]
+syosetu.com,nan-net.com,adacomi.com##div[class^="koukoku"]
 adacomi.com##div[style="float:right;width:160px;"]
 adacomi.com##div[style^="width:600px;"]
 adacomi.com##table[width="910"]
@@ -5308,7 +5315,6 @@ anonymous-post.mobi##ad.widget_custom_html
 syosetu.org##div[id^="\31"][style*="height"][style*="width"]
 syosetu.org##div[style^="margin:0 auto;height:"][style$="px;"]
 ||syosetu.com/sub/yomouview/js/ad_scroll.js
-syosetu.com##div[class^="koukoku"]
 ||jartic.or.jp/d/banner/substitute/$subdocument
 beethovenmaster.com,global.sp.land.to##.SponsoredLink
 limo.media##.m-recommend
@@ -6368,7 +6374,7 @@ eromanga-school.com#@#.related-ad-area
 ! doesn't trigger anti-adb, exception made for privacy
 @@||vippers.jp/settings/ad.js
 ! https://github.com/uBlockOrigin/uAssets/issues/9693
-@@||hbb.afl.rakuten.co.jp/hgb/?pc=http%3a%2f%2fthumbnail.*%3d128x128$image,domain=blog.livedoor.jp
+@@||hbb.afl.rakuten.co.jp/hgb/*%3A%2F%2Fthumbnail.*%3D128x128$image,domain=blog.livedoor.jp
 ! potentially useful
 komachi.yomiuri.co.jp#@#._popIn_recommend_article_ad_reserved
 ! fix Topics on news.ameba.jp,ameblo.jp

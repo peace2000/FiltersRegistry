@@ -3381,6 +3381,7 @@ ubmcmm.baidustatic.com
 ###comiis_xizi_gg02
 ###container > .sectionBanner
 ###crazy_ad_float
+###nav-home > .coment-bottom
 ###crazy_ad_layer
 ###cs_left_couplet
 ###cs_right_couplet
@@ -4719,6 +4720,17 @@ ubmcmm.baidustatic.com
 ||cfhlrai.cn^
 ||doremi.ink^
 ||xixhx.com^
+||renxinghuan.com^
+||gnjunbio.rest^
+||fengxi.in^
+||hnbhrt.xyz^
+||lhpzz.love^
+||rwwfmb.cn^
+||daizi.love^
+||p7ivj09f.xyz^
+||666726.xyz^
+||qinhang.pro^
+||86zml3w.cn^
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
@@ -18690,6 +18702,7 @@ cnfol.com##.allAd
 bkill.com##.alliance-ad
 pilifx.com##.alltop
 18board.com,18board.net,18p2p.com,18p2p.tv##.altbg2 > td[width="20%"] > a[target="_blank"]
+18board.com,18board.net,18p2p.com,18p2p.tv##.altbg2 > td[width="25%"]
 18board.com,18board.net,18p2p.com,18p2p.tv##.altbg2 > td[width="33%"]
 gugeys.cc##.am-g
 maguays.cc##.animate-bounce-up
@@ -24908,6 +24921,7 @@ fqsousou.com,kengso.com#@#.user-share
 @@/sensorsdata.$domain=36kr.com|binance.com|by56.com|canon.com.cn|chuanglan.com|imooc.com|modian.com|saicskoda.com.cn|shanbay.com|tianyancha.com
 @@/setCookie?$domain=ctrip.com|ctrip.com.hk|pinyin.cn
 @@/urchin.js$domain=on.cc
+@@||autoimg.cn/bi/common/pvevent_all.
 @@||10010.com/mall/common/js/fa.js?referer=
 @@||10086.cn/framework/modules/sdc.js
 @@||111.75.255.103/Scripts/Controls/PageView.js
