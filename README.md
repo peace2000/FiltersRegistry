@@ -133,7 +133,7 @@ For each filter, AdGuard compiles two versions: full and optimized. Optimized ve
 
 ## Filters compiler customization
 
-`custom_platforms.js` customizes the way filters are compiled for certain filters. We should use it if we need to
+`custom_platforms.js` customizes the way filters are compiled for certain platforms. We should use it if we need to
 temporary change rules for a platform. In all other cases, we should prefer the default configuration.
 
 ## Filters localization
