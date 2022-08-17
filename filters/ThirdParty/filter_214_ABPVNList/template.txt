@@ -1,9 +1,9 @@
-! version for AdGuard Content Blocker only
 !#if (adguard_ext_android_cb)
+! version for AdGuard Content Blocker only
 @include "https://raw.githubusercontent.com/abpvn/abpvn/master/filter/abpvn_content_blocker.txt" /exclude="../../exclusions.txt"
 !#endif
 !
-! version for all other AdGuard products
 !#if (!adguard_ext_android_cb)
+! version for all other AdGuard products
 @include "https://raw.githubusercontent.com/abpvn/abpvn/master/filter/abpvn_adguard.txt" /exclude="../../exclusions.txt"
 !#endif
