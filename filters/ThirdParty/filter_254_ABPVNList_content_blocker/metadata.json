@@ -1,20 +1,20 @@
 {
-  "filterId": 214,
+  "filterId": 254,
   "name": "ABPVN List",
   "description": "Vietnamese adblock filter list.",
-  "timeAdded": 1404115015843,
+  "timeAdded": 1660734295472,
   "homepage": "https://abpvn.com/",
   "expires": "4 days",
   "displayNumber": 2,
   "groupId": 7,
-  "subscriptionUrl": "https://raw.githubusercontent.com/abpvn/abpvn/master/filter/abpvn_adguard.txt",
+  "subscriptionUrl": "https://raw.githubusercontent.com/abpvn/abpvn/master/filter/abpvn_content_blocker.txt",
   "tags": [
     "purpose:ads",
     "lang:vi",
     "recommended"
   ],
   "trustLevel": "high",
-  "platformsExcluded": [
+  "platformsIncluded": [
     "ext_android_cb"
   ]
 }

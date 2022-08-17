@@ -1,2 +1,2 @@
 !
-@include platforms.txt
+@include "https://raw.githubusercontent.com/abpvn/abpvn/master/filter/abpvn_adguard.txt" /exclude="../../exclusions.txt"
