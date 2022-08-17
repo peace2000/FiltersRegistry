@@ -13,8 +13,5 @@
     "lang:vi",
     "recommended"
   ],
-  "trustLevel": "high",
-  "platformsExcluded": [
-    "ext_android_cb"
-  ]
+  "trustLevel": "high"
 }
