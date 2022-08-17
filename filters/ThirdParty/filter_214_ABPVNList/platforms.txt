@@ -1,0 +1,5 @@
+!#if (adguard_ext_android_cb)
+!#include https://github.com/abpvn/abpvn/blob/master/filter/abpvn_content_blocker.txt /exclude="../../exclusions.txt"
+!#else
+!#include https://raw.githubusercontent.com/abpvn/abpvn/master/filter/abpvn_adguard.txt /exclude="../../exclusions.txt"
+!#endif
