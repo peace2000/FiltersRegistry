@@ -45,4 +45,4 @@
 !-------------------------------------------------------------------------------!
 !------------------ White list (exceptions list)  ------------------------------!
 !-------------------------------------------------------------------------------!
-@include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/RussianFilter/sections/whitelist.txt"
+@include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/RussianFilter/sections/allowlist.txt"
