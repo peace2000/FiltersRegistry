@@ -47,7 +47,7 @@
 !-------------------------------------------------------------------------------!
 @include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/EnglishFilter/sections/specific.txt"
 !-------------------------------------------------------------------------------!
-!------------------ White list (exceptions list) -------------------------------!
+!------------------ Allow list (exceptions list) -------------------------------!
 !-------------------------------------------------------------------------------!
 @include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/EnglishFilter/sections/allowlist.txt"
 !-------------------------------------------------------------------------------!

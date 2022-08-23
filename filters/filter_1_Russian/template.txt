@@ -43,6 +43,6 @@
 !-------------------------------------------------------------------------------!
 @include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/RussianFilter/sections/replace.txt"
 !-------------------------------------------------------------------------------!
-!------------------ White list (exceptions list)  ------------------------------!
+!------------------ Allow list (exceptions list)  ------------------------------!
 !-------------------------------------------------------------------------------!
 @include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/RussianFilter/sections/allowlist.txt"

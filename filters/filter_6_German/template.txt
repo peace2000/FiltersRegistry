@@ -38,7 +38,7 @@
 !-------------------------------------------------------------------------------!
 @include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/GermanFilter/sections/replace.txt"
 !---------------------------------------------------------------------------!
-!------ White list. Fixing filtration errors (false-positive) --------------!
+!------------------ Fixing filtration errors (false-positive) --------------!
 !---------------------------------------------------------------------------!
 @include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/GermanFilter/sections/allowlist.txt"
 !-------------- Easylist Germany rules -------------------------------------!

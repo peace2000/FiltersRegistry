@@ -35,6 +35,6 @@
 !-------------------------------------------------------------------------------!
 @include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/SocialFilter/sections/popups.txt"
 !-------------------------------------------------------------------------------!
-!-------------- Whitelist  -----------------------------------------------------!
+!-------------- Allowlist ------------------------------------------------------!
 !-------------------------------------------------------------------------------!
 @include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/SocialFilter/sections/allowlist.txt"

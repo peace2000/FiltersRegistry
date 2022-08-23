@@ -30,7 +30,7 @@
 !---------------------------------------------------------------------------!
 @include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/MobileFilter/sections/general_url.txt"
 !---------------------------------------------------------------------------!
-!------ White list. Fixing filtration errors (false-positive)---------------!
+!------------------ Fixing filtration errors (false-positive)---------------!
 !---------------------------------------------------------------------------!
 @include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/MobileFilter/sections/allowlist.txt"
 !---------------------------------------------------------------------------!

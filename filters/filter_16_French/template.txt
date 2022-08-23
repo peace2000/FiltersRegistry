@@ -39,7 +39,7 @@
 !---------------------------------------------------------------------------!
 @include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/FrenchFilter/sections/replace.txt"
 !---------------------------------------------------------------------------!
-!-------------- White list. Fixing filtration errors (false-positive) ------!
+!-------------- Fixing filtration errors (false-positive) ------------------!
 !---------------------------------------------------------------------------!
 @include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/FrenchFilter/sections/allowlist.txt"
 !-------------- Liste FR rules -------------------------------------!
