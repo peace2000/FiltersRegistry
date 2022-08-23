@@ -47,7 +47,7 @@
 !-------------------------------------------------------------------------------!
 @include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/EnglishFilter/sections/specific.txt"
 !-------------------------------------------------------------------------------!
-!------------------ Fixing filtration errors (false-positive)-------------------!
+!-------------- Fixing filtration errors (false-positive) ----------------------!
 !-------------------------------------------------------------------------------!
 @include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/EnglishFilter/sections/allowlist.txt"
 !-------------------------------------------------------------------------------!

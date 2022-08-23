@@ -39,7 +39,7 @@
 !---------------------------------------------------------------------------!
 @include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/ChineseFilter/sections/replace.txt"
 !---------------------------------------------------------------------------!
-!--------------- Fixing filtration errors (false-positive) -----------------!
+!-------------- Fixing filtration errors (false-positive) ------------------!
 !---------------------------------------------------------------------------!
 @include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/ChineseFilter/sections/allowlist.txt"
 !---------------------------------------------------------------------------!
