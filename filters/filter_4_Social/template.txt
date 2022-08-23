@@ -35,6 +35,6 @@
 !-------------------------------------------------------------------------------!
 @include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/SocialFilter/sections/popups.txt"
 !-------------------------------------------------------------------------------!
-!-------------- Allowlist ------------------------------------------------------!
+!------------------ Fixing filtration errors (false-positive)-------------------!
 !-------------------------------------------------------------------------------!
 @include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/SocialFilter/sections/allowlist.txt"

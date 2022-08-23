@@ -47,6 +47,6 @@
 !-------------------------------------------------------------------------------!
 @include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/SpywareFilter/sections/mobile_allowlist.txt"
 !-------------------------------------------------------------------------------!
-!-------------- Allowlist ------------------------------------------------------!
+!------------------ Fixing filtration errors (false-positive)-------------------!
 !-------------------------------------------------------------------------------!
 @include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/SpywareFilter/sections/allowlist.txt"
