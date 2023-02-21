@@ -85,7 +85,7 @@ module.exports = {
         "path": "ios",
         "configuration": {
             "removeRulePatterns": [
-                "^(?!scriptlet.)*\\$\\$|\\$\\@\\$",
+                "^((?!#%#).)*\\$\\$|\\$\\@\\$",
                 "\\$(.*,)?mp4",
                 "\\$(.*,)?replace=",
                 "\\$stealth",
@@ -126,7 +126,7 @@ module.exports = {
         "path": "extension/chromium",
         "configuration": {
             "removeRulePatterns": [
-                "^(?!scriptlet.)*\\$\\$|\\$\\@\\$",
+                "^((?!#%#).)*\\$\\$|\\$\\@\\$",
                 "\\$(.*,)?replace=",
                 "important,replace=",
                 "\\$(.*,)?app",
@@ -160,7 +160,7 @@ module.exports = {
                 "important,protobuf",
                 "\\$extension",
                 ",extension",
-                "^(?!scriptlet.)*\\$\\$|\\$\\@\\$",
+                "^((?!#%#).)*\\$\\$|\\$\\@\\$",
                 "\\$(.*,)?replace=",
                 "important,replace="
             ],
@@ -182,7 +182,7 @@ module.exports = {
         "path": "extension/safari",
         "configuration": {
             "removeRulePatterns": [
-                "^(?!scriptlet.)*\\$\\$|\\$\\@\\$",
+                "^((?!#%#).)*\\$\\$|\\$\\@\\$",
                 "\\$(.*,)?mp4",
                 "\\$(.*,)?replace=",
                 "\\$stealth",
@@ -224,7 +224,7 @@ module.exports = {
         "path": "extension/edge",
         "configuration": {
             "removeRulePatterns": [
-                "^(?!scriptlet.)*\\$\\$|\\$\\@\\$",
+                "^((?!#%#).)*\\$\\$|\\$\\@\\$",
                 "\\$(.*,)?mp4",
                 "\\$(.*,)?replace=",
                 "important,replace=",
@@ -260,7 +260,7 @@ module.exports = {
         "path": "extension/opera",
         "configuration": {
             "removeRulePatterns": [
-                "^(?!scriptlet.)*\\$\\$|\\$\\@\\$",
+                "^((?!#%#).)*\\$\\$|\\$\\@\\$",
                 "\\$(.*,)?replace=",
                 "important,replace=",
                 "\\$(.*,)?app",
@@ -289,7 +289,7 @@ module.exports = {
         "path": "extension/android-content-blocker",
         "configuration": {
             "removeRulePatterns": [
-                "\\$\\$|\\$\\@\\$",
+                "^((?!#%#).)*\\$\\$|\\$\\@\\$",
                 "#%#",
                 "#@%#",
                 "#\\$#",
