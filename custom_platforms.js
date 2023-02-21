@@ -344,7 +344,7 @@ module.exports = {
         "path": "extension/ublock",
         "configuration": {
             "removeRulePatterns": [
-                "\\$\\$|\\$\\@\\$",
+                "^((?!#%#).)*\\$\\$|\\$\\@\\$",
                 "\\$(.*,)?mp4",
                 "\\$(.*,)?replace=",
                 "\\$stealth",
