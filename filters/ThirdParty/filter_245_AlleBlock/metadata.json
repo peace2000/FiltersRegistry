@@ -10,7 +10,9 @@
   "subscriptionUrl": "https://alleblock.pl/alleblock/alleblock.txt",
   "tags": [
     "lang:pl",
-    "purpose:annoyances"
+    "purpose:annoyances",
+    "obsolete"
   ],
-  "trustLevel": "low"
+  "trustLevel": "low",
+  "disabled": true
 }
