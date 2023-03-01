@@ -22,32 +22,32 @@
 !-------------------------------------------------------------------------------!
 !------------------ Advertising networks ---------------------------------------!
 !-------------------------------------------------------------------------------!
-@include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/UkrainianFilter/sections/adservers_firstparty.txt"
+@include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/CyrillicFilters/UkrainianFilter/sections/adservers_firstparty.txt"
 !-------------------------------------------------------------------------------!
 !------------------ Anti-adblock rules -----------------------------------------!
 !-------------------------------------------------------------------------------!
-@include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/UkrainianFilter/sections/antiadblock.txt"
+@include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/CyrillicFilters/UkrainianFilter/sections/antiadblock.txt"
 !-------------------------------------------------------------------------------!
 !------------------ Extended CSS rules -----------------------------------------!
 !-------------------------------------------------------------------------------!
-@include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/UkrainianFilter/sections/css_extended.txt"
+@include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/CyrillicFilters/UkrainianFilter/sections/css_extended.txt"
 !-------------------------------------------------------------------------------!
 !------------------ General javascript, CSS and HTML extensions ----------------!
 !-------------------------------------------------------------------------------!
-@include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/UkrainianFilter/sections/general_extensions.txt"
+@include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/CyrillicFilters/UkrainianFilter/sections/general_extensions.txt"
 !-------------------------------------------------------------------------------!
 !------------------ News exchange ----------------------------------------------!
 !-------------------------------------------------------------------------------!
-@include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/UkrainianFilter/sections/news_exchange.txt"
+@include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/CyrillicFilters/UkrainianFilter/sections/news_exchange.txt"
 !-------------------------------------------------------------------------------!
 !------------------ Rules for specific web sites  ------------------------------!
 !-------------------------------------------------------------------------------!
-@include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/UkrainianFilter/sections/specific.txt"
+@include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/CyrillicFilters/UkrainianFilter/sections/specific.txt"
 !-------------------------------------------------------------------------------!
 !------------------ Content replacement rules ----------------------------------!
 !-------------------------------------------------------------------------------!
-@include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/UkrainianFilter/sections/replace.txt"
+@include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/CyrillicFilters/UkrainianFilter/sections/replace.txt"
 !-------------------------------------------------------------------------------!
 !-------------- Fixing filtration errors (false-positive) ----------------------!
 !-------------------------------------------------------------------------------!
-@include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/UkrainianFilter/sections/allowlist.txt"
+@include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/CyrillicFilters/UkrainianFilter/sections/allowlist.txt"
