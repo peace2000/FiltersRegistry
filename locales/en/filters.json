@@ -88,6 +88,10 @@
 		"filter.22.description": "Blocks annoying third-party widgets: online assistants, live support chats, etc."
 	},
 	{
+		"filter.23.name": "AdGuard Ukrainian filter",
+		"filter.23.description": "Filter that enables ad blocking on websites in the Ukrainian language."
+	},
+	{
 		"filter.224.name": "AdGuard Chinese filter",
 		"filter.224.description": "EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language."
 	},
