@@ -51,3 +51,18 @@
 !-------------- Fixing filtration errors (false-positive) ----------------------!
 !-------------------------------------------------------------------------------!
 @include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/CyrillicFilters/RussianFilter/sections/allowlist.txt"
+!
+!
+!
+! Old inslusions (to avoid optimization errors before merging). Remove remove just before
+@include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/RussianFilter/sections/adservers.txt"
+@include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/RussianFilter/sections/adservers_firstparty.txt"
+@include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/RussianFilter/sections/antiadblock.txt"
+@include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/RussianFilter/sections/css_extended.txt"
+@include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/RussianFilter/sections/general_elemhide.txt"
+@include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/RussianFilter/sections/general_extensions.txt"
+@include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/RussianFilter/sections/general_url.txt"
+@include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/RussianFilter/sections/news_exchange.txt"
+@include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/RussianFilter/sections/specific.txt"
+@include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/RussianFilter/sections/replace.txt"
+@include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/RussianFilter/sections/allowlist.txt"
