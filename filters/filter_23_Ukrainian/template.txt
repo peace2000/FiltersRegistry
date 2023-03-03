@@ -36,10 +36,6 @@
 !-------------------------------------------------------------------------------!
 @include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/CyrillicFilters/UkrainianFilter/sections/general_extensions.txt"
 !-------------------------------------------------------------------------------!
-!------------------ News exchange ----------------------------------------------!
-!-------------------------------------------------------------------------------!
-@include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/CyrillicFilters/UkrainianFilter/sections/news_exchange.txt"
-!-------------------------------------------------------------------------------!
 !------------------ Rules for specific web sites  ------------------------------!
 !-------------------------------------------------------------------------------!
 @include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/CyrillicFilters/UkrainianFilter/sections/specific.txt"
