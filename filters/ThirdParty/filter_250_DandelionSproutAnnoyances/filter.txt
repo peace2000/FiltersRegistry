@@ -463,7 +463,7 @@ linkedin.com#$?#html { overflow: auto !important; }
 linkedin.com#$?#body { overflow: auto !important; }
 !#if ext_ublock
 ! Title: 💊 Dandelion Sprout's Anti-Malware List
-! OriginalVersion: 23February2023v2
+! OriginalVersion: 28February2023v1
 ! Expires: 2 days
 ! Description: This list goes the extra kilometer to prevent more malware than other mainstream anti-malware lists. It blocks heavily abused top-level domains (and even search engine results for them), blocks domains used in malware redirection trains and in domain parking schemes, blocks sponsored Windows PUP nags on PC guide articles, uses mass blocking of domains belonging to bad IPs, and has many other subcategories that give it a solid advantage over similar lists out there.
 ! For other security-specific lists I've made, check out https://github.com/DandelionSprout/adfilt/tree/master/Special%20security%20lists
@@ -2165,7 +2165,7 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 !#endif
 !#if adguard
 ! Title: 💊 Dandelion Sprout's Anti-Malware List (for AdGuard)
-! OriginalVersion: 21February2023v1
+! OriginalVersion: 28February2023v1
 ! Expires: 2 days
 ! Description: This list goes the extra kilometer to prevent more malware than other mainstream anti-malware lists. It blocks heavily abused top-level domains (and even search engine results for them), blocks domains used in malware redirection trains and in domain parking schemes, blocks sponsored Windows PUP nags on PC guide articles, uses mass blocking of domains belonging to bad IPs, and has many other subcategories that give it a solid advantage over similar lists out there.
 ! For other security-specific lists I've made, check out https://github.com/DandelionSprout/adfilt/tree/master/Special%20security%20lists
@@ -2188,7 +2188,7 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||top^$document,domain=~caitlin.top|~corriente.top|~gdtot.top|~nicenature.top|~reminder.top|~magocoro.top|~castlevania.top|~suiten.top|~shucks.top|~1stream.top|~ambr.top|~techblog.top|~changlam10.top|~changlam11.top|~pdcdn1.top|~mastodon.top|~pressplay.top|~chillx.top|~strims.top
 ! International topical domains that have consistently horrendous scores on watchlists of bad TLDs, and whose use for legit purposes is practically non-existent.
 ||loan^$document
-||agency^$document,domain=~battlefield.agency|~baam.agency|~uphotel.agency
+||agency^$document,domain=~battlefield.agency|~baam.agency|~robotzebra.agency|~uphotel.agency
 ||gdn^$document
 ||bid^$document
 ||ooo^$document
@@ -2216,7 +2216,6 @@ www.google.*##.g:has(a[href*=".gq/"]:not([href*="inege.gq"], [href*="tvgelive.gq
 www.google.*##.g:has(a[href*=".cf/"]:not([href*="google.cf"], [href*="rths.cf"], [href*="acap.cf"]))
 www.google.*##.g:has(a[href*=".pw/"]:not([href*="libgen.pw"], [href*="petridish.pw"], [href*="palaugov.pw"], [href*="dpc.pw"], [href*="buttercup.pw"], [href*="rezka.pw"], [href*="darkcrystal.pw"], [href*="xor.pw"], [href*="fullhdfilmizlesene.pw"], [href*="gopass.pw"], [href*="vost.pw"], [href*="core.pw"], [href*="bittor.pw"]))
 www.google.*##.g:has(a[href*=".loan/"])
-www.google.*##.g:has(a[href*=".agency/"]:not([href*="battlefield.agency"], [href*="baam.agency"], [href*="uphotel.agency"]))
 www.google.*##.g:has(a[href*=".gdn/"])
 www.google.*##.g:has(a[href*=".bid/"])
 www.google.*##.g:has(a[href*=".top/"]:not([href*="caitlin.top"], [href*="corriente.top"], [href*="gdtot.top"], [href*="nicenature.top"], [href*="reminder.top"], [href*="magocoro.top"], [href*="castlevania.top"], [href*="suiten.top"], [href*="shucks.top"], [href*="1stream.top"], [href*="ambr.top"], [href*="techblog.top"], [href*="mastodon.top"], [href*="pressplay.top"], [href*="strims.top"]))
@@ -2255,7 +2254,7 @@ duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaf
 duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$=".cf"]:not([data-domain*="google.cf"], [data-domain*="rths.cf"], [data-domain*="acap.cf"])
 duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$=".pw"]:not([data-domain*="libgen.pw"], [data-domain*="petridish.pw"], [data-domain*="palaugov.pw"], [data-domain*="dpc.pw"], [data-domain*="buttercup.pw"], [data-domain*="rezka.pw"], [data-domain*="darkcrystal.pw"], [data-domain*="xor.pw"], [data-domain*="fullhdfilmizlesene.pw"], [data-domain*="gopass.pw"], [data-domain*="vost.pw"], [data-domain*="core.pw"], [data-domain*="bittor.pw"])
 duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$=".loan"]
-duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$=".agency"]:not([data-domain*="battlefield.agency"], [data-domain*="baam.agency"], [data-domain*="uphotel.agency"])
+duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$=".agency"]:not([data-domain*="battlefield.agency"], [data-domain*="baam.agency"], [data-domain*="uphotel.agency"], [data-domain*="robotzebra.agency"])
 duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$=".gdn"]
 duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$=".bid"]
 duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$=".top"]:not([href*="caitlin.top"], [data-domain$="corriente.top"], [data-domain$="gdtot.top"], [data-domain$="nicenature.top"], [data-domain$="reminder.top"], [data-domain$="magocoro.top"], [data-domain$="castlevania.top"], [data-domain$="suiten.top"], [data-domain$="shucks.top"], [data-domain$="1stream.top"], [data-domain*="ambr.top"], [data-domain*="techblog.top"], [data-domain*="mastodon.top"], [data-domain*="pressplay.top"], [data-domain*="strims.top"])
@@ -2267,7 +2266,6 @@ bing.com##.b_algo:has(a[href*=".gq/"]:not([href*="inege.gq"], [href*="tvgelive.g
 bing.com##.b_algo:has(a[href*=".cf/"]:not([href*="google.cf"], [href*="rths.cf"], [href*="acap.cf"]))
 bing.com##.b_algo:has(a[href*=".pw/"]:not([href*="libgen.pw"], [href*="petridish.pw"], [href*="palaugov.pw"], [href*="dpc.pw"], [href*="buttercup.pw"], [href*="rezka.pw"], [href*="darkcrystal.pw"], [href*="xor.pw"], [href*="fullhdfilmizlesene.pw"], [href*="gopass.pw"], [href*="vost.pw"], [href*="core.pw"], [href*="bittor.pw"]))
 bing.com##.b_algo:has(a[href*=".loan/"])
-bing.com##.b_algo:has(a[href*=".agency/"]:not([href*="battlefield.agency"], [href*="baam.agency"], [href*="uphotel.agency"]))
 bing.com##.b_algo:has(a[href*=".gdn/"])
 bing.com##.b_algo:has(a[href*=".bid/"])
 bing.com##.b_algo:has(a[href*=".top/"]:not([href*="caitlin.top"], [href*="corriente.top"], [href*="gdtot.top"], [href*="nicenature.top"], [href*="reminder.top"], [href*="magocoro.top"], [href*="castlevania.top"], [href*="suiten.top"], [href*="shucks.top"], [href*="1stream.top"], [href*="ambr.top"], [href*="techblog.top"], [href*="mastodon.top"], [href*="pressplay.top"], [href*="strims.top"]))
@@ -2475,8 +2473,8 @@ azdll.net##.dllhelper-banner
 ||solvusoft.com^$document
 exefiles.com##.panel:has([href*="/en/recommended/winthruster/"])
 ! Common scam domain patterns
-/^http://(apps?|best|competition|game|mobile|play|prize|reward|sweeps)[0-9]{2,8}\.[a-z-]{5,22}[0-9]{1,8}\.(icu|life|live)/$~third-party,document
-/^https://(apps?|best|competition|game|mobile|play|prize|reward|sweeps)[0-9]{2,8}\.[a-z-]{5,22}[0-9]{1,8}\.(icu|life|live)/$~third-party,document
+/^http://(apps?|best|competition|game|mobile|play|prize|reward|sweeps)\d{2,8}\.[a-z-]{5,22}\d{1,8}\.(icu|life|live)/$~third-party,document
+/^https://(apps?|best|competition|game|mobile|play|prize|reward|sweeps)\d{2,8}\.[a-z-]{5,22}\d{1,8}\.(icu|life|live)/$~third-party,document
 /^https?:\/\/((?!www)[a-z]{3,5}\.)?[-0-9a-z]{6,}\.(?:com|fun|guru|life|online|pw|site|space|top)\/\/?\?o=[0-9a-z]{7}&u=[0-9a-z]{7}/$document,match-case,domain=com|fun|guru|life|online|pw|site|space|top
 /^https?:\/\/((?!www)[a-z]{3,5}\.)?[-0-9a-z]{6,}\.(?:com|fun|guru|life|online|pw|site|space|top)\/\/?\?u=[0-9a-z]{7}&o=[0-9a-z]{7}/$document,match-case,domain=com|fun|guru|life|online|pw|site|space|top
 ! https://github.com/AdguardTeam/AdguardFilters/issues/58737
@@ -3468,8 +3466,8 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||uptodater.net^$all
 ||virnews.club^$all
 ||vviewpoint.biz^$all
-/^http://[0-9]{1,2}\.[a-z0-9-]{1,}\.(club|me)(/|$)/$document
-/^https://[0-9]{1,2}\.[a-z0-9-]{1,}\.(club|me)(/|$)/$document
+/^http://\d{1,2}\.[a-z0-9-]{1,}\.(club|me)(/|$)/$document
+/^https://\d{1,2}\.[a-z0-9-]{1,}\.(club|me)(/|$)/$document
 134.209.136.174$network
 ||whiteclick.biz^$all
 ||dreamnews.biz^$all
@@ -3523,7 +3521,7 @@ zombooru.com##a[href="http://www.hard55.com"]
 /^http://([a-z-]{1,})?luck([a-z-]{1,})?\.club(/|$)/
 /^https://([a-z-]{1,})?luck([a-z-]{1,})?\.club(/|$)/
 ! https://github.com/AdguardTeam/AdguardFilters/issues/73133
-/^(https?://)?[0-9]{1,2}\.[a-z0-9-]{1,}\.biz(/|$)/$document
+/^(https?://)?\d{1,2}\.[a-z0-9-]{1,}\.biz(/|$)/$document
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-428333
 ||safe-offers.net^$document
 /bitcoinrevolution/lp.php^$document
@@ -4578,10 +4576,10 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||amazon-security-info.lnk.to^$all
 ! https://github.com/AdguardTeam/AdguardFilters/issues/123968
 ! https://github.com/AdguardTeam/AdguardFilters/issues/124620
-/(\.|//|^)1xslot[0-9]{5,}\.com(/|$)/$all
-/(\.|//|^)linebet[0-9]{4}\.com(/|$)/$all
-/(\.|//|^)linebet[0-9]{5,}[a-z]\.com(/|$)/$all
-/(\.|//|^)lite-1x[0-9]{5,}\.com(/|$)/$all
+/(\.|//|^)1xslot\d{5,}\.com(/|$)/$all
+/(\.|//|^)linebet\d{4}\.com(/|$)/$all
+/(\.|//|^)linebet\d{5,}[a-z]\.com(/|$)/$all
+/(\.|//|^)lite-1x\d{5,}\.com(/|$)/$all
 ||11promo.icu^$all
 ||1x-asiabet.mobi^$all
 ||1x-bet-co.com^$all
@@ -4862,11 +4860,11 @@ zombooru.com##a[href="http://www.hard55.com"]
 ||zfcurqe.art^$all
 ||zuginmw.art^$all
 !#if !ext_ublock
-/^178\.253\.[0-7]\.[0-9]{1,3}$/$network
+/^178\.253\.[0-7]\.\d{1,3}$/$network
 178.253.14.*$network
 178.253.15.*$network
-/^178\.253\.2[0145]\[0-9]{1,3}$/$network
-/^178\.253\.3[04-7]\.[0-9]{1,3}$/$network
+/^178\.253\.2[0145]\\d{1,3}$/$network
+/^178\.253\.3[04-7]\.\d{1,3}$/$network
 178.253.46.*$network
 178.253.47.*$network
 178.253.54.*$network
@@ -12413,7 +12411,7 @@ toorgle.net##.join
 192.243.59.13$network
 192.243.59.20$network
 !#if !ext_ublock
-/^(https?://)?192\.243\.59\.[0-9]{1,3}($|/)/$document
+/^(https?://)?192\.243\.59\.\d{1,3}($|/)/$document
 192.243.59.*$network
 !#endif
 ! rule34hentai.net when uBlock Filters and AdGuard Base are turned off
@@ -12498,14 +12496,14 @@ toorgle.net##.join
 46.161.31.*$network
 91.243.41.*$network
 91.243.42.*$network
-/^5\.8\.4[4-7]\.[0-9]{1,3}$/$network
-/^5\.101\.4[67]\.[0-9]{1,3}$/$network
-/^5\.188\.5[01]\.[0-9]{1,3}$/$network
-/^5\.188\.17[67]\.[0-9]{1,3}$/$network
-/^5\.188\.19[45]\.[0-9]{1,3}$/$network
-/^5\.189\.21[89]\.[0-9]{1,3}$/$network
-/^31\.184\.20[0-3]\.[0-9]{1,3}$/$network
-/^185\.238\.15[2-5]\.[0-9]{1,3}$/$network
+/^5\.8\.4[4-7]\.\d{1,3}$/$network
+/^5\.101\.4[67]\.\d{1,3}$/$network
+/^5\.188\.5[01]\.\d{1,3}$/$network
+/^5\.188\.17[67]\.\d{1,3}$/$network
+/^5\.188\.19[45]\.\d{1,3}$/$network
+/^5\.189\.21[89]\.\d{1,3}$/$network
+/^31\.184\.20[0-3]\.\d{1,3}$/$network
+/^185\.238\.15[2-5]\.\d{1,3}$/$network
 !#endif
 ! https://github.com/AdguardTeam/AdguardFilters/issues/120349
 ||dispositionadverb.com^$all
@@ -13780,32 +13778,26 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ! Placeholder line for alternate list versions
 !#endif
 ! Title: 🐐 Dandelion Sprout's Lightweight Anti-'Social share' List
-! OriginalVersion: 19February2023v1-Alpha
+! OriginalVersion: 03March2023v4-Alpha
 ! Expires: 3 days
 ! Description: This list aims to achieve pretty broad (if not overly broad) coverage of social sharing buttons, with perhaps 1/50th~1/100th as many entries as what the biggest anti-'social button' lists out there have.
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md#-english
 ! Note: This list does not intentionally try to remove links to websites' social accounts, or to third-party logins. However, there currently will be many de facto false positives that end up removing such buttons as well.
 ###add_like_bar
 ###batchsdk-ui-alert
-###btn-send-fb
 ###contents > yt-share-target-renderer:nth-of-type(1n+2)
 ###ctoolbar
 ###diaspora-button-container
 ###divShare
-###fb-share
-###fb_share
 ###inline-share-links
 ###likebuttons
 ###mashfbar-header
 ###new-social-share
 ###p-sharing
-###pinterest
 ###ppsPopupBgOverlay
 ###rail-share-bar
 ###share-buttons
-###share-facebook-bottom
 ###share-tool
-###share-twitter-bottom
 ###share-unit
 ###share_bar
 ###share_container
@@ -13819,7 +13811,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ###tell-a-friend
 ###top_share
 ##.addthis_button_facebook:not(html, body)
-##.addthis_button_linkedin:not(html, body)
 ##.addthis_button_messenger:not(html, body)
 ##.addthis_button_more:not(html, body)
 ##.addthis_counter:not(html, body)
@@ -13833,31 +13824,16 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ##.basicsSocialActions-socialIcons:not(html, body)
 ##.blog-post-single-share:not(html, body)
 ##.btn--facebook:not(html, body)
-##.btn-facebook-like:not(html, body)
 ##.btn-google-plus:not(html, body)
 ##.btn-messenger:not(html, body)
 ##.btn-share:not(html, body)
 ##.btn-tweet:not(html, body)
-##.btn-twitter:not(html, body)
 ##.button--share:not(html, body)
-##.button__facebook:not(html, body)
-##.button__instagram:not(html, body)
-##.button__linkedin:not(html, body)
-##.button__twitter:not(html, body)
 ##.c-article__byline-social:not(html, body)
 ##.c-share-tools:not(html, body)
 ##.dre-share-band:not(html, body)
 ##.et_social_icons_container:not(html, body)
 ##.face-share:not(html, body)
-##.facebook-like-box:not(html, body)
-##.facebook-messenger-share:not(html, body)
-##.facebook-page-plugin:not(html, body)
-##.facebook-share:not(html, body)
-##.facebook[href*="/sharer/"]:not(html, body)
-##.facebook_share:not(html, body)
-##.facebook_top:not(html, body)
-##.fb-like-box:not(html, body)
-##.fb-page-plugin:not(html, body)
 ##.fbbsb-button:not(html, body)
 ##.figure-share:not(html, body)
 ##.floating-share-bar:not(html, body)
@@ -13868,21 +13844,13 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ##.googleplusshare:not(html, body)
 ##.heateor_sss_sharing_container:not(html, body)
 ##.i-more-share:not(html, body)
-##.icon--facebook:not(html, body)
-##.icon--twitter:not(html, body)
 ##.js-share-btn:not(html, body)
-##.js-share-pinterest:not(html, body)
-##.js-share-stumble:not(html, body)
-##.js-share-twitter:not(html, body)
 ##.jw-sharing-icon:not(html, body)
-##.like_facebook:not(html, body)
-##.linkedinShare:not(html, body)
 ##.loader-container.shares:not(html, body)
 ##.mashsb-box:not(html, body)
 ##.meta-share-wrapper:not(html, body)
 ##.news-share-link:not(html, body)
 ##.news_share:not(html, body)
-##.pinterest-share:not(html, body)
 ##.post-social-goog:not(html, body)
 ##.post_social:not(html, body)
 ##.ppsPopupFbLikeShell:not(html, body)
@@ -13897,18 +13865,15 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ##.share-before:not(html, body)
 ##.share-bottom:not(html, body)
 ##.share-btns:not(html, body)
-##.share-fb:not(html, body)
 ##.share-icon:not(html, body)
 ##.share-icons:not(html, body)
 ##.share-it:not(html, body)
 ##.share-item-plus:not(html, body)
 ##.share-link.js-require-widget:not(html, body)
-##.share-linkedin:not(html, body)
 ##.share-metas:not(html, body)
 ##.share-networks:not(html, body)
 ##.share-nw:not(html, body)
 ##.share-other:not(html, body)
-##.share-pinterest:not(html, body)
 ##.share-reddit:not(html, body)
 ##.share-social:not(html, body)
 ##.share-telegram:not(html, body)
@@ -13917,10 +13882,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ##.share-tools:not(html, body)
 ##.share-top:not(html, body)
 ##.share-trigger:not(html, body)
-##.share-tumblr:not(html, body)
-##.share-twitter:not(html, body)
-##.share-twttr:not(html, body)
-##.share-vk:not(html, body)
 ##.share-whatsapp:not(html, body)
 ##.share__list:not(html, body)
 ##.share_area:not(html, body)
@@ -13932,7 +13893,6 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ##.shareBar:not(html, body)
 ##.shareBottom:not(html, body)
 ##.sharebtns:not(html, body)
-##.shareFacebook:not(html, body)
 ##.shareit:not(html, body)
 ##.shareon:not(html, body)
 ##.shares-badge:not(html, body)
@@ -13975,19 +13935,10 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ##.story-share-bottom:not(html, body)
 ##.swp-hover-pin-button:not(html, body)
 ##.swp_social_panel:not(html, body)
-##.twit_share_button:not(html, body)
-##.twitter-share:not(html, body)
-##.twitter[href*="/share?"]:not(html, body)
-##.twitter_share:not(html, body)
 ##.wpusb:not(html, body)
 ##[app=addtoany]:not(html, body)
-##[class*=facebookShare i]:not(html, body)
-##[class*=fb-share]:not(html, body)
-##[class*=share-facebook]:not(html, body)
 ##[class*=share-toolbar]:not(html, body)
-##[class*=social-share]:not(article, html, body, [preload])
 ##[class*=social_share]:not(article, html, body)
-##[class*=socialshare i]:not(html, body)
 ##[data-flip-widget=shareflip]:not(html, body)
 ##[socialshare]:not(html, body)
 ##a[appshareclick]
@@ -13999,20 +13950,11 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ##a[class*=BtnShare]
 ##a[class*=google_plus_share]
 ##a[class*=share__button]
-##a[class=facebook i][title="Share this"]
-##a[class^=pagetools][class*=icon--twitter]
-##a[class^=pinterest-save]
 ##a[class^=share_btn]
 ##a[class^=sharing-popup-]
 ##a[class^=socialbutton i][onclick*="window.open"]
 ##a[data-ga-event-action^="share:"]
-##a[data-js=facebook-share]
-##a[data-js=twitter-share]
-##a[data-pin-do=buttonPin]
 ##a[data-plugin^=sharingButtons]
-##a[data-share$=Facebook i]
-##a[data-sharer=facebook]
-##a[data-sharer=twitter]
 ##a[data-ss-ss-type]
 ##a[data-tooltip^="Share on "]
 ##a[data-type=sharing-button]
@@ -14024,19 +13966,13 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ##a[href*="api.addthis.com"]:not([href*="/email/"])
 ##a[href*="plusone.google.com"]
 ##a[href*="telegram.me/share/url?"]
-##a[href*=share-tools]
 ##a[href="#javascript"][class*=social-link]
-##a[href="/#facebook"]
 ##a[href="/#messenger"]
-##a[href="/#pinterest"]
 ##a[href^="/sharer/sharer.php?"] > button[type=submit]
-##a[href^="javascript:fb_share('"]
-##a[href^="javascript:fbShare"]
 ##a[href^="javascript:sendSns('"]
 ##a[href^="javascript:tw_share('"]
 ##a[id*=share-][id*=-button]
 ##a[id^=share_btn]
-##a[onclick*="pinterest.com/pin/create/"]
 ##a[onclick*="plus.google.com/share?"]
 ##a[onclick^="share_toggle("]
 ##a[onclick^="var share"]
@@ -14044,22 +13980,14 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ##a[onclick^=ShowShareDialog]
 ##a[onmouseover^="return addthis_open"]
 ##a[title="Share on Baidu" i]
-##a[title="Share on Facebook" i]
-##a[title="Share on LinkedIn" i]
-##a[title="Share on Pinterest" i]
 ##a[title="Share on Reddit" i]
 ##a[title="Share on Telegram" i]
-##a[title="Share on Tumblr" i]
-##a[title="Share on Twitter" i]
-##a[title="Share on VKontakte" i]
 ##a[title="Share on WhatsApp" i]
 ##a[title^="Share to "]
 ##amedia-share
 ##amp-social-share
 ##button[aria-controls=ShareContainer]
-##button[class*=_fbshare]
 ##button[class*=ShareOverlayButton i]
-##button[class*=SharesButton i]
 ##button[class^=share-module__share]
 ##button[data-a-target^=share]
 ##button[data-arctrac*=socialShare i]
@@ -14082,27 +14010,19 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ##div[class*=lp_sharing]
 ##div[class*=post-sharing]
 ##div[class*=share-article]
-##div[class*=share-box]
 ##div[class*=sharer-tool]
-##div[class*=sharethisbutton i]
 ##div[class*=shareToolbar]
 ##div[class*=social-panel]
 ##div[class*=social][class*=sharing]
 ##div[class*=social_sidebar]
 ##div[class*=social_slide]
 ##div[class*=socials-share]
-##div[class=instagram-Share i]
-##div[class=instagram_Share i]
-##div[class=instagramShare i]
-##div[class=twitterShare i]
 ##div[class^=container_NotificationsBanner_]
-##div[class^=fbshare i]
 ##div[class^=icon-share-]
 ##div[class^=share-options]
 ##div[class^=shareLinks]
 ##div[class^=social-like]
 ##div[class^=social-media-container]
-##div[class^=twittshare]
 ##div[data-aop^=sharingtoolbar]
 ##div[data-hook=social-sharing]
 ##div[href*="plus.google.com/share?url="]
@@ -14110,18 +14030,12 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ##div[id^=btnShare i]
 ##div[id^=dpsp-]
 ##div[id^=sthoverbuttons]
-##div[pw\:twitter-via]
 ##div[tmp^="Share on "]
 ##h2[class*=share-links]
 ##h4[class*=social-share-label]
 ##ksf-sharing
 ##label[for*=ShareModal]
-##li[aria-label=facebook]
 ##li[class$=-share-toggle]
-##li[class*=link_facebook]
-##li[data-share=facebook]
-##li[data-share=linkedin]
-##li[data-share=twitter]
 ##p[class^=del-artikel]
 ##share-grid
 ##span[class*=-social-share-]
@@ -14136,6 +14050,8 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 */images/share_icons/
 */images/social-share/
 */share-newsletter/
+/[./]share\.[a-z0-9-]{2,60}\./$image
+/[./]sharing\.[a-z0-9-]{2,60}\./$image
 /addthis_widget.js^
 /btn_share_fb.
 /btn_share_ln.
@@ -14164,8 +14080,6 @@ condoblues.com###milotree_box_wrap
 ||milotree.com^$third-party
 ||platform.twitter.com/widgets/follow_button$subdocument
 ||platform.twitter.com/widgets/tweet_button$subdocument
-||share.*.$image
-||sharing.*.$image
 ||social-plugins.line.me/widget/share?url=$subdocument
 ||softwareok.com/img/i_like_this.png?$image
 ||static.addtoany.com/buttons^$image
@@ -14180,25 +14094,70 @@ condoblues.com###milotree_box_wrap
 ~baidu.com##.share-list:not(html, body)
 ~digg.com##a[href*="://digg.com/submit?url="]
 ~ef.com##.social-btns:not(html, body)
+~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion###btn-send-fb
+~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion###fb-share
+~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion###fb_share
 ~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion###share-facebook
+~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion###share-facebook-bottom
+~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##.btn-facebook-like:not(html, body)
 ~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##.btn[href*="facebook.com/sharer/"]
+~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##.button__facebook:not(html, body)
+~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##.facebook-like-box:not(html, body)
+~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##.facebook-messenger-share:not(html, body)
+~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##.facebook-page-plugin:not(html, body)
+~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##.facebook-share:not(html, body)
+~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##.facebook[href*="/sharer/"]:not(html, body)
+~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##.facebook_share:not(html, body)
+~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##.facebook_top:not(html, body)
+~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##.fb-like-box:not(html, body)
+~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##.fb-page-plugin:not(html, body)
+~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##.icon--facebook:not(html, body)
+~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##.like_facebook:not(html, body)
+~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##.share-fb:not(html, body)
+~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##.shareFacebook:not(html, body)
+~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##[class*=facebookShare i]:not(html, body)
+~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##[class*=fb-share]:not(html, body)
+~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##[class*=share-facebook]:not(html, body)
+~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##a[class=facebook i][title="Share this"]
+~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##a[data-js=facebook-share]
 ~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##a[data-popup-url*="facebook.com/dialog/share?"]
+~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##a[data-share$=Facebook i]
+~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##a[data-sharer=facebook]
 ~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##a[href*="facebook.com/dialog/feed"]
 ~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##a[href*="facebook.com/dialog/send?"]
 ~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##a[href*="facebook.com/dialog/share?"]
 ~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##a[href*="facebook.com/share.php?u=http"]
 ~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##a[href*="facebook.com/sharer.php"]
 ~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##a[href*="facebook.com/sharer/sharer.php"]
+~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##a[href="/#facebook"]
+~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##a[href^="javascript:fb_share('"]
+~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##a[href^="javascript:fbShare"]
 ~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##a[onclick*="facebook.com/sharer.php?"]
+~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##a[title="Share on Facebook" i]
 ~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##a[title="Share this post on Facebook"]
+~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##button[class*=_fbshare]
+~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[class^=fbshare i]
+~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##li[aria-label=facebook]
+~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##li[class*=link_facebook]
+~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##li[data-share=facebook]
 ~flipboard.com##a[href*="://share.flipboard.com/bookmarklet/popout?"]
 ~hatena.ne.jp##.hatena-bookmark-button:not(html, body)
-~kjokkenskriveren.no##[class*=ShareButton i]:not(button, body, html)
+~instagram.com##.button__instagram:not(html, body)
+~instagram.com##div[class=instagram-Share i]
+~instagram.com##div[class=instagram_Share i]
+~instagram.com##div[class=instagramShare i]
 ~line.me##a[href*="/lineit/share?"]
+~linkedin.com##.addthis_button_linkedin:not(html, body)
+~linkedin.com##.button__linkedin:not(html, body)
 ~linkedin.com##.linkedin_share:not(html, body)
+~linkedin.com##.linkedinShare:not(html, body)
+~linkedin.com##.share-linkedin:not(html, body)
 ~linkedin.com##a[href*="linkedin.com/cws/share?"]
 ~linkedin.com##a[href*="linkedin.com/shareArticle?"]
 ~linkedin.com##a[href*="linkedin.com/sharing/share-offsite/"]
+~linkedin.com##a[title="Share on LinkedIn" i]
+~linkedin.com##div[class*=share-box]
+~linkedin.com##li[data-share=linkedin]
 ~mail.ru##a[href^="https://connect.mail.ru/share?url="]
 ~mewe.com##div[class*=share-link]
 ~mixi.jp##a[href*="mixi.jp/simplepost/voice?status="]
@@ -14206,14 +14165,23 @@ condoblues.com###milotree_box_wrap
 ~ne.jp##iframe[class^=hatena-bookmark]
 ~ok.ru##a[href*="/connect.ok.ru/dk?"]
 ~ok.ru##a[href^="https://connect.ok.ru/offer?url="]
+~pinterest.*###pinterest
 ~pinterest.*##.inline-share-pinterest:not(html, body)
+~pinterest.*##.js-share-pinterest:not(html, body)
+~pinterest.*##.pinterest-share:not(html, body)
 ~pinterest.*##.pinterest[href*="/pin/create/"]
+~pinterest.*##.share-pinterest:not(html, body)
 ~pinterest.*##a[class$=pinterest-share]
 ~pinterest.*##a[class$=share-pinterest]
+~pinterest.*##a[class^=pinterest-save]
+~pinterest.*##a[data-pin-do=buttonPin]
 ~pinterest.*##a[href*="pinterest.com/pin/find/?"]
 ~pinterest.*##a[href*=pinterest][href*="/pin/create/b"]
 ~pinterest.*##a[href="#pinit"]
+~pinterest.*##a[href="/#pinterest"]
+~pinterest.*##a[onclick*="pinterest.com/pin/create/"]
 ~pinterest.*##a[onclick^=execPinmarklet]
+~pinterest.*##a[title="Share on Pinterest" i]
 ~pinterest.*##button[data-href*="pinterest.com/pin/create/button/"]
 ~reddit.com,~reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion###share-reddit
 ~reddit.com,~reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##a[href*="reddit.com/r/"][href*="/submit?url="]
@@ -14223,12 +14191,29 @@ condoblues.com###milotree_box_wrap
 ~stumbleupon.com##a[href*="stumbleupon.com/badge?"]
 ~stumbleupon.com##a[href*="stumbleupon.com/submit?url="]
 ~telegram.org##a[href^="tg://msg_url?"]
+~tumblr.com##.js-share-stumble:not(html, body)
+~tumblr.com##.share-tumblr:not(html, body)
 ~tumblr.com##a[href*="tumblr.com/share/"]
 ~tumblr.com##a[href*="tumblr.com/share?"]
 ~tumblr.com##a[href*="tumblr.com/widgets/share/"]
+~tumblr.com##a[title="Share on Tumblr" i]
 ~twitter.com,~twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion###share-twitter
+~twitter.com,~twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion###share-twitter-bottom
+~twitter.com,~twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##.btn-twitter:not(html, body)
+~twitter.com,~twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##.button__twitter:not(html, body)
+~twitter.com,~twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##.icon--twitter:not(html, body)
+~twitter.com,~twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##.js-share-twitter:not(html, body)
+~twitter.com,~twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##.share-twitter:not(html, body)
+~twitter.com,~twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##.share-twttr:not(html, body)
+~twitter.com,~twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##.twit_share_button:not(html, body)
+~twitter.com,~twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##.twitter-share:not(html, body)
+~twitter.com,~twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##.twitter[href*="/share?"]:not(html, body)
+~twitter.com,~twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##.twitter_share:not(html, body)
 ~twitter.com,~twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##a[class$=share-twitter]
 ~twitter.com,~twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##a[class=twitter i][title=Tweet]
+~twitter.com,~twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##a[class^=pagetools][class*=icon--twitter]
+~twitter.com,~twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##a[data-js=twitter-share]
+~twitter.com,~twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##a[data-sharer=twitter]
 ~twitter.com,~twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##a[href*="twitter.com/home?source="]
 ~twitter.com,~twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##a[href*="twitter.com/home?status="]
 ~twitter.com,~twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##a[href*="twitter.com/intent/tweet?"]
@@ -14236,19 +14221,34 @@ condoblues.com###milotree_box_wrap
 ~twitter.com,~twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##a[href*="twitter.com/share?url="]
 ~twitter.com,~twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##a[href^="t.me/share/url"]
 ~twitter.com,~twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##a[onclick*="twitter.com/share?"]
+~twitter.com,~twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##a[title="Share on Twitter" i]
 ~twitter.com,~twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##a[title="Tweet this post"]
 ~twitter.com,~twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##button[data-href*="twitter.com/share?text="]
+~twitter.com,~twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##div[class=twitterShare i]
+~twitter.com,~twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##div[class^=twittshare]
+~twitter.com,~twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##div[pw\:twitter-via]
+~twitter.com,~twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##li[data-share=twitter]
 ~viber.com##a[href^="viber://forward?text"]
+~vk.com##.share-vk:not(html, body)
 ~vk.com##a[href*="/vk.com/share.php"]
+~vk.com##a[title="Share on VKontakte" i]
 ~vk.com##iframe[src^="https://vk.com/widget_like.php?"]
 ~vk.com,~vkontakte.ru##a[href*="vkontakte.ru/share.php?"]
 ~whatsapp.com##[href^="whatsapp://send"]
 ~whatsapp.com##a[href*="whatsapp.com/send?"]
 ~whatsapp.com,~wa.me##a[href*="://wa.me/?text="]
 ~xing.com###xing-share
+##.sharethis-inline-share-buttons:not(html, body)
 !!!~mewe.com,~www.nrk.no##[class*=share-button i]:not(body, html) (Can't be generic due to www.nrk.no, mewe.com, stylecaster.com)
 !!!~tidssonen.no,~mmoculture.com##div[class*=share-container] (Entry needs to be rewritten at some point)
 !!!~twitter.com,~twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion,~feedly.com,~chaturbate.com##.follow (Too many exceptions needed)
+! Fairly broad entries, likely to be made non-generic after the next false positive is found
+##[class*=socialshare i]:not(html, body)
+##[class*=social-share]:not(article, html, body, [preload])
+##a[href*=share-tools]
+##button[class*=SharesButton i]
+##div[class*=sharethisbutton i]
+~kjokkenskriveren.no##[class*=ShareButton i]:not(button, body, html)
 ! NOT allowed to be generic
 pastebin.com##.h_800.tweet
 vox.com##.c-social-buttons
@@ -15330,7 +15330,7 @@ twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion###lay
 ! https://github.com/easylist/easylist/issues/14305
 twitter.com#?#div[role=dialog]:has(path[d^="M19.993 9.042C19.48 "])
 ! Title: 🎓 Wikia: Pure Browsing Experience
-! OriginalVersion: 17February2023v2-Beta
+! OriginalVersion: 28February2023v1-Beta
 ! Expires: 5 days
 ! Description: Do you like to browse casually through different Wikia wikis, but are tired of FANDOM promotions, and promotions for movies that you don't care about? Then this list will save your day.
 ! Note: To make Wikia pages wider, check out https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Dandelion%20Sprout's%20Website%20Stretcher.txt. The Wikia rules that were previously in this list, were removed by request and for being arguably superfluous.
@@ -15367,6 +15367,7 @@ fandom.com,wikia.org#?#.banner-notifications-placeholder:has-text(The video)
 ||nvsc.fandom.com^$document
 ||sean-maynard.fandom.com^$document
 ||disneyfanon.fandom.com^$document
+||fandubdb.fandom.com^$document
 ! Removes the fandom.wikia.com link from the logos
 wikia.org,fandom.com#$?##wds-company-logo-fandom-white { pointer-events: none !important; cursor: default !important; }
 wikia.org,fandom.com#$?#.wds-global-navigation__logo { pointer-events: none !important; cursor: default !important }
@@ -15643,7 +15644,7 @@ daz3d.ru#%#//scriptlet('ubo-set-constant.js', 'snow', 'undefined')
 ! Title: ⏰ Anti-'Prayer times' List
 ! Translated title: 🇮🇷: لیست ضد اوقات شرعی
 ! Translated title: 🇹🇷: Anti-'Namaz vakitleri' Listesi
-! OriginalVersion: 12January2023v1
+! OriginalVersion: 28February2023v1
 ! Expires: 7 days
 ! Description: 🇬🇧: So you're sitting there reading a newssite, and then you find big banners that try to tell you the exact points in time you're supposed to pray? If you want to feel less stressed and less like a slave of the clock, then this list is for you.
 ! 🇮🇷: توضیحات: خب شما نشستید دارید یک سایت خبری رو میخونید، و ناگهان چشمتون به بنر های بزرگی میفته که در تلاشن اوقات شرعی رو بهتون نشون بدن و ساعت و لحظه دقیقِ اذان رو بهتون بگن. اگه میخوایید اضطراب کمتری داشته باشید و بَرده‌ی ساعت نباشید، پس این لیست برای شماست.»
@@ -15793,6 +15794,8 @@ ahaber.com.tr##.menu-timer
 yesilirmakgazetesi.com.tr#?#.anket:has(+ style + .namazbg)
 inegolunsesi.com##.haberler:has(> .namaz-widget)
 takvim.com.tr##.weather > .timer
+milligazete.com.tr##.center-xs .center-xs
+yeniasir.com.tr##.timer
 ||icdn.tgrthaber.com.tr/*/cami_icon_*.png^$image
 ||img.piri.net/*imsakiye.jpg^$domain=yenisafak.com
 ||albayan.ae/res/img/prayertmbg.png^$~third-party
@@ -15955,7 +15958,7 @@ pixiv.net#?#div[class*=" "]:empty:has(+ aside + aside)
 !!! *##p:has(br):not(:has-text(/\S/)):not(:has(span)):not(:has(img)) (Caused newlines to fail to work in Slack)
 !+ NOT_OPTIMIZED
 ! Title: 💺 Anti-'IMDB ratings on other sites' List
-! OriginalVersion: 02February2023v1-Beta
+! OriginalVersion: 01March2023v1-Beta
 ! Description: Are you tired of being told by others what you should watch, specifically IMDb voters who are very well known for downvote bombing, fandom/hatedom bias, and for up-/downvoting things based on their reputations alone? Here's a way to let you feel more peaceful with your truly own opinions.
 ! Note that this list does currently not aim to remove the sites' own rating mechanics.
 ! Note that this list aims to support advanced adblockers, to avoid the inconvenience of having to list 15 Amazon domains for each Amazon-related entry.
@@ -16022,6 +16025,8 @@ pixiv.net#?#div[class*=" "]:empty:has(+ aside + aside)
 ~imdb.com##span[data-id=asset-card-imdb]:not(html, body)
 ! https://en.kinorium.com/698113/episodes/ (24/12/2022)
 ~imdb.com##.ratingsBlockIMDb:not(html, body)
+! https://www.iltalehti.fi/telkku/kanava/nelonen/2023-03-07/koko-paiva (01/03/2022)
+~imdb.com##.publication__imdb-link:not(html, body)
 ! International (All adblockers)
 bing.com#?#.b_algo:has(cite:has-text(imdb.com)) .b_sritem
 newonnetflix.info#?#p:has(a[target=_imdb])
@@ -16110,7 +16115,7 @@ vumoo.to#?#div.col-lg-12:has-text(IMDb)
 !#if !env_safari
 !#if !adguard_app_ios
 ! Title: ➗ Actually Legitimate URL Shortener Tool
-! OriginalVersion: 26February2023v4
+! OriginalVersion: 02March2023v2
 ! Expires: 1 day
 ! Description: In a world dominated by bit.ly, adf.ly, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary $/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
@@ -16352,7 +16357,7 @@ $removeparam=/^OCID=/i,domain=~youtube.com|~reiseauskunft.bahn.de
 !#if adguard
 @@$removeparam=/^OCID=/i,app=Microsoft.Msn.News.exe
 !#endif
-$removeparam=tduid,domain=~redir.tradedoubler.com
+$removeparam=tduid,domain=~tradedoubler.com
 $removeparam=irclickid
 $removeparam=irclicid
 $removeparam=intcmp
@@ -17444,7 +17449,8 @@ $removeparam=sk,domain=bing.com|aliexpress.*
 ||bing.com/search?$removeparam=cvid
 !!! @@||bing.com/AS/Suggestions?$removeparam=cvid
 ! https://www.bing.com/search?q=brew+milk+video+heathly+or+brainwash&shtp=GetUrl&shid=52ffd333-de86-43eb-8e42-3c4b8d86b6a3&shtk=RHJpbmsgT25lIEdsYXNzIG9mIE1pbGsgYSBEYXkuIEJldHRlciBCb25lcyBvciBCcmFpbndhc2hpbmc%2F&shdk=VGhpcyB2aWRlbyBpcyBzcG9uc29yZWQgYnkgRGFzaGxhbmUuIFRyeSBpdCBmcmVlIGZvciAzMCBkYXlzIGF0IGh0dHBzOi8vd3d3LmRhc2hsYW5lLmNvbS9icmV3IElmIHlvdSBsaWtlIGl0LCB1c2UgdGhlIGNvZGUg4oCYYnJld%2BKAmSBmb3IgMTAlIG9mZiBhdCBjaGVja291dCBJcyBtaWxrIGdvb2Qgb3IgYmFkIGZvciB5b3U%2FIElzIGl0IHJlYWxseSBoZWFsdGh5IGZvciB5b3VyIGJvbmVzPyBXaHkgYXJlIHJlc2VhcmNoZXJzIGFuZCBzY2llbnRpc3RzIHNwZWFraW5nIGFnYWluc3QgaXQ%2FIElzIHRoZSBmb29kIGluZHVzdHJ5IGhpZGluZyBzb21ldGhpbmcgZnJvbSB1cz8gTGV0J3MgZmluZCBvdXQgLi4u&shhk=a8MjbVhOQyCok8qs42amxA6%2B8sUgPQh4DtB4PgJh0gI%3D&shth=OVP.XR1Cz2a0aI5ebTNFbFySUAIIEk
-||bing.com^$removeparam=/^sh/
+! (https://github.com/DandelionSprout/adfilt/issues/796)
+||bing.com^$removeparam=/^sh[a-np-z0-9]/
 ! https://github.com/DandelionSprout/adfilt/pull/504
 ! https://www.bing.com/search?q=Test&cc=CN&setlang=zh-CN&nclid=2F21E165874042D66713EAE9392AD01E&ts=1644819994709&wsso=Moderate (14/02/2022)
 ||bing.com^$removeparam=nclid
@@ -18057,7 +18063,7 @@ $removeparam=name,domain=nytimes.com|nytimesn7cgmftshazwhfgzm37qxb44r64ytbb2dj3x
 $removeparam=m_sc,domain=bloomingdales.com
 ! https://us.boohoo.com/?$3p=a_cj_affiliate&~click_id=8c77e9c00c1e11ec82da00790a180510&~secondary_publisher=Offers.com%20-%20Vertive%2C%20LLC&$canonical_url=https%3A%2F%2Fus.boohoo.com%2F&~keyword=8807380&cj_linkd=12344165&cj_webid=8807380&cj_affid=1397064&cj_affname=Offers.com%20-%20Vertive%2C%20LLC&_branch_match_id=962049055156509358
 ! https://www.forever21.com/?$3p=a_cj_affiliate&~click_id=b8c806cf0cad11ec806d4d010a18050d&~secondary_publisher=Offers.com%20-%20Vertive%2C%20LLC&$canonical_url=http%3A%2F%2Fwww.forever21.com&cj_pub_sid=06gtKjdPmfBs463ojiL8awp&_branch_match_id=962306946010631351
-$removeparam=/^[$],domain=boohoo.com|forever21.com
+$removeparam=/^(\$)/,domain=boohoo.com|forever21.com
 $removeparam=/^\~/,domain=boohoo.com|forever21.com
 ! https://www.columbia.com/?uid=10728209&nid=8807380
 $removeparam=nid,domain=columbia.com|sorel.com
@@ -18256,7 +18262,7 @@ $removeparam=soc_trk
 ||blue-tomato.com^$removeparam=varid
 $removeparam=ia-pkpmtrack
 ||blue-tomato.com^$removeparam=zanox
-||blue-tomato.com^$removeparam=/_[$]ja/
+||blue-tomato.com^$removeparam=/_(\$)ja/
 ||spartoo.$removeparam=sx
 ||spartoo.$removeparam=track_id
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-1206280
@@ -18886,13 +18892,15 @@ $removeparam=refresh,domain=cnn.com
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-2108688
 ||realestate.com.au^$removeparam=rsf
 ! https://github.com/DandelionSprout/adfilt/issues/63#issuecomment-1030398788
-||mail.ru^$removeparam=mt_click_id
+$removeparam=mt_click_id,domain=mail.ru|vkplay.ru
 ! https://www.argos.co.uk/product/9381878?rec=PDP[6537474]:bottomSlider:P1:OHAT:alternatives:9381878:vfsNuIT3JJJV1Pq8begB
 ! https://www.argos.co.uk/events/home-offers?$ja=tsid%3A11674%7Cprd%3A6361382
 ! https://www.argos.co.uk/product/7553213?clickPR=plp:1:165
+! https://www.argos.co.uk/product/1488377?clickCSR=slp:cannedSearch
 $removeparam=rec,domain=argos.co.uk
-$removeparam=/[$]ja/,domain=argos.co.uk
+$removeparam=/(\$)ja/,domain=argos.co.uk
 $removeparam=clickPR,domain=argos.co.uk
+$removeparam=clickCSR,domain=argos.co.uk
 ! https://blog.getadblock.com/getting-started-with-the-adblock-extension-2219b3c7878c?gi=285fe5d9ab7d
 ||blog.getadblock.com^$removeparam=gi
 ! https://www.pinkbike.com/news/all-the-winners-of-the-2021-pinkbike-advent-calendar.html?pbref=p
@@ -19213,49 +19221,49 @@ $removeparam=srsltid,document
 ||dl-protect.net^$removeparam=rl
 ||1fichier.com^$removeparam=af
 ! https://github.com/DandelionSprout/adfilt/pull/721
-||discoveryplus.com^$removeparam=_referrer
+||discoveryplus.com^*_referrer$removeparam=_referrer
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-4505016
 ! https://search.brave.com/images?origin=search&q=example&source=web
 ||search.brave.com/api/suggest$removeparam=source
-||search.brave.com^$removeparam=origin
+||search.brave.com^*origin$removeparam=origin
 ! McAfee "safe search"
-||search.yahoo.com^$removeparam=fr
-||search.yahoo.com^$removeparam=fr2
+||search.yahoo.com^*fr$removeparam=fr
+||search.yahoo.com^*fr2$removeparam=fr2
 ! Yahoo ads, i.e. https://www.malwarebytes.com/?c=cj&s=5370367&k=14452255&tracking=cj&x-wts=cj&x-affid=5370367&ADDITIONAL_AFFID=cj-5370367
-||mcafee.com^$removeparam=adid
-||malwarebytes.com^$removeparam=x-affid
-||malwarebytes.com^$removeparam=ADDITIONAL_AFFID
-||malwarebytes.com^$removeparam=s
-||malwarebytes.com^$removeparam=x-wts
+||mcafee.com^*adid$removeparam=adid
+||malwarebytes.com^*x-affid$removeparam=x-affid
+||malwarebytes.com^*ADDITIONAL_AFFID$removeparam=ADDITIONAL_AFFID
+||malwarebytes.com^*s$removeparam=s
+||malwarebytes.com^*x-wts$removeparam=x-wts
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-4598037
-||reddit.com^$removeparam=%243p
-||reddit.com^$removeparam=%24deep_link
-||reddit.com^$removeparam=post_index
+||reddit.com^*3p$removeparam=%243p
+||reddit.com^*deep_link$removeparam=%24deep_link
+||reddit.com^*post_index$removeparam=post_index
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-4617249
-$removeparam=auto_token,domain=nextdoor.com
-$removeparam=mobile_deeplink_data,domain=nextdoor.com
-$removeparam=link_source_user_id,domain=nextdoor.com
-$removeparam=is,domain=nextdoor.com
-$removeparam=mar,domain=nextdoor.com
+||nextdoor.com^*auto_token$removeparam=auto_token
+||nextdoor.com^*mobile_deeplink_data$removeparam=mobile_deeplink_data
+||nextdoor.com^*link_source_user_id$removeparam=link_source_user_id
+||nextdoor.com^*is$removeparam=is
+||nextdoor.com^*mar$removeparam=mar
 ! https://www.cbs42.com/alabama-news/fedex-driver-identified-questioned-in-case-of-300-400-packages-found-in-alabama-woods/?ipid=wiat_recirc_1%20?ipid=promo-link-block1
-||cbs42.com^$removeparam=ipid
+||cbs42.com^*ipid$removeparam=ipid
 ! yandex.ru redirect
-||dzen.ru^$removeparam=yredirect
+||dzen.ru^*yredirect$removeparam=yredirect,document
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-4649908
-||neeva.com^$removeparam=nva
+||neeva.com^*nva$removeparam=nva
 ! https://noticias.uol.com.br/politica/ultimas-noticias/2023/01/10/quem-e-a-ex-primeira-dama-vista-em-ato-golpista.htm (shared by https://github.com/MasterKia)
-||clicklogger.rm.uol.com.br^$removeparam=grp
-||clicklogger.rm.uol.com.br^$removeparam=msr
-||clicklogger.rm.uol.com.br^$removeparam=oper
+||clicklogger.rm.uol.com.br^*grp$removeparam=grp
+||clicklogger.rm.uol.com.br^*msr$removeparam=msr
+||clicklogger.rm.uol.com.br^*oper$removeparam=oper
 ! https://www.verizon.com/smartphones/apple/?campaignGroup=General&campaignName=UPG%20-%20iPhone%2014%20Hi%20Risk%20BASE%20LT%20-%20EMS&campaignSource=CRM&cmp=CRM_M_CU_CMU_TXUPG_99_99_HRBASE_LT_IPHONE14&expectedTransaction=Order&extSystemTransactionId=[redacted]&sourceID=SmartLink (send via SMS)
-||verizon.com^$removeparam=campaignGroup
-||verizon.com^$removeparam=campaignName
-||verizon.com^$removeparam=campaignSource
+||verizon.com^*campaignGroup$removeparam=campaignGroup
+||verizon.com^*campaignName$removeparam=campaignName
+||verizon.com^*campaignSource$removeparam=campaignSource
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-4677166
-||youtube.com^$removeparam=embeds_euri
-||youtube.com^$removeparam=source_ve_path
+||youtube.com^*embeds_euri$removeparam=embeds_euri
+||youtube.com^*source_ve_path$removeparam=source_ve_path
 ! https://support.google.com/contributionpolicy/answer/7400114?ref_topic=7422769
-||support.google.com^$removeparam=ref_topic
+||support.google.com^*ref_topic$removeparam=ref_topic
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-4686110
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-4690986
 ^ref=hackernoon.com^$removeparam=ref
@@ -19263,49 +19271,51 @@ $removeparam=mar,domain=nextdoor.com
 ^via=futurepedia^$removeparam=via
 ^deal=futurepedia^$removeparam=deal
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-4708147
-||notion.so^$removeparam=gspk
-||notion.so^$removeparam=gsxid
-||notion.so^$removeparam=pscd
+||notion.so^*gspk$removeparam=gspk
+||notion.so^*gsxid$removeparam=gsxid
+||notion.so^*pscd$removeparam=pscd
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-4730018
-||apnews.com/article$removeparam=user_email
+||apnews.com/article*user_email$removeparam=user_email
 ! Links opened from the Windows widget.
 ! https://www.msn.cn/zh-cn/news/other/%E4%B8%89%E6%98%9F%E5%A0%86%E5%8D%9A%E7%89%A9%E9%A6%86%E6%B8%B8%E5%AE%A2%E6%89%93%E6%9E%B6%E6%89%93%E7%BF%BB%E6%96%87%E7%89%A9-%E5%AE%98%E6%96%B9%E5%9B%9E%E5%BA%94/ar-AA16KDtw?cvid=b9a638b9f0c44cd6f56aeea780d8a943&ocid=winp2fptaskbarhover (26/01/2023)
 ! https://pc.yiyouliao.com/msn/article.html?recId=c7bb3fa9b5e9418584afcb4d0544abf5_s&infoId=II00DXC7K9IRVYQ&cvid=8ef4c6755b8149bb91eac6fb9644e045 (26/01/2023)
 ! https://mini.eastday.com/nsa/n230125110013294.html?qid=04426&cvid=ef9c243ff9fd4d5d8606d5a42b2b2023 (26/01/2023)
 $removeparam=cvid,domain=msn.cn|msn.com|chinadaily.com.cn|yiyouliao.com|tianqi.com|eastday.com
 ! https://github.com/enterprise/trial?ref_cta=free%2520trial&ref_loc=banner&ref_page=blog
-||github.com^$removeparam=ref_cta
-||github.com^$removeparam=ref_loc
-||github.com^$removeparam=ref_page
+||github.com^*ref_cta$removeparam=ref_cta
+||github.com^*ref_loc$removeparam=ref_loc
+||github.com^*ref_page$removeparam=ref_page
 ! https://github.com/DandelionSprout/adfilt/pull/759
-||quizlet.com^$removeparam=funnelUUID
-||quizlet.com^$removeparam=signupOrigin
+||quizlet.com^*funnelUUID$removeparam=funnelUUID
+||quizlet.com^*signupOrigin$removeparam=signupOrigin
 ! https://mini.eastday.com/nsa/n230125110013294.html?qid=04426&cvid=ef9c243ff9fd4d5d8606d5a42b2b2023 (26/01/2023)
-||eastday.com^$removeparam=qid
+||eastday.com^*qid$removeparam=qid
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-4962768
 $removeparam=pk_vid,document
 ! https://github.com/ClearURLs/Rules/issues/71
-||xiaohongshu.com^$removeparam=app_platform,document
-||xiaohongshu.com^$removeparam=app_version,document
-||xiaohongshu.com^$removeparam=share_from_user_hidden,document
-||xiaohongshu.com^$removeparam=xhsshare,document
-||xiaohongshu.com^$removeparam=appuid,document
-||xiaohongshu.com^$removeparam=apptime,document
+||xiaohongshu.com^*app_platform$removeparam=app_platform,document
+||xiaohongshu.com^*app_version$removeparam=app_version,document
+||xiaohongshu.com^*share_from_user_hidden$removeparam=share_from_user_hidden,document
+||xiaohongshu.com^*xhsshare$removeparam=xhsshare,document
+||xiaohongshu.com^*appuid$removeparam=appuid,document
+||xiaohongshu.com^*apptime$removeparam=apptime,document
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-4978150
-||tiktok.com^$removeparam=embed_source
+||tiktok.com^*embed_source$removeparam=embed_source
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-4966523
-||login.afreecatv.com^$removeparam=szFrom
+$removeparam=szFrom,document,domain=login.afreecatv.com
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-5081433
 ||typeform.com^$removeparam=typeform-source
 ! https://www.selected.com/en-gb/homme/trousers/slim-fit-trousers-16086553_Grey_966031.html?clickedFromCategory=sl-homme-collection-trousers
-||selected.com^$removeparam=clickedFromCategory
+||selected.com^*clickedFromCategory$removeparam=clickedFromCategory
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-5116401
 $removeparam=natb,domain=duckduckgo.com
-||duckduckgo.com^$removeparam=cp
+||duckduckgo.com^*cp$removeparam=cp
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-5116953
-||cdc.gov^$removeparam=ACSTrackingID
-||cdc.gov^$removeparam=ACSTrackingLabel
-||cdc.gov^$removeparam=deliveryName
+||cdc.gov^*ACSTrackingID$removeparam=ACSTrackingID
+||cdc.gov^*ACSTrackingLabel$removeparam=ACSTrackingLabel
+||cdc.gov^*deliveryName$removeparam=deliveryName
+! https://vkplay.ru/play/game/witchcrafty/?_1lr=63fe2a3d7f8804b0-3412327_2070601-3424209_2073149-3424209_2073149&mt_click_id=mt-k6vwk7-1677601519-2846701076
+$removeparam=_1lr
 !#if !env_mobile
 ! ——— Entries mostly dedicated to maximising image sizes (thus poorly suited for phones) ———
 ! https://sproutsluckycorner.files.wordpress.com/2019/12/ring-fit-adventure-smoothies-1.png?w=600 (Shows the actual raw image instead of a promotion page; 25/11/2020)

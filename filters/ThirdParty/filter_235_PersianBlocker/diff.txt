@@ -10,6 +10,8 @@ xip.li##.form-inline:others()
 ||aasaam.com^$3p
 ! Rule "||akhbarrasmi.com^$3p" converted to: "||akhbarrasmi.com^$third-party"
 ||akhbarrasmi.com^$3p
+! Rule "||blogfa.com/a^$script,1p" converted to: "||blogfa.com/a^$script,~third-party"
+||blogfa.com/a^$script,1p
 ! Rule "||e-earn.ir^$3p" converted to: "||e-earn.ir^$third-party"
 ||e-earn.ir^$3p
 ! Rule "||widget.fafait.net^$3p" converted to: "||widget.fafait.net^$third-party"
@@ -42,6 +44,28 @@ xip.li##.form-inline:others()
 logo.samandehi.ir##^responseheader(set-cookie)
 ! Rule "||titr.online^$3p" converted to: "||titr.online^$third-party"
 ||titr.online^$3p
+! Rule "@@||player.tavoos.net/jwplayer.js$script,3p" converted to: "@@||player.tavoos.net/jwplayer.js$script,third-party"
+@@||player.tavoos.net/jwplayer.js$script,3p
+! Rule "@@||player.tavoos.net/jwplayer.core.controls.html5.js$script,3p" converted to: "@@||player.tavoos.net/jwplayer.core.controls.html5.js$script,third-party"
+@@||player.tavoos.net/jwplayer.core.controls.html5.js$script,3p
+! Rule "@@||player.tavoos.net/jwplayer.core.controls.js$script,3p" converted to: "@@||player.tavoos.net/jwplayer.core.controls.js$script,third-party"
+@@||player.tavoos.net/jwplayer.core.controls.js$script,3p
+! Rule "@@||player.tavoos.net/provider.hlsjs.js$script,3p" converted to: "@@||player.tavoos.net/provider.hlsjs.js$script,third-party"
+@@||player.tavoos.net/provider.hlsjs.js$script,3p
+! Rule "@@||player.tavoos.net/tavoos-player.css$css,3p" converted to: "@@||player.tavoos.net/tavoos-player.css$stylesheet,third-party"
+@@||player.tavoos.net/tavoos-player.css$css,3p
+! Rule "@@||player.tavoos.net/assets/fonts/$font,3p" converted to: "@@||player.tavoos.net/assets/fonts/$font,third-party"
+@@||player.tavoos.net/assets/fonts/$font,3p
+! Rule "@@||player.tavoos.net/assets/$image,3p" converted to: "@@||player.tavoos.net/assets/$image,third-party"
+@@||player.tavoos.net/assets/$image,3p
+! Rule "@@||tavoos.net/tavoos_player/jwplayer/jwplayer.js$script,3p" converted to: "@@||tavoos.net/tavoos_player/jwplayer/jwplayer.js$script,third-party"
+@@||tavoos.net/tavoos_player/jwplayer/jwplayer.js$script,3p
+! Rule "@@||tavoos.net/tavoos_player/jwplayer/jwplayer.core.controls.html5.js$script,3p" converted to: "@@||tavoos.net/tavoos_player/jwplayer/jwplayer.core.controls.html5.js$script,third-party"
+@@||tavoos.net/tavoos_player/jwplayer/jwplayer.core.controls.html5.js$script,3p
+! Rule "@@||tavoos.net/tavoos_player/jwplayer/tavoos-player.css$css,3p" converted to: "@@||tavoos.net/tavoos_player/jwplayer/tavoos-player.css$stylesheet,third-party"
+@@||tavoos.net/tavoos_player/jwplayer/tavoos-player.css$css,3p
+! Rule "@@||tavoos.net/tavoos_player/jwplayer/assets/$image,3p" converted to: "@@||tavoos.net/tavoos_player/jwplayer/assets/$image,third-party"
+@@||tavoos.net/tavoos_player/jwplayer/assets/$image,3p
 ! Rule "||adtodate.net^$3p" converted to: "||adtodate.net^$third-party"
 ||adtodate.net^$3p
 ! Rule "||instant.page^$3p" converted to: "||instant.page^$third-party"
@@ -156,6 +180,10 @@ coffeeapps.ir##+js(acis, disableSelection, reEnable)
 coffeeapps.ir##style:has-text(@media print):remove()
 ! Rule "@@||caffecinema.com/media/banners/telegram-$image,1p" converted to: "@@||caffecinema.com/media/banners/telegram-$image,~third-party"
 @@||caffecinema.com/media/banners/telegram-$image,1p
+! Rule "||cdn.dolatebahar.ir/upload/Ads^$image,1p" converted to: "||cdn.dolatebahar.ir/upload/Ads^$image,~third-party"
+||cdn.dolatebahar.ir/upload/Ads^$image,1p
+! Rule "||sai.co.ir^$3p,domain=dolatebahar.ir" converted to: "||sai.co.ir^$third-party,domain=dolatebahar.ir"
+||sai.co.ir^$3p,domain=dolatebahar.ir
 ! Rule "1da.ir,1ea.ir,2ad.ir##+js(set, blurred, false)" converted to: "1da.ir,1ea.ir,2ad.ir#%#//scriptlet('ubo-set.js', 'blurred', 'false')"
 1da.ir,1ea.ir,2ad.ir##+js(set, blurred, false)
 ! Rule "downloadsoftware.ir##:not(:matches-path(/%d8%b1%d9%be%d9%88%d8%b1%d8%aa%d8%a7%da%98)) .art-post > .head-post > .cat-post:has-text(رپورتاژ):upward(.art-post)" converted to: "[$path=/^((?!\/%d8%b1%d9%be%d9%88%d8%b1%d8%aa%d8%a7%da%98).)*$/]downloadsoftware.ir## .art-post > .head-post > .cat-post:has-text(رپورتاژ):upward(.art-post)"
@@ -316,6 +344,12 @@ khabarfoori.com##.rowTwo .right_side, .rowTwo .column_1:style(width: 100% !impor
 ketabesabz.com##+js(set, KetabrahPopup, noopFunc)
 ! Rule "lahzeakhar.com##+js(set, customnotify, noopFunc)" converted to: "lahzeakhar.com#%#//scriptlet('ubo-set.js', 'customnotify', 'noopFunc')"
 lahzeakhar.com##+js(set, customnotify, noopFunc)
+! Rule "||mihanvideo.com/static/js/video_player/jwplayer/plugins/vast/vast.js^$script,1p" converted to: "||mihanvideo.com/static/js/video_player/jwplayer/plugins/vast/vast.js^$script,~third-party"
+||mihanvideo.com/static/js/video_player/jwplayer/plugins/vast/vast.js^$script,1p
+! Rule "||mihanvideo.com/static/js/video_player/jwplayer/*/jwpsrv.js^$script,1p" converted to: "||mihanvideo.com/static/js/video_player/jwplayer/*/jwpsrv.js^$script,~third-party"
+||mihanvideo.com/static/js/video_player/jwplayer/*/jwpsrv.js^$script,1p
+! Rule "||mihanvideo.com/log^$xhr,1p" converted to: "||mihanvideo.com/log^$xmlhttprequest,~third-party"
+||mihanvideo.com/log^$xhr,1p
 ! Rule "mosalasonline.com##.news-col-1:style(width: 70% !important;)" converted to: "mosalasonline.com#$#.news-col-1 { width: 70% !important; }"
 mosalasonline.com##.news-col-1:style(width: 70% !important;)
 ! Rule "mosalasonline.com##.news-col-2:style(width: 30% !important;)" converted to: "mosalasonline.com#$#.news-col-2 { width: 30% !important; }"
@@ -338,6 +372,10 @@ msbmusic.ir##+js(set, needpop, 0)
 mybia4music.com##+js(aopr, pa_vc_url)
 ! Rule "myhastidl.cam##+js(set, needpop, 0)" converted to: "myhastidl.cam#%#//scriptlet('ubo-set.js', 'needpop', '0')"
 myhastidl.cam##+js(set, needpop, 0)
+! Rule "||namayesh.com/configuration/v1/video/*/lazyads^$xhr,1p" converted to: "||namayesh.com/configuration/v1/video/*/lazyads^$xmlhttprequest,~third-party"
+||namayesh.com/configuration/v1/video/*/lazyads^$xhr,1p
+! Rule "||namayesh.com/configuration/v1/video/*/log^$xhr,1p" converted to: "||namayesh.com/configuration/v1/video/*/log^$xmlhttprequest,~third-party"
+||namayesh.com/configuration/v1/video/*/log^$xhr,1p
 ! Rule "nab-music.com##+js(aopr, vc_url)" converted to: "nab-music.com#%#//scriptlet('ubo-aopr.js', 'vc_url')"
 nab-music.com##+js(aopr, vc_url)
 ! Rule "niniban.com##.col-xs-36.col-md-24:not(:has(.gutter_xs)):style(width: 83% !important;)" converted to: "niniban.com#$?#.col-xs-36.col-md-24:not(:has(.gutter_xs)) { width: 83% !important; }"
@@ -354,12 +392,18 @@ netgasht.com##+js(set, needpop, 0)
 98oldmusics.site##+js(nowoif)
 ! Rule "opizo.me##+js(aeld, blur)" converted to: "opizo.me#%#//scriptlet('ubo-aeld.js', 'blur')"
 opizo.me##+js(aeld, blur)
+! Rule "||plaza.ir/location/find-client-location^$xhr,1p" converted to: "||plaza.ir/location/find-client-location^$xmlhttprequest,~third-party"
+||plaza.ir/location/find-client-location^$xhr,1p
+! Rule "||plaza.ir/wp-admin/admin-ajax.php?action=getClientDeviceRelatedPostItems^$xhr,1p" converted to: "||plaza.ir/wp-admin/admin-ajax.php?action=getClientDeviceRelatedPostItems^$xmlhttprequest,~third-party"
+||plaza.ir/wp-admin/admin-ajax.php?action=getClientDeviceRelatedPostItems^$xhr,1p
 ! Rule "pichak.net##noscript:remove()" converted to: "pichak.net#$?#noscript { remove: true; }"
 pichak.net##noscript:remove()
 ! Rule "p30konkor.com##.vc_col-sm-4:style(width: 100% !important;)" converted to: "p30konkor.com#$#.vc_col-sm-4 { width: 100% !important; }"
 p30konkor.com##.vc_col-sm-4:style(width: 100% !important;)
 ! Rule "@@||parsiblog.com/Adv/imgs/$image,1p" converted to: "@@||parsiblog.com/Adv/imgs/$image,~third-party"
 @@||parsiblog.com/Adv/imgs/$image,1p
+! Rule "p30download.ir##+js(acis, document.getElementById, style.display)" converted to: "p30download.ir#%#//scriptlet('ubo-acis.js', 'document.getElementById', 'style.display')"
+p30download.ir##+js(acis, document.getElementById, style.display)
 ! Rule "@@||persianv.com/wp-content/uploads/*/adv-$image,1p" converted to: "@@||persianv.com/wp-content/uploads/*/adv-$image,~third-party"
 @@||persianv.com/wp-content/uploads/*/adv-$image,1p
 ! Rule "@@||par30games.net/wp-content/uploads/*/advertise-plan$image,1p" converted to: "@@||par30games.net/wp-content/uploads/*/advertise-plan$image,~third-party"
@@ -454,6 +498,10 @@ shahrsakhtafzar.com##:not(:matches-path(/fa/news/pr)) .items-row:has(.sazitem_im
 @@||1000site.ir/asset/images/images/adpage/$image,1p
 ! Rule "@@||1000site.ir/home/ads/asset/favicon.ico$image,1p" converted to: "@@||1000site.ir/home/ads/asset/favicon.ico$image,~third-party"
 @@||1000site.ir/home/ads/asset/favicon.ico$image,1p
+! Rule "||tvrooz.com/analytics.js^$script,1p" converted to: "||tvrooz.com/analytics.js^$script,~third-party"
+||tvrooz.com/analytics.js^$script,1p
+! Rule "||tvrooz.com/tvrooz-analytics.js^$script,1p" converted to: "||tvrooz.com/tvrooz-analytics.js^$script,~third-party"
+||tvrooz.com/tvrooz-analytics.js^$script,1p
 ! Rule "^utm_source=takhfife.com^$doc,removeparam=/^utm_/" converted to: "^utm_source=takhfife.com^$document,removeparam=/^utm_/"
 ^utm_source=takhfife.com^$doc,removeparam=/^utm_/
 ! Rule "tamasha.com##+js(set, socketUrl, undefined)" converted to: "tamasha.com#%#//scriptlet('ubo-set.js', 'socketUrl', 'undefined')"
@@ -558,6 +606,8 @@ yektapress.com##.no-padd-1st-child:style(width: 40% !important;)
 *$frame,domain=yun.ir
 ! Rule "yeknet.ir##+js(aopr, needpop)" converted to: "yeknet.ir#%#//scriptlet('ubo-aopr.js', 'needpop')"
 yeknet.ir##+js(aopr, needpop)
+! Rule "||zinofilm.ir/wp-json/wp-statistics^$xhr,1p" converted to: "||zinofilm.ir/wp-json/wp-statistics^$xmlhttprequest,~third-party"
+||zinofilm.ir/wp-json/wp-statistics^$xhr,1p
 ! Rule "||zibamoon.com/Files/Ads/$image,1p" converted to: "||zibamoon.com/Files/Ads/$image,~third-party"
 ||zibamoon.com/Files/Ads/$image,1p
 ! Rule "zoomg.ir##^script:has-text(bannersAsJson)" converted to: "zoomg.ir$$script[tag-content="bannersAsJson"][max-length="262144"]"
@@ -678,6 +728,10 @@ zoomit.ir##+js(no-xhr-if, /ads|visit/)
 ||frzss.com^$doc
 ! Rule "||hoho.mobi^$doc" converted to: "||hoho.mobi^$document"
 ||hoho.mobi^$doc
+! Rule "||unitedsolarinfinity.com^$doc" converted to: "||unitedsolarinfinity.com^$document"
+||unitedsolarinfinity.com^$doc
+! Rule "||mogo-crypto.net^$doc" converted to: "||mogo-crypto.net^$document"
+||mogo-crypto.net^$doc
 ! Rule "www.google.com##.g a[href*="filmr.ir"]> h3::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)" converted to: "www.google.com#$#.g a[href*="filmr.ir"]> h3::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }"
 www.google.com##.g a[href*="filmr.ir"]> h3::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 ! Rule "www.google.com##.g a[href*="doostihaa.com"]> h3::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)" converted to: "www.google.com#$#.g a[href*="doostihaa.com"]> h3::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }"
@@ -816,6 +870,26 @@ www.google.com##.g a[href*="lovinfilm.ir"]> h3::after:style(content: ' [دارا
 www.google.com##.g a[href*="centerdl.ir"]> h3::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 ! Rule "www.google.com##.g a[href*="fardisfilm.ir"]> h3::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)" converted to: "www.google.com#$#.g a[href*="fardisfilm.ir"]> h3::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }"
 www.google.com##.g a[href*="fardisfilm.ir"]> h3::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+! Rule "www.google.com##.g a[href*="tvrooz.com"]> h3::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)" converted to: "www.google.com#$#.g a[href*="tvrooz.com"]> h3::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }"
+www.google.com##.g a[href*="tvrooz.com"]> h3::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+! Rule "www.google.com##.g a[href*="bi3-seda.ir"]> h3::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)" converted to: "www.google.com#$#.g a[href*="bi3-seda.ir"]> h3::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }"
+www.google.com##.g a[href*="bi3-seda.ir"]> h3::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+! Rule "www.google.com##.g a[href*="disfilm.ir"]> h3::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)" converted to: "www.google.com#$#.g a[href*="disfilm.ir"]> h3::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }"
+www.google.com##.g a[href*="disfilm.ir"]> h3::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+! Rule "www.google.com##.g a[href*="myavanet.ir"]> h3::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)" converted to: "www.google.com#$#.g a[href*="myavanet.ir"]> h3::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }"
+www.google.com##.g a[href*="myavanet.ir"]> h3::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+! Rule "www.google.com##.g a[href*="jaheshmovie.ir"]> h3::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)" converted to: "www.google.com#$#.g a[href*="jaheshmovie.ir"]> h3::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }"
+www.google.com##.g a[href*="jaheshmovie.ir"]> h3::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+! Rule "www.google.com##.g a[href*="farafilm.net"]> h3::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)" converted to: "www.google.com#$#.g a[href*="farafilm.net"]> h3::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }"
+www.google.com##.g a[href*="farafilm.net"]> h3::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+! Rule "www.google.com##.g a[href*="parsafilm.com"]> h3::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)" converted to: "www.google.com#$#.g a[href*="parsafilm.com"]> h3::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }"
+www.google.com##.g a[href*="parsafilm.com"]> h3::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+! Rule "www.google.com##.g a[href*="zinofilm.ir"]> h3::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)" converted to: "www.google.com#$#.g a[href*="zinofilm.ir"]> h3::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }"
+www.google.com##.g a[href*="zinofilm.ir"]> h3::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+! Rule "www.google.com##.g a[href*="glp.ir"]> h3::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)" converted to: "www.google.com#$#.g a[href*="glp.ir"]> h3::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }"
+www.google.com##.g a[href*="glp.ir"]> h3::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+! Rule "www.google.com##.g a[href*="hastidl.ir"]> h3::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)" converted to: "www.google.com#$#.g a[href*="hastidl.ir"]> h3::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }"
+www.google.com##.g a[href*="hastidl.ir"]> h3::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 ! Rule "www.google.com##a[href*="filmr.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)" converted to: "www.google.com#$#a[href*="filmr.ir"] div[role="link"]::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }"
 www.google.com##a[href*="filmr.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 ! Rule "www.google.com##a[href*="doostihaa.com"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)" converted to: "www.google.com#$#a[href*="doostihaa.com"] div[role="link"]::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }"
@@ -954,6 +1028,26 @@ www.google.com##a[href*="lovinfilm.ir"] div[role="link"]::after:style(content: '
 www.google.com##a[href*="centerdl.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 ! Rule "www.google.com##a[href*="fardisfilm.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)" converted to: "www.google.com#$#a[href*="fardisfilm.ir"] div[role="link"]::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }"
 www.google.com##a[href*="fardisfilm.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+! Rule "www.google.com##a[href*="tvrooz.com"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)" converted to: "www.google.com#$#a[href*="tvrooz.com"] div[role="link"]::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }"
+www.google.com##a[href*="tvrooz.com"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+! Rule "www.google.com##a[href*="bi3-seda.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)" converted to: "www.google.com#$#a[href*="bi3-seda.ir"] div[role="link"]::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }"
+www.google.com##a[href*="bi3-seda.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+! Rule "www.google.com##a[href*="disfilm.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)" converted to: "www.google.com#$#a[href*="disfilm.ir"] div[role="link"]::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }"
+www.google.com##a[href*="disfilm.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+! Rule "www.google.com##a[href*="myavanet.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)" converted to: "www.google.com#$#a[href*="myavanet.ir"] div[role="link"]::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }"
+www.google.com##a[href*="myavanet.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+! Rule "www.google.com##a[href*="jaheshmovie.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)" converted to: "www.google.com#$#a[href*="jaheshmovie.ir"] div[role="link"]::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }"
+www.google.com##a[href*="jaheshmovie.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+! Rule "www.google.com##a[href*="farafilm.net"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)" converted to: "www.google.com#$#a[href*="farafilm.net"] div[role="link"]::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }"
+www.google.com##a[href*="farafilm.net"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+! Rule "www.google.com##a[href*="parsafilm.com"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)" converted to: "www.google.com#$#a[href*="parsafilm.com"] div[role="link"]::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }"
+www.google.com##a[href*="parsafilm.com"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+! Rule "www.google.com##a[href*="zinofilm.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)" converted to: "www.google.com#$#a[href*="zinofilm.ir"] div[role="link"]::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }"
+www.google.com##a[href*="zinofilm.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+! Rule "www.google.com##a[href*="glp.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)" converted to: "www.google.com#$#a[href*="glp.ir"] div[role="link"]::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }"
+www.google.com##a[href*="glp.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+! Rule "www.google.com##a[href*="hastidl.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)" converted to: "www.google.com#$#a[href*="hastidl.ir"] div[role="link"]::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }"
+www.google.com##a[href*="hastidl.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 ! Rule "www.google.com##a[href*="filmr.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)" converted to: "www.google.com#$#a[href*="filmr.ir"] div[role="link"]::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }"
 www.google.com##a[href*="filmr.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 ! Rule "www.google.com##a[href*="doostihaa.com"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)" converted to: "www.google.com#$#a[href*="doostihaa.com"] div[role="link"]::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }"
@@ -1092,6 +1186,26 @@ www.google.com##a[href*="lovinfilm.ir"] div[role="link"]::after:style(content: '
 www.google.com##a[href*="centerdl.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 ! Rule "www.google.com##a[href*="fardisfilm.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)" converted to: "www.google.com#$#a[href*="fardisfilm.ir"] div[role="link"]::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }"
 www.google.com##a[href*="fardisfilm.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+! Rule "www.google.com##a[href*="tvrooz.com"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)" converted to: "www.google.com#$#a[href*="tvrooz.com"] div[role="link"]::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }"
+www.google.com##a[href*="tvrooz.com"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+! Rule "www.google.com##a[href*="bi3-seda.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)" converted to: "www.google.com#$#a[href*="bi3-seda.ir"] div[role="link"]::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }"
+www.google.com##a[href*="bi3-seda.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+! Rule "www.google.com##a[href*="disfilm.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)" converted to: "www.google.com#$#a[href*="disfilm.ir"] div[role="link"]::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }"
+www.google.com##a[href*="disfilm.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+! Rule "www.google.com##a[href*="myavanet.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)" converted to: "www.google.com#$#a[href*="myavanet.ir"] div[role="link"]::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }"
+www.google.com##a[href*="myavanet.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+! Rule "www.google.com##a[href*="jaheshmovie.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)" converted to: "www.google.com#$#a[href*="jaheshmovie.ir"] div[role="link"]::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }"
+www.google.com##a[href*="jaheshmovie.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+! Rule "www.google.com##a[href*="farafilm.net"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)" converted to: "www.google.com#$#a[href*="farafilm.net"] div[role="link"]::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }"
+www.google.com##a[href*="farafilm.net"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+! Rule "www.google.com##a[href*="parsafilm.com"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)" converted to: "www.google.com#$#a[href*="parsafilm.com"] div[role="link"]::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }"
+www.google.com##a[href*="parsafilm.com"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+! Rule "www.google.com##a[href*="zinofilm.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)" converted to: "www.google.com#$#a[href*="zinofilm.ir"] div[role="link"]::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }"
+www.google.com##a[href*="zinofilm.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+! Rule "www.google.com##a[href*="glp.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)" converted to: "www.google.com#$#a[href*="glp.ir"] div[role="link"]::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }"
+www.google.com##a[href*="glp.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+! Rule "www.google.com##a[href*="hastidl.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)" converted to: "www.google.com#$#a[href*="hastidl.ir"] div[role="link"]::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }"
+www.google.com##a[href*="hastidl.ir"] div[role="link"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 ! Rule "duckduckgo.com##a[data-testid="result-title-a"][href*="filmr.ir"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)" converted to: "duckduckgo.com#$#a[data-testid="result-title-a"][href*="filmr.ir"]::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }"
 duckduckgo.com##a[data-testid="result-title-a"][href*="filmr.ir"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 ! Rule "duckduckgo.com##a[data-testid="result-title-a"][href*="doostihaa.com"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)" converted to: "duckduckgo.com#$#a[data-testid="result-title-a"][href*="doostihaa.com"]::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }"
@@ -1230,6 +1344,26 @@ duckduckgo.com##a[data-testid="result-title-a"][href*="lovinfilm.ir"]::after:sty
 duckduckgo.com##a[data-testid="result-title-a"][href*="centerdl.ir"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 ! Rule "duckduckgo.com##a[data-testid="result-title-a"][href*="fardisfilm.ir"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)" converted to: "duckduckgo.com#$#a[data-testid="result-title-a"][href*="fardisfilm.ir"]::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }"
 duckduckgo.com##a[data-testid="result-title-a"][href*="fardisfilm.ir"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+! Rule "duckduckgo.com##a[data-testid="result-title-a"][href*="tvrooz.com"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)" converted to: "duckduckgo.com#$#a[data-testid="result-title-a"][href*="tvrooz.com"]::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }"
+duckduckgo.com##a[data-testid="result-title-a"][href*="tvrooz.com"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+! Rule "duckduckgo.com##a[data-testid="result-title-a"][href*="bi3-seda.ir"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)" converted to: "duckduckgo.com#$#a[data-testid="result-title-a"][href*="bi3-seda.ir"]::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }"
+duckduckgo.com##a[data-testid="result-title-a"][href*="bi3-seda.ir"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+! Rule "duckduckgo.com##a[data-testid="result-title-a"][href*="disfilm.ir"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)" converted to: "duckduckgo.com#$#a[data-testid="result-title-a"][href*="disfilm.ir"]::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }"
+duckduckgo.com##a[data-testid="result-title-a"][href*="disfilm.ir"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+! Rule "duckduckgo.com##a[data-testid="result-title-a"][href*="myavanet.ir"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)" converted to: "duckduckgo.com#$#a[data-testid="result-title-a"][href*="myavanet.ir"]::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }"
+duckduckgo.com##a[data-testid="result-title-a"][href*="myavanet.ir"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+! Rule "duckduckgo.com##a[data-testid="result-title-a"][href*="jaheshmovie.ir"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)" converted to: "duckduckgo.com#$#a[data-testid="result-title-a"][href*="jaheshmovie.ir"]::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }"
+duckduckgo.com##a[data-testid="result-title-a"][href*="jaheshmovie.ir"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+! Rule "duckduckgo.com##a[data-testid="result-title-a"][href*="farafilm.net"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)" converted to: "duckduckgo.com#$#a[data-testid="result-title-a"][href*="farafilm.net"]::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }"
+duckduckgo.com##a[data-testid="result-title-a"][href*="farafilm.net"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+! Rule "duckduckgo.com##a[data-testid="result-title-a"][href*="parsafilm.com"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)" converted to: "duckduckgo.com#$#a[data-testid="result-title-a"][href*="parsafilm.com"]::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }"
+duckduckgo.com##a[data-testid="result-title-a"][href*="parsafilm.com"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+! Rule "duckduckgo.com##a[data-testid="result-title-a"][href*="zinofilm.ir"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)" converted to: "duckduckgo.com#$#a[data-testid="result-title-a"][href*="zinofilm.ir"]::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }"
+duckduckgo.com##a[data-testid="result-title-a"][href*="zinofilm.ir"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+! Rule "duckduckgo.com##a[data-testid="result-title-a"][href*="glp.ir"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)" converted to: "duckduckgo.com#$#a[data-testid="result-title-a"][href*="glp.ir"]::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }"
+duckduckgo.com##a[data-testid="result-title-a"][href*="glp.ir"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
+! Rule "duckduckgo.com##a[data-testid="result-title-a"][href*="hastidl.ir"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)" converted to: "duckduckgo.com#$#a[data-testid="result-title-a"][href*="hastidl.ir"]::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }"
+duckduckgo.com##a[data-testid="result-title-a"][href*="hastidl.ir"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 ! Rule "oila.tj##+js(aopr, window.LOCO_DATA.copyrightTranslation)" converted to: "oila.tj#%#//scriptlet('ubo-aopr.js', 'window.LOCO_DATA.copyrightTranslation')"
 oila.tj##+js(aopr, window.LOCO_DATA.copyrightTranslation)
 Error: "Unknown pseudo-class ':remove-attr' in selector: '[onclick^="sendDataLayer"]:remove-attr(onclick)'" in the rule: "khanoumi.com##[onclick^="sendDataLayer"]:remove-attr(onclick)"

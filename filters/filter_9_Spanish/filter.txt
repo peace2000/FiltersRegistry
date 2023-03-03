@@ -281,6 +281,7 @@
 !
 !
 ||adv.r7.com^
+||s.mangalivre.net^
 !---------------------------------------------------------------------------!
 !-------------- Anti-adblock rules -----------------------------------------!
 !---------------------------------------------------------------------------!
@@ -294,6 +295,22 @@
 ! Bad: ||ad.doubleclick.net^ (should be in adservers.txt)
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/144188
+independentespanol.com#%#//scriptlet('prevent-fetch', 'securepubads.g.doubleclick.net/pagead/ppub_config')
+@@||pub.pixels.ai/wrap-independent-no-prebid-lib.js$domain=independentespanol.com
+@@||static.adsafeprotected.com/iasPET.1.js$domain=independentespanol.com
+!+ PLATFORM(ios, ext_android_cb, ext_safari)
+@@||securepubads.g.doubleclick.net/pagead/ppub_config$xmlhttprequest,domain=independentespanol.com
+! https://github.com/AdguardTeam/AdguardFilters/issues/144328
+@@||mantrazscan.com/wp-content/plugins/dh-anti-adblocker/
+mantrazscan.com#$#.jconfirm { display: none !important; }
+mantrazscan.com#$#body { overflow: auto !important; }
+! https://github.com/AdguardTeam/AdguardFilters/issues/144312
+buscalinks.xyz,gamesviatorrent.top#$##pbt { display: none !important; }
+buscalinks.xyz,gamesviatorrent.top#$#body { overflow: auto !important; }
+buscalinks.xyz,gamesviatorrent.top#%#//scriptlet('abort-current-inline-script', 'document.createElement', 'Adblock')
+!+ PLATFORM(ios, ext_android_cb, ext_safari)
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=buscalinks.xyz|gamesviatorrent.top
 ! https://github.com/AdguardTeam/AdguardFilters/issues/143695
 inuyashadowns.com.br#%#//scriptlet('abort-current-inline-script', 'document.createElement', 'adblock')
 !+ PLATFORM(ios, ext_android_cb, ext_safari)
@@ -2049,12 +2066,13 @@ acortalo.net#%#(()=>{const a=window.fetch,b={apply:async(b,c,d)=>{const e=d[0]in
 mwpaste.com#%#(()=>{const a=window.fetch,b={apply:async(a,b,c)=>{const d=c[0]instanceof Request?c[0].url:c[0];if("string"!=typeof d||0===d.length)return Reflect.apply(a,b,c);if(-1<d.indexOf("&url=")){const a=new URL(d),b=a.searchParams,c=b.get("url");c&&location.assign(c)}return Reflect.apply(a,b,c)}};try{window.fetch=new Proxy(window.fetch,b)}catch(a){console.debug(a)}})();
 ! https://github.com/uBlockOrigin/uAssets/issues/13159#issuecomment-1320248188
 geeknetic.es#%#//scriptlet("prevent-window-open")
+! https://github.com/AdguardTeam/AdguardFilters/issues/144257
 ! https://github.com/AdguardTeam/AdguardFilters/issues/140034
 ! https://github.com/AdguardTeam/AdguardFilters/issues/138379
 ! https://github.com/AdguardTeam/AdguardFilters/issues/138941
 ! https://github.com/AdguardTeam/AdguardFilters/issues/134511
 acorto.xyz,discografias.net#%#AG_onLoad(function(){window.deco_url_b64&&"string"==typeof deco_url_b64&&deco_url_b64.startsWith("http")&&location.assign(deco_url_b64)});
-acortalinks.net,link.acortaz.eu,acorto.xyz,discografias.net#%#(function(){try{var a=location.href.split("/#");if(a[1]){a=a[1];for(var b=0;10>b;b++){a=atob(a);try{new URL(decodeURIComponent(a));var c=!0}catch(d){c=!1}if(c)try{location.assign(decodeURIComponent(a));break}catch(d){}}}}catch(d){}})();
+acortaz.eu,onlypc.net,acortalinks.net,link.acortaz.eu,acorto.xyz,discografias.net#%#(function(){try{var a=location.href.split("/#");if(a[1]){a=a[1];for(var b=0;10>b;b++){a=atob(a);try{new URL(decodeURIComponent(a));var c=!0}catch(d){c=!1}if(c)try{location.assign(decodeURIComponent(a));break}catch(d){}}}}catch(d){}})();
 ! https://github.com/AdguardTeam/AdguardFilters/issues/133825
 player.hentaistube.com#%#//scriptlet("set-constant", "player.preroll", "noopFunc")
 ! leftover at the top
@@ -2317,6 +2335,9 @@ newpct1.com#%#window.atob = function() { };
 !------- CSS fixes --------------------!
 !--------------------------------------!
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/144260
+radioagricultura.cl#$#body { overflow: auto !important; }
+radioagricultura.cl#$##welcome-ad { display: none !important; }
 ! ad at the top
 lecturas.com#$#.add990x90 { min-height: 0 !important; }
 lecturas.com#$#.add990x90 div { height: 0 !important; }
@@ -2630,6 +2651,9 @@ bebe.abril.com.br,tribunapr.uol.com.br,diariodonordeste.verdesmares.com.br,sbt.c
 ! ##.banner
 economipedia.com,informador.mx,elinformador.com.co,cronista.com,rionegro.com.ar,diariodecuyo.com.ar,voydeviaje.com.ar,guarda14.com,viapais.com.ar,agazeta.com.br,eleconomista.com.mx,metropolitanafm.com.br,tycsports.com,elespectador.com,bnews.com.br,migalhas.com.br,losandes.com.ar,lavoz.com.ar,mundo.sputniknews.com,omelete.com.br,lapoliticaonline.com.ar,mundotecnologias.com,valenciaplaza.com,veneapp.com,dalealbo.cl,globo.com,defesanet.com.br,mibrujula.com,lyon.kim,26noticias.com.ar,auniao.com,clickpb.com.br,emagister.com,lanacion.com.ar,parana-online.com.br,r7.com,toxico-pc.com,uol.com.br##.banner
 !
+jbox.com.br##.jbox-publi-fullwidth
+gabarite.com.br###publicidade
+independentespanol.com###top-banner-wrapper
 fayerwayer.com##.arcad-container
 fayerwayer.com##div[id^="arcad-feature-"][class^="default__StyledAdUnit-"]
 gasteizhoy.com##.banclick
@@ -2710,7 +2734,7 @@ neoxscans.net##.empower-ad
 eltiempo.com##div[class^="gpt-slot-"]
 eltiempo.com##.ad-container-hor
 occidente.co###id-custom_banner
-lanacion.com.co##.widget_custom_html
+audiotools.in,lanacion.com.co##.widget_custom_html
 laarena.com.ar##.cont-publis-home
 laarena.com.ar##.container-spot
 laarena.com.ar##.container__publi
@@ -3047,7 +3071,7 @@ ofuxico.com.br##.page-ad-wrapper
 ofuxico.com.br##.banner-728x90-area
 ofuxico.com.br##div[id^="page-ad-v-"]
 ofuxico.com.br##div[id^="banner-300x"]
-leitor.net##.vignette-content
+leitor.net,mangalivre.net##.vignette-content
 leitor.net,mangalivre.net##.calhaw-slot
 leitor.net,mangalivre.net##.manga-top-ad
 leitor.net,mangalivre.net##div[amazon-offers-list]
@@ -3300,7 +3324,7 @@ ahount.com##.inside-right-sidebar > aside[id^="custom_html-"]
 elpais.com###paywallOfferSmall
 elpais.com###cta-button-container
 remender.pe,noticiasautomotivas.com.br,idinheiro.com.br,diariodocomercio.com.br##body .code-block
-otvfoco.com.br##div[class^="code-block code-block-"][style^="margin: 8px"]
+anitube.biz,otvfoco.com.br##div[class^="code-block code-block-"][style^="margin: 8px"]
 bracontece.com.br##.testad
 noticiast.com##div[style="margin: 8px 0; clear: both;"]
 comidinhasdochef.com##.wrap-banner
@@ -5442,6 +5466,12 @@ urlcloud.us##.banner
 ! Bad:  @@||example.org^$stealth (should be in AdGuard Base - allowlist_stealth.txt)
 !
 !
+! https://github.com/uBlockOrigin/uAssets/issues/9807#issuecomment-1450692386
+@@||static.adsafeprotected.com/iasPET.1.js$domain=independentespanol.com
+@@||permutive.app/*web.js$domain=independentespanol.com
+@@||cdn.permutive.com^$xmlhttprequest,domain=independentespanol.com
+@@||api.permutive.com^$xmlhttprequest,domain=independentespanol.com
+@@||pub.pixels.ai/wrap-independent-no-prebid-lib.js$domain=independentespanol.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/135573
 nebrija.com#@##publicidad
 @@||nebrija.com/images/cabeceras/titulaciones/fast/*-publicidad-*.webp

@@ -86,6 +86,7 @@
 ! SECTION: Widgets (sougo RSS) - Blogroll
 !
 ! NOTE: Blogroll generic
+||blog-rss.com^$third-party
 ||komatech.net^$third-party
 ||rssfetcher.blogsys.jp^
 ||blog.livedoor.jp/plugin/ldblog_rss_plugin.js
@@ -218,6 +219,9 @@ blog.livedoor.jp##div[id^="shitarss_title_"]
 !
 ! NOTE: Blogroll third-party sites
 !
+erodoujinjohoukan.com###toprss
+news30over.com##div[class^="topbox"]
+erodaizensyu.com##p > a[href] > iframe[src^="//blog-rss.com"]
 ||mudainodocument.com/headline9.html
 mudainodocument.com##.menu_cont3
 mudainodocument.com##.menu_title3
@@ -384,7 +388,6 @@ tozanchannel.blog.jp##.article-body-inner div[style="font-size: 120%; padding-le
 gundamlog.com###kijisita_rss2
 kanasoku.info##.headline_middle
 kanasoku.info#?##headrank2:contains(/Pickup|オススメ|注目の記事/)
-||blog.fc2.com/newresu1/html/rss.html
 ||blog.livedoor.jp/kijyomita/rss/
 kijonotakuhaibin.com,kijyomita.com##.osusume-saisin
 ||anicobin.ldblog.jp^$subdocument,~third-party
@@ -623,7 +626,7 @@ kurumachannel.com##.article-body-inner > .bottom-link
 kurumachannel.com##.article-body-inner > div[style="padding-bottom:24px;"]
 ||otasoku.livedoor.biz/otarss.html
 otasoku.livedoor.biz#?##main > .article-footer:has(> .article-post > li > font > b:contains(アンテナ新着記事一覧))
-/rss.html$domain=otasoku.livedoor.biz|onihimechan.com|gahalog.2chblog.jp|blog.livedoor.jp|blog.jp|hosyusokuhou.jp|matometanews.com|vippers.jp|moeasia.net|shuraba.net|shurabanote.com|uwasakijo.net|ikuji-news.com|kagekidan.net|kichimama.com|kijobibouroku.com|blog.2nt.com
+/rss.html$domain=otasoku.livedoor.biz|onihimechan.com|gahalog.2chblog.jp|blog.livedoor.jp|blog.jp|hosyusokuhou.jp|matometanews.com|vippers.jp|moeasia.net|shuraba.net|shurabanote.com|uwasakijo.net|ikuji-news.com|kagekidan.net|kichimama.com|kijobibouroku.com|blog.2nt.com|blog.fc2.com|news30over.com
 /rss1.html$domain=blog.jp|blog.livedoor.jp
 /rss2.html$domain=blog.livedoor.jp|ani-chat.net|squallchannel.com|shuraba.net|uwasakijo.net|ikuji-news.com|kichimama.com|kijobibouroku.com|kimagure-kijyo.com
 /rss3.html$domain=ani-chat.net|kimagure-kijyo.com
@@ -723,7 +726,8 @@ bottisoku.blog.2nt.com##div[style^="width:1200px;height:280px"]
 eromanga-cafe.com###custom_html-4
 eromanga-cafe.com###custom_html-7
 eromanga-cafe.com##.loop-single-widget
-eromanga-moeerolibrar.com,eromanga-life.com,ero-mangacafe.com,dojin-pandemic.com,dojinwatch.com,eromanga-castle.com,doujincafe.com,ero-manga-platinum.net,ero-mangasokuhou.com,ero-comic-hunter.net,eromanga-cafe.com,eromanga-sevendays.net,moeero-library.com##.boxi800
+erocomic-hunter.net,eromanga-moeerolibrar.com,eromanga-life.com,ero-mangacafe.com,dojin-pandemic.com,dojinwatch.com,eromanga-castle.com,doujincafe.com,ero-manga-platinum.net,ero-mangasokuhou.com,ero-comic-hunter.net,eromanga-cafe.com,eromanga-sevendays.net,moeero-library.com##.boxi800
+||erocomic-hunter.net/sp_rss_iframe.html
 kidan-m.com,otakumix.doorblog.jp###rss1
 otakumix.doorblog.jp##iframe[src="http://otakumix.doorblog.jp/testrss.html"]
 openworldnews.net###headline
@@ -1372,7 +1376,7 @@ full-count.jp#?#section > div.c-heading:has(> p.c-heading__en:contains(RECOMMEND
 !
 !   SECTION: Widgets - Chats (specific)
 !   NOTE: chatango.com widget
-sportnews.to,footlive.me.pokemon-tube.com,shirainime.com,daemon-hentai.com,seirsanduk.us,sedsports.com,139.99.120.222,indoxxi.show,aniwatcher.com,mylivecricket.info,debrid-file.com,streamonsport.info,gdplayer.tv##iframe[src*="chatango.com"]
+footlive.me.pokemon-tube.com,shirainime.com,daemon-hentai.com,seirsanduk.us,sedsports.com,139.99.120.222,indoxxi.show,aniwatcher.com,mylivecricket.info,debrid-file.com,streamonsport.info,gdplayer.tv##iframe[src*="chatango.com"]
 ||st.chatango.com^$domain=mysocceraustralia.com|xtapes.to|streamonsports.cc|footlive.me|neonime.site|psntvs.me|hesgoal.com|sanzisport.com|goanimelist.me|pokemon-tube.com|animeindo.moe|shirainime.com|daemon-hentai.com|seirsanduk.us|sedsports.com|139.99.120.222|indoxxi.show|cricfree.live|bosscast.net|aniwatcher.com|mylivecricket.info|debrid-file.com|neonime.vip|streamonsport.info|snahp.it|worldcupfootball.me|gdplayer.tv
 streamonsports.cc,streamonsport.info##.chatango
 139.99.120.222,indoxxi.show##.chatango-btn
@@ -1717,6 +1721,7 @@ subbota.ua##aside.sidebar > div[id^="custom_html-"]
 !
 !   NOTE: Donation widgets (which are really annoying only)
 !
+ridl.io##article-donate
 takiedela.ru##.b-post__help
 zona.media##.donate-banner
 holod.media#?#.sectiontwone__cta:has(.donate-inline)

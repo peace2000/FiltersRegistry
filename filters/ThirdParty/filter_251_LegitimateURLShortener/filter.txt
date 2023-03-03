@@ -1,6 +1,6 @@
 !
 ! Title: ➗ Actually Legitimate URL Shortener Tool
-! OriginalVersion: 26February2023v4
+! OriginalVersion: 02March2023v2
 ! Expires: 1 day
 ! Description: In a world dominated by bit.ly, adf.ly, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary $/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
@@ -242,7 +242,7 @@ $removeparam=/^OCID=/i,domain=~youtube.com|~reiseauskunft.bahn.de
 !#if adguard
 @@$removeparam=/^OCID=/i,app=Microsoft.Msn.News.exe
 !#endif
-$removeparam=tduid,domain=~redir.tradedoubler.com
+$removeparam=tduid,domain=~tradedoubler.com
 $removeparam=irclickid
 $removeparam=irclicid
 $removeparam=intcmp
@@ -1334,7 +1334,8 @@ $removeparam=sk,domain=bing.com|aliexpress.*
 ||bing.com/search?$removeparam=cvid
 !!! @@||bing.com/AS/Suggestions?$removeparam=cvid
 ! https://www.bing.com/search?q=brew+milk+video+heathly+or+brainwash&shtp=GetUrl&shid=52ffd333-de86-43eb-8e42-3c4b8d86b6a3&shtk=RHJpbmsgT25lIEdsYXNzIG9mIE1pbGsgYSBEYXkuIEJldHRlciBCb25lcyBvciBCcmFpbndhc2hpbmc%2F&shdk=VGhpcyB2aWRlbyBpcyBzcG9uc29yZWQgYnkgRGFzaGxhbmUuIFRyeSBpdCBmcmVlIGZvciAzMCBkYXlzIGF0IGh0dHBzOi8vd3d3LmRhc2hsYW5lLmNvbS9icmV3IElmIHlvdSBsaWtlIGl0LCB1c2UgdGhlIGNvZGUg4oCYYnJld%2BKAmSBmb3IgMTAlIG9mZiBhdCBjaGVja291dCBJcyBtaWxrIGdvb2Qgb3IgYmFkIGZvciB5b3U%2FIElzIGl0IHJlYWxseSBoZWFsdGh5IGZvciB5b3VyIGJvbmVzPyBXaHkgYXJlIHJlc2VhcmNoZXJzIGFuZCBzY2llbnRpc3RzIHNwZWFraW5nIGFnYWluc3QgaXQ%2FIElzIHRoZSBmb29kIGluZHVzdHJ5IGhpZGluZyBzb21ldGhpbmcgZnJvbSB1cz8gTGV0J3MgZmluZCBvdXQgLi4u&shhk=a8MjbVhOQyCok8qs42amxA6%2B8sUgPQh4DtB4PgJh0gI%3D&shth=OVP.XR1Cz2a0aI5ebTNFbFySUAIIEk
-||bing.com^$removeparam=/^sh/
+! (https://github.com/DandelionSprout/adfilt/issues/796)
+||bing.com^$removeparam=/^sh[a-np-z0-9]/
 ! https://github.com/DandelionSprout/adfilt/pull/504
 ! https://www.bing.com/search?q=Test&cc=CN&setlang=zh-CN&nclid=2F21E165874042D66713EAE9392AD01E&ts=1644819994709&wsso=Moderate (14/02/2022)
 ||bing.com^$removeparam=nclid
@@ -1946,7 +1947,7 @@ $removeparam=name,domain=nytimes.com|nytimesn7cgmftshazwhfgzm37qxb44r64ytbb2dj3x
 $removeparam=m_sc,domain=bloomingdales.com
 ! https://us.boohoo.com/?$3p=a_cj_affiliate&~click_id=8c77e9c00c1e11ec82da00790a180510&~secondary_publisher=Offers.com%20-%20Vertive%2C%20LLC&$canonical_url=https%3A%2F%2Fus.boohoo.com%2F&~keyword=8807380&cj_linkd=12344165&cj_webid=8807380&cj_affid=1397064&cj_affname=Offers.com%20-%20Vertive%2C%20LLC&_branch_match_id=962049055156509358
 ! https://www.forever21.com/?$3p=a_cj_affiliate&~click_id=b8c806cf0cad11ec806d4d010a18050d&~secondary_publisher=Offers.com%20-%20Vertive%2C%20LLC&$canonical_url=http%3A%2F%2Fwww.forever21.com&cj_pub_sid=06gtKjdPmfBs463ojiL8awp&_branch_match_id=962306946010631351
-$removeparam=/^[$],domain=boohoo.com|forever21.com
+$removeparam=/^(\$)/,domain=boohoo.com|forever21.com
 $removeparam=/^\~/,domain=boohoo.com|forever21.com
 ! https://www.columbia.com/?uid=10728209&nid=8807380
 $removeparam=nid,domain=columbia.com|sorel.com
@@ -2145,7 +2146,7 @@ $removeparam=soc_trk
 ||blue-tomato.com^$removeparam=varid
 $removeparam=ia-pkpmtrack
 ||blue-tomato.com^$removeparam=zanox
-||blue-tomato.com^$removeparam=/_[$]ja/
+||blue-tomato.com^$removeparam=/_(\$)ja/
 ||spartoo.$removeparam=sx
 ||spartoo.$removeparam=track_id
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-1206280
@@ -2775,13 +2776,15 @@ $removeparam=refresh,domain=cnn.com
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-2108688
 ||realestate.com.au^$removeparam=rsf
 ! https://github.com/DandelionSprout/adfilt/issues/63#issuecomment-1030398788
-||mail.ru^$removeparam=mt_click_id
+$removeparam=mt_click_id,domain=mail.ru|vkplay.ru
 ! https://www.argos.co.uk/product/9381878?rec=PDP[6537474]:bottomSlider:P1:OHAT:alternatives:9381878:vfsNuIT3JJJV1Pq8begB
 ! https://www.argos.co.uk/events/home-offers?$ja=tsid%3A11674%7Cprd%3A6361382
 ! https://www.argos.co.uk/product/7553213?clickPR=plp:1:165
+! https://www.argos.co.uk/product/1488377?clickCSR=slp:cannedSearch
 $removeparam=rec,domain=argos.co.uk
-$removeparam=/[$]ja/,domain=argos.co.uk
+$removeparam=/(\$)ja/,domain=argos.co.uk
 $removeparam=clickPR,domain=argos.co.uk
+$removeparam=clickCSR,domain=argos.co.uk
 ! https://blog.getadblock.com/getting-started-with-the-adblock-extension-2219b3c7878c?gi=285fe5d9ab7d
 ||blog.getadblock.com^$removeparam=gi
 ! https://www.pinkbike.com/news/all-the-winners-of-the-2021-pinkbike-advent-calendar.html?pbref=p
@@ -3102,49 +3105,49 @@ $removeparam=srsltid,document
 ||dl-protect.net^$removeparam=rl
 ||1fichier.com^$removeparam=af
 ! https://github.com/DandelionSprout/adfilt/pull/721
-||discoveryplus.com^$removeparam=_referrer
+||discoveryplus.com^*_referrer$removeparam=_referrer
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-4505016
 ! https://search.brave.com/images?origin=search&q=example&source=web
 ||search.brave.com/api/suggest$removeparam=source
-||search.brave.com^$removeparam=origin
+||search.brave.com^*origin$removeparam=origin
 ! McAfee "safe search"
-||search.yahoo.com^$removeparam=fr
-||search.yahoo.com^$removeparam=fr2
+||search.yahoo.com^*fr$removeparam=fr
+||search.yahoo.com^*fr2$removeparam=fr2
 ! Yahoo ads, i.e. https://www.malwarebytes.com/?c=cj&s=5370367&k=14452255&tracking=cj&x-wts=cj&x-affid=5370367&ADDITIONAL_AFFID=cj-5370367
-||mcafee.com^$removeparam=adid
-||malwarebytes.com^$removeparam=x-affid
-||malwarebytes.com^$removeparam=ADDITIONAL_AFFID
-||malwarebytes.com^$removeparam=s
-||malwarebytes.com^$removeparam=x-wts
+||mcafee.com^*adid$removeparam=adid
+||malwarebytes.com^*x-affid$removeparam=x-affid
+||malwarebytes.com^*ADDITIONAL_AFFID$removeparam=ADDITIONAL_AFFID
+||malwarebytes.com^*s$removeparam=s
+||malwarebytes.com^*x-wts$removeparam=x-wts
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-4598037
-||reddit.com^$removeparam=%243p
-||reddit.com^$removeparam=%24deep_link
-||reddit.com^$removeparam=post_index
+||reddit.com^*3p$removeparam=%243p
+||reddit.com^*deep_link$removeparam=%24deep_link
+||reddit.com^*post_index$removeparam=post_index
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-4617249
-$removeparam=auto_token,domain=nextdoor.com
-$removeparam=mobile_deeplink_data,domain=nextdoor.com
-$removeparam=link_source_user_id,domain=nextdoor.com
-$removeparam=is,domain=nextdoor.com
-$removeparam=mar,domain=nextdoor.com
+||nextdoor.com^*auto_token$removeparam=auto_token
+||nextdoor.com^*mobile_deeplink_data$removeparam=mobile_deeplink_data
+||nextdoor.com^*link_source_user_id$removeparam=link_source_user_id
+||nextdoor.com^*is$removeparam=is
+||nextdoor.com^*mar$removeparam=mar
 ! https://www.cbs42.com/alabama-news/fedex-driver-identified-questioned-in-case-of-300-400-packages-found-in-alabama-woods/?ipid=wiat_recirc_1%20?ipid=promo-link-block1
-||cbs42.com^$removeparam=ipid
+||cbs42.com^*ipid$removeparam=ipid
 ! yandex.ru redirect
-||dzen.ru^$removeparam=yredirect
+||dzen.ru^*yredirect$removeparam=yredirect,document
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-4649908
-||neeva.com^$removeparam=nva
+||neeva.com^*nva$removeparam=nva
 ! https://noticias.uol.com.br/politica/ultimas-noticias/2023/01/10/quem-e-a-ex-primeira-dama-vista-em-ato-golpista.htm (shared by https://github.com/MasterKia)
-||clicklogger.rm.uol.com.br^$removeparam=grp
-||clicklogger.rm.uol.com.br^$removeparam=msr
-||clicklogger.rm.uol.com.br^$removeparam=oper
+||clicklogger.rm.uol.com.br^*grp$removeparam=grp
+||clicklogger.rm.uol.com.br^*msr$removeparam=msr
+||clicklogger.rm.uol.com.br^*oper$removeparam=oper
 ! https://www.verizon.com/smartphones/apple/?campaignGroup=General&campaignName=UPG%20-%20iPhone%2014%20Hi%20Risk%20BASE%20LT%20-%20EMS&campaignSource=CRM&cmp=CRM_M_CU_CMU_TXUPG_99_99_HRBASE_LT_IPHONE14&expectedTransaction=Order&extSystemTransactionId=[redacted]&sourceID=SmartLink (send via SMS)
-||verizon.com^$removeparam=campaignGroup
-||verizon.com^$removeparam=campaignName
-||verizon.com^$removeparam=campaignSource
+||verizon.com^*campaignGroup$removeparam=campaignGroup
+||verizon.com^*campaignName$removeparam=campaignName
+||verizon.com^*campaignSource$removeparam=campaignSource
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-4677166
-||youtube.com^$removeparam=embeds_euri
-||youtube.com^$removeparam=source_ve_path
+||youtube.com^*embeds_euri$removeparam=embeds_euri
+||youtube.com^*source_ve_path$removeparam=source_ve_path
 ! https://support.google.com/contributionpolicy/answer/7400114?ref_topic=7422769
-||support.google.com^$removeparam=ref_topic
+||support.google.com^*ref_topic$removeparam=ref_topic
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-4686110
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-4690986
 ^ref=hackernoon.com^$removeparam=ref
@@ -3152,49 +3155,51 @@ $removeparam=mar,domain=nextdoor.com
 ^via=futurepedia^$removeparam=via
 ^deal=futurepedia^$removeparam=deal
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-4708147
-||notion.so^$removeparam=gspk
-||notion.so^$removeparam=gsxid
-||notion.so^$removeparam=pscd
+||notion.so^*gspk$removeparam=gspk
+||notion.so^*gsxid$removeparam=gsxid
+||notion.so^*pscd$removeparam=pscd
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-4730018
-||apnews.com/article$removeparam=user_email
+||apnews.com/article*user_email$removeparam=user_email
 ! Links opened from the Windows widget.
 ! https://www.msn.cn/zh-cn/news/other/%E4%B8%89%E6%98%9F%E5%A0%86%E5%8D%9A%E7%89%A9%E9%A6%86%E6%B8%B8%E5%AE%A2%E6%89%93%E6%9E%B6%E6%89%93%E7%BF%BB%E6%96%87%E7%89%A9-%E5%AE%98%E6%96%B9%E5%9B%9E%E5%BA%94/ar-AA16KDtw?cvid=b9a638b9f0c44cd6f56aeea780d8a943&ocid=winp2fptaskbarhover (26/01/2023)
 ! https://pc.yiyouliao.com/msn/article.html?recId=c7bb3fa9b5e9418584afcb4d0544abf5_s&infoId=II00DXC7K9IRVYQ&cvid=8ef4c6755b8149bb91eac6fb9644e045 (26/01/2023)
 ! https://mini.eastday.com/nsa/n230125110013294.html?qid=04426&cvid=ef9c243ff9fd4d5d8606d5a42b2b2023 (26/01/2023)
 $removeparam=cvid,domain=msn.cn|msn.com|chinadaily.com.cn|yiyouliao.com|tianqi.com|eastday.com
 ! https://github.com/enterprise/trial?ref_cta=free%2520trial&ref_loc=banner&ref_page=blog
-||github.com^$removeparam=ref_cta
-||github.com^$removeparam=ref_loc
-||github.com^$removeparam=ref_page
+||github.com^*ref_cta$removeparam=ref_cta
+||github.com^*ref_loc$removeparam=ref_loc
+||github.com^*ref_page$removeparam=ref_page
 ! https://github.com/DandelionSprout/adfilt/pull/759
-||quizlet.com^$removeparam=funnelUUID
-||quizlet.com^$removeparam=signupOrigin
+||quizlet.com^*funnelUUID$removeparam=funnelUUID
+||quizlet.com^*signupOrigin$removeparam=signupOrigin
 ! https://mini.eastday.com/nsa/n230125110013294.html?qid=04426&cvid=ef9c243ff9fd4d5d8606d5a42b2b2023 (26/01/2023)
-||eastday.com^$removeparam=qid
+||eastday.com^*qid$removeparam=qid
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-4962768
 $removeparam=pk_vid,document
 ! https://github.com/ClearURLs/Rules/issues/71
-||xiaohongshu.com^$removeparam=app_platform,document
-||xiaohongshu.com^$removeparam=app_version,document
-||xiaohongshu.com^$removeparam=share_from_user_hidden,document
-||xiaohongshu.com^$removeparam=xhsshare,document
-||xiaohongshu.com^$removeparam=appuid,document
-||xiaohongshu.com^$removeparam=apptime,document
+||xiaohongshu.com^*app_platform$removeparam=app_platform,document
+||xiaohongshu.com^*app_version$removeparam=app_version,document
+||xiaohongshu.com^*share_from_user_hidden$removeparam=share_from_user_hidden,document
+||xiaohongshu.com^*xhsshare$removeparam=xhsshare,document
+||xiaohongshu.com^*appuid$removeparam=appuid,document
+||xiaohongshu.com^*apptime$removeparam=apptime,document
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-4978150
-||tiktok.com^$removeparam=embed_source
+||tiktok.com^*embed_source$removeparam=embed_source
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-4966523
-||login.afreecatv.com^$removeparam=szFrom
+$removeparam=szFrom,document,domain=login.afreecatv.com
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-5081433
 ||typeform.com^$removeparam=typeform-source
 ! https://www.selected.com/en-gb/homme/trousers/slim-fit-trousers-16086553_Grey_966031.html?clickedFromCategory=sl-homme-collection-trousers
-||selected.com^$removeparam=clickedFromCategory
+||selected.com^*clickedFromCategory$removeparam=clickedFromCategory
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-5116401
 $removeparam=natb,domain=duckduckgo.com
-||duckduckgo.com^$removeparam=cp
+||duckduckgo.com^*cp$removeparam=cp
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-5116953
-||cdc.gov^$removeparam=ACSTrackingID
-||cdc.gov^$removeparam=ACSTrackingLabel
-||cdc.gov^$removeparam=deliveryName
+||cdc.gov^*ACSTrackingID$removeparam=ACSTrackingID
+||cdc.gov^*ACSTrackingLabel$removeparam=ACSTrackingLabel
+||cdc.gov^*deliveryName$removeparam=deliveryName
+! https://vkplay.ru/play/game/witchcrafty/?_1lr=63fe2a3d7f8804b0-3412327_2070601-3424209_2073149-3424209_2073149&mt_click_id=mt-k6vwk7-1677601519-2846701076
+$removeparam=_1lr
 !#if !env_mobile
 ! ——— Entries mostly dedicated to maximising image sizes (thus poorly suited for phones) ———
 ! https://sproutsluckycorner.files.wordpress.com/2019/12/ring-fit-adventure-smoothies-1.png?w=600 (Shows the actual raw image instead of a promotion page; 25/11/2020)

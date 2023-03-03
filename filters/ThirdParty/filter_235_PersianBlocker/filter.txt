@@ -2,7 +2,7 @@
 ! Title: PersianBlocker
 ! Description: سرانجام، یک لیست بهینه و گسترده برای مسدودسازی تبلیغ ها و ردیاب ها در سایت های پارسی زبان!
 ! Expires: 2 days
-! Last modified: 2023-02-17
+! Last modified: 2023-03-02
 ! Homepage: https://github.com/MasterKia/PersianBlocker
 ! License: AGPLv3 (https://github.com/MasterKia/PersianBlocker/blob/main/LICENSE)
 ! مشکل/پیشنهاد: https://github.com/MasterKia/PersianBlocker/issues
@@ -56,6 +56,7 @@
 !-------------------------^ Experimental Generic Filters ^-----------------------!
 !-------------------------v Persian Ads/Trackers/Annoyances Filters v-----------------------!
 ! >> A <<
+||adrooz.com^$all
 ||affilio.ir^$all
 ||analyt.ir^$all
 ||scripts-ads.s3.ir-thr-at1.arvanstorage.com^$all
@@ -112,7 +113,7 @@ blogsazan.com##.main_content[style="border-radius:10px;"] > div[style="padding: 
 ||backlink.behtarinseo.ir/ads
 ||backority.ir^$all
 ! https://github.com/AdguardTeam/AdguardFilters/issues/99240
-||blogfa.com/a^
+||blogfa.com/a^$script,~third-party
 ! >> C <<
 ||cayot.ir^$all
 ! Example: tamasha.com/v/DDlMB
@@ -275,16 +276,18 @@ blogsazan.com##.main_content[style="border-radius:10px;"] > div[style="padding: 
 ||tabligheirani.ir^$all
 ||tbli.ir^$all
 ||tavoos.net^$all
-@@||player.tavoos.net/jwplayer.js$script
-@@||player.tavoos.net/jwplayer.core.controls.html5.js$script
-@@||player.tavoos.net/tavoos-player.css$stylesheet
-@@||player.tavoos.net/assets/fonts/$font
-@@||player.tavoos.net/assets/$image
-! ^ Example: film.tebyan.net
-@@||tavoos.net/tavoos_player/jwplayer/jwplayer.js$script
-@@||tavoos.net/tavoos_player/jwplayer/jwplayer.core.controls.html5.js$script
-@@||tavoos.net/tavoos_player/jwplayer/tavoos-player.css$stylesheet
-@@||tavoos.net/tavoos_player/jwplayer/assets/$image
+@@||player.tavoos.net/jwplayer.js$script,third-party
+@@||player.tavoos.net/jwplayer.core.controls.html5.js$script,third-party
+@@||player.tavoos.net/jwplayer.core.controls.js$script,third-party
+@@||player.tavoos.net/provider.hlsjs.js$script,third-party
+@@||player.tavoos.net/tavoos-player.css$stylesheet,third-party
+@@||player.tavoos.net/assets/fonts/$font,third-party
+@@||player.tavoos.net/assets/$image,third-party
+! ^ Example: film.tebyan.net, namayesh.com
+@@||tavoos.net/tavoos_player/jwplayer/jwplayer.js$script,third-party
+@@||tavoos.net/tavoos_player/jwplayer/jwplayer.core.controls.html5.js$script,third-party
+@@||tavoos.net/tavoos_player/jwplayer/tavoos-player.css$stylesheet,third-party
+@@||tavoos.net/tavoos_player/jwplayer/assets/$image,third-party
 ! ^ Example: alef.ir/news/4010916082.html
 ||cashback.takhfifan.com^$all
 ! Example: https://portal.server.ir/cart.php?a=confproduct&i=0
@@ -704,6 +707,10 @@ click.ir##.clads-inner
 ||caffecinema.com/media/banners/
 @@||caffecinema.com/media/banners/telegram-$image,~third-party
 ! >> D <<
+! https://github.com/MasterKia/PersianBlocker/issues/136
+||cdn.dolatebahar.ir/upload/Ads^$image,~third-party
+||sai.co.ir^$third-party,domain=dolatebahar.ir
+dolatebahar.ir##.ads-link
 ! https://github.com/MasterKia/PersianBlocker/issues/130
 daneshchi.ir##div[id^="ads"]
 dlrozaneh.ir##.index-adstop > a:not([href*="dlrozaneh.ir"])
@@ -1524,6 +1531,10 @@ lahzeakhar.com#%#//scriptlet('ubo-set.js', 'customnotify', 'noopFunc')
 ||lahzeakhar.com/ShowAds
 ! ||lahzeakhar.com/sw.js
 ! >> M <<
+||mihanvideo.com/static/js/video_player/jwplayer/plugins/vast/vast.js^$script,~third-party
+||mihanvideo.com/static/js/video_player/jwplayer/*/jwpsrv.js^$script,~third-party
+||mihanvideo.com/log^$xmlhttprequest,~third-party
+mihanvideo.com##.side-ads
 ||movienama.com/wp-content/uploads/*.gif$image
 movienama.com##.opanel-ads
 ! https://github.com/MasterKia/PersianBlocker/issues/108
@@ -1634,6 +1645,12 @@ myhastidl.cam#%#//scriptlet('ubo-set.js', 'needpop', '0')
 myhastidl.cam##center:nth-of-type(2)
 myhastidl.cam##.col-xs-12.col-md-6.main-sidebar > center
 ! >> N <<
+||namayesh.com/assets/ads^$image
+! ^ no $1p, because it's used by mihanvideo.com
+||namayesh.com/configuration/v1/video/*/lazyads^$xmlhttprequest,~third-party
+||namayesh.com/configuration/v1/video/*/log^$xmlhttprequest,~third-party
+namayesh.com###advertise
+namayesh.com###promotion
 nab-music.com#%#//scriptlet('ubo-aopr.js', 'vc_url')
 ! https://github.com/MasterKia/PersianBlocker/issues/72
 ! https://github.com/MasterKia/PersianBlocker/pull/81
@@ -1710,6 +1727,12 @@ opizo.me##.text-left:has-text(/ثانیه|رد تبلیغ/) > p
 !#endif
 omidnamehnews.ir##.adspanel
 ! >> P <<
+||analytics.plaza.ir^$all
+||plaza.ir/location/find-client-location^$xmlhttprequest,~third-party
+||plaza.ir/wp-admin/admin-ajax.php?action=getClientDeviceRelatedPostItems^$xmlhttprequest,~third-party
+plaza.ir##.ad--content
+plaza.ir##.post > .post__content > .post__category:has-text(رپورتاژ آگهی):upward(.post)
+plaza.ir#@#.ad__header
 ! https://github.com/MasterKia/PersianBlocker/issues/103
 ||par30media.com/wp-content/uploads/*.gif
 par30media.com##.right-sidebar > aside > .tit-side:has-text(لینک های مفید):upward(aside)
@@ -1781,6 +1804,7 @@ persiangfx.com##div.tab.sidebar-box:nth-of-type(2) > h3
 ||androidsharp.com^$image,domain=p30afzar.com
 p30afzar.com##.ADS_header_all
 p30afzar.com##.download-link-ads-below
+p30download.ir#%#//scriptlet('ubo-acis.js', 'document.getElementById', 'style.display')
 p30download.ir###fxp
 p30download.ir##.sidebar-tabliq
 p30download.ir##.basic-list-linkdump
@@ -2157,6 +2181,8 @@ saat24.news##section.box ul > li.bklnk:upward(section.box)
 @@||1000site.ir/asset/images/images/adpage/$image,~third-party
 @@||1000site.ir/home/ads/asset/favicon.ico$image,~third-party
 ! >> T <<
+||tvrooz.com/analytics.js^$script,~third-party
+||tvrooz.com/tvrooz-analytics.js^$script,~third-party
 ! https://github.com/MasterKia/PersianBlocker/issues/129
 ^utm_source=takhfife.com^$document,removeparam=/^utm_/
 takhfife.com##.adcbar
@@ -2523,6 +2549,7 @@ yasdl.com##.row.fixed-post.post
 yasdl.com##.sidebar-textads
 yeknet.ir#%#//scriptlet('ubo-aopr.js', 'needpop')
 ! >> Z <<
+||zinofilm.ir/wp-json/wp-statistics^$xmlhttprequest,~third-party
 ! https://github.com/MasterKia/PersianBlocker/issues/30
 ||zibamoon.com/Files/Ads/$image,~third-party
 zibamoon.com##.BannerA
@@ -2691,6 +2718,10 @@ zoomtech.org###posts_single_ads
 ||frzss.com^$document
 ! https://github.com/Webamoozcom/warning-list/discussions/138
 ||hoho.mobi^$document
+! https://github.com/Webamoozcom/warning-list/discussions/170
+||unitedsolarinfinity.com^$document
+! https://github.com/Webamoozcom/warning-list/discussions/171
+||mogo-crypto.net^$document
 !-------------------------^ Scam Sites ^-----------------------!
 !-------------------v Malware/Phishing Sites v-----------------!
 ! https://shahrsakhtafzar.com/fa/news/security/42227-google-play-rubika-app-spy-users-personal-information
@@ -2768,6 +2799,16 @@ www.google.com#$#.g a[href*="nilz.ir"]> h3::after { content: ' [دارای حذ�
 www.google.com#$#.g a[href*="lovinfilm.ir"]> h3::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }
 www.google.com#$#.g a[href*="centerdl.ir"]> h3::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }
 www.google.com#$#.g a[href*="fardisfilm.ir"]> h3::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }
+www.google.com#$#.g a[href*="tvrooz.com"]> h3::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }
+www.google.com#$#.g a[href*="bi3-seda.ir"]> h3::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }
+www.google.com#$#.g a[href*="disfilm.ir"]> h3::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }
+www.google.com#$#.g a[href*="myavanet.ir"]> h3::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }
+www.google.com#$#.g a[href*="jaheshmovie.ir"]> h3::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }
+www.google.com#$#.g a[href*="farafilm.net"]> h3::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }
+www.google.com#$#.g a[href*="parsafilm.com"]> h3::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }
+www.google.com#$#.g a[href*="zinofilm.ir"]> h3::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }
+www.google.com#$#.g a[href*="glp.ir"]> h3::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }
+www.google.com#$#.g a[href*="hastidl.ir"]> h3::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }
 !#if env_mobile
 www.google.com#$#a[href*="filmr.ir"] div[role="link"]::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }
 www.google.com#$#a[href*="doostihaa.com"] div[role="link"]::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }
@@ -2838,6 +2879,16 @@ www.google.com#$#a[href*="nilz.ir"] div[role="link"]::after { content: ' [دار
 www.google.com#$#a[href*="lovinfilm.ir"] div[role="link"]::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }
 www.google.com#$#a[href*="centerdl.ir"] div[role="link"]::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }
 www.google.com#$#a[href*="fardisfilm.ir"] div[role="link"]::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }
+www.google.com#$#a[href*="tvrooz.com"] div[role="link"]::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }
+www.google.com#$#a[href*="bi3-seda.ir"] div[role="link"]::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }
+www.google.com#$#a[href*="disfilm.ir"] div[role="link"]::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }
+www.google.com#$#a[href*="myavanet.ir"] div[role="link"]::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }
+www.google.com#$#a[href*="jaheshmovie.ir"] div[role="link"]::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }
+www.google.com#$#a[href*="farafilm.net"] div[role="link"]::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }
+www.google.com#$#a[href*="parsafilm.com"] div[role="link"]::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }
+www.google.com#$#a[href*="zinofilm.ir"] div[role="link"]::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }
+www.google.com#$#a[href*="glp.ir"] div[role="link"]::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }
+www.google.com#$#a[href*="hastidl.ir"] div[role="link"]::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }
 !#endif
 !#if (adguard_app_android || adguard_app_ios)
 www.google.com#$#a[href*="filmr.ir"] div[role="link"]::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }
@@ -2909,6 +2960,16 @@ www.google.com#$#a[href*="nilz.ir"] div[role="link"]::after { content: ' [دار
 www.google.com#$#a[href*="lovinfilm.ir"] div[role="link"]::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }
 www.google.com#$#a[href*="centerdl.ir"] div[role="link"]::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }
 www.google.com#$#a[href*="fardisfilm.ir"] div[role="link"]::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }
+www.google.com#$#a[href*="tvrooz.com"] div[role="link"]::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }
+www.google.com#$#a[href*="bi3-seda.ir"] div[role="link"]::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }
+www.google.com#$#a[href*="disfilm.ir"] div[role="link"]::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }
+www.google.com#$#a[href*="myavanet.ir"] div[role="link"]::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }
+www.google.com#$#a[href*="jaheshmovie.ir"] div[role="link"]::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }
+www.google.com#$#a[href*="farafilm.net"] div[role="link"]::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }
+www.google.com#$#a[href*="parsafilm.com"] div[role="link"]::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }
+www.google.com#$#a[href*="zinofilm.ir"] div[role="link"]::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }
+www.google.com#$#a[href*="glp.ir"] div[role="link"]::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }
+www.google.com#$#a[href*="hastidl.ir"] div[role="link"]::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }
 !#endif
 duckduckgo.com#$#a[data-testid="result-title-a"][href*="filmr.ir"]::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }
 duckduckgo.com#$#a[data-testid="result-title-a"][href*="doostihaa.com"]::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }
@@ -2979,6 +3040,16 @@ duckduckgo.com#$#a[data-testid="result-title-a"][href*="nilz.ir"]::after { conte
 duckduckgo.com#$#a[data-testid="result-title-a"][href*="lovinfilm.ir"]::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }
 duckduckgo.com#$#a[data-testid="result-title-a"][href*="centerdl.ir"]::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }
 duckduckgo.com#$#a[data-testid="result-title-a"][href*="fardisfilm.ir"]::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }
+duckduckgo.com#$#a[data-testid="result-title-a"][href*="tvrooz.com"]::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }
+duckduckgo.com#$#a[data-testid="result-title-a"][href*="bi3-seda.ir"]::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }
+duckduckgo.com#$#a[data-testid="result-title-a"][href*="disfilm.ir"]::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }
+duckduckgo.com#$#a[data-testid="result-title-a"][href*="myavanet.ir"]::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }
+duckduckgo.com#$#a[data-testid="result-title-a"][href*="jaheshmovie.ir"]::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }
+duckduckgo.com#$#a[data-testid="result-title-a"][href*="farafilm.net"]::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }
+duckduckgo.com#$#a[data-testid="result-title-a"][href*="parsafilm.com"]::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }
+duckduckgo.com#$#a[data-testid="result-title-a"][href*="zinofilm.ir"]::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }
+duckduckgo.com#$#a[data-testid="result-title-a"][href*="glp.ir"]::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }
+duckduckgo.com#$#a[data-testid="result-title-a"][href*="hastidl.ir"]::after { content: ' [دارای حذفیات] ' !important; color: #E6000D !important; }
 !-------------------------^ Warning for video censorship sites ^-----------------------!
 !-------------------------v Tajikistan sites v-----------------------!
 ! https://github.com/MasterKia/PersianBlocker/issues/116
@@ -2990,4 +3061,10 @@ oila.tj##.new-banner
 ||takvim.tj/animation/adv_top_slide^
 takvim.tj##a[name^=Advertisement]:upward(.wb_element)
 !-------------------------^ Tajikistan sites ^-----------------------!
+!------------------------v Afghanistan sites v-----------------------!
+benawa.com##.benawa_contentarea .benawa_treeads:upward(.benawa_contentarea)
+benawa.com##.pix_of_day
+benawa.com##div[style="margin-top:4px;overflow:hidden;"]
+benawa.com##div[style="margin-top:5px;margin-bottom:3px; overflow:hidden;"]
+!------------------------^ Afghanistan sites ^-----------------------!
 
