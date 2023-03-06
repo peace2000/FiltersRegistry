@@ -33,7 +33,7 @@
 	},
 	{
 		"filter.9.name": "AdGuard Spanish/Portuguese filter",
-		"filter.9.description": "Filter list that specifically removes ads on websites in the Spanish and Portuguese languages."
+		"filter.9.description": "Filter list that specifically removes ads on websites in Spanish, Portuguese, and Brazilian Portuguese languages."
 	},
 	{
 		"filter.10.name": "Filter unblocking search ads and self-promotion",
