@@ -7,10 +7,6 @@
 @include ../general_js_api.txt
 !
 !-------------------------------------------------------------------------------!
-!------------------ Common advertising networks --------------------------------!
-!-------------------------------------------------------------------------------!
-@include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/CyrillicFilters/common-sections/adservers.txt"
-!-------------------------------------------------------------------------------!
 !------------------ Common banner names ----------------------------------------!
 !-------------------------------------------------------------------------------!
 @include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/CyrillicFilters/common-sections/general_url.txt"
@@ -22,6 +18,7 @@
 !-------------------------------------------------------------------------------!
 !------------------ Advertising networks ---------------------------------------!
 !-------------------------------------------------------------------------------!
+@include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/CyrillicFilters/common-sections/adservers.txt"
 @include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/CyrillicFilters/common-sections/adservers_firstparty.txt"
 @include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/CyrillicFilters/UkrainianFilter/sections/adservers_firstparty.txt"
 !-------------------------------------------------------------------------------!
