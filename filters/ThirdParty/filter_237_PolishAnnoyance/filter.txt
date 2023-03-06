@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Fri, 03 Mar 2023, 16:30 UTC+01:00
-! OriginalVersion: 2023.3.3.1
+! Last modified: Mon, 06 Mar 2023, 01:31 UTC+01:00
+! OriginalVersion: 2023.3.6.0
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: pią, 03 mar 2023, 16:30 UTC+01:00
+! Aktualizacja: pon, 06 mar 2023, 01:31 UTC+01:00
 !
 !
 ! Newslettery (nie popupy)
@@ -172,7 +172,6 @@ apollo.pl##.newsletter-block-container
 apptoyou.pl##.row.flex.bubble-r-container.CustomElement.bubble-element > .row.flex.bubble-r-container.Group.bubble-element > div.column.flex.bubble-r-container.Group.bubble-element:nth-of-type(2) > .column.flex.bubble-r-container.Group.bubble-element
 apshop24.eu,paperlovers.pl###newsletter-bar
 apteka-niezapominajka.pl##.tnp-widget.tnp > a[href$="/Newsletter_akcept/"]
-aptekagemini.pl,gemini.pl##.footer__subscription
 apteline.pl##.footer__connect-newsletter
 arbiton.com,indigo-nails.com,korbo.eu,krasnik.eu##.newsletter-section
 architektura.info###PopupSignupForm_0
@@ -944,7 +943,6 @@ lawendowykredens.pl##.footer-static > div.col-sms-12:nth-of-type(3)
 lebork24.info###newsletterAdd
 lechia.pl##div.foot-cols.row:nth-of-type(2) > div.col-item:nth-of-type(3)
 lechpol.pl##.js__newsletter_form
-lechpol.pl,speckable.pl##.ins-l-footer__col-newsletter
 lectus24.pl###addme
 lectus24.pl##.mobile-addme
 legalnews24.pl##.bezplatny_bliuletyn
@@ -1577,7 +1575,7 @@ sonos.com##.newsletter.columns.medium-6
 sopot.naszemiasto.pl###dodaj-newsletter
 soselectronic.pl##.col-footer-newsletter.col
 speak-up.pl##.plywajacy-formularz-container
-speckable.pl##.ins-v-newsletter-signup-form
+speckable.pl##.ins-l-footer__col-newsletter
 spedycje.pl##[href*="newsletter_dodaj/"]
 spidersonline.pl##.st_news_letter_container
 spirulina.pl#?#.template-page:-abp-has(.av-special-heading-tag:-abp-contains(/^Newsletter Spirulina$/))
@@ -1790,6 +1788,7 @@ wakacje.pl##footer > form[class][method="post"][action*="/newsletter.html"]
 waldtour.pl##.mailpoet-newsletter
 walerystasiak.com#?##content > .vc_row-has-fill.ult-vc-hide-row.vc_row-fluid.wpb_row.vc_row:-abp-contains(/newsletter/i)
 walmark.pl##.footer div[class]:nth-of-type(3) > .footer__heading
+walutomat.pl###newsletter-signup-box
 wamiz.pl##footer > div:nth-child(2)
 wasserman.eu#?#footer[class]:not([id]) + div[class]:not([id]):-abp-contains(Promocje, nowości)
 waszaslowacja.pl,waszaturystyka.pl#?#.site-footer .row-child.unequal:-abp-has(.your-email)
@@ -1849,6 +1848,7 @@ wrp.pl#?#.td-ss-main-sidebar > div:-abp-has(form)
 wsei.edu.pl###wsei-footer > div.vc_col-sm-3.wpb_column:nth-of-type(5)
 wseit.edu.pl###btn-newsletter
 wspieramrozwoj.pl##.newslatter
+wszystkiegoslodkiego.pl##.ws-footer__center > div > div > div > div > .text-lg-left.col-12
 wtk.pl###newsletter-animated-box
 www.aboutyou.pl#?#footer[class*="footerContainer"] > div:-abp-contains(newslettera)
 www.auchan.pl##.footer-newsletter-block > * > * > *
@@ -2637,7 +2637,7 @@ kalkulatorkalorii.net###getresponse, .modal-backdrop
 kameshop.pl##.background, #tws_s_100001, #tws_i_100001
 kamira90.blogspot.com,pelnytalerz.com,vetopedia.pl###fbox-background, #fbox-close
 kancelaria.info#?#.popmake-overlay.pum-overlay.pum:-abp-has(h6:-abp-contains(ANALIZA UMOWY))
-kapitalni.org##.exit-popup
+kapitalni.org,walutomat.pl##.exit-popup
 karmiepsiaki.pl###fb-back
 karmiepsiaki.pl###fb-exit
 karmopedia.pl,przedsiebiorcza.com#?#.spu-bg:-abp-has(~ .spu-box .spu-facebook-page)
@@ -3581,7 +3581,6 @@ apartamenty.nawyspie.eu##.roll
 apo-discounter.pl###page_up_button
 apollo.pl##.tt-scroll-up
 appsource.microsoft.com##.appSourceScrollToTop
-aptekagemini.pl,audilo.pl,douglas.pl,eadamex.pl,gemini.pl##.scroll-to-top-button
 aptekaolmed.pl###btn-going-top
 apteline.pl,bebiklub.pl,funnycat.pl,igkm.pl,itcontent.eu,piu.org.pl,quiosque.pl,selectivv.com##.scroll-top-button
 aquaelzoo.pl,ksiazka.uk,orsay.com##.material-scrolltop
@@ -3603,6 +3602,7 @@ atmp.pl,b2net.pl,encycolorpedia.pl,fama.org.pl,jakzarabiaconline.blogspot.com,po
 auchan.pl##.button-go-top
 auchan.pl##.tooltip.right > button ~ button[style*="width: 10px"]
 auchanhetmanska.pl##.js-a-ScrollTop.a-ScrollTop
+audilo.pl,douglas.pl,eadamex.pl##.scroll-to-top-button
 audio.com.pl###return-btn
 audio.com.pl,babymanager.pl,florydziak.com,ktociewyleczy.pl,stacmnienato.pl###return-top
 audio.com.pl,jagiellonski.pl,laciate.pl,neo24.pl,neonet.pl,nowaruda-broumov.eu,rankomat.pl##.arrow-up
@@ -3759,6 +3759,7 @@ dolinski.pl##.ab__scroll_to_top
 domodi.pl##.dm-go-up
 domodi.pl##.dml-page-return
 domowa.pizza##.smoothup
+domowe-wypieki.pl##.sunfw-scrollup
 domowefrytki.com,hulubrushes.com,twojlekarz.info##.generate-back-to-top
 domy-wysoka.pl,dziennikprawny.pl,politykabezpieczenstwa.pl,prawokonsumenckie.pl,rzetelnyregulamin.pl,sprzedambiznes.pl##.js-go-to
 domzagadek.pl###scroll_strz
@@ -3855,6 +3856,7 @@ gazetamikolowska.eu###jsn-gotoplink
 gazetaspoleczna.pl###top-return
 gdansk.pl##button.btn.rounded-circle[style]
 gearbest.com##.js-toTop.siteAside_toTop
+gemini.pl##button[aria-label="przejdz do góry strony"]
 gemius.pl,inford.eu,instalterm.eu,wgospodarce.pl##.btn-top
 generali.pl###fe-scroll-nav
 getruck.eu###scrollUp_arrow
@@ -5514,7 +5516,6 @@ apptoyou.pl##.column.flex.bubble-r-container.floating-group.CustomElement.bubble
 aprmedia.pl##.et_bloom_header_outer
 apsdata.pl###slide_box
 aptekagalen.pl##div.banners.aside-banners
-aptekagemini.pl,gemini.pl##swiper-carousel[class*="adserver"]
 aptekaolmed.pl###productOfTheDay
 arcanagis.pl##.article__popup
 architekturaibiznes.pl##.baner-metka
@@ -5818,6 +5819,7 @@ gdansk.pl##.pop.bat2
 gdanskstrefa.com,raportrolny.pl###related-posts-wrapper-flyout
 geek.justjoin.it##ul[id^="offers-list"]
 geek.justjoin.it,menworld.pl,oscarrak.pl,zxu.pl###slide-in-box
+gemini.pl##swiper-carousel[class*="adserver"]
 gerda.pl##.swimmer
 gerde.pl##.floating-button
 germany.travel##.popover-country
@@ -6457,6 +6459,7 @@ youtube.com#?##contentWrapper > .ytd-popup-container:-abp-has(> .yt-tooltip-rend
 youtube.com#?#paper-dialog:-abp-has(ytd-mealbar-promo-renderer)
 youtube.com#?#tp-yt-paper-dialog:-abp-has(yt-mealbar-promo-renderer:-abp-contains(Zacznij wspierać ten kanał))
 youtube.com#?#ytd-popup-container > tp-yt-paper-dialog > ytd-mealbar-promo-renderer:-abp-has(h2:-abp-contains(Zacznij wspierać ten kanał))
+yves-rocher.pl##.layout-banner__top.layout-banner
 z-hotel.com###repuso_floating
 zadowolenie.pl##.b-bragLabel
 zapytaj.onet.pl##.know-better-answer

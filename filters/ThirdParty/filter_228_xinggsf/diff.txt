@@ -8,8 +8,6 @@
 */market-$script
 ! ||img0.pcgames.com.cn^$object,object-subrequest is excluded by ",object-subrequest" in exclusions.txt
 ||img0.pcgames.com.cn^$object,object-subrequest
-! ||g.163.com/$~object-subrequest is excluded by "$~object-subrequest" in exclusions.txt
-||g.163.com/$~object-subrequest
 ! */7mad.$image,object,object-subrequest is excluded by ",object-subrequest" in exclusions.txt
 */7mad.$image,object,object-subrequest
 ! */ejia360$image,object,object-subrequest is excluded by ",object-subrequest" in exclusions.txt
@@ -146,8 +144,8 @@ new.qq.com##+js(set, SSPAd.prototype.loadAd, noopFunc)
 le.com##+js(set, isAdLoaded, true)
 ! Rule "||letvimg.com/$object,xhr" converted to: "||letvimg.com/$object,xmlhttprequest"
 ||letvimg.com/$object,xhr
-! Rule "www.douyu.com##+js(aeld,/visibilitychange|pagehide/)" converted to: "www.douyu.com#%#//scriptlet('ubo-aeld.js', '/visibilitychange|pagehide/')"
-www.douyu.com##+js(aeld,/visibilitychange|pagehide/)
+! Rule "cctv.com,www.douyu.com##+js(aeld,/visibilitychange|pagehide/)" converted to: "cctv.com,www.douyu.com#%#//scriptlet('ubo-aeld.js', '/visibilitychange|pagehide/')"
+cctv.com,www.douyu.com##+js(aeld,/visibilitychange|pagehide/)
 ! Rule "douyu.com##+js(set, RTCPeerConnection.prototype.addTrack, noopFunc)" converted to: "douyu.com#%#//scriptlet('ubo-set.js', 'RTCPeerConnection.prototype.addTrack', 'noopFunc')"
 douyu.com##+js(set, RTCPeerConnection.prototype.addTrack, noopFunc)
 ! Rule "*_ad_$media,domain=youtube.com,3p" converted to: "*_ad_$media,domain=youtube.com,third-party"
@@ -180,5 +178,3 @@ netflix.mom,netflixya.com,yanetflix.com##+js(aopw,document.onkeydown)
 www.sbdm.net##.ads_all:remove()
 ! Rule "yatu.tv,yhdm15.com##+js(set,document.oncontextmenu,trueFunc)" converted to: "yatu.tv,yhdm15.com#%#//scriptlet('ubo-set.js', 'document.oncontextmenu', 'trueFunc')"
 yatu.tv,yhdm15.com##+js(set,document.oncontextmenu,trueFunc)
-Error: "Unknown pseudo-class ':\/\/vip\' in selector: '+js(m3u-prune, /^http/, /^https:\/\/vip\.ffzy-(?:play|online)\d*\..+\.m3u8$/)'" in the rule: "dandanzan.cf,nunuyingyuan.com,ddys.buzz##+js(m3u-prune, /^http/, /^https:\/\/vip\.ffzy-(?:play|online)\d*\..+\.m3u8$/)"
-dandanzan.cf,nunuyingyuan.com,ddys.buzz##+js(m3u-prune, /^http/, /^https:\/\/vip\.ffzy-(?:play|online)\d*\..+\.m3u8$/)
