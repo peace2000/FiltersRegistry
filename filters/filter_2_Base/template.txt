@@ -66,7 +66,9 @@
 !------------------ Content blocker rules --------------------------------------!
 !-------------------------------------------------------------------------------!
 @include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/BaseFilter/sections/content_blocker.txt" /notOptimized
-! Bulgarian filter
+!-------------------------------------------------------------------------------!
+!------------------ Bulgarian filter -------------------------------------------!
+!-------------------------------------------------------------------------------!
 @include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/CyrillicFilters/Bulgarian/sections/filter.txt"
 !-------------------------------------------------------------------------------!
 !------------------ EasyList rules ---------------------------------------------!
