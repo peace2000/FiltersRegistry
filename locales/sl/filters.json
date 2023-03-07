@@ -88,6 +88,10 @@
 		"filter.22.description": "Onemogoča nadležne pripomočke tretjih oseb: spletne pomočnike, klepete s podporo v živo itn."
 	},
 	{
+		"filter.23.name": "Ukrajinski filter AdGuard",
+		"filter.23.description": "Filter, ki omogoča blokiranje oglasov na spletnih mestih v ukrajinskem jeziku."
+	},
+	{
 		"filter.224.name": "AdGuard Kitajski filter",
 		"filter.224.description": "EasyList China + AdGuard Kitajski filter. Seznam filtrov, ki posebej odstrani oglase na spletnih straneh v kitajščini."
 	},

@@ -1,5 +1,9 @@
 [
 	{
+		"tag.68.description": "ウクライナ語ページの広告をブロックするように設計されています。",
+		"tag.68.name": "ウクライナ語専用の広告ブロック"
+	},
+	{
 		"tag.67.description": "ヒンディー語ページの広告をブロックするように設計されています。",
 		"tag.67.name": "Hindi language-specific ad blocking"
 	},

@@ -88,6 +88,10 @@
 		"filter.22.description": "Rahatsız edici üçüncü taraf araçlarını engeller: çevrimiçi asistanlar, canlı destek sohbetleri, vb."
 	},
 	{
+		"filter.23.name": "AdGuard Ukrayna filtresi",
+		"filter.23.description": "Özellikle Ukrayna dilindeki sitelerde reklamları engelleyen filtre."
+	},
+	{
 		"filter.224.name": "AdGuard Çince filtresi",
 		"filter.224.description": "EasyList China + AdGuard Çince filtresi. Özellikle Çince dilindeki sitelerde reklamları engelleyen filtre listesi."
 	},
