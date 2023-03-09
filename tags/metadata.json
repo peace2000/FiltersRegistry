@@ -266,5 +266,13 @@
   {
     "tagId": 67,
     "keyword": "lang:hi"
+  },
+  {
+    "tagId": 69,
+    "keyword": "lang:tg"
+  },
+  {
+    "tagId": 70,
+    "keyword": "lang:ps"
   }
 ]
