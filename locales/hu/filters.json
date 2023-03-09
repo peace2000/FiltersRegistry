@@ -88,6 +88,10 @@
 		"filter.22.description": "Blokkolja a bosszantó harmadik féltől származó widgeteket: online asszisztensek, élő támogatási csevegések stb."
 	},
 	{
+		"filter.23.name": "AdGuard ukrán szűrő",
+		"filter.23.description": "Szűrő, amely lehetővé teszi a hirdetések blokkolását az ukrán nyelvű webhelyeken."
+	},
+	{
 		"filter.224.name": "AdGuard Kínai szűrő",
 		"filter.224.description": "EasyList China + AdGuard Kínai szűrő. Szűrőlista, amely lehetővé teszi a hirdetések blokkolását a kínai nyelvű webhelyeken."
 	},

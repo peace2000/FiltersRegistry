@@ -88,6 +88,10 @@
 		"filter.22.description": "Sperrt lästige Widgets von Drittanbietern: Online-Assistenten, Live-Support-Chats, usw."
 	},
 	{
+		"filter.23.name": "AdGuard — Ukrainischer Filter",
+		"filter.23.description": "Filter, der Anzeigen auf ukrainischen Webseiten sperrt."
+	},
+	{
 		"filter.224.name": "AdGuard — Chinesischer Filter",
 		"filter.224.description": "EasyList China + AdGuard Chinesischer Filter. Filterliste, die spezifisch Werbeanzeigen auf chinesischsprachigen Websites sperrt."
 	},

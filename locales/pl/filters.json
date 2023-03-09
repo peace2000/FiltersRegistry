@@ -88,6 +88,10 @@
 		"filter.22.description": "Blokuje irytujące widżety innych firm: asystenci online, czaty na żywo itp. Już zawarte w filtrze AdGuard Annoyances."
 	},
 	{
+		"filter.23.name": "Ukraiński filtr AdGuard",
+		"filter.23.description": "Filtr umożliwiający blokowanie reklam na stronach internetowych w języku ukraińskim."
+	},
+	{
 		"filter.224.name": "Chiński filtr AdGuard",
 		"filter.224.description": "EasyList China + chiński filtr AdGuard. Filtry, które umożliwiają blokowanie reklam na stronach internetowych zawierających treść po chińsku."
 	},

@@ -88,6 +88,10 @@
 		"filter.22.description": "Bloquea widgets molestos de terceros: asistentes en línea, chats de soporte en vivo, etc."
 	},
 	{
+		"filter.23.name": "Filtro ucraniano de AdGuard",
+		"filter.23.description": "Filtro que permite bloquear anuncios en sitios web en ucraniano."
+	},
+	{
 		"filter.224.name": "Filtro para chino",
 		"filter.224.description": "EasyList China + Filtro para chino. Lista de filtros que elimina específicamente los anuncios en sitios web en idioma chino."
 	},

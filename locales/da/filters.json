@@ -88,6 +88,10 @@
 		"filter.22.description": "Blokerer irriterende tredjeparts-widgets: Onlineassistenter, live support chats mv."
 	},
 	{
+		"filter.23.name": "AdGuard Ukrainsk filter",
+		"filter.23.description": "Filter, der muliggør adblocking på ukrainsksprogede websteder."
+	},
+	{
 		"filter.224.name": "AdGuard Kinesisk filter",
 		"filter.224.description": "EasyList China + AdGuard Kinesisk filter. Filterliste, der specifikt fjerner annoncer på kinesisksprogede websteder."
 	},

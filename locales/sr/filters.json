@@ -88,6 +88,10 @@
 		"filter.22.description": "Blokira dosadne vidžete trećih strana: onlajn asistente, ćaskanja uživo podrške itd."
 	},
 	{
+		"filter.23.name": "AdGuard ukrajinski filter",
+		"filter.23.description": "Filter koji omogućava blokiranje oglasa na Veb lokacijama na ukrajinskom jeziku."
+	},
+	{
 		"filter.224.name": "AdGuard kineski filter",
 		"filter.224.description": "EasyList kineski + AdGuard kineski filter. Lista filtera koja posebno uklanja reklame sa sajtova na kineskom jeziku."
 	},

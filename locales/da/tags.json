@@ -1,5 +1,9 @@
 [
 	{
+		"tag.68.description": "Designet specifikt til adblocking på ukrainsksprogede websider",
+		"tag.68.name": "Sprogspecifik ukrainsk adblocking"
+	},
+	{
 		"tag.67.description": "Designet specifikt til at blokere annoncer på websider på hindi",
 		"tag.67.name": "Sprogspecifik hindi adblocking"
 	},

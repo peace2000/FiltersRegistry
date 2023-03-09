@@ -88,6 +88,10 @@
 		"filter.22.description": "封鎖惱人的第三方小工具：線上助理、實時支援聊天等等。"
 	},
 	{
+		"filter.23.name": "AdGuard 烏克蘭語過濾器",
+		"filter.23.description": "啟用於烏克蘭語網站上的廣告封鎖之過濾器。"
+	},
+	{
 		"filter.224.name": "AdGuard 中文過濾器",
 		"filter.224.description": "EasyList China + AdGuard 中文過濾器。專門地移除於漢語網站上的廣告之過濾清單。"
 	},

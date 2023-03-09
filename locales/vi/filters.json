@@ -88,6 +88,10 @@
 		"filter.22.description": "Chặn các tiện ích gây phiền nhiễu của bên thứ ba: trợ lý trực tuyến, cuộc trò chuyện hỗ trợ trực tiếp, v.v."
 	},
 	{
+		"filter.23.name": "Bộ lọc AdGuard Ukraina",
+		"filter.23.description": "Bộ lọc cho phép chặn quảng cáo trên các trang web bằng tiếng Ukraina."
+	},
+	{
 		"filter.224.name": "Bộ lọc AdGuard tiếng Trung Quốc",
 		"filter.224.description": "EasyList Trung Quốc + Bộ lọc AdGuard tiếng Trung Quốc. Bộ lọc kích hoạt loại bỏ quảng cáo khỏi các trang mạng với nội dung tiếng Trung Quốc."
 	},
