@@ -87,7 +87,7 @@ module.exports = {
             "removeRulePatterns": [
                 "\\$extension",
                 ",extension",
-                "\\$remove(param|header)",
+                "(\\$|,)remove(param|header)",
                 "^((?!#%#).)*\\$\\$|\\$\\@\\$",
                 "\\$(.*,)?mp4",
                 "\\$(.*,)?replace=",
@@ -185,7 +185,7 @@ module.exports = {
         "path": "extension/safari",
         "configuration": {
             "removeRulePatterns": [
-                "\\$remove(param|header)",
+                "(\\$|,)remove(param|header)",
                 "^((?!#%#).)*\\$\\$|\\$\\@\\$",
                 "\\$(.*,)?mp4",
                 "\\$(.*,)?replace=",
