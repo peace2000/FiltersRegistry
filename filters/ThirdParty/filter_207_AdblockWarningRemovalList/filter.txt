@@ -1,15 +1,11 @@
 !
-! Checksum: L+i1ye6jWMUa4W5Gv6OUPg
-! OriginalVersion: 202303061230
+! Checksum: XtqM6cPPz0KgcVeP8hHwmg
+! OriginalVersion: 202303160831
 ! Title: Adblock Warning Removal List
-! Last modified: 06 Mar 2023 12:30 UTC
+! Last modified: 16 Mar 2023 08:31 UTC
 ! Expires: 1 days (update frequency)
-! Homepage: https://easylist.to/
+! Homepage: https://github.com/easylist/antiadblockfilters
 ! Licence: https://easylist.to/pages/licence.html
-!
-! Please report any unblocked obtrusive anti adblock messages or problems
-! in the forums (https://forums.lanik.us/) or via e-mail (easylist.subscription+anti@gmail.com).
-! Please check our guidelines before reporting: https://easylist.to/2013/05/10/anti-adblock-guide-for-site-admins
 !
 ! *** antiadblockfilters:antiadblockfilters/antiadblock_arabic.txt ***
 !
@@ -21,7 +17,9 @@
 !
 @@/adsbygoogle.js$script,domain=arabiaweather.com
 !
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=shahid.mbc.net
 @@||play.bokracdn.run/v2/adsjs/ads.js$script,~third-party
+@@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=shahid.mbc.net
 !
 ###adblock_screen
 ###adblock_message
@@ -36,11 +34,13 @@
 kimo.ma##.adb
 4algeria.com###exposeMask
 chahid4u.tk###unblocker
+okanime.tv##.jconfirm
 4algeria.com##.xenOverlay
 !
 shahid4u.club#@#.adsBox
 !
 @@||ency-educ.com^$generichide
+@@||shahid.mbc.net^$generichide
 !
 ! *** antiadblockfilters:antiadblockfilters/antiadblock_chinese.txt ***
 ! *** antiadblockfilters:antiadblockfilters/antiadblock_czech.txt ***
@@ -477,7 +477,7 @@ debrideurstream.fr#@##pubdirecte
 ot-boutique.fr#@##publicite
 iwin.com#@##sponsorText
 fairytailmx.com#@##sponsored-ad
-hypebeast.com#@#.ad-blocked
+hypebeast.com,hypebeast.kr#@#.ad-blocked
 forum.virtualdjing.com#@#.adFrame
 gamaniak.com#@#.adsbygoogle
 dealerdunet.fr#@#.text_ads
@@ -497,7 +497,7 @@ delfi.ee###ab--notification-ribbon
 minimultik.ru###abDetected
 patrioty.org.ua###ad_pu_modal
 i.factor.ua###adb-info
-mambaru###adblock-in-browser
+sanstv.ru###adblock
 dressupmix.ru,teensgames.ru###adblock_popup
 vesti-ukr.com###adblockpopup
 wotactions.com###ads_warning

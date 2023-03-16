@@ -22510,10 +22510,48 @@ knigipofoto.ru#@#.wrapad
 !
 
 !-------------------------------------------------------------------------------!
+!-------------- Belarusian filter ----------------------------------------------!
+!-------------------------------------------------------------------------------!
 !
-! TODO: remove inclusions below after releasing 'AdGuard for Safari' and 'Content Blocker for Android'
-! Before deleting, check if enough users were upgraded to the version with the new filter
+! This section contains the list of rules that are supposed to work on Bulgarian websites.
 !
+! Good: any type of the rules will be good
+! Bad: @@||example.org^$stealth
+!
+! NOTE: Ad servers
+!
+! NOTE: Allow-list
+!
+! NOTE: Anti-adblock
+!
+! NOTE: Advanced rules (JS, CSS, HTML)
+!
+! NOTE: Specific
+!
+
+!-------------------------------------------------------------------------------!
+!-------------- Kazakh filter --------------------------------------------------!
+!-------------------------------------------------------------------------------!
+!
+! This section contains the list of rules that are supposed to work on Bulgarian websites.
+!
+! Good: any type of the rules will be good
+! Bad: @@||example.org^$stealth
+!
+! NOTE: Ad servers
+!
+! NOTE: Allow-list
+!
+! NOTE: Anti-adblock
+!
+! NOTE: Advanced rules (JS, CSS, HTML)
+!
+! NOTE: Specific
+!
+
+!-------------------------------------------------------------------------------!
+!
+! TODO: remove inclusions below after releasing AdGuard Ukrainian filter
 ! AdGuard Ukrainian filter
 !#if (adguard_ext_safari || adguard_ext_android_cb)
 !

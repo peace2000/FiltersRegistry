@@ -218,6 +218,8 @@ linkedin.com#?#body:style(overflow: auto !important;)
 ||cloudyvideogame.com^$doc
 ! Rule "||marsshooter.org^$doc" converted to: "||marsshooter.org^$document"
 ||marsshooter.org^$doc
+! Rule "||fortevr.com^$doc" converted to: "||fortevr.com^$document"
+||fortevr.com^$doc
 ! Rule "||tplinklogin.net^$doc" converted to: "||tplinklogin.net^$document"
 ||tplinklogin.net^$doc
 ! Rule "||tplinkextender.net^$doc" converted to: "||tplinkextender.net^$document"
@@ -700,34 +702,14 @@ linkedin.com#?#body:style(overflow: auto !important;)
 ||chess-progress.ru^$doc
 ! Rule "||discord.com/invite/askara^$doc" converted to: "||discord.com/invite/askara^$document"
 ||discord.com/invite/askara^$doc
-! Rule "||middledividehour.top^$doc" converted to: "||middledividehour.top^$document"
-||middledividehour.top^$doc
 ! Rule "||landing.marketstm.com^$doc" converted to: "||landing.marketstm.com^$document"
 ||landing.marketstm.com^$doc
-! Rule "||overeverything.co^$doc" converted to: "||overeverything.co^$document"
-||overeverything.co^$doc
-! Rule "||wrappdt.cloudcircuit.co^$doc" converted to: "||wrappdt.cloudcircuit.co^$document"
-||wrappdt.cloudcircuit.co^$doc
-! Rule "||blacknumbers.co^$doc" converted to: "||blacknumbers.co^$document"
-||blacknumbers.co^$doc
-! Rule "||hunterbid.exacad.co^$doc" converted to: "||hunterbid.exacad.co^$document"
-||hunterbid.exacad.co^$doc
 ! Rule "||songlos.com^$doc" converted to: "||songlos.com^$document"
 ||songlos.com^$doc
-! Rule "||correctwantserve.top^$doc" converted to: "||correctwantserve.top^$document"
-||correctwantserve.top^$doc
-! Rule "||insload.bainisgaingeals.com^$doc" converted to: "||insload.bainisgaingeals.com^$document"
-||insload.bainisgaingeals.com^$doc
-! Rule "||viahunter.lafabricagourmet.co^$doc" converted to: "||viahunter.lafabricagourmet.co^$document"
-||viahunter.lafabricagourmet.co^$doc
 ! Rule "||findes.co^$doc" converted to: "||findes.co^$document"
 ||findes.co^$doc
-! Rule "||ooload.qualitywatches.co^$doc" converted to: "||ooload.qualitywatches.co^$document"
-||ooload.qualitywatches.co^$doc
 ! Rule "||sukabumitoday.co^$doc" converted to: "||sukabumitoday.co^$document"
 ||sukabumitoday.co^$doc
-! Rule "||garydouglasnewell.co^$doc" converted to: "||garydouglasnewell.co^$document"
-||garydouglasnewell.co^$doc
 ! Rule "||partdate.yaspiq.co^$doc" converted to: "||partdate.yaspiq.co^$document"
 ||partdate.yaspiq.co^$doc
 ! Rule "||jmtrading.co^$doc" converted to: "||jmtrading.co^$document"
@@ -840,8 +822,6 @@ linkedin.com#?#body:style(overflow: auto !important;)
 ||splendidus.net^$doc,popup
 ! Rule "||directsearchonline.com^$doc,popup" converted to: "||directsearchonline.com^$document,popup"
 ||directsearchonline.com^$doc,popup
-! Rule "||apps-status.net^$doc,popup" converted to: "||apps-status.net^$document,popup"
-||apps-status.net^$doc,popup
 ! Rule "||instaspeedtest.com^$doc,popup" converted to: "||instaspeedtest.com^$document,popup"
 ||instaspeedtest.com^$doc,popup
 ! Rule "||tutatagliente.com^$doc,popup" converted to: "||tutatagliente.com^$document,popup"
@@ -944,6 +924,10 @@ linkedin.com#?#body:style(overflow: auto !important;)
 ||54.219.218.169^$doc
 ! Rule "||elimef.link^$doc" converted to: "||elimef.link^$document"
 ||elimef.link^$doc
+! Rule "://landings.*_slots/?partner=$doc" converted to: "://landings.*_slots/?partner=$document"
+://landings.*_slots/?partner=$doc
+! Rule "||redirect.newprogrammatic.click^$doc" converted to: "||redirect.newprogrammatic.click^$document"
+||redirect.newprogrammatic.click^$doc
 ! Rule "://hullcitytigers.com^$doc" converted to: "://hullcitytigers.com^$document"
 ://hullcitytigers.com^$doc
 ! Rule "/pgxhtogrzm-$doc" converted to: "/pgxhtogrzm-$document"
@@ -984,18 +968,12 @@ linkedin.com#?#body:style(overflow: auto !important;)
 ||2spendless.$doc
 ! Rule "||acrx.co^$doc" converted to: "||acrx.co^$document"
 ||acrx.co^$doc
-! Rule "||acrx.monster^$doc" converted to: "||acrx.monster^$document"
-||acrx.monster^$doc
-! Rule "||acrx.news^$doc" converted to: "||acrx.news^$document"
-||acrx.news^$doc
 ! Rule "||acrx.online^$doc" converted to: "||acrx.online^$document"
 ||acrx.online^$doc
 ! Rule "||acrx.org^$doc" converted to: "||acrx.org^$document"
 ||acrx.org^$doc
 ! Rule "||acrx.press^$doc" converted to: "||acrx.press^$document"
 ||acrx.press^$doc
-! Rule "||acrx.shop^$doc" converted to: "||acrx.shop^$document"
-||acrx.shop^$doc
 ! Rule "||acrx.xyz^$doc" converted to: "||acrx.xyz^$document"
 ||acrx.xyz^$doc
 ! Rule "||acrxcards.$doc" converted to: "||acrxcards.$document"
@@ -1010,28 +988,10 @@ linkedin.com#?#body:style(overflow: auto !important;)
 ||americanconsultantrx.$doc
 ! Rule "||americanconsultantsrx.$doc" converted to: "||americanconsultantsrx.$document"
 ||americanconsultantsrx.$doc
-! Rule "||covidrelief.cyou^$doc" converted to: "||covidrelief.cyou^$document"
-||covidrelief.cyou^$doc
-! Rule "||covidrelief.digital^$doc" converted to: "||covidrelief.digital^$document"
-||covidrelief.digital^$doc
-! Rule "||covidrelief.guru^$doc" converted to: "||covidrelief.guru^$document"
-||covidrelief.guru^$doc
-! Rule "||covidrelief.icu^$doc" converted to: "||covidrelief.icu^$document"
-||covidrelief.icu^$doc
-! Rule "||covidrelief.news^$doc" converted to: "||covidrelief.news^$document"
-||covidrelief.news^$doc
 ! Rule "||covidrelief.online^$doc" converted to: "||covidrelief.online^$document"
 ||covidrelief.online^$doc
 ! Rule "||covidrelief.press^$doc" converted to: "||covidrelief.press^$document"
 ||covidrelief.press^$doc
-! Rule "||covidrelief.shop^$doc" converted to: "||covidrelief.shop^$document"
-||covidrelief.shop^$doc
-! Rule "||covidrelief.today^$doc" converted to: "||covidrelief.today^$document"
-||covidrelief.today^$doc
-! Rule "||covidrelief.website^$doc" converted to: "||covidrelief.website^$document"
-||covidrelief.website^$doc
-! Rule "||covidrelief.xyz^$doc" converted to: "||covidrelief.xyz^$document"
-||covidrelief.xyz^$doc
 ! Rule "||discountdrug.cheap^$doc" converted to: "||discountdrug.cheap^$document"
 ||discountdrug.cheap^$doc
 ! Rule "||discountdrug.news^$doc" converted to: "||discountdrug.news^$document"
@@ -1080,14 +1040,6 @@ linkedin.com#?#body:style(overflow: auto !important;)
 ||freemedicine.guru^$doc
 ! Rule "||freemedicine.info^$doc" converted to: "||freemedicine.info^$document"
 ||freemedicine.info^$doc
-! Rule "||freemedicine.monster^$doc" converted to: "||freemedicine.monster^$document"
-||freemedicine.monster^$doc
-! Rule "||freemedicine.news^$doc" converted to: "||freemedicine.news^$document"
-||freemedicine.news^$doc
-! Rule "||freemedicine.online^$doc" converted to: "||freemedicine.online^$document"
-||freemedicine.online^$doc
-! Rule "||freemedicine.press^$doc" converted to: "||freemedicine.press^$document"
-||freemedicine.press^$doc
 ! Rule "||freemedicine.quest^$doc" converted to: "||freemedicine.quest^$document"
 ||freemedicine.quest^$doc
 ! Rule "||freemedicine.services^$doc" converted to: "||freemedicine.services^$document"
@@ -1122,14 +1074,6 @@ linkedin.com#?#body:style(overflow: auto !important;)
 ||medicinecoupons.xyz^$doc
 ! Rule "||medicinehelp.news^$doc" converted to: "||medicinehelp.news^$document"
 ||medicinehelp.news^$doc
-! Rule "||ppesupplies.info^$doc" converted to: "||ppesupplies.info^$document"
-||ppesupplies.info^$doc
-! Rule "||ppesupplies.news^$doc" converted to: "||ppesupplies.news^$document"
-||ppesupplies.news^$doc
-! Rule "||ppesupplies.shop^$doc" converted to: "||ppesupplies.shop^$document"
-||ppesupplies.shop^$doc
-! Rule "||ppesupplies.xyz^$doc" converted to: "||ppesupplies.xyz^$document"
-||ppesupplies.xyz^$doc
 ! Rule "||147.135.16.27^$doc" converted to: "||147.135.16.27^$document"
 ||147.135.16.27^$doc
 ! Rule "||ingeniovirtual.com^$doc" converted to: "||ingeniovirtual.com^$document"
@@ -1262,6 +1206,18 @@ linkedin.com#?#body:style(overflow: auto !important;)
 ://ww50.$doc
 ! Rule "||if-a-large-hosts-file-contains-this-entry-then-it.uses-dandelion-sprouts-anti-malware-list-as-a-source-list.data^$doc" converted to: "||if-a-large-hosts-file-contains-this-entry-then-it.uses-dandelion-sprouts-anti-malware-list-as-a-source-list.data^$document"
 ||if-a-large-hosts-file-contains-this-entry-then-it.uses-dandelion-sprouts-anti-malware-list-as-a-source-list.data^$doc
+! Rule "||snapchat.cm^$doc" converted to: "||snapchat.cm^$document"
+||snapchat.cm^$doc
+! Rule "||facebook.cm^$doc" converted to: "||facebook.cm^$document"
+||facebook.cm^$doc
+! Rule "||virustotal.cm^$doc" converted to: "||virustotal.cm^$document"
+||virustotal.cm^$doc
+! Rule "||wix.cm^$doc" converted to: "||wix.cm^$document"
+||wix.cm^$doc
+! Rule "||199.59.243.222^$doc" converted to: "||199.59.243.222^$document"
+||199.59.243.222^$doc
+! Rule "|http://ww01.$doc" converted to: "|http://ww01.$document"
+|http://ww01.$doc
 ! Rule "/^http://(apps?|best|competition|game|mobile|play|prize|reward|sweeps)\d{2,8}\.[a-z-]{5,22}\d{1,8}\.(icu|life|live)/$~third-party,doc" converted to: "/^http://(apps?|best|competition|game|mobile|play|prize|reward|sweeps)\d{2,8}\.[a-z-]{5,22}\d{1,8}\.(icu|life|live)/$~third-party,document"
 /^http://(apps?|best|competition|game|mobile|play|prize|reward|sweeps)\d{2,8}\.[a-z-]{5,22}\d{1,8}\.(icu|life|live)/$~third-party,doc
 ! Rule "/^https://(apps?|best|competition|game|mobile|play|prize|reward|sweeps)\d{2,8}\.[a-z-]{5,22}\d{1,8}\.(icu|life|live)/$~third-party,doc" converted to: "/^https://(apps?|best|competition|game|mobile|play|prize|reward|sweeps)\d{2,8}\.[a-z-]{5,22}\d{1,8}\.(icu|life|live)/$~third-party,document"
@@ -1866,24 +1822,18 @@ github.com##.discussion-sidebar:style(width: 220px !important)
 github.com##.discussion-timeline:style(width: 100% !important)
 ! Rule "github.com##.col-9:style(width: 100% !important)" converted to: "github.com#$#.col-9 { width: 100% !important }"
 github.com##.col-9:style(width: 100% !important)
-! Rule "github.com###discussion_bucket > .col-12.col-md-9:style(width: calc(100vw - 260px) !important)" converted to: "github.com#$##discussion_bucket > .col-12.col-md-9 { width: calc(100vw - 260px) !important }"
-github.com###discussion_bucket > .col-12.col-md-9:style(width: calc(100vw - 260px) !important)
+! Rule "github.com###discussion_bucket > .col-12.col-md-9:style(width: calc(100vw - 285px) !important)" converted to: "github.com#$##discussion_bucket > .col-12.col-md-9 { width: calc(100vw - 285px) !important }"
+github.com###discussion_bucket > .col-12.col-md-9:style(width: calc(100vw - 285px) !important)
 ! Rule "github.com###partial-discussion-sidebar[data-channel^=issue]:style(margin-left: 24px !important)" converted to: "github.com#$##partial-discussion-sidebar[data-channel^=issue] { margin-left: 24px !important }"
 github.com###partial-discussion-sidebar[data-channel^=issue]:style(margin-left: 24px !important)
 ! Rule "github.com##.col-md-3.col-12.flex-shrink-0:style(width: 200px !important)" converted to: "github.com#$#.col-md-3.col-12.flex-shrink-0 { width: 200px !important }"
 github.com##.col-md-3.col-12.flex-shrink-0:style(width: 200px !important)
-! Rule "github.com###discussion_bucket .col-md-3.col-12.flex-shrink-0:style(margin-left: 30px !important)" converted to: "github.com#$##discussion_bucket .col-md-3.col-12.flex-shrink-0 { margin-left: 30px !important }"
-github.com###discussion_bucket .col-md-3.col-12.flex-shrink-0:style(margin-left: 30px !important)
 ! Rule "github.com##.flex-shrink-0.col-12.col-md-9:style(width: calc(100% - 250px) !important)" converted to: "github.com#$#.flex-shrink-0.col-12.col-md-9 { width: calc(100% - 250px) !important }"
 github.com##.flex-shrink-0.col-12.col-md-9:style(width: calc(100% - 250px) !important)
 ! Rule "github.com##.js-discussion:style(width: calc(100vw - 320px) !important)" converted to: "github.com#$#.js-discussion { width: calc(100vw - 320px) !important }"
 github.com##.js-discussion:style(width: calc(100vw - 320px) !important)
-! Rule "github.com###discussion_bucket:style(width: 100% !important)" converted to: "github.com#$##discussion_bucket { width: 100% !important }"
-github.com###discussion_bucket:style(width: 100% !important)
 ! Rule "github.com##.Layout-sidebar:style(max-width: 210px !important)" converted to: "github.com#$#.Layout-sidebar { max-width: 210px !important }"
 github.com##.Layout-sidebar:style(max-width: 210px !important)
-! Rule "github.com##.Layout:style(--Layout-sidebar-width: 200px !important)" converted to: "github.com#$#.Layout { --Layout-sidebar-width: 200px !important }"
-github.com##.Layout:style(--Layout-sidebar-width: 200px !important)
 ! Rule "github.com##.pull-request-tab-content:style(width: calc(100vw - 275px) !important;)" converted to: "github.com#$#.pull-request-tab-content { width: calc(100vw - 275px) !important; }"
 github.com##.pull-request-tab-content:style(width: calc(100vw - 275px) !important;)
 ! Rule "github.com##.gutter-condensed > .col-3:style(width: 200px !important)" converted to: "github.com#$#.gutter-condensed > .col-3 { width: 200px !important }"
@@ -1924,6 +1874,8 @@ github.com###comments > .timeline-comment-wrapper:style(width: calc(100vw - 240p
 github.com##.js-blob-filename:style(width: 400px !important)
 ! Rule "github.com##body.page-profile .flex-shrink-0.col-12.col-md-9:style(margin-left: 40px !important)" converted to: "github.com#$#body.page-profile .flex-shrink-0.col-12.col-md-9 { margin-left: 40px !important }"
 github.com##body.page-profile .flex-shrink-0.col-12.col-md-9:style(margin-left: 40px !important)
+! Rule "github.com##.Layout--sidebarPosition-flowRow-end:style(width: 96vw !important; --Layout-sidebar-width: 220px !important; --Layout-gutter: -5px !important)" converted to: "github.com#$#.Layout--sidebarPosition-flowRow-end { width: 96vw !important; --Layout-sidebar-width: 220px !important; --Layout-gutter: -5px !important }"
+github.com##.Layout--sidebarPosition-flowRow-end:style(width: 96vw !important; --Layout-sidebar-width: 220px !important; --Layout-gutter: -5px !important)
 ! Rule "patreon.com##.sc-Rmtcm:style(max-width: none !important)" converted to: "patreon.com#$#.sc-Rmtcm { max-width: none !important }"
 patreon.com##.sc-Rmtcm:style(max-width: none !important)
 ! Rule "patreon.com##.gHmKBb:style(white-space: normal !important)" converted to: "patreon.com#$#.gHmKBb { white-space: normal !important }"
@@ -1980,6 +1932,12 @@ wikipedia.org##.vector-main-menu-container:style(max-width: 245px !important)
 wikipedia.org##.vector-feature-page-tools-enabled .mw-body:style(grid-template-columns: unset !important)
 ! Rule "wikipedia.org##html[class*=vector] .mw-table-of-contents-container:style(max-width: 300px !important)" converted to: "wikipedia.org#$#html[class*=vector] .mw-table-of-contents-container { max-width: 300px !important }"
 wikipedia.org##html[class*=vector] .mw-table-of-contents-container:style(max-width: 300px !important)
+! Rule "wikipedia.org##html[class*=vector] #bodyContent:style(max-width: calc(100vw - 390px) !important)" converted to: "wikipedia.org#$#html[class*=vector] #bodyContent { max-width: calc(100vw - 390px) !important }"
+wikipedia.org##html[class*=vector] #bodyContent:style(max-width: calc(100vw - 390px) !important)
+! Rule "wikipedia.org##html[class*=vector] main#content:style(column-gap: 2px !important)" converted to: "wikipedia.org#$#html[class*=vector] main#content { column-gap: 2px !important }"
+wikipedia.org##html[class*=vector] main#content:style(column-gap: 2px !important)
+! Rule "wikipedia.org##html[class*=vector] .mw-page-container:style(padding-left: 20px !important; padding-right: 10px !important)" converted to: "wikipedia.org#$#html[class*=vector] .mw-page-container { padding-left: 20px !important; padding-right: 10px !important }"
+wikipedia.org##html[class*=vector] .mw-page-container:style(padding-left: 20px !important; padding-right: 10px !important)
 ! Rule "bulbapedia.bulbagarden.net##.bg-global-menu + #globalWrapper #content:style(margin-left: 10px !important; margin-right: 10px !important; max-width: 95vw !important)" converted to: "bulbapedia.bulbagarden.net#$#.bg-global-menu + #globalWrapper #content { margin-left: 10px !important; margin-right: 10px !important; max-width: 95vw !important }"
 bulbapedia.bulbagarden.net##.bg-global-menu + #globalWrapper #content:style(margin-left: 10px !important; margin-right: 10px !important; max-width: 95vw !important)
 ! Rule "telenor.no##.container:style(width: 98vw)" converted to: "telenor.no#$#.container { width: 98vw }"
@@ -3660,8 +3618,6 @@ Error: "Unknown modifier: ~inline-font" in the rule: "||backtonews.biz^$document
 ||backtonews.biz^$all,~inline-font,~inline-script
 Error: "Unknown modifier: ~inline-font" in the rule: "||bagclick.biz^$document,popup,~inline-font,~inline-script"
 ||bagclick.biz^$all,~inline-font,~inline-script
-Error: "Unknown modifier: ~inline-font" in the rule: "||basemedia.me^$document,popup,~inline-font,~inline-script"
-||basemedia.me^$all,~inline-font,~inline-script
 Error: "Unknown modifier: ~inline-font" in the rule: "||bigkick.biz^$document,popup,~inline-font,~inline-script"
 ||bigkick.biz^$all,~inline-font,~inline-script
 Error: "Unknown modifier: ~inline-font" in the rule: "||blackfr1dayz.com^$document,popup,~inline-font,~inline-script"
@@ -4608,10 +4564,6 @@ Error: "Unknown modifier: ~inline-font" in the rule: "||183.188.192.55^$document
 ||183.188.192.55^$all,~inline-font,~inline-script
 Error: "Unknown modifier: ~inline-font" in the rule: "||198.23.255.14^$document,popup,~inline-font,~inline-script"
 ||198.23.255.14^$all,~inline-font,~inline-script
-Error: "Unknown modifier: ~inline-font" in the rule: "||ether-give21.net^$document,popup,~inline-font,~inline-script"
-||ether-give21.net^$all,~inline-font,~inline-script
-Error: "Unknown modifier: ~inline-font" in the rule: "||shib-inu.cc^$document,popup,~inline-font,~inline-script"
-||shib-inu.cc^$all,~inline-font,~inline-script
 Error: "Unknown modifier: ~inline-font" in the rule: "||freedownloadfiles.org^$document,popup,~inline-font,~inline-script"
 ||freedownloadfiles.org^$all,~inline-font,~inline-script
 Error: "Unknown modifier: ~inline-font" in the rule: "||hh3valve.com^$document,popup,~inline-font,~inline-script"
@@ -4648,8 +4600,6 @@ Error: "Unknown modifier: ~inline-font" in the rule: "||tough-numerous-lemur.gli
 ||tough-numerous-lemur.glitch.me^$all,~inline-font,~inline-script
 Error: "Unknown modifier: ~inline-font" in the rule: "||securefirst.us-east-1.linodeobjects.com^$document,popup,~inline-font,~inline-script"
 ||securefirst.us-east-1.linodeobjects.com^$all,~inline-font,~inline-script
-Error: "Unknown modifier: ~inline-font" in the rule: "||steamdocsoffers.xyz^$document,popup,~inline-font,~inline-script"
-||steamdocsoffers.xyz^$all,~inline-font,~inline-script
 Error: "Unknown modifier: ~inline-font" in the rule: "/(^|\.|://)d[il]sc(or|ro)ds?-?g[il]ft[se]?[.-].*/$document,popup,~inline-font,~inline-script"
 /(^|\.|://)d[il]sc(or|ro)ds?-?g[il]ft[se]?[.-].*/$all,~inline-font,~inline-script
 Error: "Unknown modifier: ~inline-font" in the rule: "/(^|\.|://)d[il]sc(or|ro)ds?-?n[il]tro[.-].*/$document,popup,~inline-font,~inline-script"
@@ -4760,8 +4710,6 @@ Error: "Unknown modifier: ~inline-font" in the rule: "||163.179.168.44^$document
 ||163.179.168.44^$all,~inline-font,~inline-script
 Error: "Unknown modifier: ~inline-font" in the rule: "||totalnicefeed.com^$document,popup,~inline-font,~inline-script"
 ||totalnicefeed.com^$all,~inline-font,~inline-script
-Error: "Unknown modifier: ~inline-font" in the rule: "||riteupd.mimanduca.co^$document,popup,~inline-font,~inline-script"
-||riteupd.mimanduca.co^$all,~inline-font,~inline-script
 Error: "Unknown modifier: ~inline-font" in the rule: "||youtube.com/watch?v=8nY7SnvNxH4^$document,popup,~inline-font,~inline-script"
 ||youtube.com/watch?v=8nY7SnvNxH4^$all,~inline-font,~inline-script
 Error: "Unknown modifier: ~inline-font" in the rule: "||mediafire.com/file/at2tvnao5x6ivdo/EngineOwning.rar/$document,popup,~inline-font,~inline-script"
@@ -4832,8 +4780,6 @@ Error: "Unknown modifier: ~inline-font" in the rule: "||52.53.243.52^$document,p
 ||52.53.243.52^$all,~inline-font,~inline-script
 Error: "Unknown modifier: ~inline-font" in the rule: "||34.201.22.10^$document,popup,~inline-font,~inline-script"
 ||34.201.22.10^$all,~inline-font,~inline-script
-Error: "Unknown modifier: ~inline-font" in the rule: "||advisorsfox.onlineenglishteacher.co^$document,popup,~inline-font,~inline-script"
-||advisorsfox.onlineenglishteacher.co^$all,~inline-font,~inline-script
 Error: "Unknown modifier: ~inline-font" in the rule: "||business.google.com/website/billyandscapedesign^$document,popup,~inline-font,~inline-script"
 ||business.google.com/website/billyandscapedesign^$all,~inline-font,~inline-script
 Error: "Unknown modifier: ~inline-font" in the rule: "||123.10.225.196^$document,popup,~inline-font,~inline-script"
@@ -4852,8 +4798,6 @@ Error: "Unknown modifier: ~inline-font" in the rule: "||124.163.130.175^$documen
 ||124.163.130.175^$all,~inline-font,~inline-script
 Error: "Unknown modifier: ~inline-font" in the rule: "||118.75.87.102^$document,popup,~inline-font,~inline-script"
 ||118.75.87.102^$all,~inline-font,~inline-script
-Error: "Unknown modifier: ~inline-font" in the rule: "||quizhunter.simplifiedstrategy.co^$document,popup,~inline-font,~inline-script"
-||quizhunter.simplifiedstrategy.co^$all,~inline-font,~inline-script
 Error: "Unknown modifier: ~inline-font" in the rule: "||onemacusa.net^$document,popup,~inline-font,~inline-script"
 ||onemacusa.net^$all,~inline-font,~inline-script
 Error: "Unknown modifier: ~inline-font" in the rule: "||systemupdatecontrol.com^$document,popup,~inline-font,~inline-script"
@@ -4870,30 +4814,16 @@ Error: "Unknown modifier: ~inline-font" in the rule: "||viewty.xyz^$document,pop
 ||viewty.xyz^$all,~inline-font,~inline-script
 Error: "Unknown modifier: ~inline-font" in the rule: "||royaltees.co^$document,popup,~inline-font,~inline-script"
 ||royaltees.co^$all,~inline-font,~inline-script
-Error: "Unknown modifier: ~inline-font" in the rule: "||hunterrandom.latabledusanglier.com^$document,popup,~inline-font,~inline-script"
-||hunterrandom.latabledusanglier.com^$all,~inline-font,~inline-script
 Error: "Unknown modifier: ~inline-font" in the rule: "||locatorblog.sukabumitoday.co^$document,popup,~inline-font,~inline-script"
 ||locatorblog.sukabumitoday.co^$all,~inline-font,~inline-script
 Error: "Unknown modifier: ~inline-font" in the rule: "||supersong.nl/upload/6277.rar^$document,popup,~inline-font,~inline-script"
 ||supersong.nl/upload/6277.rar^$all,~inline-font,~inline-script
-Error: "Unknown modifier: ~inline-font" in the rule: "||nlnvan.garydouglasnewell.co^$document,popup,~inline-font,~inline-script"
-||nlnvan.garydouglasnewell.co^$all,~inline-font,~inline-script
 Error: "Unknown modifier: ~inline-font" in the rule: "||rappersonal.paradisedestination.co^$document,popup,~inline-font,~inline-script"
 ||rappersonal.paradisedestination.co^$all,~inline-font,~inline-script
 Error: "Unknown modifier: ~inline-font" in the rule: "||contactalliance.mbogi.co^$document,popup,~inline-font,~inline-script"
 ||contactalliance.mbogi.co^$all,~inline-font,~inline-script
 Error: "Unknown modifier: ~inline-font" in the rule: "||freeprosoftz.com^$document,popup,~inline-font,~inline-script"
 ||freeprosoftz.com^$all,~inline-font,~inline-script
-Error: "Unknown modifier: ~inline-font" in the rule: "||9oi6khy8.xyz^$document,popup,~inline-font,~inline-script"
-||9oi6khy8.xyz^$all,~inline-font,~inline-script
-Error: "Unknown modifier: ~inline-font" in the rule: "||kjgfj.xyz^$document,popup,~inline-font,~inline-script"
-||kjgfj.xyz^$all,~inline-font,~inline-script
-Error: "Unknown modifier: ~inline-font" in the rule: "||9oijgkh.xyz^$document,popup,~inline-font,~inline-script"
-||9oijgkh.xyz^$all,~inline-font,~inline-script
-Error: "Unknown modifier: ~inline-font" in the rule: "||uyyd.xyz^$document,popup,~inline-font,~inline-script"
-||uyyd.xyz^$all,~inline-font,~inline-script
-Error: "Unknown modifier: ~inline-font" in the rule: "||oiiuuyjk.xyz^$document,popup,~inline-font,~inline-script"
-||oiiuuyjk.xyz^$all,~inline-font,~inline-script
 Error: "Unknown modifier: ~inline-font" in the rule: "||mediafire.com/file/pu0m2luacc3fh8h/file-password___2345.rar/file$document,popup,~inline-font,~inline-script"
 ||mediafire.com/file/pu0m2luacc3fh8h/file-password___2345.rar/file$all,~inline-font,~inline-script
 Error: "Unknown modifier: ~inline-font" in the rule: "||mediafire.com/coe39m9f9tyg/pu0m2luacc3fh8h/file-password___2345%282%29.rar$document,popup,~inline-font,~inline-script"
@@ -6172,8 +6102,6 @@ Error: "Unknown modifier: ~inline-font" in the rule: "||abcyamath.com^$document,
 ||abcyamath.com^$all,~inline-font,~inline-script
 Error: "Unknown modifier: ~inline-font" in the rule: "||aboutarc.com^$document,popup,~inline-font,~inline-script"
 ||aboutarc.com^$all,~inline-font,~inline-script
-Error: "Unknown modifier: ~inline-font" in the rule: "||abub-jobs.co.uk^$document,popup,~inline-font,~inline-script"
-||abub-jobs.co.uk^$all,~inline-font,~inline-script
 Error: "Unknown modifier: ~inline-font" in the rule: "||abuhamzahfx.com^$document,popup,~inline-font,~inline-script"
 ||abuhamzahfx.com^$all,~inline-font,~inline-script
 Error: "Unknown modifier: ~inline-font" in the rule: "||abwkoeln.de^$document,popup,~inline-font,~inline-script"
@@ -9256,8 +9184,6 @@ Error: "Unknown modifier: ~inline-font" in the rule: "||toyotamotor.com^$documen
 ||toyotamotor.com^$all,~inline-font,~inline-script
 Error: "Unknown modifier: ~inline-font" in the rule: "||tplinkwifu.net^$document,popup,~inline-font,~inline-script"
 ||tplinkwifu.net^$all,~inline-font,~inline-script
-Error: "Unknown modifier: ~inline-font" in the rule: "||tradevegetaux.net^$document,popup,~inline-font,~inline-script"
-||tradevegetaux.net^$all,~inline-font,~inline-script
 Error: "Unknown modifier: ~inline-font" in the rule: "||tradextrem.com^$document,popup,~inline-font,~inline-script"
 ||tradextrem.com^$all,~inline-font,~inline-script
 Error: "Unknown modifier: ~inline-font" in the rule: "||tradukka.de^$document,popup,~inline-font,~inline-script"
@@ -9498,8 +9424,6 @@ Error: "Unknown modifier: ~inline-font" in the rule: "||watchcartoons.eu^$docume
 ||watchcartoons.eu^$all,~inline-font,~inline-script
 Error: "Unknown modifier: ~inline-font" in the rule: "||watsonwine.com^$document,popup,~inline-font,~inline-script"
 ||watsonwine.com^$all,~inline-font,~inline-script
-Error: "Unknown modifier: ~inline-font" in the rule: "||wavyweather.com^$document,popup,~inline-font,~inline-script"
-||wavyweather.com^$all,~inline-font,~inline-script
 Error: "Unknown modifier: ~inline-font" in the rule: "||way6fair.com^$document,popup,~inline-font,~inline-script"
 ||way6fair.com^$all,~inline-font,~inline-script
 Error: "Unknown modifier: ~inline-font" in the rule: "||wazfair.co.uk^$document,popup,~inline-font,~inline-script"
@@ -12984,8 +12908,6 @@ Error: "Unknown modifier: ~inline-script" in the rule: "||mizunodeutschland.de^$
 ||mizunodeutschland.de^$all,~inline-script,~inline-font
 Error: "Unknown modifier: ~inline-script" in the rule: "||mizunofootballbootsuk.com^$document,popup,~inline-script,~inline-font"
 ||mizunofootballbootsuk.com^$all,~inline-script,~inline-font
-Error: "Unknown modifier: ~inline-script" in the rule: "||mizunonederland.com^$document,popup,~inline-script,~inline-font"
-||mizunonederland.com^$all,~inline-script,~inline-font
 Error: "Unknown modifier: ~inline-script" in the rule: "||mizunoshoescanada.ca^$document,popup,~inline-script,~inline-font"
 ||mizunoshoescanada.ca^$all,~inline-script,~inline-font
 Error: "Unknown modifier: ~inline-script" in the rule: "||mizunosshoesindia.com^$document,popup,~inline-script,~inline-font"
@@ -13312,8 +13234,6 @@ Error: "Unknown modifier: ~inline-script" in the rule: "||footwearnl.com^$docume
 ||footwearnl.com^$all,~inline-script,~inline-font
 Error: "Unknown modifier: ~inline-script" in the rule: "||footwearsalesg.com^$document,popup,~inline-script,~inline-font"
 ||footwearsalesg.com^$all,~inline-script,~inline-font
-Error: "Unknown modifier: ~inline-script" in the rule: "||guesspt.com^$document,popup,~inline-script,~inline-font"
-||guesspt.com^$all,~inline-script,~inline-font
 Error: "Unknown modifier: ~inline-script" in the rule: "||hunter-danmark.com^$document,popup,~inline-script,~inline-font"
 ||hunter-danmark.com^$all,~inline-script,~inline-font
 Error: "Unknown modifier: ~inline-script" in the rule: "||hunter-espana.com^$document,popup,~inline-script,~inline-font"
@@ -13336,8 +13256,6 @@ Error: "Unknown modifier: ~inline-script" in the rule: "||nikehrvatska-hr.com^$d
 ||nikehrvatska-hr.com^$all,~inline-script,~inline-font
 Error: "Unknown modifier: ~inline-script" in the rule: "||nikeportugal.pt^$document,popup,~inline-script,~inline-font"
 ||nikeportugal.pt^$all,~inline-script,~inline-font
-Error: "Unknown modifier: ~inline-script" in the rule: "||nikeschuheat.com^$document,popup,~inline-script,~inline-font"
-||nikeschuheat.com^$all,~inline-script,~inline-font
 Error: "Unknown modifier: ~inline-script" in the rule: "||north-face-indirim.com^$document,popup,~inline-script,~inline-font"
 ||north-face-indirim.com^$all,~inline-script,~inline-font
 Error: "Unknown modifier: ~inline-script" in the rule: "||puma-romania.com^$document,popup,~inline-script,~inline-font"
@@ -13358,8 +13276,6 @@ Error: "Unknown modifier: ~inline-script" in the rule: "||rbslovensko.sk^$docume
 ||rbslovensko.sk^$all,~inline-script,~inline-font
 Error: "Unknown modifier: ~inline-script" in the rule: "||ropapuma.com^$document,popup,~inline-script,~inline-font"
 ||ropapuma.com^$all,~inline-script,~inline-font
-Error: "Unknown modifier: ~inline-script" in the rule: "||runningindiastore.com^$document,popup,~inline-script,~inline-font"
-||runningindiastore.com^$all,~inline-script,~inline-font
 Error: "Unknown modifier: ~inline-script" in the rule: "||runninginshop.com^$document,popup,~inline-script,~inline-font"
 ||runninginshop.com^$all,~inline-script,~inline-font
 Error: "Unknown modifier: ~inline-script" in the rule: "||salomonbutikdanmark.com^$document,popup,~inline-script,~inline-font"
@@ -13394,8 +13310,6 @@ Error: "Unknown modifier: ~inline-script" in the rule: "||tomsitalia.it^$documen
 ||tomsitalia.it^$all,~inline-script,~inline-font
 Error: "Unknown modifier: ~inline-script" in the rule: "||tomsosterreich.at^$document,popup,~inline-script,~inline-font"
 ||tomsosterreich.at^$all,~inline-script,~inline-font
-Error: "Unknown modifier: ~inline-script" in the rule: "||tomsosterreich.com^$document,popup,~inline-script,~inline-font"
-||tomsosterreich.com^$all,~inline-script,~inline-font
 Error: "Unknown modifier: ~inline-script" in the rule: "||ukhikingshop.com^$document,popup,~inline-script,~inline-font"
 ||ukhikingshop.com^$all,~inline-script,~inline-font
 Error: "Unknown modifier: ~inline-script" in the rule: "||vanscipok.com^$document,popup,~inline-script,~inline-font"
@@ -14130,8 +14044,6 @@ Error: "Unknown modifier: ~inline-script" in the rule: "||hunterstovlersalg.com^
 ||hunterstovlersalg.com^$all,~inline-script,~inline-font
 Error: "Unknown modifier: ~inline-script" in the rule: "||hunterwelliesirelandsale.com^$document,popup,~inline-script,~inline-font"
 ||hunterwelliesirelandsale.com^$all,~inline-script,~inline-font
-Error: "Unknown modifier: ~inline-script" in the rule: "||hunterwelliessouthafrica.co.za^$document,popup,~inline-script,~inline-font"
-||hunterwelliessouthafrica.co.za^$all,~inline-script,~inline-font
 Error: "Unknown modifier: ~inline-script" in the rule: "||lacostemagyarorszag.com^$document,popup,~inline-script,~inline-font"
 ||lacostemagyarorszag.com^$all,~inline-script,~inline-font
 Error: "Unknown modifier: ~inline-script" in the rule: "||lacostesgoutlet.com^$document,popup,~inline-script,~inline-font"
@@ -14220,8 +14132,6 @@ Error: "Unknown modifier: ~inline-script" in the rule: "||sporthatscanada.com^$d
 ||sporthatscanada.com^$all,~inline-script,~inline-font
 Error: "Unknown modifier: ~inline-script" in the rule: "||stivalihuntersaldi.com^$document,popup,~inline-script,~inline-font"
 ||stivalihuntersaldi.com^$all,~inline-script,~inline-font
-Error: "Unknown modifier: ~inline-script" in the rule: "||superdrybutik.com.se^$document,popup,~inline-script,~inline-font"
-||superdrybutik.com.se^$all,~inline-script,~inline-font
 Error: "Unknown modifier: ~inline-script" in the rule: "||superdryfactorysg.com^$document,popup,~inline-script,~inline-font"
 ||superdryfactorysg.com^$all,~inline-script,~inline-font
 Error: "Unknown modifier: ~inline-script" in the rule: "||tenishokaoneone.com^$document,popup,~inline-script,~inline-font"
@@ -15320,8 +15230,6 @@ Error: "Unknown modifier: ~inline-script" in the rule: "||secure-rfrend.xyz^$doc
 ||secure-rfrend.xyz^$all,~inline-script,~inline-font
 Error: "Unknown modifier: ~inline-script" in the rule: "||supportcentier.info^$document,popup,~inline-script,~inline-font"
 ||supportcentier.info^$all,~inline-script,~inline-font
-Error: "Unknown modifier: ~inline-script" in the rule: "||taxclaimau.online^$document,popup,~inline-script,~inline-font"
-||taxclaimau.online^$all,~inline-script,~inline-font
 Error: "Unknown modifier: ~inline-script" in the rule: "||verifyauth-mtbonline.us^$document,popup,~inline-script,~inline-font"
 ||verifyauth-mtbonline.us^$all,~inline-script,~inline-font
 Error: "Unknown modifier: ~inline-script" in the rule: "||jatcraft.com^$document,popup,~inline-script,~inline-font"
@@ -16520,6 +16428,178 @@ Error: "Unknown modifier: ~inline-script" in the rule: "||208.88.225.117^$docume
 ||208.88.225.117^$all,~inline-script,~inline-font
 Error: "Unknown modifier: ~inline-script" in the rule: "||208.88.225.119^$document,popup,~inline-script,~inline-font"
 ||208.88.225.119^$all,~inline-script,~inline-font
+Error: "Unknown modifier: ~inline-script" in the rule: "||achilles-par.com^$document,popup,~inline-script,~inline-font"
+||achilles-par.com^$all,~inline-script,~inline-font
+Error: "Unknown modifier: ~inline-script" in the rule: "||adrastos-eli.com^$document,popup,~inline-script,~inline-font"
+||adrastos-eli.com^$all,~inline-script,~inline-font
+Error: "Unknown modifier: ~inline-script" in the rule: "||aegid-bal.com^$document,popup,~inline-script,~inline-font"
+||aegid-bal.com^$all,~inline-script,~inline-font
+Error: "Unknown modifier: ~inline-script" in the rule: "||aesch-mko.com^$document,popup,~inline-script,~inline-font"
+||aesch-mko.com^$all,~inline-script,~inline-font
+Error: "Unknown modifier: ~inline-script" in the rule: "||agapios-gla.com^$document,popup,~inline-script,~inline-font"
+||agapios-gla.com^$all,~inline-script,~inline-font
+Error: "Unknown modifier: ~inline-script" in the rule: "||ahura-maz.com^$document,popup,~inline-script,~inline-font"
+||ahura-maz.com^$all,~inline-script,~inline-font
+Error: "Unknown modifier: ~inline-script" in the rule: "||alia-iso.com^$document,popup,~inline-script,~inline-font"
+||alia-iso.com^$all,~inline-script,~inline-font
+Error: "Unknown modifier: ~inline-script" in the rule: "||altwi-cha.com^$document,popup,~inline-script,~inline-font"
+||altwi-cha.com^$all,~inline-script,~inline-font
+Error: "Unknown modifier: ~inline-script" in the rule: "||amanda-cle.info^$document,popup,~inline-script,~inline-font"
+||amanda-cle.info^$all,~inline-script,~inline-font
+Error: "Unknown modifier: ~inline-script" in the rule: "||amazonaws.com^$document,popup,~inline-script,~inline-font"
+||amazonaws.com^$all,~inline-script,~inline-font
+Error: "Unknown modifier: ~inline-script" in the rule: "||animikii-ana.com^$document,popup,~inline-script,~inline-font"
+||animikii-ana.com^$all,~inline-script,~inline-font
+Error: "Unknown modifier: ~inline-script" in the rule: "||apoll-amp.com^$document,popup,~inline-script,~inline-font"
+||apoll-amp.com^$all,~inline-script,~inline-font
+Error: "Unknown modifier: ~inline-script" in the rule: "||aries-nbl.com^$document,popup,~inline-script,~inline-font"
+||aries-nbl.com^$all,~inline-script,~inline-font
+Error: "Unknown modifier: ~inline-script" in the rule: "||artax-evn.com^$document,popup,~inline-script,~inline-font"
+||artax-evn.com^$all,~inline-script,~inline-font
+Error: "Unknown modifier: ~inline-script" in the rule: "||aslau-cre.info^$document,popup,~inline-script,~inline-font"
+||aslau-cre.info^$all,~inline-script,~inline-font
+Error: "Unknown modifier: ~inline-script" in the rule: "||balor-ghn.com^$document,popup,~inline-script,~inline-font"
+||balor-ghn.com^$all,~inline-script,~inline-font
+Error: "Unknown modifier: ~inline-script" in the rule: "||baste-znl.com^$document,popup,~inline-script,~inline-font"
+||baste-znl.com^$all,~inline-script,~inline-font
+Error: "Unknown modifier: ~inline-script" in the rule: "||belia-glp.com^$document,popup,~inline-script,~inline-font"
+||belia-glp.com^$all,~inline-script,~inline-font
+Error: "Unknown modifier: ~inline-script" in the rule: "||bilqi-omv.com^$document,popup,~inline-script,~inline-font"
+||bilqi-omv.com^$all,~inline-script,~inline-font
+Error: "Unknown modifier: ~inline-script" in the rule: "||blode-cpq.com^$document,popup,~inline-script,~inline-font"
+||blode-cpq.com^$all,~inline-script,~inline-font
+Error: "Unknown modifier: ~inline-script" in the rule: "||bricius-ing.com^$document,popup,~inline-script,~inline-font"
+||bricius-ing.com^$all,~inline-script,~inline-font
+Error: "Unknown modifier: ~inline-script" in the rule: "||brije-cor.info^$document,popup,~inline-script,~inline-font"
+||brije-cor.info^$all,~inline-script,~inline-font
+Error: "Unknown modifier: ~inline-script" in the rule: "||chima-eoj.com^$document,popup,~inline-script,~inline-font"
+||chima-eoj.com^$all,~inline-script,~inline-font
+Error: "Unknown modifier: ~inline-script" in the rule: "||chlod-qui.com^$document,popup,~inline-script,~inline-font"
+||chlod-qui.com^$all,~inline-script,~inline-font
+Error: "Unknown modifier: ~inline-script" in the rule: "||ciar-kep.com^$document,popup,~inline-script,~inline-font"
+||ciar-kep.com^$all,~inline-script,~inline-font
+Error: "Unknown modifier: ~inline-script" in the rule: "||clarus-che.com^$document,popup,~inline-script,~inline-font"
+||clarus-che.com^$all,~inline-script,~inline-font
+Error: "Unknown modifier: ~inline-script" in the rule: "||cynes-gwf.com^$document,popup,~inline-script,~inline-font"
+||cynes-gwf.com^$all,~inline-script,~inline-font
+Error: "Unknown modifier: ~inline-script" in the rule: "||daeda-iyk.com^$document,popup,~inline-script,~inline-font"
+||daeda-iyk.com^$all,~inline-script,~inline-font
+Error: "Unknown modifier: ~inline-script" in the rule: "||dipaka-ead.com^$document,popup,~inline-script,~inline-font"
+||dipaka-ead.com^$all,~inline-script,~inline-font
+Error: "Unknown modifier: ~inline-script" in the rule: "||enki-mit.com^$document,popup,~inline-script,~inline-font"
+||enki-mit.com^$all,~inline-script,~inline-font
+Error: "Unknown modifier: ~inline-script" in the rule: "||epiph-xvm.com^$document,popup,~inline-script,~inline-font"
+||epiph-xvm.com^$all,~inline-script,~inline-font
+Error: "Unknown modifier: ~inline-script" in the rule: "||ermin-oxj.info^$document,popup,~inline-script,~inline-font"
+||ermin-oxj.info^$all,~inline-script,~inline-font
+Error: "Unknown modifier: ~inline-script" in the rule: "||freyr-clo.com^$document,popup,~inline-script,~inline-font"
+||freyr-clo.com^$all,~inline-script,~inline-font
+Error: "Unknown modifier: ~inline-script" in the rule: "||galla-uev.com^$document,popup,~inline-script,~inline-font"
+||galla-uev.com^$all,~inline-script,~inline-font
+Error: "Unknown modifier: ~inline-script" in the rule: "||gargi-xba.com^$document,popup,~inline-script,~inline-font"
+||gargi-xba.com^$all,~inline-script,~inline-font
+Error: "Unknown modifier: ~inline-script" in the rule: "||gaut-hil.com^$document,popup,~inline-script,~inline-font"
+||gaut-hil.com^$all,~inline-script,~inline-font
+Error: "Unknown modifier: ~inline-script" in the rule: "||gloos-zus.info^$document,popup,~inline-script,~inline-font"
+||gloos-zus.info^$all,~inline-script,~inline-font
+Error: "Unknown modifier: ~inline-script" in the rule: "||gronw-zis.com^$document,popup,~inline-script,~inline-font"
+||gronw-zis.com^$all,~inline-script,~inline-font
+Error: "Unknown modifier: ~inline-script" in the rule: "||gwawl-oqs.com^$document,popup,~inline-script,~inline-font"
+||gwawl-oqs.com^$all,~inline-script,~inline-font
+Error: "Unknown modifier: ~inline-script" in the rule: "||harib-eir.info^$document,popup,~inline-script,~inline-font"
+||harib-eir.info^$all,~inline-script,~inline-font
+Error: "Unknown modifier: ~inline-script" in the rule: "||heily-nin.com^$document,popup,~inline-script,~inline-font"
+||heily-nin.com^$all,~inline-script,~inline-font
+Error: "Unknown modifier: ~inline-script" in the rule: "||hilarion-lar.com^$document,popup,~inline-script,~inline-font"
+||hilarion-lar.com^$all,~inline-script,~inline-font
+Error: "Unknown modifier: ~inline-script" in the rule: "||hildr-zah.com^$document,popup,~inline-script,~inline-font"
+||hildr-zah.com^$all,~inline-script,~inline-font
+Error: "Unknown modifier: ~inline-script" in the rule: "||iason-eug.com^$document,popup,~inline-script,~inline-font"
+||iason-eug.com^$all,~inline-script,~inline-font
+Error: "Unknown modifier: ~inline-script" in the rule: "||illum-sec.com^$document,popup,~inline-script,~inline-font"
+||illum-sec.com^$all,~inline-script,~inline-font
+Error: "Unknown modifier: ~inline-script" in the rule: "||ingig-nes.com^$document,popup,~inline-script,~inline-font"
+||ingig-nes.com^$all,~inline-script,~inline-font
+Error: "Unknown modifier: ~inline-script" in the rule: "||iorwe-qmf.com^$document,popup,~inline-script,~inline-font"
+||iorwe-qmf.com^$all,~inline-script,~inline-font
+Error: "Unknown modifier: ~inline-script" in the rule: "||irene-eux.com^$document,popup,~inline-script,~inline-font"
+||irene-eux.com^$all,~inline-script,~inline-font
+Error: "Unknown modifier: ~inline-script" in the rule: "||kamak-mab.com^$document,popup,~inline-script,~inline-font"
+||kamak-mab.com^$all,~inline-script,~inline-font
+Error: "Unknown modifier: ~inline-script" in the rule: "||kuno-gae.com^$document,popup,~inline-script,~inline-font"
+||kuno-gae.com^$all,~inline-script,~inline-font
+Error: "Unknown modifier: ~inline-script" in the rule: "||laurentia-kor.com^$document,popup,~inline-script,~inline-font"
+||laurentia-kor.com^$all,~inline-script,~inline-font
+Error: "Unknown modifier: ~inline-script" in the rule: "||leont-pfd.com^$document,popup,~inline-script,~inline-font"
+||leont-pfd.com^$all,~inline-script,~inline-font
+Error: "Unknown modifier: ~inline-script" in the rule: "||ligeia-gip.com^$document,popup,~inline-script,~inline-font"
+||ligeia-gip.com^$all,~inline-script,~inline-font
+Error: "Unknown modifier: ~inline-script" in the rule: "||linus-axz.com^$document,popup,~inline-script,~inline-font"
+||linus-axz.com^$all,~inline-script,~inline-font
+Error: "Unknown modifier: ~inline-script" in the rule: "||lugaid-kal.com^$document,popup,~inline-script,~inline-font"
+||lugaid-kal.com^$all,~inline-script,~inline-font
+Error: "Unknown modifier: ~inline-script" in the rule: "||lykos-bzm.com^$document,popup,~inline-script,~inline-font"
+||lykos-bzm.com^$all,~inline-script,~inline-font
+Error: "Unknown modifier: ~inline-script" in the rule: "||lysim-lre.com^$document,popup,~inline-script,~inline-font"
+||lysim-lre.com^$all,~inline-script,~inline-font
+Error: "Unknown modifier: ~inline-script" in the rule: "||lysimachus-aur.com^$document,popup,~inline-script,~inline-font"
+||lysimachus-aur.com^$all,~inline-script,~inline-font
+Error: "Unknown modifier: ~inline-script" in the rule: "||menelaus-col.com^$document,popup,~inline-script,~inline-font"
+||menelaus-col.com^$all,~inline-script,~inline-font
+Error: "Unknown modifier: ~inline-script" in the rule: "||nesto-sig.com^$document,popup,~inline-script,~inline-font"
+||nesto-sig.com^$all,~inline-script,~inline-font
+Error: "Unknown modifier: ~inline-script" in the rule: "||nicomachus-mac.com^$document,popup,~inline-script,~inline-font"
+||nicomachus-mac.com^$all,~inline-script,~inline-font
+Error: "Unknown modifier: ~inline-script" in the rule: "||orest-vlv.com^$document,popup,~inline-script,~inline-font"
+||orest-vlv.com^$all,~inline-script,~inline-font
+Error: "Unknown modifier: ~inline-script" in the rule: "||orige-duo.com^$document,popup,~inline-script,~inline-font"
+||orige-duo.com^$all,~inline-script,~inline-font
+Error: "Unknown modifier: ~inline-script" in the rule: "||orion-gen.com^$document,popup,~inline-script,~inline-font"
+||orion-gen.com^$all,~inline-script,~inline-font
+Error: "Unknown modifier: ~inline-script" in the rule: "||patro-sfe.com^$document,popup,~inline-script,~inline-font"
+||patro-sfe.com^$all,~inline-script,~inline-font
+Error: "Unknown modifier: ~inline-script" in the rule: "||phara-gte.com^$document,popup,~inline-script,~inline-font"
+||phara-gte.com^$all,~inline-script,~inline-font
+Error: "Unknown modifier: ~inline-script" in the rule: "||philotheos-iov.com^$document,popup,~inline-script,~inline-font"
+||philotheos-iov.com^$all,~inline-script,~inline-font
+Error: "Unknown modifier: ~inline-script" in the rule: "||phoka-mps.com^$document,popup,~inline-script,~inline-font"
+||phoka-mps.com^$all,~inline-script,~inline-font
+Error: "Unknown modifier: ~inline-script" in the rule: "||ponti-pzk.com^$document,popup,~inline-script,~inline-font"
+||ponti-pzk.com^$all,~inline-script,~inline-font
+Error: "Unknown modifier: ~inline-script" in the rule: "||pritha-ner.com^$document,popup,~inline-script,~inline-font"
+||pritha-ner.com^$all,~inline-script,~inline-font
+Error: "Unknown modifier: ~inline-script" in the rule: "||proserpina-zeb.com^$document,popup,~inline-script,~inline-font"
+||proserpina-zeb.com^$all,~inline-script,~inline-font
+Error: "Unknown modifier: ~inline-script" in the rule: "||pyrrh-xbf.com^$document,popup,~inline-script,~inline-font"
+||pyrrh-xbf.com^$all,~inline-script,~inline-font
+Error: "Unknown modifier: ~inline-script" in the rule: "||quinctus-isb.com^$document,popup,~inline-script,~inline-font"
+||quinctus-isb.com^$all,~inline-script,~inline-font
+Error: "Unknown modifier: ~inline-script" in the rule: "||rama-bac.com^$document,popup,~inline-script,~inline-font"
+||rama-bac.com^$all,~inline-script,~inline-font
+Error: "Unknown modifier: ~inline-script" in the rule: "||rober-srr.com^$document,popup,~inline-script,~inline-font"
+||rober-srr.com^$all,~inline-script,~inline-font
+Error: "Unknown modifier: ~inline-script" in the rule: "||sigiward-ger.com^$document,popup,~inline-script,~inline-font"
+||sigiward-ger.com^$all,~inline-script,~inline-font
+Error: "Unknown modifier: ~inline-script" in the rule: "||sindr-yet.com^$document,popup,~inline-script,~inline-font"
+||sindr-yet.com^$all,~inline-script,~inline-font
+Error: "Unknown modifier: ~inline-script" in the rule: "||tanit-adr.com^$document,popup,~inline-script,~inline-font"
+||tanit-adr.com^$all,~inline-script,~inline-font
+Error: "Unknown modifier: ~inline-script" in the rule: "||thiem-csl.com^$document,popup,~inline-script,~inline-font"
+||thiem-csl.com^$all,~inline-script,~inline-font
+Error: "Unknown modifier: ~inline-script" in the rule: "||thor-pom.com^$document,popup,~inline-script,~inline-font"
+||thor-pom.com^$all,~inline-script,~inline-font
+Error: "Unknown modifier: ~inline-script" in the rule: "||thutm-bru.com^$document,popup,~inline-script,~inline-font"
+||thutm-bru.com^$all,~inline-script,~inline-font
+Error: "Unknown modifier: ~inline-script" in the rule: "||uthyr-que.com^$document,popup,~inline-script,~inline-font"
+||uthyr-que.com^$all,~inline-script,~inline-font
+Error: "Unknown modifier: ~inline-script" in the rule: "||zeroredirect1.com^$document,popup,~inline-script,~inline-font"
+||zeroredirect1.com^$all,~inline-script,~inline-font
+Error: "Unknown modifier: ~inline-script" in the rule: "||zp-dom.com^$document,popup,~inline-script,~inline-font"
+||zp-dom.com^$all,~inline-script,~inline-font
+Error: "Unknown modifier: ~inline-script" in the rule: "||3.231.116.86^$document,popup,~inline-script,~inline-font"
+||3.231.116.86^$all,~inline-script,~inline-font
+Error: "Unknown modifier: ~inline-script" in the rule: "||54.237.193.255^$document,popup,~inline-script,~inline-font"
+||54.237.193.255^$all,~inline-script,~inline-font
 Error: "Unknown modifier: ~inline-font" in the rule: "||downloadprovider.me^$document,popup,~inline-font,~inline-script"
 ||downloadprovider.me^$all,~inline-font,~inline-script
 Error: "Unknown modifier: ~inline-font" in the rule: "||cash93.com^$document,popup,~inline-font,~inline-script"
@@ -17286,10 +17366,6 @@ Error: "Unknown modifier: ~inline-font" in the rule: "||breakfastsinew.com^$docu
 ||breakfastsinew.com^$all,~inline-font,~inline-script
 Error: "Unknown modifier: ~inline-font" in the rule: "||breastfeedingdelightedtease.com^$document,popup,~inline-font,~inline-script"
 ||breastfeedingdelightedtease.com^$all,~inline-font,~inline-script
-Error: "Unknown modifier: ~inline-font" in the rule: "||breastnurseincline.com^$document,popup,~inline-font,~inline-script"
-||breastnurseincline.com^$all,~inline-font,~inline-script
-Error: "Unknown modifier: ~inline-font" in the rule: "||breathunwelcome.com^$document,popup,~inline-font,~inline-script"
-||breathunwelcome.com^$all,~inline-font,~inline-script
 Error: "Unknown modifier: ~inline-font" in the rule: "||breedsthey.com^$document,popup,~inline-font,~inline-script"
 ||breedsthey.com^$all,~inline-font,~inline-script
 Error: "Unknown modifier: ~inline-font" in the rule: "||brinkprovenanceamenity.com^$document,popup,~inline-font,~inline-script"
@@ -17356,8 +17432,6 @@ Error: "Unknown modifier: ~inline-font" in the rule: "||cadskiz.com^$document,po
 ||cadskiz.com^$all,~inline-font,~inline-script
 Error: "Unknown modifier: ~inline-font" in the rule: "||cadslims.com^$document,popup,~inline-font,~inline-script"
 ||cadslims.com^$all,~inline-font,~inline-script
-Error: "Unknown modifier: ~inline-font" in the rule: "||cadslimz.com^$document,popup,~inline-font,~inline-script"
-||cadslimz.com^$all,~inline-font,~inline-script
 Error: "Unknown modifier: ~inline-font" in the rule: "||cadsoks.com^$document,popup,~inline-font,~inline-script"
 ||cadsoks.com^$all,~inline-font,~inline-script
 Error: "Unknown modifier: ~inline-font" in the rule: "||cadspms.com^$document,popup,~inline-font,~inline-script"
@@ -20924,8 +20998,6 @@ Error: "Unknown modifier: ~inline-font" in the rule: "||responsiverender.com^$do
 ||responsiverender.com^$all,~inline-font,~inline-script
 Error: "Unknown modifier: ~inline-font" in the rule: "||releasedfinish.com^$document,popup,~inline-font,~inline-script"
 ||releasedfinish.com^$all,~inline-font,~inline-script
-Error: "Unknown modifier: ~inline-font" in the rule: "||bloodpounds.com^$document,popup,~inline-font,~inline-script"
-||bloodpounds.com^$all,~inline-font,~inline-script
 Error: "Unknown modifier: ~inline-font" in the rule: "||frequencyfeelhoneymoon.com^$document,popup,~inline-font,~inline-script"
 ||frequencyfeelhoneymoon.com^$all,~inline-font,~inline-script
 Error: "Unknown modifier: ~inline-font" in the rule: "||enlargefoldervaliant.com^$document,popup,~inline-font,~inline-script"
@@ -21150,8 +21222,6 @@ Error: "Unknown modifier: ~inline-font" in the rule: "||compassionateblackthirst
 ||compassionateblackthirst.com^$all,~inline-font,~inline-script
 Error: "Unknown modifier: ~inline-font" in the rule: "||majestydeference.com^$document,popup,~inline-font,~inline-script"
 ||majestydeference.com^$all,~inline-font,~inline-script
-Error: "Unknown modifier: ~inline-font" in the rule: "||deneincline.com^$document,popup,~inline-font,~inline-script"
-||deneincline.com^$all,~inline-font,~inline-script
 Error: "Unknown modifier: ~inline-font" in the rule: "||enthusiasticsabotage.com^$document,popup,~inline-font,~inline-script"
 ||enthusiasticsabotage.com^$all,~inline-font,~inline-script
 Error: "Unknown modifier: ~inline-font" in the rule: "||happeningturbandisorganized.com^$document,popup,~inline-font,~inline-script"
@@ -21772,8 +21842,6 @@ Error: "Unknown modifier: ~inline-font" in the rule: "||degrademeantdig.com^$doc
 ||degrademeantdig.com^$all,~inline-font,~inline-script
 Error: "Unknown modifier: ~inline-font" in the rule: "||heartilylassitude.com^$document,popup,~inline-font,~inline-script"
 ||heartilylassitude.com^$all,~inline-font,~inline-script
-Error: "Unknown modifier: ~inline-font" in the rule: "||sweatyuprisingshut.com^$document,popup,~inline-font,~inline-script"
-||sweatyuprisingshut.com^$all,~inline-font,~inline-script
 Error: "Unknown modifier: ~inline-font" in the rule: "||eweconciliate.com^$document,popup,~inline-font,~inline-script"
 ||eweconciliate.com^$all,~inline-font,~inline-script
 Error: "Unknown modifier: ~inline-font" in the rule: "||appreciationcallingregent.com^$document,popup,~inline-font,~inline-script"
@@ -22278,6 +22346,8 @@ Error: "Unknown modifier: ~inline-font" in the rule: "||123secure.org^$document,
 ||123secure.org^$all,~inline-font,~inline-script
 Error: "Unknown modifier: ~inline-font" in the rule: "||sup2.10239.org^$document,popup,~inline-font,~inline-script"
 ||sup2.10239.org^$all,~inline-font,~inline-script
+Error: "Unknown modifier: ~inline-font" in the rule: "||yuppdownload.com^$document,popup,~inline-font,~inline-script"
+||yuppdownload.com^$all,~inline-font,~inline-script
 ! Error: Invalid selector: '.g:has(a[href*=".agency/"]:not([href*="battlefield.agency"], [href*="baam.agency"], [href*="uphotel.agency"], [href*="robotzebra.agency"])' -- Unbalanced brackets for extended pseudo-class: 'has' in rule:
 www.google.*##.g:has(a[href*=".agency/"]:not([href*="battlefield.agency"], [href*="baam.agency"], [href*="uphotel.agency"], [href*="robotzebra.agency"])
 ! Error: Invalid selector: '.b_algo:has(a[href*=".agency/"]:not([href*="battlefield.agency"], [href*="baam.agency"], [href*="uphotel.agency"], href*=["robotzebra.agency"])' -- '["robotzebra.agency"]' is not a valid attribute due to '"' at start of it in rule:
