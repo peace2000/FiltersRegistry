@@ -1,7 +1,7 @@
 !
 ! Title: 🏔️ Dandelion Sprouts nordiske filtre for ryddigere nettsider (for AdGuard)
 ! Translated title: Dandelion Sprout's Nordic filters for tidier websites (for AdGuard)
-! OriginalVersion: 23February2023v1
+! OriginalVersion: 13March2023v1
 ! Expires: 1 day
 ! Lisens / Licence: https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
@@ -57,7 +57,6 @@ bold.dk##._adr_abp_container
 boligdebatten.dk###selvsalg-reklame
 bornholm.nu##.bannercontent
 borsen.dk##[href*="://borsen.dk/sponsoreret"]
-brudleyp.fo,hvat.fo##.vev
 bt.dk##.dre-item--feature-e-commerce
 bt.no###related-articles + div[class^=_]
 bt.no##.classic-perks-container
@@ -217,6 +216,9 @@ nyteknikk.no##.rightbanner
 nyteknikk.no##.toppbanner
 opp.no##.classified-ads
 oppdrettstorget.no##.index_extadsm
+gamer.no#?#header ~ div:has(div[data-unit*=banner])
+gamer.no#?#.col-12:has(> betting-matchup)
+gamer.no##article ~ .text-center
 padleguide.dk#?#h2:has-text(/casino/i)
 peters1.dk##.sleeknote-anchor
 peters1.dk##div[style="width: 100%;"]
@@ -389,13 +391,14 @@ padleguide.dk,polarmedia.dk,iphoneluppen.dk,anettelyskjaer.dk,dreampapers.dk,nem
 vg.no,e24.no,gamer.no,tek.no,digi.no#%#//scriptlet('ubo-aopw.js', '__AB__')
 teknologia.no,gunnarandreassen.com,norskemagasinet.com,nyheder24.dk,pappaportalen.no##a[href*=kasino]
 arendalstidende.no,sorlandsavisen.no,audlindin.is,eirikurjonsson.is,verktoy24.no##.g-single
+fiskur.fo,portal.fo,roysni.fo,dagur.fo,orkan.fo###footer-adds
 iphoneluppen.dk,anettelyskjaer.dk,dreampapers.dk,nemsvar.nu#?#h2:has(+ p:has-text(/casino/i))
 building-supply.dk,licitationen.dk,jernindustri.dk##.grid-article-sponsored
 reavisa.no,smartmeny.no,skagensavis.dk,1881.no##.ad
 gamer.no,tek.no,digi.no##.products-carousel
 veier24.no,tu.no,digi.no##.top-poster-wrap
 abcnyheter.no,medier24.no,tv2.no##a[href*="adform.net"]
-fiskur.fo,portal.fo,roysni.fo###footer-adds
+brudleyp.fo,hvat.fo,portal.fo##.vev
 latterkula.no,gunnarandreassen.com##a[href*=spill]
 ! — — — — — — — — —
 ! 🇳🇴: Generelle #-oppføringer med kilder
@@ -489,7 +492,15 @@ dk##section.article__adblock
 ! https://github.com/uBlockOrigin/uAssets/issues/13224
 ##a[data-bid="1"][href*="/linkout"]
 ! rett24.no (13/06/2022)
-##.bannerizor-banner
+##.bannerizor-banner:not(html, body)
+! metalsupply.no, licitationen.dk (08/03/2023)
+##.mowgli-right:not(html, body)
+! https://www.licitationen.dk/article/view/900259/efter_entreprenors_konkurs_river_106_ufaerdige_huse_ned_i_hojetaastrup (08/03/2023)
+##.mowgli-inread:not(html, body)
+##.top-mowgli:not(html, body)
+##.main-article-right-container > div[id][style^="margin-bottom:"]
+! maskinregisteret.no (08/03/2023)
+###front-page-app .row > #box2-container
 ! — — — — — — —
 ! 🇳🇴: Brede eller heldomenebaserte blokkeringsoppføringer
 ! 🇬🇧: Broad or whole-domain blocking rules
@@ -883,11 +894,10 @@ _300x500pix$domain=rykindribe.dk,image
 ||gfx.no^*/refererPromo$script,stylesheet
 ! buildingsupply.no, maskinregisteret.no, metalsupply.no, plastforum.no
 ||f.nordiskemedier.dk/*.gif^
-! metalsupply.no
-||f.nordiskemedier.dk/2*.png^
-@@||f.nordiskemedier.dk/2*_*.png^
 ! building-supply.dk
 ||f.nordiskemedier.dk/banner^
+! metalsupply.no, licitationen.dk
+/://f\.nordiskemedier\.dk/2[a-z0-9]{12,}\.(jpg|png|jpeg)/$third-party
 ! viivilla.no (10/11/2020)
 ||bcm.interactives.dk/script^$third-party
 ! adressa.no (10/11/2020)
@@ -1275,6 +1285,8 @@ madensverden.dk##.maden-widget
 madridista.dk##.uk-grid:not([class*=" "])
 magasinetskolen.dk##.region-leaderboard
 magasinetskolen.dk##.region-sidebar-first > .clearfix > .first
+gamer.no#?#.col-lg-7:has(+ article)
+canariavisen.no##.fullscreen-ad-space
 malviknytt.no#?#.td-pb-span8:has(.adsbygoogle)
 manuall.*##form + div[style^="border-style:solid; "]
 markedsforing.dk##.acf-block
@@ -1964,6 +1976,8 @@ ni.dk#@#a[href*=".adform.net/"]
 findbolig.nu#@#.advertLink
 ! https://github.com/uBlockOrigin/uAssets/issues/13907
 @@://imasdk.googleapis.com/js/sdkloader/ima3.js^$domain=tv2.dk
+! http://sosialurin.fo/news-detail/steypafinala-vilhelm-og-rogvi-a-ruv1-fra-klokkan-1630
+sosialurin.fo#@#.ads-banner
 ! ★★★ Caused by «I Don't Care About Cookies» (Its maintainer couldn't reproduce it) ★★★
 ! Fullpage uncloseable overlay when browsing around on Telenor Norway's TV section
 telenor.no##.global-overlay-background
