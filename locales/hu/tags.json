@@ -1,5 +1,13 @@
 [
 	{
+		"tag.70.description": "Kifejezetten a pashtu nyelvű weboldalakon megjelenő hirdetések blokkolására tervezték.",
+		"tag.70.name": "Pashto nyelv-specifikus hirdetésblokkolás"
+	},
+	{
+		"tag.69.description": "Kifejezetten a tádzsik nyelvű weboldalakon megjelenő hirdetések blokkolására tervezték",
+		"tag.69.name": "Tádzsik nyelv-specifikus hirdetésblokkolás"
+	},
+	{
 		"tag.68.description": "Kifejezetten az ukrán nyelvű weboldalakon megjelenő hirdetések blokkolására tervezték",
 		"tag.68.name": "Ukrán nyelvspecifikus hirdetésblokkolás"
 	},

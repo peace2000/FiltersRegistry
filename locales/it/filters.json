@@ -33,7 +33,7 @@
 	},
 	{
 		"filter.9.name": "Filtro AdGuard spagnolo/portoghese",
-		"filter.9.description": "Elenco di filtri che rimuove specificatamente gli annunci sui siti web in lingua spagnola e portoghese."
+		"filter.9.description": "Elenco di filtri che rimuove specificamente gli annunci sui siti web in lingua spagnola, portoghese e portoghese brasiliano."
 	},
 	{
 		"filter.10.name": "Filtro che sblocca gli annunci di ricerca ed autopromozione",

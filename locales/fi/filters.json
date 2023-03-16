@@ -33,7 +33,7 @@
 	},
 	{
 		"filter.9.name": "AdGuardin espanjan- ja portugalinkielten suodatin",
-		"filter.9.description": "Suodatinlista, joka poistaa mainoksia erityisesti portugalin- ja espanjankielisiltä sivustoilta."
+		"filter.9.description": "Suodatinlista, joka poistaa mainoksia erityisesti espanjan-, portugalin- ja brasilianportugalinkielisiltä sivustoilta."
 	},
 	{
 		"filter.10.name": "Hakumainonnan ja sivustojen oman markkinoinnin salliva suodatin",

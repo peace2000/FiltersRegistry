@@ -33,7 +33,7 @@
 	},
 	{
 		"filter.9.name": "AdGuard Spansk/Portugisisk filter",
-		"filter.9.description": "Filterliste, der specifikt fjerner reklamer på spansk- og portugisisksprogede websteder."
+		"filter.9.description": "Filterliste, der specifikt fjerner annoncer på websteder på spansk, portugisisk og brasiliansk portugisisk."
 	},
 	{
 		"filter.10.name": "Filter, der afblokerer selvpromoverende annoncer",

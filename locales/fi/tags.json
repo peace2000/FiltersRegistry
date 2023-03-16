@@ -1,5 +1,13 @@
 [
 	{
+		"tag.70.description": "Suodatin, joka tehostaa mainosestoa erityisesti paštunkielisillä sivustoilla.",
+		"tag.70.name": "Paštun kielikohtainen mainosesto"
+	},
+	{
+		"tag.69.description": "Suodatin, joka tehostaa mainosestoa erityisesti tadžikinkielisillä sivustoilla.",
+		"tag.69.name": "Tadžikin kielikohtainen mainosesto"
+	},
+	{
 		"tag.68.description": "Suodatin, joka tehostaa mainosestoa erityisesti ukrainankielisillä sivustoilla.",
 		"tag.68.name": "Ukrainan kielikohtainen mainosesto"
 	},

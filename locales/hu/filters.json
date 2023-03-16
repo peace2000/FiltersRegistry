@@ -33,7 +33,7 @@
 	},
 	{
 		"filter.9.name": "AdGuard Spanyol/Portugál szűrő",
-		"filter.9.description": "Szűrőlista, amely kifejezetten eltávolítja a hirdetéseket a spanyol és portugál nyelvű webhelyekről."
+		"filter.9.description": "Szűrőlista, amely kifejezetten eltávolítja a hirdetéseket a spanyol, portugál és brazil portugál nyelvű webhelyekről."
 	},
 	{
 		"filter.10.name": "Szűrő a keresési hirdetések és az önpromóciók feloldásához",
