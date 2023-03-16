@@ -33,7 +33,7 @@
 	},
 	{
 		"filter.9.name": "AdGuard 西班牙语/葡萄牙语过滤器",
-		"filter.9.description": "此过滤器专门移除西班牙语及葡萄牙语网站上的广告。"
+		"filter.9.description": "此过滤器专门移除西班牙语、葡萄牙语和巴西语的网站上的广告。"
 	},
 	{
 		"filter.10.name": "解除搜索广告和自我推销过滤器",

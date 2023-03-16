@@ -33,7 +33,7 @@
 	},
 	{
 		"filter.9.name": "Bộ lọc tiếng Tây Ban Nha/Bồ Đào Nha",
-		"filter.9.description": "Bộ lọc kích hoạt loại bỏ quảng cáo khỏi các website với nội dung tiếng Tây Ban Nha và Bồ Đào Nha."
+		"filter.9.description": "Danh sách bộ lọc loại bỏ cụ thể quảng cáo trên các trang web bằng ngôn ngữ Tây Ban Nha và Bồ Đào Nha."
 	},
 	{
 		"filter.10.name": "Bộ lọc quảng cáo hữu ích",

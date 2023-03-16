@@ -1,5 +1,13 @@
 [
 	{
+		"tag.70.description": "Designet specifikt til adblocking på persisksprogede websider",
+		"tag.70.name": "Sprogspecifik pashto adblocking"
+	},
+	{
+		"tag.69.description": "Designet specifikt til adblocking på tajiksprogede websider",
+		"tag.69.name": "Sprogspecifik tajik adblocking"
+	},
+	{
 		"tag.68.description": "Designet specifikt til adblocking på ukrainsksprogede websider",
 		"tag.68.name": "Sprogspecifik ukrainsk adblocking"
 	},
