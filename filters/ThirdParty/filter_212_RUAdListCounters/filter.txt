@@ -1,8 +1,8 @@
 !
-! Checksum: mjwsWOzXhNvbCSmoSrYstA
-! OriginalVersion: 202303090430
+! Checksum: DGIGYBY65HSHrSfhP7NXnA
+! OriginalVersion: 202303161231
 ! Title: RU AdList: Counters
-! Last modified: 09 Mar 2023 04:30 UTC
+! Last modified: 16 Mar 2023 12:31 UTC
 ! Expires: 1 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -129,6 +129,7 @@
 /pixel.php?
 /pixel.png?
 /pixel/?token=
+/player/stats.php?
 /pr.php?ref=$third-party,image
 /px.js?ch=$script
 /quant.js
@@ -221,6 +222,7 @@ _pagespeed_beacon?
 |http://pr-cy.$third-party
 ||1l-hit.mail.ru^
 ||1pagerank.com^$third-party
+||24support.cc/js/stats.js
 ||2ip.ru^$third-party,~subdocument
 ||2o7.net^$third-party
 ||2stat.net^
@@ -404,7 +406,6 @@ _pagespeed_beacon?
 ||dataxpand.com^$third-party
 ||dc.services.visualstudio.com^*/track
 ||demandbase.com^$third-party
-||devapps.ru/*.js?_=0.9$script
 ||directcrm.ru^$third-party
 ||disqus.com/api/ping$third-party
 ||dmp.adform.net^$third-party
@@ -645,6 +646,7 @@ _pagespeed_beacon?
 ||newsharecounts.com/count.json
 ||nfshome.com/track.php?id=
 ||ninja.data.olxcdn.com/ninja-cee.js$domain=~olx.pl
+||nomery.ru/p.php
 ||odnoklassniki.ru/dk?*&uid=odklcnt0&ref=
 ||ohnorobot.com/verify.pl?
 ||omtrdc.net^$third-party
@@ -828,6 +830,7 @@ _pagespeed_beacon?
 ||stats.seedr.ru^
 ||stats.serpads.com^$third-party
 ||stats.viqeo.tv^$third-party
+||stats.vk-portal.net^$third-party
 ||stats.wordpress.com^
 ||stats.wp.com^$third-party
 ||statscreen.info^$third-party
@@ -1031,6 +1034,7 @@ _pagespeed_beacon?
 ||bs.yandex.$~script
 ||button.blogs.yandex.
 ||clck.yandex.ru^$~other
+||mc.yandex.com^
 ||mc.yandex.ru^
 ||metrika.yandex.$third-party
 ||yabs.yandex.ru/count/
@@ -1233,12 +1237,13 @@ yandex.*#?#.touch-feed > div > .feed-item[id^="zen-row-"]:-abp-has([class^="zen-
 4pda.*##html[style] > body a[href*="goo.gl"]
 4pda.*##html[style] > body a[href*="is.gd"]
 4pda.*##html[style] > body div[class$="-brand-header"]
-4pda.*#?#.article > div[style^="background-color:"]:-abp-has(> span + a[href^="//4pda.to/pages/go/?u="])
-4pda.*#?#[itemprop="articleBody"] > div[style^="background-color:"]:-abp-has(> span + a[href^="//4pda.to/pages/go/?u="])
+4pda.*#?#.article > div[style^="background-color:"]:-abp-has(> span + a[id][href][target="_blank"])
+4pda.*#?#[itemprop="articleBody"] > div[style^="background-color:"]:-abp-has(> span + a[id][href][target="_blank"])
+4pda.*#?#a.rounded[href][target="_blank"]:-abp-contains(/^Узнать больше/)
 4pda.*#?#html[style] > body a.rounded[href][target="_blank"]:-abp-contains(/^Узнать /)
 ! анонс в мобильно-планшетной версии макета
-4pda.*##html[style] > body > script[src*="devapps.ru/"][src*=".js?_=0.9"] ~ * > [class][style*="zoom:"]
-4pda.*##html[style] > body > script[src*="devapps.ru/"][src*=".js?_=0.9"] ~ [class][style*="zoom:"]
+4pda.*##html[style] > body > script[src*=".js?_=0.9"] ~ * > [class][style*="zoom:"]
+4pda.*##html[style] > body > script[src*=".js?_=0.9"] ~ [class][style*="zoom:"]
 ! анонс в шапке форума
 4pda.*###go_1 > :not(p):not(h4):not(.globalmesscontent)
 ! реклама в шапке форума
@@ -1247,6 +1252,8 @@ yandex.*#?#.touch-feed > div > .feed-item[id^="zen-row-"]:-abp-has([class^="zen-
 4pda.*##html:not([style]) > body:not([itemscope]) > div[id]:not([href]) > [href="#"]:empty ~ [href^="http"]
 ! реклама в QMS и мобильной версии сайта
 4pda.*##.menu-main-mobile > [style="display:none;"]
+! редирект
+||4pda.to/s/*.js?_=0.9$script,redirect=empty
 !
 ! Экспериментальные правила для маркеров
 $document,removeparam=fr,domain=go.mail.ru|r.mail.ru
@@ -1290,13 +1297,16 @@ $removeparam=ila_location
 $removeparam=irclickid
 $removeparam=irgwc
 $removeparam=mt_click_id
+$removeparam=nr,domain=ya.ru
 $removeparam=pulse_traffic
+$removeparam=redirect_ts,domain=ya.ru
 $removeparam=ref,domain=mail.ru|sportmail.ru
 $removeparam=ref_src
 $removeparam=ref_url
 $removeparam=rf,domain=mail.ru|sportmail.ru
 $removeparam=rid,domain=dzen.ru
 $removeparam=rtclick
+$removeparam=short_domain,domain=turbobi.pw|turbobif.com|turbobit.net|turbobit.ru|turboobit.com|turbosit.net
 $removeparam=sid,domain=nnm-club.lib|nnm-club.me|nnmclub.ro|nnmclub.to|rutor.in
 $removeparam=tt_content,domain=twitch.tv
 $removeparam=tt_medium,domain=twitch.tv
@@ -1308,11 +1318,13 @@ $removeparam=utm_event
 $removeparam=utm_id
 $removeparam=utm_medium
 $removeparam=utm_partner_id,domain=mail.ru|sportmail.ru
+$removeparam=utm_referer
 $removeparam=utm_referrer
 $removeparam=utm_source
 $removeparam=utm_term
 $removeparam=utm_test
 $removeparam=via,domain=ya.ru
+$removeparam=weid,domain=sibnet.ru
 $removeparam=yaclid
 $removeparam=yclid
 $removeparam=yredirect
@@ -1335,6 +1347,7 @@ $removeparam=ysclid
 /?f=ukr.net$document,removeparam=|
 /?from=$removeparam=from,domain=mail.ru|sportmail.ru
 /?from=RCM-$document,xmlhttprequest,removeparam,domain=rambler.ru
+/?from=smm|$removeparam=from
 /?from_block=$document,removeparam=from_block,domain=www.kinopoisk.ru
 /?gm&$document,removeparam=gm,domain=116.ru|14.ru|161.ru|164.ru|178.ru|26.ru|29.ru|35.ru|43.ru|45.ru|48.ru|51.ru|53.ru|56.ru|59.ru|60.ru|62.ru|63.ru|68.ru|71.ru|72.ru|74.ru|76.ru|86.ru|89.ru|93.ru|chita.ru|e1.ru|ircity.ru|mgorsk.ru|msk1.ru|ngs.ru|ngs22.ru|ngs24.ru|ngs42.ru|ngs55.ru|ngs70.ru|nn.ru|proizhevsk.ru|provoronezh.ru|sochi1.ru|sterlitamak1.ru|tolyatty.ru|ufa1.ru|v1.ru
 /?readmore$document,xmlhttprequest,removeparam=|,domain=rambler.ru

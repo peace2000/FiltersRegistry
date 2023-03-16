@@ -2,12 +2,14 @@
 &autoplay$frame,removeparam=autoplay,domain=di.se|expressen.se
 ! Rule "/aab/tv4play$redirect=noop.js,script,domain=fotbollskanalen.se|koket.se|tv4.se|tv4play.se" converted to: "/aab/tv4play$redirect=noopjs,script,domain=fotbollskanalen.se|koket.se|tv4.se|tv4play.se"
 /aab/tv4play$redirect=noop.js,script,domain=fotbollskanalen.se|koket.se|tv4.se|tv4play.se
-! Rule "/prerolls$media,mp4,domain=gamereactor.se" converted to: "/prerolls$media,redirect=noopmp4-1s,domain=gamereactor.se"
-/prerolls$media,mp4,domain=gamereactor.se
+! Rule "/prerolls$media,redirect=noop-1s.mp4,domain=gamereactor.se" converted to: "/prerolls$media,redirect=noopmp4-1s,domain=gamereactor.se"
+/prerolls$media,redirect=noop-1s.mp4,domain=gamereactor.se
 ! Rule "?autoPlay$frame,removeparam=autoplay,domain=expressen.se" converted to: "?autoPlay$subdocument,removeparam=autoplay,domain=expressen.se"
 ?autoPlay$frame,removeparam=autoplay,domain=expressen.se
 ! Rule "?autoplay=true$frame,removeparam=autoplay,domain=expressen.se" converted to: "?autoplay=true$subdocument,removeparam=autoplay,domain=expressen.se"
 ?autoplay=true$frame,removeparam=autoplay,domain=expressen.se
+! Rule "@@||www.spisa.nu^$doc" converted to: "@@||www.spisa.nu^$document"
+@@||www.spisa.nu^$doc
 ! Rule "accentmagasin.se##+js(nostif, n.modal)" converted to: "accentmagasin.se#%#//scriptlet('ubo-nostif.js', 'n.modal')"
 accentmagasin.se##+js(nostif, n.modal)
 ! Rule "affarsliv.com,alekuriren.se,allas.se,baaam.se,babyhjalp.se,barometern.se,blt.se,bt.se,byrum.se,cafe.se,corren.se,di.se,ekuriren.se,elle.se,eposten.se,expressen.se,familjeliv.se,femina.se,folkbladet.nu,folkbladet.se,fragbite.se,frida.se,golfing.se,gotlandjustnu.se,hant.se,helagotland.se,ibnytt.se,kalmarposten.se,kindaposten.se,kingmagazine.se,kkuriren.se,klt.nu,kristianstadsbladet.se,kuriren.nu,lokalti.se,lokaltidningen.nu,mabra.com,mellanbygden.nu,meraosterlen.se,mestmotor.se,mitti.se,motherhood.se,mvt.se,nordsverige.se,norrahalland.se,norran.se,norrbottensaffarer.se,nsd.se,nsk.se,nt.se,nwt.se,nyheter24.se,olandsbladet.se,praktisktbatagande.se,pt.se,realtid.se,recept.se,residencemagazine.se,skd.se,smp.se,sn.se,strengnastidning.se,svenskanamn.se,svenskdam.se,svenskgolf.se,sverigespringer.se,sydostran.se,thelocal.se,trelleborgsallehanda.se,unt.se,ut.se,vasterastidning.se,vasterbottningen.se,vaxjobladet.se,viivilla.se,vimmerbytidning.se,vk.se,vt.se,vxonews.se,youplay.se,ystadsallehanda.se##+js(json-prune, autoplay)" converted to: "affarsliv.com,alekuriren.se,allas.se,baaam.se,babyhjalp.se,barometern.se,blt.se,bt.se,byrum.se,cafe.se,corren.se,di.se,ekuriren.se,elle.se,eposten.se,expressen.se,familjeliv.se,femina.se,folkbladet.nu,folkbladet.se,fragbite.se,frida.se,golfing.se,gotlandjustnu.se,hant.se,helagotland.se,ibnytt.se,kalmarposten.se,kindaposten.se,kingmagazine.se,kkuriren.se,klt.nu,kristianstadsbladet.se,kuriren.nu,lokalti.se,lokaltidningen.nu,mabra.com,mellanbygden.nu,meraosterlen.se,mestmotor.se,mitti.se,motherhood.se,mvt.se,nordsverige.se,norrahalland.se,norran.se,norrbottensaffarer.se,nsd.se,nsk.se,nt.se,nwt.se,nyheter24.se,olandsbladet.se,praktisktbatagande.se,pt.se,realtid.se,recept.se,residencemagazine.se,skd.se,smp.se,sn.se,strengnastidning.se,svenskanamn.se,svenskdam.se,svenskgolf.se,sverigespringer.se,sydostran.se,thelocal.se,trelleborgsallehanda.se,unt.se,ut.se,vasterastidning.se,vasterbottningen.se,vaxjobladet.se,viivilla.se,vimmerbytidning.se,vk.se,vt.se,vxonews.se,youplay.se,ystadsallehanda.se#%#//scriptlet('ubo-json-prune.js', 'autoplay')"
@@ -338,10 +340,10 @@ www.expressen.se##+js(acs, Bau, preloadAds)
 www.expressen.se##+js(set, detect, noopFunc)
 ! Rule "youplay.se##+js(aeld, loadstart)" converted to: "youplay.se#%#//scriptlet('ubo-aeld.js', 'loadstart')"
 youplay.se##+js(aeld, loadstart)
-! Rule "||bumpers.tv4play.se^$media,mp4,domain=tv4play.se" converted to: "||bumpers.tv4play.se^$media,redirect=noopmp4-1s,domain=tv4play.se"
-||bumpers.tv4play.se^$media,mp4,domain=tv4play.se
-! Rule "||cloudfront.net^$media,mp4,domain=tv4play.se" converted to: "||cloudfront.net^$media,redirect=noopmp4-1s,domain=tv4play.se"
-||cloudfront.net^$media,mp4,domain=tv4play.se
+! Rule "||bumpers.tv4play.se^$media,redirect=noop-1s.mp4,domain=tv4play.se" converted to: "||bumpers.tv4play.se^$media,redirect=noopmp4-1s,domain=tv4play.se"
+||bumpers.tv4play.se^$media,redirect=noop-1s.mp4,domain=tv4play.se
+! Rule "||cloudfront.net^$media,redirect=noop-1s.mp4,domain=tv4play.se" converted to: "||cloudfront.net^$media,redirect=noopmp4-1s,domain=tv4play.se"
+||cloudfront.net^$media,redirect=noop-1s.mp4,domain=tv4play.se
 ! Rule "||discord.com^$frame,redirect=click2load.html,domain=spelrum.net" converted to: "||discord.com^$subdocument,redirect=click2load.html,domain=spelrum.net"
 ||discord.com^$frame,redirect=click2load.html,domain=spelrum.net
 ! Rule "||k5a.io^$redirect=noop.js,script,domain=tv2.no" converted to: "||k5a.io^$redirect=noopjs,script,domain=tv2.no"
@@ -356,8 +358,10 @@ youplay.se##+js(aeld, loadstart)
 ||peertube.se^$frame,redirect=click2load.html,domain=nordiskradio.se
 ! Rule "||player.vimeo.com^$frame,redirect=click2load.html,domain=breakit.se" converted to: "||player.vimeo.com^$subdocument,redirect=click2load.html,domain=breakit.se"
 ||player.vimeo.com^$frame,redirect=click2load.html,domain=breakit.se
-! Rule "||trailer-admin-cdn.a2d.tv^$media,mp4,domain=tv4play.se" converted to: "||trailer-admin-cdn.a2d.tv^$media,redirect=noopmp4-1s,domain=tv4play.se"
-||trailer-admin-cdn.a2d.tv^$media,mp4,domain=tv4play.se
+! Rule "||spisa.nu^$doc" converted to: "||spisa.nu^$document"
+||spisa.nu^$doc
+! Rule "||trailer-admin-cdn.a2d.tv^$media,redirect=noop-1s.mp4,domain=tv4play.se" converted to: "||trailer-admin-cdn.a2d.tv^$media,redirect=noopmp4-1s,domain=tv4play.se"
+||trailer-admin-cdn.a2d.tv^$media,redirect=noop-1s.mp4,domain=tv4play.se
 ! Rule "||widget.playoncenter.com/newplayer/js/pb_$redirect=noop.js,script" converted to: "||widget.playoncenter.com/newplayer/js/pb_$redirect=noopjs,script"
 ||widget.playoncenter.com/newplayer/js/pb_$redirect=noop.js,script
 ! Rule "proffs.se##*::-webkit-scrollbar-thumb:style(background: #5e5e5e !important; border: 64px none #ffffff !important; border-radius: 0px !important;)" converted to: "proffs.se#$#*::-webkit-scrollbar-thumb { background: #5e5e5e !important; border: 64px none #ffffff !important; border-radius: 0px !important; }"

@@ -1,8 +1,8 @@
 !
-! Checksum: vju0AZhnIr08z1FwOu0KKQ
-! OriginalVersion: 202303090430
+! Checksum: bD0a8FlKT2nyyPHy7T4Bcw
+! OriginalVersion: 202303161231
 ! Title: Liste AR
-! Last modified: 09 Mar 2023 04:30 UTC
+! Last modified: 16 Mar 2023 12:31 UTC
 ! Expires: 1 days (fréquence des mises à jour automatiques)
 ! Homepage: https://code.google.com/p/liste-ar-adblock/
 !
@@ -528,6 +528,7 @@ $third-party,xmlhttprequest,domain=1short.us|3iisk.video|9alami.info|actionz.tv|
 !
 $stylesheet,third-party,domain=aflamsexnek.com|arteenz.com|brstej.com|egydead.live
 !
+$popup,domain=aflamsexnek.com|aflamyz.com|anime2001.com|arteenz.com|kora-online.tv|mes001.blogspot.com
 !
 ||0sat.com/photo0sat/
 ||20script.ir/banner/

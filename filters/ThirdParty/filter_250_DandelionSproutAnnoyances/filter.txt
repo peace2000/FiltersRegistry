@@ -463,13 +463,14 @@ linkedin.com#$?#html { overflow: auto !important; }
 linkedin.com#$?#body { overflow: auto !important; }
 !#if ext_ublock
 ! Title: 💊 Dandelion Sprout's Anti-Malware List
-! OriginalVersion: 08March2023v1
+! OriginalVersion: 14March2023v1
 ! Expires: 2 days
 ! Description: This list goes the extra kilometer to prevent more malware than other mainstream anti-malware lists. It blocks heavily abused top-level domains (and even search engine results for them), blocks domains used in malware redirection trains and in domain parking schemes, blocks sponsored Windows PUP nags on PC guide articles, uses mass blocking of domains belonging to bad IPs, and has many other subcategories that give it a solid advantage over similar lists out there.
 ! For other security-specific lists I've made, check out https://github.com/DandelionSprout/adfilt/tree/master/Special%20security%20lists
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md#-english
 ! ——— Bad top-level domains ———
 ! You can expect these domains to have an overwhelming majority of malware domains that have nothing to do with the countries in question. Nevertheless, if you are in a situation where you have to do active business in any of the countries in question, then this list may not be ideal for you.
+! When asking us to whitelist a site: Make sure the site has some sort of public content. Non-public sites and alias sites are usually not whitelisted.
 ! Tokelau (Put on break due to too many whitelistings being needed)
 !!!||tk^$doc,domain=~google.tk|~coolcmd.tk|~budterence.tk|~transportnews.tk|~c0d3c.tk|~tokelau-info.tk|~loljp-wiki.tk|~ninetail.tk|~goshujin.tk|~graph.tk|~nolfrevival.tk|~bstweaker.tk|~nbd-media.tk|~gotofap.tk|~coppersurfer.tk|~fakaofo.tk
 ! Gabon
@@ -587,7 +588,7 @@ bing.com##.b_algo:has(a[href*=".top/"]:not([href*="caitlin.top"], [href*="corrie
 ||ssl.bblck.me^$document
 ||allblock.net^$document
 ||microsoftedge.microsoft.com/addons/detail/allblock/nkllnmjaaifdphkfbmedklkimjmnjeen^$document
-! Malicious or purchaseable domains found in videogame manuals and title screens
+! Malicious or purchaseable domains found in videogame manuals, title screens, or game driver/patch sites
 ||acclaimsports.com^$document
 ||acclaimmaxsports.com^$document
 ||hip-games.com^$document
@@ -599,6 +600,7 @@ bing.com##.b_algo:has(a[href*=".top/"]:not([href*="caitlin.top"], [href*="corrie
 ||cuttherope.ie^$document
 ||cloudyvideogame.com^$document
 ||marsshooter.org^$document
+||fortevr.com^$document
 ! Dead router connection URİs
 ! To log in to TP-Link routers, use tplinkwifi.net instead.
 ||tplinklogin.net^$document
@@ -1481,6 +1483,8 @@ zombooru.com##a[href="http://www.hard55.com"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/144823
 !+ NOT_OPTIMIZED
 ://landings.*_slots/?partner=$document
+! https://github.com/AdguardTeam/AdguardFilters/issues/145513
+||redirect.newprogrammatic.click^$document
 ! ——— Standard malware that I stumbled upon on my own ———
 ! http://www.toorgle.net/results.php?q=fetishkitsch&security=666
 ##a[href*=".downloadprovider.me/"]
@@ -1984,6 +1988,12 @@ www.microsoft.com##a[data-pfns][data-pfns*="amongonline."]
 www.microsoft.com##a[data-pfns][data-pfns*=lupygames]
 www.microsoft.com##a[data-pfns][data-pfns*="juliept."]
 www.microsoft.com##a[data-pfns][data-pfns*=caoucaoua]
+www.microsoft.com##a[data-pfns][data-pfns*="gameboxstudio."]
+www.microsoft.com##a[data-pfns][data-pfns*="carracing."]
+www.microsoft.com##a[data-pfns][data-pfns*=dressupgamefor]
+www.microsoft.com##a[data-pfns][data-pfns*=brianeducation]
+www.microsoft.com##a[data-pfns][data-pfns*=gamdev]
+www.microsoft.com##a[data-pfns][data-pfns*=gambild]
 www.microsoft.com##a[data-pfns][data-pfns^="1"][data-pfns*="games."]
 www.microsoft.com##a[data-pfns][data-pfns^="2"][data-pfns*="games."]
 www.microsoft.com##a[data-pfns][data-pfns^="3"][data-pfns*="games."]
@@ -13759,7 +13769,7 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ! Placeholder line for alternate list versions
 !#endif
 ! Title: 🐐 Dandelion Sprout's Lightweight Anti-'Social share' List
-! OriginalVersion: 03March2023v4-Alpha
+! OriginalVersion: 13March2023v1-Alpha
 ! Expires: 3 days
 ! Description: This list aims to achieve pretty broad (if not overly broad) coverage of social sharing buttons, with perhaps 1/50th~1/100th as many entries as what the biggest anti-'social button' lists out there have.
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md#-english
@@ -14220,6 +14230,7 @@ condoblues.com###milotree_box_wrap
 ~whatsapp.com,~wa.me##a[href*="://wa.me/?text="]
 ~xing.com###xing-share
 ##.sharethis-inline-share-buttons:not(html, body)
+##.share-buttons-bottom:not(html, body)
 !!!~mewe.com,~www.nrk.no##[class*=share-button i]:not(body, html) (Can't be generic due to www.nrk.no, mewe.com, stylecaster.com)
 !!!~tidssonen.no,~mmoculture.com##div[class*=share-container] (Entry needs to be rewritten at some point)
 !!!~twitter.com,~twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion,~feedly.com,~chaturbate.com##.follow (Too many exceptions needed)
@@ -14976,7 +14987,7 @@ vimeo.com#%#//scriptlet('ubo-set.js', 'vimeo.clip_page_config.continuous_play_en
 ted.com#%#//scriptlet('ubo-sid.js', 'd.period', '1000')
 ted.com##.css-1dg07lz:has-text(Up next)
 ! Title: 🎫 Ad Removal List for Unusual Ads
-! OriginalVersion: 16December2022v1-Alpha
+! OriginalVersion: 14March2023v1-Alpha
 ! Expires: 4 days
 ! Description: This is a list to remove the kinds of ads that very few well-established international adblocker lists would want to remove, due to many of them not meeting those lists' strict criteria of what an ad actually is. So that's where this list comes into play.
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md#-english
@@ -15042,11 +15053,14 @@ socket.io###sponsors
 islandecho.co.uk#?#.herald-module:has(.category-news-in-brief)
 ! ——— Placeholders that are seemingly too small for EasyList ———
 mightytext.net###ad-block-holder
-! ——— Denied in EasyList for not being in English, denied in AdGuard Base for not being a popular site, no known language lists for it. May be submitted to uAssets at some point ———
+! ——— Denied (or implied denied) in EasyList for not being in English, denied in AdGuard Base for not being a popular site, no known language lists for it. May be submitted to uAssets at some point ———
 ! https://ilanganews.co.za/
 ilanganews.co.za##.vc_single_image.wpb_wrapper
 ! https://ilanganews.co.za/bayobuke-bafa-ababili-abebentshontsha-amakhebuli/
 ilanganews.co.za##.widget_media_image
+! https://github.com/AdguardTeam/AdguardFilters/issues/145446
+###bann-airtel
+###airtelMlay
 ! ——— Slot machine spam ———
 deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=slotonline i])
 deviantart.com##a[data-hook][href*="/art/"][href*=slotonline i]
@@ -16098,7 +16112,7 @@ vumoo.to#?#div.col-lg-12:has-text(IMDb)
 !#if !env_safari
 !#if !adguard_app_ios
 ! Title: ➗ Actually Legitimate URL Shortener Tool
-! OriginalVersion: 06March2023v1
+! OriginalVersion: 15March2023v1
 ! Expires: 1 day
 ! Description: In a world dominated by bit.ly, adf.ly, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary $/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
@@ -16109,6 +16123,7 @@ vumoo.to#?#div.col-lg-12:has-text(IMDb)
 ! - this list can not bypass tracker redirects through third-party domains. This can be done by strict-blocking said domain and using the ability to view parameters on the strict-block page or tools to bypass it.
 ! - this list can not remove anything after the # in URLs. This is impossible in uBlock Origin and AdGuard.
 ! - this list can not remove parameters added using https://developer.mozilla.org/en-US/docs/Web/API/History/replaceState
+! - as of 10/3/2023, this list is not supported in Brave, due to Brave missing several critical features this list uses. Please use this list only with uBlock Origin or AdGuard
 ! ——— General remove rules ——— !
 ! From AdGuard CoreLibs (11/11/2020)
 $removeparam=yclid
@@ -17247,6 +17262,9 @@ $removeparam=mibextid
 ! https://www.telegraph.co.uk/business/2022/01/27/wasps-bees-force-heathrow-take-offs-abandoned/?li_source=LI&li_medium=liftigniter-onward-journey
 $removeparam=li_source
 $removeparam=li_medium
+! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-5301390 (15/03/2023)
+$removeparam=/^adpopup=[a-eg-zA-EG-Z0-9]/
+$removeparam=/^adppopup=[a-eg-zA-EG-Z0-9]/
 ! ——— General blocking rules ——— !
 !! Scripts that solely exist to make URLs longer.
 ! https://github.com/DandelionSprout/adfilt/pull/320
@@ -17259,7 +17277,7 @@ $removeparam=cid,domain=abcnews.go.com|adguard.com|adshares.net|ae.com|anntaylor
 ! https://deal.no/apple-thunderbolt-to-gigabit-ethernet/cat-p/c/p4935744&ref=prisjakt (15/11/2020)
 ! https://www.amazon.com/s?k=disney+fairies&ref=nb_sb_noss_2 (27/11/2020)
 ! (https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-488495)
-$removeparam=ref,domain=abebooks.com|accounts.binance.com|adobe.com|akuankka.fi|albiononline.com|altcustoms.com|amazon.*|app.blockfi.com|arvopaperi.fi|audible.*|baidu.com|bestbuy.com|bing.com|bitlox.com|bitwarden.com|blogit.fi|bookdepository.com|brave.com|buzzfeed.com|buzzfeednews.com|bybit.com|catch.com.au|codehs.com|comixology.*|coop.no|deal.no|dell.com|digidip.net|domains.ch|droix.net|eset.com|etsy.com|expo.io|facebook.*|facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion|fig.io|foreca.*|geeksforgeeks.org|github.com|github.io|goodreads.com|hintaopas.fi|hintaseuranta.fi|hs.fi|idenati.com|ikea.com|iltapulu.fi|imdb.com|is.fi|jasonsavard.com|kauppalehti.fi|kesaduuni.org|kickstarter.com|ku.fi|mastermind.ac|mediuutiset.fi|megapornfreehd.com|merrell.com|mikrobitti.fi|motouutiset.fi|oikotie.fi|omataloyhtio.fi|protonvpn.com|proton.me|puutarha.net|rakentaja.fi|reddit.com|reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion|remppatori.fi|sahkovertailu.fi|sanoma.fi|scandinavianphoto.fi|schibsted.fi|semrush.com|shein.com|shodan.io|shopping.google.*|sketch.com|spiegel.de|sportskeeda.com|storyhouseegmont.fi|suomi24.fi|talouselama.fi|target.com|tekniikkatalous.fi|telsu.fi|thedailybeast.com|theregister.com|tivi.fi|tokenmetrics.com|twitch.tv|udemy.com|uusisuomi.fi|vultr.com|webhallen.no|woot.com|wormhole.app|yle.fi|zappos.com|zulily.com
+$removeparam=ref,domain=abebooks.com|accounts.binance.com|adobe.com|akuankka.fi|albiononline.com|altcustoms.com|amazon.*|app.blockfi.com|arvopaperi.fi|audible.*|baidu.com|bestbuy.com|bing.com|bitlox.com|bitwarden.com|blogit.fi|bookdepository.com|brave.com|buzzfeed.com|buzzfeednews.com|bybit.com|catch.com.au|codehs.com|comixology.*|coop.no|deal.no|dell.com|digidip.net|domains.ch|droix.net|eset.com|etsy.com|expo.io|facebook.*|facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion|fig.io|foreca.*|geeksforgeeks.org|github.com|github.io|goodreads.com|hintaopas.fi|hintaseuranta.fi|hs.fi|idenati.com|ikea.com|iltapulu.fi|imdb.com|is.fi|jasonsavard.com|kauppalehti.fi|kesaduuni.org|kickstarter.com|ku.fi|lex.page|mastermind.ac|mediuutiset.fi|megapornfreehd.com|merrell.com|mikrobitti.fi|motouutiset.fi|oikotie.fi|omataloyhtio.fi|protonvpn.com|proton.me|puutarha.net|rakentaja.fi|reddit.com|reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion|remppatori.fi|sahkovertailu.fi|sanoma.fi|scandinavianphoto.fi|schibsted.fi|semrush.com|shein.com|shodan.io|shopping.google.*|sketch.com|spiegel.de|sportskeeda.com|storyhouseegmont.fi|suomi24.fi|talouselama.fi|target.com|tekniikkatalous.fi|telsu.fi|thedailybeast.com|theregister.com|tivi.fi|tokenmetrics.com|twitch.tv|udemy.com|uusisuomi.fi|vultr.com|webhallen.no|woot.com|wormhole.app|yle.fi|zappos.com|zulily.com
 ! https://www.comixology.com/Scooby-Doo-1997-2010/comics-series/353?irgwc=1&tid=IR-affiliate-10451&clickid=VsxVfPSSvxyOWNfwUx0Mo38MUkiXwRwR0xWjW40 (01/03/2021)
 ! (e.g. mirrored.to, tunnistautuminen.suomi.fi)
 $removeparam=tid,domain=clickbank.net|comixology.*|gap.com|gapcanada.ca|mintmobile.com|nhl.com|zulily.com
@@ -17268,7 +17286,7 @@ $removeparam=tid,domain=clickbank.net|comixology.*|gap.com|gapcanada.ca|mintmobi
 $removeparam=src,domain=3cx.com|adafruit.com|ashford.com|bluejeans.com|bose.*|brave.com|buyzero.de|cytron.io|digikey.*|elastix.org|engadget.com|getpocket.com|hallmark.com|hinta.fi|investors.com|kennethcole.com|kipling-usa.com|kubii.*|melopero.com|mozilla.org|msn.com|neeva.com|newbalance.com|nexo.io|officestationery.co.uk|okdo.com|raspipc.es|reichelt.*|thepihut.com|thunderbird.net|tiendatec.es|tokopedia.com|twitter.com|udemy.com|viking-direct.co.uk|webmd.com|welectron.com|wondershare.*|wuzhuiso.com|yahoo.com
 ! https://github.com/DandelionSprout/adfilt/pull/474
 ! https://user.qzone.qq.com/1250252459?source=aiostar (01/02/2022)
-$document,removeparam=source,denyallow=googlevideo.com,domain=1sol.io|ashford.com|asos.com|att.com|awd-it.*|bankofamerica.com|barenecessities.com|bedbathandbeyond.com|betterprogramming.pub|blavity.com|blog.getadblock.com|blogs.oracle.com|boscovs.com|boxboat.com|brownells.*|britishcornershop.co.uk|burkesoutlet.com|bybit.com|choicehotels.com|chollometro.com|coinpanel.com|contabo.com|cyberghostvpn.com|despegar.*|directv.com|discord.*|docs.google.com|docsend.com|drinkhint.com|edx.org|educba.com|eonline.com|escentual.com|eventbrite.*|fiverr.com|fool.com|forms.gle|gethotspotshield.com|gleam.io|goodcrypto.app|googleusercontent.com|greenhouse.io|greenvoice.fr|hammacher.com|hanes.com|hobbyhall.fi|hotspotshield.com|hottopic.com|housing.com|hp.com|instagram.com|itnext.io|jacquielawson.com|just-eat.co.uk|kasta.io|ladbible.com|medium.com|microsoftedgewelcome.microsoft.com|monster.fi|nautica.com|nortonsafe.search.ask.com|onehanesplace.com|outnorth.fi|petsupplies.com|phonesoap.com|quizlet.com|riteaid.com|runnode.com|search.brave.com|seekingalpha.com|sonos.com|spiceworks.com|squarespace.com|studio.co.uk|subscribe.gq.com|t.me|thedailybeast.com|tiktok.com|tokopedia.com|tommybahama.com|torrid.com|tous.com|tradingview.com|tumblr.com|twitter.com|user.qzone.qq.com|vimeo.com|webhint.io|wilsonsleather.com|wired.com|ylighting.com|youtube.com|yubo.live
+$document,removeparam=source,denyallow=googlevideo.com,domain=1sol.io|ashford.com|asos.com|att.com|awd-it.*|bankofamerica.com|barenecessities.com|bedbathandbeyond.com|betterprogramming.pub|blavity.com|blog.getadblock.com|blogs.oracle.com|boscovs.com|boxboat.com|brownells.*|britishcornershop.co.uk|burkesoutlet.com|bybit.com|choicehotels.com|chollometro.com|coinpanel.com|contabo.com|cyberghostvpn.com|despegar.*|directv.com|discord.*|docs.google.com|docsend.com|drinkhint.com|edx.org|educba.com|eonline.com|escentual.com|eventbrite.*|fiverr.com|fool.com|forms.gle|gethotspotshield.com|gleam.io|goodcrypto.app|googleusercontent.com|greenhouse.io|greenvoice.fr|hammacher.com|hanes.com|hobbyhall.fi|hotspotshield.com|hottopic.com|housing.com|hp.com|instagram.com|itnext.io|jacquielawson.com|just-eat.co.uk|kasta.io|ladbible.com|medium.com|microsoftedgewelcome.microsoft.com|monster.fi|nautica.com|nortonsafe.search.ask.com|onehanesplace.com|outnorth.fi|paypal.com|petsupplies.com|phonesoap.com|quizlet.com|riteaid.com|runnode.com|search.brave.com|seekingalpha.com|sonos.com|spiceworks.com|squarespace.com|studio.co.uk|subscribe.gq.com|t.me|thedailybeast.com|tiktok.com|tokopedia.com|tommybahama.com|torrid.com|tous.com|tradingview.com|tumblr.com|twitter.com|user.qzone.qq.com|vimeo.com|webhint.io|wilsonsleather.com|wired.com|ylighting.com|youtube.com|yubo.live
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-525100
 ! https://github.com/DandelionSprout/adfilt/pull/277
 $removeparam=mod,domain=barrons.com|dowjones.com|fnlondon.com|mansionglobal.com|marketwatch.com|penews.com|wsj.com
@@ -19272,7 +19290,7 @@ $removeparam=cvid,domain=msn.cn|msn.com|chinadaily.com.cn|yiyouliao.com|tianqi.c
 ||quizlet.com^$removeparam=funnelUUID
 ||quizlet.com^$removeparam=signupOrigin
 ! https://mini.eastday.com/nsa/n230125110013294.html?qid=04426&cvid=ef9c243ff9fd4d5d8606d5a42b2b2023 (26/01/2023)
-||eastday.com^$removeparam=qid
+$removeparam=qid,domain=eastday.com|bookdepository.com
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-4962768
 $removeparam=pk_vid,document
 ! https://github.com/ClearURLs/Rules/issues/71
@@ -19299,6 +19317,12 @@ $removeparam=natb,domain=duckduckgo.com
 ||cdc.gov^$removeparam=deliveryName
 ! https://vkplay.ru/play/game/witchcrafty/?_1lr=63fe2a3d7f8804b0-3412327_2070601-3424209_2073149-3424209_2073149&mt_click_id=mt-k6vwk7-1677601519-2846701076
 $removeparam=_1lr
+! https://css-tricks.com/trigonometry-in-css-and-javascript-beyond-triangles/?relatedposts_hit=1&relatedposts_origin=377074&relatedposts_position=1
+||css-tricks.com^$removeparam=relatedposts_hit
+||css-tricks.com^$removeparam=relatedposts_origin
+||css-tricks.com^$removeparam=relatedposts_position
+! https://www.bookdepository.com/Ladybird-Readers-Beginner-Level-My-Little-Pony-Sunnys-Garden-ELT-Graded-Reader-Ladybird/9780241616956?qid=1678437368012&sr=1-8 (10/03/2023)
+||bookdepository.com^$removeparam=sr
 !#if !env_mobile
 ! ——— Entries mostly dedicated to maximising image sizes (thus poorly suited for phones) ———
 ! https://sproutsluckycorner.files.wordpress.com/2019/12/ring-fit-adventure-smoothies-1.png?w=600 (Shows the actual raw image instead of a promotion page; 25/11/2020)
@@ -19466,7 +19490,7 @@ nerdelandslaget.no#$#html { cursor: auto !important }
 ! No iMacs have had less than 1600px wide monitors since 2006, MacBook Pro since 2012, or MacBook Air since 2017. Thus I'm taking a gamble by embedding this for Mac users:
 !+ NOT_OPTIMIZED
 ! Title: 🖥️ Dandelion Sprout's Website Stretcher
-! OriginalVersion: 08March2023v1-Beta
+! OriginalVersion: 16March2023v2-Beta
 ! Expires: 3 days
 ! Licence: https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
 ! Description: Have you ever felt bothered by how many websites still think that everyone are using narrow monitors? Well, here's how to stretch them out like a piece of gum!
@@ -19753,15 +19777,16 @@ github.com#$#.with-full-navigation > .repository-sidebar { margin-right: -190px 
 github.com#$#.discussion-sidebar { width: 220px !important }
 github.com#$#.discussion-timeline { width: 100% !important }
 github.com#$#.col-9 { width: 100% !important }
-github.com#$##discussion_bucket > .col-12.col-md-9 { width: calc(100vw - 260px) !important }
+github.com#$##discussion_bucket > .col-12.col-md-9 { width: calc(100vw - 285px) !important }
 github.com#$##partial-discussion-sidebar[data-channel^=issue] { margin-left: 24px !important }
 github.com#$#.col-md-3.col-12.flex-shrink-0 { width: 200px !important }
-github.com#$##discussion_bucket .col-md-3.col-12.flex-shrink-0 { margin-left: 30px !important }
+!!!github.com###discussion_bucket .col-md-3.col-12.flex-shrink-0:style(margin-left: 5px !important)
 github.com#$#.flex-shrink-0.col-12.col-md-9 { width: calc(100% - 250px) !important }
 github.com#$#.js-discussion { width: calc(100vw - 320px) !important }
-github.com#$##discussion_bucket { width: 100% !important }
+!!!github.com###discussion_bucket:style(width: 100% !important)
 github.com#$#.Layout-sidebar { max-width: 210px !important }
-github.com#$#.Layout { --Layout-sidebar-width: 200px !important }
+! (https://github.com/DandelionSprout/adfilt/issues/803)
+!!!github.com##.Layout:style(--Layout-sidebar-width: 200px !important)
 ! PRs only
 github.com#$#.pull-request-tab-content { width: calc(100vw - 275px) !important; }
 github.com#$#.gutter-condensed > .col-3 { width: 200px !important }
@@ -19791,6 +19816,8 @@ github.com#$##comments > .timeline-comment-wrapper { width: calc(100vw - 240px) 
 github.com#$#.js-blob-filename { width: 400px !important }
 ! Profile page
 github.com#$#body.page-profile .flex-shrink-0.col-12.col-md-9 { margin-left: 40px !important }
+! https://github.com/DandelionSprout/adfilt/issues/803
+github.com#$#.Layout--sidebarPosition-flowRow-end { width: 96vw !important; --Layout-sidebar-width: 220px !important; --Layout-gutter: -5px !important }
 ! —————————————————————————————————————————————————————————————————————
 ! Category: Patreon
 ! General entries

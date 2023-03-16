@@ -24,10 +24,8 @@
 /^https:\/\/[a-z]{2,3}\d\.biz\/go\/[0-9a-z]{15,18}$/$doc,domain=biz
 ! Rule "/^https:\/\/\d{9}\.[a-z]*\.?[a-z]{3,}\.[a-z]{2}\/\d{6}\.html$/$doc,domain=cl|eu|pl" converted to: "/^https:\/\/\d{9}\.[a-z]*\.?[a-z]{3,}\.[a-z]{2}\/\d{6}\.html$/$document,domain=cl|eu|pl"
 /^https:\/\/\d{9}\.[a-z]*\.?[a-z]{3,}\.[a-z]{2}\/\d{6}\.html$/$doc,domain=cl|eu|pl
-! Rule "/^https?:\/\/(?!www)[0-9a-z]*\.?[-0-9a-z]{4,}\.[a-z]{2,11}\/(?:[0-9a-z]{6,8}\/)?\/?\?o=[0-9a-z]{7}&u=[0-9a-z]{7}/$doc,frame,match-case,domain=buzz|com|de|fun|guru|im|info|life|live|mobi|motorcycles|online|pw|quest|shop|site|skin|space|top|us|xyz|yachts" converted to: "/^https?:\/\/(?!www)[0-9a-z]*\.?[-0-9a-z]{4,}\.[a-z]{2,11}\/(?:[0-9a-z]{6,8}\/)?\/?\?o=[0-9a-z]{7}&u=[0-9a-z]{7}/$document,subdocument,match-case,domain=buzz|com|de|fun|guru|im|info|life|live|mobi|motorcycles|online|pw|quest|shop|site|skin|space|top|us|xyz|yachts"
-/^https?:\/\/(?!www)[0-9a-z]*\.?[-0-9a-z]{4,}\.[a-z]{2,11}\/(?:[0-9a-z]{6,8}\/)?\/?\?o=[0-9a-z]{7}&u=[0-9a-z]{7}/$doc,frame,match-case,domain=buzz|com|de|fun|guru|im|info|life|live|mobi|motorcycles|online|pw|quest|shop|site|skin|space|top|us|xyz|yachts
-! Rule "/^https?:\/\/(?!www)[0-9a-z]*\.?[-0-9a-z]{4,}\.[a-z]{2,11}\/(?:[0-9a-z]{6,8}\/)?\/?\?u=[0-9a-z]{7}&o=[0-9a-z]{7}/$doc,frame,match-case,domain=buzz|com|de|fun|guru|im|info|life|live|mobi|motorcycles|online|pw|quest|shop|site|skin|space|top|us|xyz|yachts" converted to: "/^https?:\/\/(?!www)[0-9a-z]*\.?[-0-9a-z]{4,}\.[a-z]{2,11}\/(?:[0-9a-z]{6,8}\/)?\/?\?u=[0-9a-z]{7}&o=[0-9a-z]{7}/$document,subdocument,match-case,domain=buzz|com|de|fun|guru|im|info|life|live|mobi|motorcycles|online|pw|quest|shop|site|skin|space|top|us|xyz|yachts"
-/^https?:\/\/(?!www)[0-9a-z]*\.?[-0-9a-z]{4,}\.[a-z]{2,11}\/(?:[0-9a-z]{6,8}\/)?\/?\?u=[0-9a-z]{7}&o=[0-9a-z]{7}/$doc,frame,match-case,domain=buzz|com|de|fun|guru|im|info|life|live|mobi|motorcycles|online|pw|quest|shop|site|skin|space|top|us|xyz|yachts
+! Rule "/^https?:\/\/(?!www)[0-9a-z]*\.?[-0-9a-z]{4,}\.[a-z]{2,11}\/(?:[0-9a-z]{6,8}\/)?\/?\?o=[0-9a-z]{7}&u=[0-9a-z]{7}/$doc,frame,match-case" converted to: "/^https?:\/\/(?!www)[0-9a-z]*\.?[-0-9a-z]{4,}\.[a-z]{2,11}\/(?:[0-9a-z]{6,8}\/)?\/?\?o=[0-9a-z]{7}&u=[0-9a-z]{7}/$document,subdocument,match-case"
+/^https?:\/\/(?!www)[0-9a-z]*\.?[-0-9a-z]{4,}\.[a-z]{2,11}\/(?:[0-9a-z]{6,8}\/)?\/?\?o=[0-9a-z]{7}&u=[0-9a-z]{7}/$doc,frame,match-case
 ! Rule "/counts.php?cat=1&t=$3p,script" converted to: "/counts.php?cat=1&t=$third-party,script"
 /counts.php?cat=1&t=$3p,script
 ! Rule "/fck_files/*.xml$doc,domain=m-vision.com.pl" converted to: "/fck_files/*.xml$document,domain=m-vision.com.pl"
@@ -58,6 +56,10 @@
 ||bmscooperation.com^$doc
 ! Rule "||exe.io^$doc" converted to: "||exe.io^$document"
 ||exe.io^$doc
+! Rule "||lds.xyz/*&sbtag=$doc,domain=xyz" converted to: "||lds.xyz/*&sbtag=$document,domain=xyz"
+||lds.xyz/*&sbtag=$doc,domain=xyz
+! Rule "||lds.xyz/*?sbtag=$doc,domain=xyz" converted to: "||lds.xyz/*?sbtag=$document,domain=xyz"
+||lds.xyz/*?sbtag=$doc,domain=xyz
 ! Rule "||olmkcenter.com/api/v*/leads-workflow/$doc" converted to: "||olmkcenter.com/api/v*/leads-workflow/$document"
 ||olmkcenter.com/api/v*/leads-workflow/$doc
 ! Rule "||probescenter.com/api/v*/offer/$doc" converted to: "||probescenter.com/api/v*/offer/$document"
@@ -172,6 +174,8 @@
 ||zmienkolory*.blogspot.com^$1p,all
 ! Rule "/^https?:\/\/[\w]+\.cloudfront\.net\/rev\/pl\/v/$doc,important,domain=~asystent-pobierania-na-komputerswiat-dobreprogramy.*|cloudfront.net" converted to: "/^https?:\/\/[\w]+\.cloudfront\.net\/rev\/pl\/v/$document,important,domain=~asystent-pobierania-na-komputerswiat-dobreprogramy.*|cloudfront.net"
 /^https?:\/\/[\w]+\.cloudfront\.net\/rev\/pl\/v/$doc,important,domain=~asystent-pobierania-na-komputerswiat-dobreprogramy.*|cloudfront.net
+! Rule "||ceskvabal.xyz^$important,xhr" converted to: "||ceskvabal.xyz^$important,xmlhttprequest"
+||ceskvabal.xyz^$important,xhr
 ! Rule "github.com##.js-comment-and-button + details:matches-path(/\/FiltersHeroes\/KAD\/issues\/(124[12]|2176)/)" converted to: "[$path=/\\/FiltersHeroes\\/KAD\\/issues\\/(124\[12\]|2176)/]github.com##.js-comment-and-button + details"
 github.com##.js-comment-and-button + details:matches-path(/\/FiltersHeroes\/KAD\/issues\/(124[12]|2176)/)
 ! Rule "github.com##.js-comment-and-button:matches-path(/\/FiltersHeroes\/KAD\/issues\/(124[12]|2176)/)" converted to: "[$path=/\\/FiltersHeroes\\/KAD\\/issues\\/(124\[12\]|2176)/]github.com##.js-comment-and-button"
