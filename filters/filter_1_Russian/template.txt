@@ -47,11 +47,15 @@
 @include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/CyrillicFilters/RussianFilter/sections/allowlist.txt"
 !-------------------------------------------------------------------------------!
 !
-! TODO: remove inclusions below after releasing AdGuard Ukrainian filter
+! TODO: remove inclusions below after releasing 'AdGuard for Safari' and 'Content Blocker for Android'
+! Before deleting, check if enough users were upgraded to the version with the new filter
+!
 ! AdGuard Ukrainian filter
+!#if (adguard_ext_safari || adguard_ext_android_cb)
 @include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/CyrillicFilters/UkrainianFilter/sections/adservers_firstparty.txt"
 @include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/CyrillicFilters/UkrainianFilter/sections/antiadblock.txt"
 @include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/CyrillicFilters/UkrainianFilter/sections/general_extensions.txt"
 @include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/CyrillicFilters/UkrainianFilter/sections/specific.txt"
 @include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/CyrillicFilters/UkrainianFilter/sections/replace.txt"
 @include "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/CyrillicFilters/UkrainianFilter/sections/allowlist.txt"
+!#endif
