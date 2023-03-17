@@ -37,7 +37,7 @@
 	},
 	{
 		"filter.10.name": "Filtro para desbloquear anúncios úteis",
-		"filter.10.description": "Filtro que desbloqueia as pesquisas (Duckduckgo, Google, Bing, Yahoo) e anúncios autopromocionais. Definição de autopromocional: quando um anúncio num sítio promove esse mesmo sítio ou outros sítios/redes sociais/etc. intimamente relacionados a ele, esse anúncio é considerado autopromocional."
+		"filter.10.description": "Filtro que desbloqueia as pesquisas (DuckDuckGo, Google, Bing, Yahoo) e anúncios autopromocionais. Definição de autopromocional: quando um anúncio num sítio promove esse mesmo sítio ou outros sítios/redes sociais/etc. intimamente relacionados a ele, esse anúncio é considerado autopromocional."
 	},
 	{
 		"filter.11.name": "Filtro de anúncios do AdGuard para dispositivos móveis",
@@ -86,6 +86,10 @@
 	{
 		"filter.22.name": "Filtro de widgets do AdGuard",
 		"filter.22.description": "Bloqueia widgets irritantes de terceiros: assistentes em linha, chats de apoio ao vivo, etc."
+	},
+	{
+		"filter.23.name": "Filtro Ucraniano do AdGuard",
+		"filter.23.description": "Filtro que permite o bloqueio de anúncios em sítios no idioma ucraniano."
 	},
 	{
 		"filter.224.name": "Filtro Chinês do AdGuard",

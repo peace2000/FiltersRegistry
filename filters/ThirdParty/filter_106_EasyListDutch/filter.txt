@@ -1,8 +1,8 @@
 !
-! Checksum: vt5dR4lbLuOsHc2F0hdJCw
-! OriginalVersion: 202212121232
+! Checksum: kRhV31TH71JBNE4dqYyhbg
+! OriginalVersion: 202303171230
 ! Title: EasyList Dutch
-! Last modified: 12 Dec 2022 12:32 UTC
+! Last modified: 17 Mar 2023 12:30 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 !
@@ -111,6 +111,7 @@ _advertentieleaderboardhome.
 ||strafrechtadvocaten.nl/media/banner/$third-party
 ||swpportal.com/upload/squarebanners/
 ||t.bazarow.com^$third-party
+||viralize.tv/display/$domain=startpagina.nl
 ||widget.vpnnederland.nl^$domain=nzbserver.com
 ||widgets.skyscanner.net^$domain=puuropreis.nl
 ||windows.net/banners/$domain=agf.nl|bpnieuws.nl|groentennieuws.nl|uiennieuws.nl
@@ -120,6 +121,7 @@ _advertentieleaderboardhome.
 ! *** easylistdutch/block_first_party_resource.txt ***
 ||123video.nl^*/300x100_
 ||2link.be/banners/
+||aa.tweakers.nl^
 ||aafm.nl/cms/wp-content/themes/omroepalmelo/img/banners/
 ||abcsuriname.com/images/banners/
 ||adodenhaag.nl/images/banners/
@@ -317,7 +319,88 @@ _advertentieleaderboardhome.
 ||waarzo.nl/imagestore/banners/
 ||waarzo.nl/imagestore/site-banners/
 ||wanttoknow.nl^*Banner
+||webcam-aalsmeer.nl/media/banners/
+||webcam-aalsmeer.nl/media/banners2/
+||webcam-airport.nl/media/banners/
+||webcam-airport.nl/media/banners2/
+||webcam-binnenvaart.nl/media/banners/
+||webcam-binnenvaart.nl/media/banners2/
+||webcam-blokzijl.nl/media/banners/
+||webcam-blokzijl.nl/media/banners2/
+||webcam-brandaris.nl/media/banners/
+||webcam-brandaris.nl/media/banners2/
+||webcam-delfzijl.nl/media/banners/
+||webcam-delfzijl.nl/media/banners2/
+||webcam-denhelder.nl/media/banners/
+||webcam-denhelder.nl/media/banners2/
+||webcam-denoever.nl/media/banners/
+||webcam-denoever.nl/media/banners2/
+||webcam-dokkum.nl/media/banners/
+||webcam-dokkum.nl/media/banners2/
+||webcam-dordrecht.nl/media/banners/
+||webcam-dordrecht.nl/media/banners2/
+||webcam-enkhuizen.nl/media/banners/
+||webcam-enkhuizen.nl/media/banners2/
+||webcam-friesemeren.nl/media/banners/
+||webcam-friesemeren.nl/media/banners2/
+||webcam-grou.nl/media/banners/
+||webcam-grou.nl/media/banners2/
+||webcam-harlingen.nl/media/banners/
+||webcam-harlingen.nl/media/banners2/
+||webcam-havenijmuiden.nl/media/banners/
+||webcam-havenijmuiden.nl/media/banners2/
+||webcam-hindeloopen.nl/media/banners/
+||webcam-hindeloopen.nl/media/banners2/
+||webcam-hoekvanholland.nl/media/banners/
+||webcam-hoekvanholland.nl/media/banners2/
+||webcam-kampen.nl/media/banners/
+||webcam-kampen.nl/media/banners2/
+||webcam-lauwersoog.nl/media/banners/
+||webcam-lauwersoog.nl/media/banners2/
+||webcam-leeuwarden.nl/media/banners/
+||webcam-leeuwarden.nl/media/banners2/
+||webcam-lelystad.nl/media/banners/
+||webcam-lelystad.nl/media/banners2/
+||webcam-maassluis.nl/media/banners/
+||webcam-maassluis.nl/media/banners2/
+||webcam-maastricht.nl/media/banners/
+||webcam-maastricht.nl/media/banners2/
+||webcam-marken.nl/media/banners/
+||webcam-marken.nl/media/banners2/
+||webcam-monnickendam.nl/media/banners/
+||webcam-monnickendam.nl/media/banners2/
+||webcam-rotterdam.nl/media/banners/
+||webcam-rotterdam.nl/media/banners2/
+||webcam-sneek.nl/media/banners/
+||webcam-sneek.nl/media/banners2/
+||webcam-terneuzen.nl/media/banners/
+||webcam-terneuzen.nl/media/banners2/
+||webcam-vlaardingen.nl/media/banners/
+||webcam-vlaardingen.nl/media/banners2/
+||webcam-volendam.nl/media/banners/
+||webcam-volendam.nl/media/banners2/
+||webcam-workum.nl//media/banners/
+||webcam-workum.nl/media/banners2/
+||webcam-zaanzicht.nl/media/banners/
+||webcam-zaanzicht.nl/media/banners2/
+||webcam-zoutkamp.nl/media/banners/
+||webcam-zoutkamp.nl/media/banners2/
+||webcam-zwartsluis.nl/media/banners/
+||webcam-zwartsluis.nl/media/banners2/
+||webcams-ameland.nl/media/banners/
+||webcams-ameland.nl/media/banners2/
+||webcams-scheveningen.nl/media/banners/
+||webcams-scheveningen.nl/media/banners2/
+||webcams-texel.nl/media/banners/
+||webcams-texel.nl/media/banners2/
+||webcams-vlissingen.nl/media/banners/
+||webcams-vlissingen.nl/media/banners2/
+||webcamschiermonnikoog.nl/media/banners/
+||webcamschiermonnikoog.nl/media/banners2/
+||webcamvlieland.nl/media/banners/
+||webcamvlieland.nl/media/banners2/
 ||wereldstopcontacten.nl/wp-content/uploads/*/image-aff-nl.jpg
+||wieringernieuws.nl/gfx/ads/
 ||wildfm.nl/wp-content/uploads/*/thumbnail_image002.png
 ||willem-ii.nl/banner/
 ||wp.com/amsterdamactueel.nl/wp-content/uploads/*/728x60_
@@ -341,13 +424,14 @@ _advertentieleaderboardhome.
 ! *** easylistdutch/block_first_party_popup.txt ***
 !--------Uitzonderingen (derden)--------!
 ! *** easylistdutch/block_third_party_whitelist.txt ***
+@@||2mdn.net/instream/html5/ima3.js$script,domain=omroepbrabant.nl
 @@||advertising-module.api.dpgmedia.cloud/video/$xmlhttprequest,domain=sportnieuws.nl
 @@||aka.spotxcdn.com/integration/ados/v1/ados.js$script,domain=radioluisteren.fm
 @@||cdn.bluebillywig.com/scripts/prebid/*/bluebillywig_pbjs.js$script,domain=autoblog.bbvms.com
 @@||cdn.spotxcdn.com/integration/easi/v1/easi.js$script,domain=radioluisteren.fm
 @@||files.skoften.net/website/lib/vjs/plugins/ads/videojs.ads.min.js$script,~third-party
 @@||imasdk.googleapis.com/js/core/bridge*.html$subdocument,domain=vtm.be
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=dailybuzz.nl|skoften.net|sportnieuws.nl|vtm.be
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=dailybuzz.nl|skoften.net|sportnieuws.nl|vtm.be|weerplaza.nl
 @@||improvedigital.com/pbw/headerlift.min.js$domain=spelletjes.nl
 @@||js.spotx.tv/ados/v1/106185.js$script,domain=radioluisteren.fm
 @@||massariuscdn.com/pubs/$script,domain=dailybuzz.nl|radio.nl|welingelichtekringen.nl
@@ -591,7 +675,7 @@ ajaxreport.nl###text-88
 ajaxreport.nl###text-91
 sexpower.nl###top-banner
 marktplaats.nl###top-banner-wrapper
-radio-minerva.be###topbanner
+hollandskroonnieuws.nl,radio-minerva.be,wieringernieuws.nl###topbanner
 voetbal-vandaag.nl###topbox
 hotradiohits.nl###tpl_banners
 tweakers.net###true
@@ -639,6 +723,7 @@ adodenhaag.nl,spelletje.nl##.adv
 nuus.be##.adv-link
 amusement.tv,beurs.tv,cultuur.tv,formule1.tv,gamen.tv,geloof.tv,gezondheid.tv,informatief.tv,jongeren.tv,kennis.tv,kinderen.tv,kook.tv,lachen.tv,mensen.tv,mode.tv,muziek.tv,natuur.tv,nederland.tv,nieuws.tv,ondernemen.tv,onrecht.tv,oranje.tv,politiek.tv,reis.tv,serie.tv,spelletjes.tv,sporten.tv,talentenjacht.tv,vaartuig.tv,verkiezing.tv,voertuig.tv,voetbal.tv,weer.tv,woon.tv##.adv-tekst
 filmtotaal.nl,intermediair.nl##.advert
+juf-milou.nl##.adverteerdersblok
 autoweek.nl##.advertise
 1twente.nl,bnnvara.nl,elektormagazine.nl,fonkmagazine.nl,hpdetijd.nl,kieskeurig.nl,tvgids.tv,zijaanzij.nl##.advertisement
 goodbye.be,sporza.be##.advertising
@@ -720,12 +805,13 @@ golf.nl,qmusic.nl##.c-sponsors
 binnenlandsbestuur.nl##.c-teaser--partner
 volleybal.nl##.card-banner
 volleybal.nl##.card-banner-large
-rkcwaalwijk.nl##.carousel
+rkcwaalwijk.nl,webcam-harlingen.nl,webcam-maastricht.nl##.carousel
 halstadcentraal.nl##.carouselbanner_left
 fonkonline.nl##.carrousel-wrapper
 motorfietsblog.nl##.cbcontent
 autoscout24.be,autoscout24.nl##.cl-billboad-wrapper
 rd.nl##.codalt-container
+juf-milou.nl##.content_blok_reclame
 weerstationleeuwarden.nl##.cookieconsent-optin-marketing
 tameteo.nl##.creatividad
 veronicasuperguide.nl##.css-12wfacz
@@ -760,6 +846,7 @@ noordkopcentraal.nl##.ewic-slider-pro-widget
 musicmeter.nl##.external
 heracles.nl##.fixed-ads
 ml5.nl##.fl-module-uabb-image-carousel
+webcam-aalsmeer.nl,webcam-airport.nl,webcam-binnenvaart.nl,webcam-blokzijl.nl,webcam-brandaris.nl,webcam-delfzijl.nl,webcam-denhelder.nl,webcam-denoever.nl,webcam-dokkum.nl,webcam-dordrecht.nl,webcam-enkhuizen.nl,webcam-friesemeren.nl,webcam-grou.nl,webcam-havenijmuiden.nl,webcam-hindeloopen.nl,webcam-hoekvanholland.nl,webcam-kampen.nl,webcam-lauwersoog.nl,webcam-leeuwarden.nl,webcam-lelystad.nl,webcam-maassluis.nl,webcam-marken.nl,webcam-monnickendam.nl,webcam-rotterdam.nl,webcam-sneek.nl,webcam-terneuzen.nl,webcam-vlaardingen.nl,webcam-volendam.nl,webcam-workum.nl,webcam-zaanzicht.nl,webcam-zoutkamp.nl,webcam-zwartsluis.nl,webcams-ameland.nl,webcams-scheveningen.nl,webcams-texel.nl,webcams-vlissingen.nl,webcamschiermonnikoog.nl,webcamvlieland.nl##.flexslider
 heracles.nl##.footer-blocks
 fcutrecht.nl##.footer-logos
 heracles.nl##.footer-sponsors
@@ -811,7 +898,7 @@ gooieneembode.nl,laardercourant.nl##.krant-onder-web
 eoswetenschap.eu##.l-banner
 speeleiland.nl##.leader-below-game
 rendez-vous.be##.leaderBoard
-atletiekkrant.be,autosportkrant.be,basketbalkrant.be,handbalkrant.be,hockeykrant.be,pcactive.nl,psv.nl,sport-planet.eu,sportid.be,tenniskrant.be,tradeidee.nl,voetbalkrant.com,volleybalkrant.be,vrouwenvoetbalkrant.be,wielerkrant.be##.leaderboard
+atletiekkrant.be,autosportkrant.be,basketbalkrant.be,handbalkrant.be,hockeykrant.be,pcactive.nl,psv.nl,sneeuwhoogte.nl,sport-planet.eu,sportid.be,tenniskrant.be,tradeidee.nl,voetbalkrant.com,volleybalkrant.be,vrouwenvoetbalkrant.be,wielerkrant.be##.leaderboard
 atv.be,robtv.be,tvl.be,tvoost.be##.leaderboardWrap
 blikopnieuws.nl##.ligatus-sidebar-block
 roulettefm.nl,rtvstichtsevecht.nl##.list-sponsors
@@ -826,6 +913,7 @@ mediacourant.nl##.mc-adv
 mijn-tv-gids.be##.midzone
 scholieren.com##.min-h-90
 wegdamnieuws.nl##.mk-sponsorlink
+wordfeudwoorden.nl##.mobblue
 radioeenhoorn.nl##.module_round_box
 marktplaats.nl##.mp-Listing--cas
 marktplaats.nl##.mp-Listings__admarktTitle
@@ -853,6 +941,7 @@ qmusic.nl##.partner
 sc-heerenveen.nl##.partner-grid
 sc-heerenveen.nl##.partnerlink
 clubbrugge.be,feyenoord.nl,ftm.nl,royalantwerpfc.be,voetbalindebollenstreek.nl##.partners
+agraaf.nl##.partners-carousel
 golf.be##.partners-holder
 weespernieuws.nl##.pbph
 denachtvlinders.nl##.plek-boven-artikel
@@ -1112,6 +1201,7 @@ voetbalcentraal.nl#?#.blok:-abp-has(h3:-abp-contains(Partners))
 welingelichtekringen.nl#?#.post:-abp-has(a[href*="/partnerposting/"])
 wielerflits.nl#?#.list-group-item:-abp-has(span:-abp-contains(Ad))
 wielerflits.nl#?#.w-100.p-3:-abp-has(span:-abp-contains(Ad))
+wielerflits.nl#?#.widget:-abp-has(.wf_headline:-abp-contains(Wielerdeals))
 wkdarts.nl#?#.wpb_wrapper:-abp-has(div:-abp-contains(#advertentie))
 !--------Uitzonderingen (verbergregels)--------!
 ! *** easylistdutch/hide_whitelist.txt ***

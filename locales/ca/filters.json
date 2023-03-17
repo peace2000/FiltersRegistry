@@ -33,7 +33,7 @@
 	},
 	{
 		"filter.9.name": "Filtre Espanyol/Portugués",
-		"filter.9.description": "Filtre que permet bloquejar els anunci de publicitat en  Espanyol i Portugués."
+		"filter.9.description": "Llista de filtres que elimina específicament els anuncis dels llocs web en espanyol, portuguès i portuguès brasiler."
 	},
 	{
 		"filter.10.name": "Filtre per anuncis de publicitat útils.",
@@ -86,6 +86,10 @@
 	{
 		"filter.22.name": "Filtre de widgets d'AdGuard",
 		"filter.22.description": "Bloqueja els molestos ginys de tercers: assistents en línia, xats d'assistència en directe, etc."
+	},
+	{
+		"filter.23.name": "Filtre ucraïnès AdGuard",
+		"filter.23.description": "Filtre que activa el bloqueig d'anuncis en llocs web en llengua ucraïnesa."
 	},
 	{
 		"filter.224.name": "AdGuard Xinès filtre",

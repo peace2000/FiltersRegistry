@@ -8,16 +8,12 @@
 /adwolf.
 ! /google_ad_ is excluded by "/google_ad_" in exclusions.txt
 /google_ad_
-! ://ads.$popup is excluded by "://ads.$popup" in exclusions.txt
-://ads.$popup
+! ://ads.$popup,domain=~smartnews.com is excluded by "://ads.$popup" in exclusions.txt
+://ads.$popup,domain=~smartnews.com
 ! ##.myTestAd is excluded by "/^##\.myTestAd$/" in exclusions.txt
 ##.myTestAd
 ! ##[class^="div-gpt-ad"] is excluded by "/^##\[class\^="div-gpt-ad"\]$/" in exclusions.txt
 ##[class^="div-gpt-ad"]
-! ||exoclick.com^$third-party is excluded by "||exoclick.com^$third-party" in exclusions.txt
-||exoclick.com^$third-party
-! ||bubblesmedia.ru^$third-party is excluded by "||bubblesmedia.ru^$third-party" in exclusions.txt
-||bubblesmedia.ru^$third-party
 ! ||lockerdome.com^$third-party is excluded by "||lockerdome.com^$third-party" in exclusions.txt
 ||lockerdome.com^$third-party
 ! ||35.232.188.118^ is excluded by "||35." in exclusions.txt
@@ -32,10 +28,6 @@
 @@||spiegel.de^$genericblock,generichide
 ! ||redtube.com^$subdocument,~third-party is excluded by "||redtube.com^$subdocument,~third-party" in exclusions.txt
 ||redtube.com^$subdocument,~third-party
-! facebook.com#?#div[style="max-width: 390px; min-width: 190px;"]:-abp-has(a[href^="/ads/"]) is excluded by "facebook.com#?#" in exclusions.txt
-facebook.com#?#div[style="max-width: 390px; min-width: 190px;"]:-abp-has(a[href^="/ads/"])
-! facebook.com,facebookcorewwwi.onion#?#._6y8t:-abp-has(a[href="/ads/about/?entry_product=ad_preferences"]) is excluded by "facebook.com,facebookcorewwwi.onion#?#" in exclusions.txt
-facebook.com,facebookcorewwwi.onion#?#._6y8t:-abp-has(a[href="/ads/about/?entry_product=ad_preferences"])
 ! pornhub.com#?#:-abp-properties(height: 300px; width: 315px;) is excluded by "-abp-properties" in exclusions.txt
 pornhub.com#?#:-abp-properties(height: 300px; width: 315px;)
 ! pornhub.com,youporn.com#?#:-abp-properties(float: right; margin-top: 30px; width: 50%;) is excluded by "-abp-properties" in exclusions.txt
@@ -54,3 +46,9 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 @@||adfox.ru^$~third-party
 ! @@||ads.twitter.com^$popup,~third-party is excluded by "$popup,~third-party" in exclusions.txt
 @@||ads.twitter.com^$popup,~third-party
+Error: "Unknown modifier: webrtc" in the rule: "$webrtc,websocket,xmlhttprequest,domain=pirateproxy.live|thehiddenbay.com|thepiratebay.org|thepiratebay10.org"
+$webrtc,websocket,xmlhttprequest,domain=pirateproxy.live|thehiddenbay.com|thepiratebay.org|thepiratebay10.org
+Error: "Unknown modifier: webrtc" in the rule: "$webrtc,domain=ack.net|allthetests.com|azvideo.net|champion.gg|clicknupload.link|colourlovers.com|csgolounge.com|dispatch.com|fastplay.to|go4up.com|janjua.pw|janjua.tv|jpost.com|megaup.net|merriam-webster.com|netdna-storage.com|ouo.io|ouo.press|rlslog.net|sourceforge.net|spanishdict.com|telegram.com|torlock.icu|torlock2.com|uptobox.com|vidtodo.com|yts.gs|yts.mx"
+$webrtc,domain=ack.net|allthetests.com|azvideo.net|champion.gg|clicknupload.link|colourlovers.com|csgolounge.com|dispatch.com|fastplay.to|go4up.com|janjua.pw|janjua.tv|jpost.com|megaup.net|merriam-webster.com|netdna-storage.com|ouo.io|ouo.press|rlslog.net|sourceforge.net|spanishdict.com|telegram.com|torlock.icu|torlock2.com|uptobox.com|vidtodo.com|yts.gs|yts.mx
+! Error: Invalid selector: '[href^="https://s.click.aliexpress.com/“]' -- Unbalanced attribute brackets in selector: '[href^="https://s.click.aliexpress.com/“]' in rule:
+buffstream.fun##[href^="https://s.click.aliexpress.com/“]

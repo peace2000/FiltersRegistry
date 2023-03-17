@@ -1,8 +1,8 @@
 !
-! Checksum: yAc7iRmI9KxqwdqBh+KuVA
-! OriginalVersion: 202212121232
+! Checksum: ti2vGnU/l7thjyK6gKh2DA
+! OriginalVersion: 202303171230
 ! Title: EasyList Spanish
-! Last modified: 12 Dec 2022 12:32 UTC
+! Last modified: 17 Mar 2023 12:30 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -307,6 +307,7 @@ _pubted.
 ##.deadblocker-header-bar
 ##.regular.closable
 ! *** easylistspanish:easylistspanish/easylistspanish_allowlist_general_hide.txt ***
+misteryinternet.com#@##footer-ads
 fondosmil.com#@#.ads1
 ripley.cl#@#.dfp-ad-unit
 viveusa.mx#@#.dfp-tag-wrapper
@@ -693,9 +694,13 @@ hitfm.es#@#.publi
 ||alicdn.com/t/$domain=pandrama.com
 ||amazonaws.com^$domain=estrenosdoramas.net|m.animeflv.net
 ||bit.ly^$domain=mega-mkv.com
+||d1r08wok4169a5.cloudfront.net^
 ||grupnaciodigital.cat/redaccio/publicitat/
 ||kisa-link.blok.link^$third-party
+||news.grm.cl^
+||tinyurl.com^$domain=seriesly.top
 ||triggy-banners.web.app^
+||wp.pl/bidder/usersync?
 !
 ||economicos.cl/widgets/$third-party
 ||guioteca.com/widget.php^$third-party
@@ -704,7 +709,8 @@ hitfm.es#@#.publi
 ||static.playspace.com^$third-party
 ||vivedescuentos.com/mas_informacion/$third-party
 ! *** easylistspanish:easylistspanish/easylistspanish_thirdparty_popup.txt ***
-||bit.ly^$popup,domain=pelisplus.lat
+||bit.ly^$popup,domain=cuevana.run|pelisplus.lat
+||granmp3.net^$popup,domain=nuevomix.net
 ||primevideo.com/?tag=^$popup,domain=vergnula.com
 ||significadoconcepto.com^$popup
 ||t.co^$popup,domain=cinecalidad.run
@@ -723,15 +729,21 @@ hitfm.es#@#.publi
 ! *** easylistspanish:easylistspanish/easylistspanish_specific_block.txt ***
 ||albaceteabierto.es/anuncios/
 ||ansalatina.com/americalatina/images/banner/
+||arquimaster.com.ar/banners/
+||arquimaster.com.ar/Images/banners.htm
 ||atacamaenlinea.cl/wp-content/uploads/*/banner_caserones_
 ||cinetux.nu/api/spots/
 ||clivertv.xyz/assets/img/suscripcion.png
 ||clm21.es/anuncios/
 ||cuencanews.es/anuncios/
+||cuevana3.plus/perversas.jpg
 ||descargasdd.org/images/amazon.gif
 ||diariodelaribera.net/imagenes/banner
 ||diariodeteruel.es/uploads/diariodeteruel/promos/
+||elciudadanoweb.com/wp-content/plugins/aparg-smartad/
 ||elperiodico.cl/wp-content/uploads/*/banner-
+||emol.cl/emol50/js/publicidadsetup/
+||es.zenit.org/banners/
 ||habimg.com/hab_banners/$domain=habitaclia.com
 ||mil21.es/anuncios/
 ||minube.click^
@@ -742,13 +754,6 @@ hitfm.es#@#.publi
 ||redtarapaca.com^*/ahorrocorp.jpg
 ||static.publinews.gt/*/Skin-
 ||studiofutbol.com.ec/tabla2021/images/banner-copa-300x90.jpg
-! Mercado Libre
-||mercadolibre.cl/adn/api?
-||mercadolibre.com.ar/adn/api?
-||mercadolibre.com.co/adn/api?
-||mercadolibre.com.mx/adn/api?
-||mercadolibre.com.pe/adn/api?
-||mercadolibre.com.uy/adn/api?
 ! Onda Valéncia
 ||ondavalencia.es/images/001_BLOGINFORAM.png
 ||ondavalencia.es/images/002_MORA-_2.png
@@ -778,8 +783,8 @@ hitfm.es#@#.publi
 ||ondavalencia.es/images/1808_MUDANZAS_BENICALAP.png
 ||ondavalencia.es/images/32_VALENHAUS_guia.jpg
 !
-/^https?:\/\/[0-9a-z]{8,}\.com\/.*/$~media,third-party,domain=animefenix.com|animefenix.tv|animeonline.ninja|animeyt.es|compucalitv.com|compupaste.com|cuevana2.cyou|gnula24.xyz|mejortorrent.cc|pelispediahd.site|pelisplus.top|pelisplus2.io|pelisplushd.nu|pirlotvonline.org|rojadirectaenvivo.club|rojadirectatv.tv|seriespepito.top|shadowrangers.live|shadowrangers.net|telenovelas-turcas.com.es|tomatomatela.com|verblackclover.com|verboruto.online|xn--solopeliculasespaol-c4b.com
-/^https?:\/\/[0-9a-z]{8,}\.xyz\/.*/$~media,third-party,domain=gnula.nu|gnula.se
+/^https?:\/\/[0-9a-z]{8,}\.com\/.*/$~media,third-party,domain=animefenix.com|animefenix.tv|animeonline.ninja|animeyt.es|compucalitv.com|compupaste.com|cuevana2.cyou|gnula24.xyz|henaojara2.com|mangamovil.net|megaepubsgratis.com|mejortorrent.cc|mundoepub3.com|pelispediahd.site|pelisplus.top|pelisplus2.io|pelisplushd.nu|pirlotv.fr|pirlotvonline.org|rojadirectaenvivo.club|rojadirectatv.tv|seriesly.top|seriespepito.top|shadowrangers.live|shadowrangers.net|telenovelas-turcas.com.es|tomatomatela.com|verblackclover.com|verboruto.online|xn--solopeliculasespaol-c4b.com
+/^https?:\/\/[0-9a-z]{8,}\.xyz\/.*/$~media,third-party,domain=animeonline.ninja|cinehax.com|gnula.nu|gnula.se|nickelodeonplus.online|seriesperu.com|telenovelas-turcas.com.es|verificandoarch2.blogspot.com
 !
 /avisos^$image,domain=novalaplata.com
 /elements*/publicitat^$image,domain=lesportiudecatalunya.cat
@@ -838,6 +843,7 @@ hitfm.es#@#.publi
 ||capodeportes.net/extremotv/abajo.php
 ||capodeportes.net/extremotv/arriba.php
 ||capodeportes.net/extremotv/lateral.php
+||capoplay.com/z-
 ||cartademexico.com/web/banner/
 ||casinonewsdaily.es/wp-content/uploads/popups/
 ||cdn.exur.com/notmundo/
@@ -1074,6 +1080,7 @@ hitfm.es#@#.publi
 ||perspectivasur.com/archivos/banners/
 ||pf-ffp-cfp-banners.storage.googleapis.com^$image,domain=portalfruticola.com
 ||pirlotv.es/js/anuncio.js
+||pirlotv.fr/ads-generating.php
 ||pivigames.blog/wp-content/uploads/*750x100
 ||planetabocajuniors.com.ar/imagenes/jaen/
 ||poseidonhd.nz/js/storage/1/
@@ -1201,7 +1208,6 @@ hitfm.es#@#.publi
 ||zapping.live/images/uploads/banners/zapping-*.gif^
 ||zetaestaticos.com/comun/upload/0/628/628692.jpg
 ! Webrtc ads
-$webrtc,domain=allpeliculas.com|booksmedicos.org|dompl3.info|gnula.biz|jkanime.net|pelispedia.tv
 ! blob ads
 ! RegEx filters
 /^https?:\/\/([a-z0-9]{8,10}\.)?[a-z0-9]{5,14}\.(com|bid|online|top|club)\/([a-z0-9]{2}\/){3}[a-f0-9]{32}\.js$/$script,third-party
@@ -1320,7 +1326,14 @@ $popup,third-party,domain=embedsito.com|fembad.net|fembed.com|feurl.com|hqq.to|h
 ! *** easylistspanish:easylistspanish_adult/adult_specific_block_popup.txt ***
 !------------------------Specific element hiding rules------------------------!
 ! *** easylistspanish:easylistspanish/easylistspanish_specific_hide.txt ***
+norteenlinea.com###Mod375
+norteenlinea.com###Mod427
+norteenlinea.com###Mod450
+norteenlinea.com###Mod452
 marca.com###Patrocinio
+freepik.es###adobe-pagination-mkt-copy
+cuevana3.nu###anuncioca
+elciudadanoweb.com###apsa-pop-hidden-img
 diariodelaribera.net###bannercabeceravideo
 noticiasyprotagonistas.com###banners
 eleconomista.es###banners-superiores
@@ -1334,8 +1347,10 @@ ancient-origins.es###block-block-43
 ancient-origins.es###block-block-50
 winsports.co###block-wplay
 anisearch.es###bottombox
+flashscore.co###box-over-content-detail
 ccma.cat###contenidor_megabanner
 forococheselectricos.com###custom_html-17
+thaderclub.com###custom_html-19
 eltorotv.com###custom_html-21
 hola.com###div-hola-slot-bannerinferior
 hola.com###div-hola-slot-megabanner
@@ -1343,6 +1358,8 @@ hola.com###div-hola-slot-robainferior
 hola.com###div-hola-slot-robapaginas
 elnacional.com###en_nd_home_flat_2
 elnacional.com###en_nd_home_flat_3
+futbolme.com###headeradd
+noticiasdegipuzkoa.eus###intext-sunmedia-1
 diariodeteruel.es###leftbanner
 atacamaenlinea.cl###media_image-17
 atacamaenlinea.cl###media_image-30
@@ -1352,12 +1369,15 @@ qmusica.tv###promo
 qmusica.tv###promoSept19A
 qmusica.tv###promoSept19B
 diariodeteruel.es###rightbanner
+elespanol.com###sticky_container
 lostiempos.com###takeover-desktop-counter
 lostiempos.com###takeover-movil-counter
+knightnoscanlation.com,yugenmangas.com###teaser3
 planbnoticias.com.ar###text-4
 planbnoticias.com.ar###text-7
 independentespanol.com###top-banner-wrapper
 generacionuniversitaria.com.mx###ventana-flotante
+elciudadanoweb.com###wrapper-header-full
 lanacion.com.ar##.--ads
 eleconomista.es##.AD_Content
 elespectador.com##.Ads_megaBannerTopContainer
@@ -1367,46 +1387,57 @@ ccma.cat##.M-publicitat
 diaridegirona.cat,diariocordoba.com,diariodeibiza.es,diariodemallorca.es,eldia.es,elperiodicodearagon.com,elperiodicoextremadura.com,elperiodicomediterraneo.com,emporda.info,farodevigo.es,informacion.es,laopinioncoruna.es,laopiniondemalaga.es,laopiniondemurcia.es,laopiniondezamora.es,laprovincia.es,levante-emv.com,lne.es,regio7.cat,superdeporte.es##._mo_recs
 elperiodico.com##._mo_recs_cti
 aurora-israel.co.il,teleamazonas.com##.a-single
+tutorialesenlinea.es##.a-wrap
 reparaciondecomputadoras.online##.aawp
 actualidadradio.com##.actua-widget
-elpais.com,fmdos.cl##.ad
+elpais.com,fmdos.cl,meteoconsult.es,revistafama.com##.ad
 mundo.com##.ad-banner
 buenazo.pe,elpopular.pe,eltiempo.com,hobbyconsolas.com,larepublica.pe,libero.pe,somosfanaticos.fans,wapa.pe##.ad-container
 vidasana.sv##.adblockweb
-elperiodico.com,epe.es,sport.es##.add
+elperiodico.com,epe.es,sport.es,sumedico.com##.add
 ondacero.es##.addContainer
+freepik.es##.adobe-coupon-container
+freepik.es##.adobe-grid-design
 rpp.pe,uypress.net##.ads
-anbariloche.com.ar,anroca.com.ar,elcordillerano.com.ar##.adserver-zona
-anbariloche.com.ar,anroca.com.ar,elcordillerano.com.ar##.adserver-zona-zocalo
-papajuegos.com##.advertising
+tutorialesenlinea.es##.ads-titleposttl
+anbariloche.com.ar,anroca.com.ar,elcordillerano.com.ar,noticiasnet.com.ar##.adserver-zona
+anbariloche.com.ar,anroca.com.ar,elcordillerano.com.ar,noticiasnet.com.ar##.adserver-zona-zocalo
+ejeprime.com,papajuegos.com,plantadoce.com##.advertising
+petitchef.es##.akcelo-wrapper
 blog.facialix.com##.amazon-auto-links
 donbalon.com##.anuncio
 mangacrab.com##.anunciofooter
 insideevs.com.ar,iproup.com##.ap
 insideevs.com.ar##.apb
+elciudadanoweb.com##.apsa-embed-cont
 lavanguardia.com##.article-module-sponsored
 elobservador.com.uy##.auspicios
-20minutos.es##.axds
+20minutos.es,lainformacion.com##.axds
+lainformacion.com##.axds-lane
 lectuepubgratis.com##.bam-topbar
-alicanteplaza.es,bienbonita.com,c5n.com,castellonplaza.com,donbalon.com,econojournal.com.ar,elplural.com,guarda14.com,laverdadnoticias.com,lavoz.com.ar,losandes.com.ar,motor.com.co,tntsports.cl,tntsports.com.ar,tvynovelas.com,valenciaplaza.com,viapais.com.ar##.banner
+alicanteplaza.es,bienbonita.com,c5n.com,castellonplaza.com,donbalon.com,econojournal.com.ar,eleconomista.com.mx,elplural.com,guarda14.com,laverdadnoticias.com,lavoz.com.ar,losandes.com.ar,motor.com.co,tntsports.cl,tntsports.com.ar,tvynovelas.com,valenciaplaza.com,viapais.com.ar##.banner
 iprofesional.com##.banner-2
+freepik.es##.banner-adobe
 clarin.com,ole.com.ar##.banner-border
 tycsports.com##.banner-bottom
 agroclave.com.ar,lacapital.com.ar##.banner-box
 elnueve.com.ar##.banner-box-container
 noticiasurbanas.com.ar##.banner-center
 revistacar.es##.banner-container
+soychile.cl##.banner-fixed-container
 iprofesional.com##.banner-horizontal
 diariodecuyo.com.ar##.banner-lanusse
 a24.com,diariouno.com.ar,lared.am##.banner-libre
-anbariloche.com.ar,anroca.com.ar,elcordillerano.com.ar##.banner-simple
+anbariloche.com.ar,anroca.com.ar,elcordillerano.com.ar,noticiasnet.com.ar##.banner-simple
 eltrecetv.com.ar##.banner-swap
 ciudad.com.ar,elcomercio.com,lmcipolletti.com,lmneuquen.com##.banner-wrapper
 diariodelaribera.net##.bannerColumnas
 chilevision.cl##.banner_full
 elperiodicodeaqui.com##.banner_lat
+gasteizhoy.com##.bannerclick
 eleconomista.es##.banners-superiores2
 iproup.com##.bannerwide
+flashscore.co##.bettingStrip
 gastrolabweb.com,poresto.net##.bnn
 diariodecuyo.com.ar##.bnr
 eltiempo.com##.board-tu-negocio
@@ -1419,6 +1450,7 @@ eldoce.tv##.branding-wrapper
 mariskalrock.com##.brave_popup
 terremoto.mx##.break_patrocinadores
 futbolred.com##.btn_betplay
+plantadoce.com##.bwe_ext_partners
 miarevista.es,serpadres.es##.c-add
 elpais.com##.c-bra
 cadenaser.com##.c-s > div
@@ -1433,23 +1465,26 @@ elrellano.com##.code-block-9
 deia.eus,noticiasdealava.eus,noticiasdegipuzkoa.eus,noticiasdenavarra.com##.commercial-up-full
 retinatendencias.com##.concintillo
 vilaweb.cat##.container-banner-header
-depor.com##.container-publicidad
+depor.com,elcomercio.pe##.container-publicidad
 laarena.com.ar##.container-spot
 autopista.es##.containerBanner
 futbolred.com##.contenedor-logo-patrocinador
 meteored.cl,meteored.com.ar,meteored.mx,tiempo.com##.creatividad
 perfil.com##.d-xs-none.d-xxl-flex
-flashscore.es##.detailLeaderboard
+flashscore.co,flashscore.es##.detailLeaderboard
 libertaddigital.com,libremercado.com##.dfp
 huffingtonpost.es##.entry__right-rail-width-placeholder
-jotdown.es,valencianews.es##.g
+ejeprime.com##.featured_specials
+arquimaster.com.ar,jotdown.es,valencianews.es##.g
 la-razon.com##.genosha_ads_fixed_bottom
 winsports.co##.goles_acero_banner
 diariodemallorca.es##.grp--branded-style
 habitaclia.com##.gtmclickpromo
 milanuncios.com##.has-advertisement
 atacamaenlinea.cl,redmipaisnorte.cl##.header-promotion
+elespanol.com##.heading__sponsor
 diariodenavarra.es,marie-claire.es,muyhistoria.es,muyinteresante.es,muynegociosyeconomia.es##.henneoHB
+soychile.cl##.home-banner
 atacamaenlinea.cl##.home-featured-widgets
 lavoz.com.ar##.imgSponsor
 marie-claire.es,muyhistoria.es,muyinteresante.es,muynegociosyeconomia.es##.js-ads-not-visible
@@ -1457,16 +1492,19 @@ diariodelaribera.net##.lateralderecho
 diariodelaribera.net##.lateralizquierdo
 adslzone.net##.leaderboard
 huffingtonpost.es##.leaderboard-flex-placeholder
+flashscore.co##.liveActiveBet-ico
 directoalpaladar.com,trendenciashombre.com,vidaextra.com,xataka.com##.m-branded
 bebesymas.com,diariodelviajero.com,elblogsalmon.com,motorpasionmoto.com,pymesyautonomos.com##.m-desvio-ecommerce
+gasteizhoy.com##.macrobannerblock
 sensacine.com,sensacine.com.mx##.main-banner
 infopico.com##.marco-publicidad
+signodeinterrogacion.com##.masthead-banner
 empresite.eleconomista.es##.mauto.textcenter.mb20.mt20
 esdiario.com##.media-ajust-tablet-publi-top
 abc.es##.mega-superior
-marie-claire.es,muyhistoria.es,muyinteresante.es,muynegociosyeconomia.es##.megaBanner
-meteored.cl,meteored.com.ar,meteored.mx,tiempo.com##.megabanner
-caracol.com.co##.mh266-100
+marie-claire.es,muyhistoria.es,muyinteresante.es,muynegociosyeconomia.es,noticiasdegipuzkoa.eus##.megaBanner
+elcorreogallego.es,meteored.cl,meteored.com.ar,meteored.mx,modaes.com,tiempo.com##.megabanner
+caracol.com.co,wradio.com.co##.mh266-100
 diariodevalderrueda.es##.minibanner_content
 show.news##.mod.relatednews
 20minutos.es##.module-coupons
@@ -1479,8 +1517,9 @@ hortanoticias.com##.n2-section-smartslider
 eldiario.es,infolibre.es##.news-sponsored-content
 diaridegirona.cat,diariocordoba.com,diariodeibiza.es,diariodemallorca.es,eldia.es,elperiodicodearagon.com,elperiodicoextremadura.com,elperiodicomediterraneo.com,emporda.info,farodevigo.es,informacion.es,laopinioncoruna.es,laopiniondemalaga.es,laopiniondemurcia.es,laopiniondezamora.es,laprovincia.es,levante-emv.com,lne.es,regio7.cat,superdeporte.es##.no-baldomero
 naciodigital.cat,pensem.cat##.nou-publi-cap-home
-flashscore.es##.oddsPlacement
+flashscore.co,flashscore.es##.oddsPlacement
 autoscout24.es##.osa-as24-placeholder
+gasteizhoy.com##.patrocinado-new
 futbolred.com##.pauta-bk
 otakustv.com##.pestana_footer
 qmusica.tv##.promoTop
@@ -1505,26 +1544,36 @@ burbuja.info##.samCodeUnit
 cuevana.pro,pelispedia.la##.section-cpa
 directoalpaladar.com,trendenciashombre.com,vidaextra.com,xataka.com##.section-native-container
 seriesturcas.gratis##.serie-optimanetwork
+soychile.cl##.slide__banner
 elobservador.com.uy##.sponsors
+bernabeudigital.com##.sticky-container[style="height:600px;"]
+elrellano.com##.tag-enlace-de-afiliados
 publinews.gt##.takeoverlink
-horajaen.com,noticiasuno.com,pcpro.es,periodismo.com,udlaspalmas.net##.td-a-rec
+elmundotoday.com,horajaen.com,noticiasuno.com,pcpro.es,periodismo.com,udlaspalmas.net##.td-a-rec
 udlaspalmas.net##.tdi_22
+ffcv.es##.testimonials-partners
 marcadegol.com##.textwidget a[href^="https://ar.puma.com/"]
 adnradio.cl,cnnchile.com,futuro360.com##.the-banner
+nickelodeonplus.online##.topads-wrap
 aristeguinoticias.com##.topleader
 autopista.es##.transfer-container
 elmundo.es##.ue-c-cover-content--is-branded
 mercadolibre.cl,mercadolibre.com.ar,mercadolibre.com.co,mercadolibre.com.mx,mercadolibre.com.pe,mercadolibre.com.uy##.ui-search-sidebar-advertising__wrapper
 eltiempo.es##.v-banner
 ideal.es,laverdad.es,leonoticias.com##.voc-home-branded-naked
+elciudadanoweb.com##.widget_apsa_campaign
+noticiasformosa.com.ar##.widget_media_image
 naciodigital.cat##.zona-ajbcn
 naciodigital.cat##.zona-lacaixa
 carrefour.es##[id*="-sponsored_products-"]
+cinelibreonline.com##a > img[alt^="Ganar"]
 manomano.es##a[class*="sponsoredProductCard"]
 kissfm.es##a[href*="/linkout/"]
+elrellano.com##a[href*="https://urbanous.com/tienda/tazas/eo-eeeeooo/"]
 animeid.tv##a[href*="leadzupc.com/"]
 mediotiempo.com##a[href^="http://online.caliente.mx/promoRedirect?"]
 pelisplus.lat##a[href^="https://bit.ly/"]
+elitetorrent.com##a[href^="https://staRTgaming.net/"][href*="?offer_id="]
 anisearch.es##a[href^="https://www.amazon."][href*="tag="]
 portalbici.es##a[href^="https://www.awin1.com/cread.php"]
 bikezona.com##a[href^="https://www.bikezona.com/util/redirect.asp?idbanner="]
@@ -1533,6 +1582,7 @@ espn.cl,espn.co.cr,espn.com.ar,espn.com.co,espn.com.do,espn.com.ec,espn.com.gt,e
 darkstone.es##a[onclick^="return ad_redirect"]
 elnueve.com.ar##div[class*="_site-banner-top_"]
 diariodecuyo.com.ar##div[class*="dfp-async"]
+computerhoy.com##div[class^="ad-slot_"]
 elperiodic.com##div[class^="adcont_"]
 bemad.es,cuatro.com,divinity.es,energytv.es,factoriadeficcion.com,mtmad.es,niusdiario.es,telecinco.es,uppers.es,yasss.es##div[class^="adsGroupTop"]
 bemad.es,cuatro.com,divinity.es,energytv.es,factoriadeficcion.com,mtmad.es,niusdiario.es,telecinco.es,uppers.es,yasss.es##div[class^="ads__ad_"]
@@ -1541,6 +1591,8 @@ avisooportuno.mx##div[class^="div-dfp-"]
 liderendeportes.com##div[class^="lider-"]
 purochocolate.life,tumascota.life##div[class^="tumas-"]
 mariskalrock.com##div[id^="wmd-anuncio-"]
+todoblaugrana.com##div[style*="width: 300px; height: 250px;"]
+futbolme.com##div[style*="z-index: 9999"]
 diariocritico.com##div[style^="width: 300px; height: 250px;"]
 diariocritico.com##div[style^="width: 300px; height: 600px;"]
 lectortmo.org##iframe[style*="z-index: 2147483647"]
@@ -1557,6 +1609,7 @@ hortanoticias.com,libroscristianosgratis.net##img[width="250"]
 atacamaenlinea.cl,cinemascomics.com,diariotextual.com,hortanoticias.com,pcpro.es##img[width="300"]
 highxtar.com##img[width="300"][height="600"]
 planbnoticias.com.ar,transponder1200.com##img[width="336"]
+noticiasformosa.com.ar##img[width="400"][height="100"]
 mododeporte.com##img[width="500"]
 hortanoticias.com,transponder1200.com##img[width="728"]
 marcadegol.com##img[width="750"]
@@ -2075,6 +2128,7 @@ blancas.cl,paginasblancas.com.ar,paginasblancas.com.pe##.m-pod-promo-image
 eltiempo.es##.m_gollum
 tandildiario.com##.mainContainerBanner
 maracodigital.net##.margenpublicidad
+noticiasdegipuzkoa.eus##.megabanner
 publico.es##.megabanner-container
 horadeopinion.com.ar##.ml-slider
 atresplayer.com##.mod_roba
@@ -2231,7 +2285,7 @@ elespia.co,envilladelparque.com,envilladevoto.com##.widget_metaslider_widget
 cafevirtual.cl,pamplonaactual.com,trincheraonline.com##.widget_text
 jerezcofrade.tv##.widget_ti_image_banner
 envilladelparque.com,envilladevoto.com##.widget_wp_views
-moracontenidos.com##.wp-block-image
+arquimaster.com.ar,moracontenidos.com##.wp-block-image
 diariotextual.com##.wpb_raw_html
 armasymuniciones.net,mariosegura.com##.wpb_single_image
 cronicadigital.cl##.wpb_text_column
@@ -2324,6 +2378,7 @@ cuatro.com,telecinco.es##a[href^="https://premiercasino.es/"]
 genteflow.us##a[href^="https://veranime.org/"]
 desarrollowp.com,microsiervos.com,supercpps.com##a[rel*="sponsored"]
 planetadeagostini.es##article[id^="divAdserver"]
+arquimaster.com.ar##div[align="center"] > a
 oversos.com##div[aria-label="QODE"]
 portalfruticola.com##div[class*="banner-set"]
 verepeliculas.com##div[class^="ano_"]
@@ -2433,6 +2488,7 @@ elespanol.com##p[style="color: #969696;font-family: Arial,Helvetica,sans-serif;f
 eluniversal.com##p[style="color: rgb(144, 144, 144); background-color: rgb(235, 235, 235);font-size: 12px;padding-left:5px;"]
 infoban.com.ar##p[style="margin:2px 2px 2px 2px;padding:2px 2px 2px 2px;border:0px dashed #999999; overflow:hidden;"]
 apfdigital.com.ar,infoban.com.ar##p[style="margin:2px auto 2px auto;padding:2px 2px 2px 2px;border:0px solid #999999; background-color:#f0f0f0; overflow:hidden;"]
+periodismokosher.com.ar#?#.widget-content:-abp-has(a[target="_blank"])
 e-noticies.cat##ra[type="intext"]
 recetasfacilescocina.com#?#section > h3:-abp-contains(Publicidad)
 finofilipino.org#?##sidebar > .adpv:-abp-contains(Camiseta de la semana)
@@ -2502,6 +2558,7 @@ skdesu.com##.code-block[style^="margin: 20px auto;"]
 trome.pe##.content_gpt_top
 zona-leros.net##.content_store
 criptonoticias.com##.cript-adlabel
+arquimaster.com.ar##.custom-html-widget
 incp.org.co##.cyclone-slider-widget-8
 areasac.es##.destacados
 berjadigital.es##.g-dyn
@@ -2652,6 +2709,8 @@ univision.com#?#div:-abp-has(>span:-abp-contains(Publicidad))
 valoraanalitik.com#?#label:-abp-contains(Publicidad)
 ! *** easylistspanish:easylistspanish_adult/adult_specific_hide.txt ***
 madlifes.com,pepeporn.com###banners_footer
+mangacrab.com###fixedban
+mangacrab.com###fixedban2
 xnalgas.com###ventana-flotante
 bingoporno.com##.Scl-r
 porneados.com##.adv-square
@@ -2700,8 +2759,10 @@ videospornogratisx.net#?#div:-abp-has(>h3:-abp-contains(CHAT PORNO X))
 @@||g.doubleclick.net/gpt/pubads_impl_$domain=pccomponentes.com
 @@||googlesyndication.com/simgad/$image,domain=pccomponentes.com
 @@||googletagservices.com/tag/js/gpt.js$domain=ivoox.com|pccomponentes.com
+@@||iframes.5centscdn.com/5centscdn/*&adTagUrl=https://pubads.g.doubleclick.net/$subdocument,domain=teletica.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=api.apolomedia.com|carolina.cl|niusdiario.es|paxtvmovil.org|radiocandela.cl|romantica.cl
 @@||laneros.com/temas/*-publicidad.
+@@||pub.pixels.ai/wrap-independent-no-prebid-lib.js$script,domain=independentespanol.com
 @@||pub.pixels.ai/wrap-independent-prebid-lib.js$script,domain=independentespanol.com
 !
 @@-publicidad.$~third-party,domain=regalos-publicidad.es|todo-publicidad.com

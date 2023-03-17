@@ -79,7 +79,13 @@ module.exports = {
         "path": "ios",
         "configuration": {
             "removeRulePatterns": [
-                "\\$\\$|\\$\\@\\$",
+                "\\$extension",
+                ",extension",
+                "\\$removeparam",
+                ",removeparam",
+                "\\$removeheader",
+                ",removeheader",
+                "^((?!#%#).)*\\$\\$|\\$\\@\\$",
                 "\\$(.*,)?mp4",
                 "\\$(.*,)?replace=",
                 "\\$stealth",
@@ -97,7 +103,7 @@ module.exports = {
                 "\\$empty",
                 ",empty",
                 "\\$webrtc",
-                "\\$csp=",
+                "\\$csp",
                 "\\$network"
             ],
             "replacements": [
@@ -119,7 +125,7 @@ module.exports = {
         "path": "extension/chromium",
         "configuration": {
             "removeRulePatterns": [
-                "\\$\\$|\\$\\@\\$",
+                "^((?!#%#).)*\\$\\$|\\$\\@\\$",
                 "\\$(.*,)?replace=",
                 "important,replace=",
                 "\\$(.*,)?app",
@@ -153,7 +159,7 @@ module.exports = {
                 "important,protobuf",
                 "\\$extension",
                 ",extension",
-                "\\$\\$|\\$\\@\\$",
+                "^((?!#%#).)*\\$\\$|\\$\\@\\$",
                 "\\$(.*,)?replace=",
                 "important,replace="
             ],
@@ -175,7 +181,11 @@ module.exports = {
         "path": "extension/safari",
         "configuration": {
             "removeRulePatterns": [
-                "\\$\\$|\\$\\@\\$",
+                "\\$removeparam",
+                ",removeparam",
+                "\\$removeheader",
+                ",removeheader",
+                "^((?!#%#).)*\\$\\$|\\$\\@\\$",
                 "\\$(.*,)?mp4",
                 "\\$(.*,)?replace=",
                 "\\$stealth",
@@ -216,7 +226,7 @@ module.exports = {
         "path": "extension/edge",
         "configuration": {
             "removeRulePatterns": [
-                "\\$\\$|\\$\\@\\$",
+                "^((?!#%#).)*\\$\\$|\\$\\@\\$",
                 "\\$(.*,)?mp4",
                 "\\$(.*,)?replace=",
                 "important,replace=",
@@ -252,7 +262,7 @@ module.exports = {
         "path": "extension/opera",
         "configuration": {
             "removeRulePatterns": [
-                "\\$\\$|\\$\\@\\$",
+                "^((?!#%#).)*\\$\\$|\\$\\@\\$",
                 "\\$(.*,)?replace=",
                 "important,replace=",
                 "\\$(.*,)?app",
@@ -281,7 +291,13 @@ module.exports = {
         "path": "extension/android-content-blocker",
         "configuration": {
             "removeRulePatterns": [
-                "\\$\\$|\\$\\@\\$",
+                "\\$extension",
+                ",extension",
+                "\\$removeparam",
+                ",removeparam",
+                "\\$removeheader",
+                ",removeheader",
+                "^((?!#%#).)*\\$\\$|\\$\\@\\$",
                 "#%#",
                 "#@%#",
                 "#\\$#",
@@ -303,6 +319,12 @@ module.exports = {
                 ":has-text\\(",
                 ":contains\\(",
                 ":matches-css\\(",
+                ":matches-attr\\(",
+                ":matches-property\\(",
+                ":xpath\\(",
+                ":nth-ancestor\\(",
+                ":upward\\(",
+                ":remove\\(",
                 ":matches-css-before\\(",
                 ":matches-css-after\\(",
                 ":-abp-has\\(",
@@ -329,7 +351,7 @@ module.exports = {
         "path": "extension/ublock",
         "configuration": {
             "removeRulePatterns": [
-                "\\$\\$|\\$\\@\\$",
+                "^((?!#%#).)*\\$\\$|\\$\\@\\$",
                 "\\$(.*,)?mp4",
                 "\\$(.*,)?replace=",
                 "\\$stealth",

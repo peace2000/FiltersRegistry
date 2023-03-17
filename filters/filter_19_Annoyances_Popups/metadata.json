@@ -3,13 +3,14 @@
   "name": "AdGuard Popups filter",
   "description": "Blocks all kinds of pop-ups that are not necessary for websites' operation.",
   "timeAdded": 1657180419636,
-  "homepage": "https://kb.adguard.com/general/adguard-ad-filters",
+  "homepage": "https://adguard.com/kb/general/ad-filtering/adguard-filters/",
   "expires": "4 days",
   "displayNumber": 2,
   "groupId": 4,
   "subscriptionUrl": "https://filters.adtidy.org/extension/chromium/filters/19.txt",
   "tags": [
     "purpose:annoyances",
+    "recommended",
     "reference:2"
   ],
   "trustLevel": "full"

@@ -2,26 +2,26 @@
 # yarn lockfile v1
 
 
-"@adguard/extended-css@^2.0.24":
-  version "2.0.24"
-  resolved "https://registry.yarnpkg.com/@adguard/extended-css/-/extended-css-2.0.24.tgz#8bb4e31dcf746c1573288fa1bfee190407cea89b"
-  integrity sha512-qkQyH+5/oKDw9JvTeZcfBUbJJj8TV+/3G9ECDKdehJy8vUCbIuKg6rqBDxqGXBnUQcTZPKrnf7JUgSJE3GzE6Q==
+"@adguard/extended-css@^2.0.45":
+  version "2.0.45"
+  resolved "https://registry.yarnpkg.com/@adguard/extended-css/-/extended-css-2.0.45.tgz#2db75c92d2169592019683a17ae87610a3c59469"
+  integrity sha512-ayn44RD1M7dG0cQFWUH4I5mt0y5ozKZU8ZteiOSDQHLrObHd7e/QV1l0fg+g03eGox5W0snyZ24PAhzXRYWRxw==
 
-"@adguard/scriptlets@^1.7.10":
-  version "1.7.10"
-  resolved "https://registry.yarnpkg.com/@adguard/scriptlets/-/scriptlets-1.7.10.tgz#3831032cf4b92024160e68fd456addd1b02965f3"
-  integrity sha512-+G9eDgZZpcvcbdm8PBE0MuQwoYwuLHtX7eYFbX+rFsgMLaM5R0nhhvBQw0a2njVbs8oI1qs9sGDcvX+Clh8slg==
+"@adguard/scriptlets@^1.8.2":
+  version "1.8.2"
+  resolved "https://registry.yarnpkg.com/@adguard/scriptlets/-/scriptlets-1.8.2.tgz#c27337e706d1ffb9b08d2d94009d44f9d1bd6698"
+  integrity sha512-ZzBxLt2j1eo4R6ZLVztMQQMDSaDJFQDiz72Ayy9bv1O+ckErI3EbeJiSK/H2Qq1ffyOHR+Y8PCd0hQchjFrVmA==
   dependencies:
     "@babel/runtime" "^7.7.2"
     js-yaml "^3.13.1"
 
-"@adguard/tsurlfilter@^1.0.57":
-  version "1.0.57"
-  resolved "https://registry.yarnpkg.com/@adguard/tsurlfilter/-/tsurlfilter-1.0.57.tgz#d27c13426149637599413abb414614a5bff3d8f7"
-  integrity sha512-QN80uMQyq5azE57sf3P5O39iAOrWy/zbZqy96wQ0QA1CYBYybvB3N0JYTnRQrC3gVMYFfFx0H2ndrMIfgfkLKg==
+"@adguard/tsurlfilter@^1.0.73":
+  version "1.0.73"
+  resolved "https://registry.yarnpkg.com/@adguard/tsurlfilter/-/tsurlfilter-1.0.73.tgz#b2f96c08bac6ce3343433f44ff3707e043ecc1ac"
+  integrity sha512-nFG9hdF0T77nwRGTWhuVQJRDKrKvlBbzIS2HDPgRlcWRjwmjX1SbdORDX9kFTccrXVxZwHMUKWl0ymUu3Rc/Zw==
   dependencies:
-    "@adguard/extended-css" "^2.0.24"
-    "@adguard/scriptlets" "^1.7.10"
+    "@adguard/extended-css" "^2.0.45"
+    "@adguard/scriptlets" "^1.8.2"
     ip6addr "^0.2.3"
     is-cidr "^4.0.2"
     is-ip "^3.1.0"
@@ -67,13 +67,13 @@ acorn@^8.1.0, acorn@^8.8.0:
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-8.8.1.tgz#0a3f9cbecc4ec3bea6f0a80b66ae8dd2da250b73"
   integrity sha512-7zFpHzhnqYKrkYdUjF1HI1bzd0VygEGX8lFk4k5zVMqHEoES+P+7TKI+EvLO9WVMJ8eekdO0aDEK044xTXwPPA==
 
-"adguard-filters-compiler@git+https://github.com/AdguardTeam/FiltersCompiler.git#v1.1.67":
-  version "1.1.67"
-  resolved "git+https://github.com/AdguardTeam/FiltersCompiler.git#3e63d8e591611ddc1a5d7f851e34855ab2af58d7"
+"adguard-filters-compiler@git+https://github.com/AdguardTeam/FiltersCompiler.git#v1.1.79":
+  version "1.1.79"
+  resolved "git+https://github.com/AdguardTeam/FiltersCompiler.git#e766f0d69734816d9e1dcb5ac2473313abe85d64"
   dependencies:
-    "@adguard/extended-css" "^2.0.24"
-    "@adguard/scriptlets" "^1.7.10"
-    "@adguard/tsurlfilter" "^1.0.57"
+    "@adguard/extended-css" "^2.0.45"
+    "@adguard/scriptlets" "^1.8.2"
+    "@adguard/tsurlfilter" "^1.0.73"
     ajv "^8.11.0"
     child_process ">=1.0.2"
     filters-downloader "git+https://github.com/AdguardTeam/FiltersDownloader.git#v1.1.12"

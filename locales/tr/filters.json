@@ -33,11 +33,11 @@
 	},
 	{
 		"filter.9.name": "AdGuard İspanyolca/Portekizce filtresi",
-		"filter.9.description": "İspanyolca ve Portekizce dillerindeki sitelerde reklamları kaldıran filtre listesi."
+		"filter.9.description": "Özellikle İspanyolca, Portekizce ve Brezilya Portekizcesi dillerindeki web sitelerindeki reklamları kaldıran filtre listesi."
 	},
 	{
 		"filter.10.name": "Arama motoru reklamlarına ve öz tanıtımına izin veren filtre",
-		"filter.10.description": "Arama sonucu (Duckduckgo, Google, Bing, Yahoo) ve sitelerin kendi tanıtım reklamlarının engelini kaldıran filtre. Sitelerin kendi tanıtım reklamının tanımı: Bir sitedeki reklam, bu sitenin veya onunla yakından alakalı diğer siteyi/sosyal medya bağlantısını vb. tanıtıyorsa, bu reklam kendi tanıtım reklamı olarak kabul edilir."
+		"filter.10.description": "Arama sonucu (DuckDuckGo, Google, Bing, Yahoo) ve sitelerin kendi tanıtım reklamlarının engelini kaldıran filtre. Sitelerin kendi tanıtım reklamının tanımı: Bir sitedeki reklam, bu sitenin veya onunla yakından alakalı diğer siteyi/sosyal medya bağlantısını vb. tanıtıyorsa, bu reklam kendi tanıtım reklamı olarak kabul edilir."
 	},
 	{
 		"filter.11.name": "AdGuard Mobil Reklam filtresi",
@@ -88,6 +88,10 @@
 		"filter.22.description": "Rahatsız edici üçüncü taraf araçlarını engeller: çevrimiçi asistanlar, canlı destek sohbetleri, vb."
 	},
 	{
+		"filter.23.name": "AdGuard Ukrayna filtresi",
+		"filter.23.description": "Özellikle Ukrayna dilindeki sitelerde reklamları engelleyen filtre."
+	},
+	{
 		"filter.224.name": "AdGuard Çince filtresi",
 		"filter.224.description": "EasyList China + AdGuard Çince filtresi. Özellikle Çince dilindeki sitelerde reklamları engelleyen filtre listesi."
 	},
@@ -105,7 +109,7 @@
 	},
 	{
 		"filter.104.name": "EasyList China",
-		"filter.104.description": "Bulgarca siteleri için ek filtre listesi. AdGuard Çince filtresine zaten dahildir."
+		"filter.104.description": "Çince siteleri için ek filtre listesi. AdGuard Çince filtresine zaten dahildir."
 	},
 	{
 		"filter.105.name": "EasyList Czech and Slovak",

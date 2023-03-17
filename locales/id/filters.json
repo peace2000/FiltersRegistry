@@ -33,11 +33,11 @@
 	},
 	{
 		"filter.9.name": "Penyaring AdGuard Spanyol/Portugis",
-		"filter.9.description": "Daftar penyaring yang secara khusus menghapus iklan di situs web dalam bahasa Spanyol dan Portugis."
+		"filter.9.description": "Daftar filter yang secara khusus menghapus iklan di situs web berbahasa Spanyol, Portugis, dan Portugis Brasil."
 	},
 	{
 		"filter.10.name": "Penyaring iklan berguna",
-		"filter.10.description": "Penyaring yang membuka blokir pencarian (Duckduckgo, Google, Bing, Yahoo) dan iklan promosi diri. Definisi promosi diri: ketika iklan di situs web mempromosikan situs web ini atau media sosial lain yang terkait erat dengannya, iklan tersebut dianggap sebagai iklan yang mempromosikan diri."
+		"filter.10.description": "Penyaring yang membuka blokir pencarian (DuckDuckGo, Google, Bing, Yahoo) dan iklan promosi diri. Definisi promosi diri: ketika iklan di situs web mempromosikan situs web ini atau media sosial lain yang terkait erat dengannya, iklan tersebut dianggap sebagai iklan yang mempromosikan diri."
 	},
 	{
 		"filter.11.name": "Penyaring Iklan Seluler AdGuard",
@@ -86,6 +86,10 @@
 	{
 		"filter.22.name": "Filter Widget AdGuard",
 		"filter.22.description": "Memblokir widget pihak ketiga yang mengganggu: asisten online, obrolan dukungan langsung, dll."
+	},
+	{
+		"filter.23.name": "Filter Ukraina AdGuard",
+		"filter.23.description": "Filter yang memungkinkan pemblokiran iklan di situs web dalam bahasa Ukraina."
 	},
 	{
 		"filter.224.name": "Penyaring AdGuard China",

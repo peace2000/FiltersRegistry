@@ -26,8 +26,8 @@ fin.afterdawn.com###nm-980x400-fb:style(min-height: unset !important)
 fin.afterdawn.com###nm-300x300-fb:style(min-height: 30px !important)
 ! Rule "fin.afterdawn.com#?#.header:not(:matches-media((min-width: 750px))) + div[class] + div[class] .mobile-top-ad:-abp-has(+ .boxes):style(margin: unset !important)" converted to: "fin.afterdawn.com#$?#.header:not(:matches-media((min-width: 750px))) + div[class] + div[class] .mobile-top-ad:-abp-has(+ .boxes) { margin: unset !important }"
 fin.afterdawn.com#?#.header:not(:matches-media((min-width: 750px))) + div[class] + div[class] .mobile-top-ad:-abp-has(+ .boxes):style(margin: unset !important)
-! Rule "fin.afterdawn.com##.header:not(:matches-media((min-width: 750px))) + div[class] + div[class] .mobile-top-ad:not(+ .boxes):style(margin: -10px auto !important)" converted to: "fin.afterdawn.com#$#.header:not(:matches-media((min-width: 750px))) + div[class] + div[class] .mobile-top-ad:not(+ .boxes) { margin: -10px auto !important }"
-fin.afterdawn.com##.header:not(:matches-media((min-width: 750px))) + div[class] + div[class] .mobile-top-ad:not(+ .boxes):style(margin: -10px auto !important)
+! Rule "fin.afterdawn.com##:not(:matches-path(/^/$/)) .header:not(:matches-media((min-width: 750px))) + div[class] + div[class] .mobile-top-ad:style(margin: -10px auto !important)" converted to: "[$path=/^((?!^/$).)*$/]fin.afterdawn.com#$# .header:not(:matches-media((min-width: 750px))) + div[class] + div[class] .mobile-top-ad { margin: -10px auto !important }"
+fin.afterdawn.com##:not(:matches-path(/^/$/)) .header:not(:matches-media((min-width: 750px))) + div[class] + div[class] .mobile-top-ad:style(margin: -10px auto !important)
 ! Rule "golfpiste.com#?#.section-wrapper > .has-ad-right:-abp-has(+ .section--ad:matches-css(display: none)):style(width: 100% !important)" converted to: "golfpiste.com#$?#.section-wrapper > .has-ad-right:-abp-has(+ .section--ad:matches-css(display: none)) { width: 100% !important }"
 golfpiste.com#?#.section-wrapper > .has-ad-right:-abp-has(+ .section--ad:matches-css(display: none)):style(width: 100% !important)
 ! Rule "hardware.fi##.top-ad-space:style(min-height: 0 !important)" converted to: "hardware.fi#$#.top-ad-space { min-height: 0 !important }"
@@ -84,6 +84,8 @@ mobiili.fi##^.fullarticle:has-text(Sponsoroitu)
 mobiili.fi##^.fullarticle:has([data-lazy-src="https://mobiili.fi/aaa.png"])
 ! Unable to convert rule to AdGuard syntax: tamperelainen.fi##^.display-ad
 tamperelainen.fi##^.display-ad
+! Rule "||telsu.fi/x_abcheck$xhr,domain=telsu.fi" converted to: "||telsu.fi/x_abcheck$xmlhttprequest,domain=telsu.fi"
+||telsu.fi/x_abcheck$xhr,domain=telsu.fi
 ! Rule "afterdawn.com,download.fi,high.fi,muropaketti.com##+js(nostif, f.parentNode.removeChild(f), 100)" converted to: "afterdawn.com,download.fi,high.fi,muropaketti.com#%#//scriptlet('ubo-nostif.js', 'f.parentNode.removeChild(f)', '100')"
 afterdawn.com,download.fi,high.fi,muropaketti.com##+js(nostif, f.parentNode.removeChild(f), 100)
 ! Rule "ap-cdn.sanomagames.com##+js(rc, st__hidden, #gamewrapper)" converted to: "ap-cdn.sanomagames.com#%#//scriptlet('ubo-rc.js', 'st__hidden', '#gamewrapper')"
@@ -100,11 +102,11 @@ findit.fi##+js(acs, testPrebid)
 happypancake.fi##+js(aopr, Object.prototype.adUnits)
 ! Rule "pelaaja.fi##+js(aopr, ga)" converted to: "pelaaja.fi#%#//scriptlet('ubo-aopr.js', 'ga')"
 pelaaja.fi##+js(aopr, ga)
+! Rule "muropaketti.com##body.noImages .content img:style(display: inline-block !important)" converted to: "muropaketti.com#$#body.noImages .content img { display: inline-block !important }"
+muropaketti.com##body.noImages .content img:style(display: inline-block !important)
 ! Rule "||freewheel-jitt.sanoma.fi^$media,rewrite=abp-resource:blank-mp3,domain=ruutu.fi" converted to: "||freewheel-jitt.sanoma.fi^$media,redirect=noopmp3-0.1s,domain=ruutu.fi"
 ||freewheel-jitt.sanoma.fi^$media,rewrite=abp-resource:blank-mp3,domain=ruutu.fi
-! Rule "||nelonenmedia-pmd-ads-*.nm-stream.nelonenmedia.fi^$media,rewrite=abp-resource:blank-mp3,domain=ruutu.fi" converted to: "||nelonenmedia-pmd-ads-*.nm-stream.nelonenmedia.fi^$media,redirect=noopmp3-0.1s,domain=ruutu.fi"
-||nelonenmedia-pmd-ads-*.nm-stream.nelonenmedia.fi^$media,rewrite=abp-resource:blank-mp3,domain=ruutu.fi
+! Rule "||nelonenmedia-pmd-ads-*.nm-stream.nelonenmedia.fi^$media,rewrite=abp-resource:blank-mp3,domain=ruutu.fi|supla.fi" converted to: "||nelonenmedia-pmd-ads-*.nm-stream.nelonenmedia.fi^$media,redirect=noopmp3-0.1s,domain=ruutu.fi|supla.fi"
+||nelonenmedia-pmd-ads-*.nm-stream.nelonenmedia.fi^$media,rewrite=abp-resource:blank-mp3,domain=ruutu.fi|supla.fi
 ! Rule "||sanoma-prod.integration-x.com^$media,rewrite=abp-resource:blank-mp3,domain=ruutu.fi" converted to: "||sanoma-prod.integration-x.com^$media,redirect=noopmp3-0.1s,domain=ruutu.fi"
 ||sanoma-prod.integration-x.com^$media,rewrite=abp-resource:blank-mp3,domain=ruutu.fi
-! Rule "@@||s1.adform.net/banners/scripts/adx.js$xhr,domain=ylilauta.org" converted to: "@@||s1.adform.net/banners/scripts/adx.js$xmlhttprequest,domain=ylilauta.org"
-@@||s1.adform.net/banners/scripts/adx.js$xhr,domain=ylilauta.org

@@ -33,11 +33,11 @@
 	},
 	{
 		"filter.9.name": "Filtro Espanhol/Português do AdGuard",
-		"filter.9.description": "Filtro que permite o bloqueio de anúncios em sites com o conteúdo Espanhol e Português."
+		"filter.9.description": "Filtro que permite o bloqueio de anúncios em sites com o conteúdo nos idiomas espanhol e português."
 	},
 	{
 		"filter.10.name": "Filtro para desbloquear anúncios úteis e de autopromoção",
-		"filter.10.description": "Filtro que desbloqueia os anúncios de autopromoção dentro dos sites de buscas (Google, Duckduckgo, Bing, Yahoo) que podem ser útil para o usuário. Definição de autopromoção: É quando um anúncio em um site está promovendo o site dele mesmo ou outros sites relacionados a ele. Esse tipo de anúncio é considerado autopromocional."
+		"filter.10.description": "Filtro que desbloqueia os anúncios de autopromoção dentro dos sites de buscas (Google, DuckDuckGo, Bing, Yahoo) que podem ser útil para o usuário. Definição de autopromoção: É quando um anúncio em um site está promovendo o site dele mesmo ou outros sites relacionados a ele. Esse tipo de anúncio é considerado autopromocional."
 	},
 	{
 		"filter.11.name": "Filtro de dispositivo móvel do AdGuard",
@@ -86,6 +86,10 @@
 	{
 		"filter.22.name": "Filtro de widgets do AdGuard",
 		"filter.22.description": "Bloqueia widgets irritantes de terceiros: assistentes online, chats de suporte ao vivo, etc."
+	},
+	{
+		"filter.23.name": "Filtro Ucraniano do AdGuard",
+		"filter.23.description": "Filtro que permite o bloqueio de anúncios em sites com o conteúdo em Ucraniano."
 	},
 	{
 		"filter.224.name": "Filtro chinês do AdGuard",

@@ -1,3 +1,5 @@
+! Rule "||geozo.com^$3p" converted to: "||geozo.com^$third-party"
+||geozo.com^$3p
 ! Rule "||observatorulph.ro/cdn-cgi/apps/*$script,first-party" converted to: "||observatorulph.ro/cdn-cgi/apps/*$script,~third-party"
 ||observatorulph.ro/cdn-cgi/apps/*$script,first-party
 ! Rule "/cdn-cgi/apps/head/*$script,first-party,domain=dot.ro" converted to: "/cdn-cgi/apps/head/*$script,~third-party,domain=dot.ro"
@@ -10,6 +12,8 @@
 @@||trafictube.ro/favicon.ico$image,first-party
 ! Rule "@@||pubads.g.doubleclick.net/ssai/event/$xhr,domain=digi24.ro" converted to: "@@||pubads.g.doubleclick.net/ssai/event/$xmlhttprequest,domain=digi24.ro"
 @@||pubads.g.doubleclick.net/ssai/event/$xhr,domain=digi24.ro
+! Rule "@@||ziare.com^$ghide" converted to: "@@||ziare.com^$generichide"
+@@||ziare.com^$ghide
 ! Rule "@@||obiectivbr.ro/sites/default/files/banner/bogdi1024-web.jpg$image,1p" converted to: "@@||obiectivbr.ro/sites/default/files/banner/bogdi1024-web.jpg$image,~third-party"
 @@||obiectivbr.ro/sites/default/files/banner/bogdi1024-web.jpg$image,1p
 ! Rule "turdanews.net##+js(nostif, ai_)" converted to: "turdanews.net#%#//scriptlet('ubo-nostif.js', 'ai_')"
@@ -34,9 +38,13 @@ bloground.ro##+js(nostif, show)
 myradioonline.ro##+js(rc, _bannerTop1)
 ! Rule "litoraltv.ro##html:style(overflow: auto !important;)" converted to: "litoraltv.ro#$#html { overflow: auto !important; }"
 litoraltv.ro##html:style(overflow: auto !important;)
+! Rule "||imasdk.googleapis.com/js/sdkloader/ima3.js$script,important,redirect=google-ima.js,domain=a1.ro|antena3.ro|antenastars.ro|as.ro|jurnalul.ro|observator.tv|observatornews.ro|spynews.ro|zutv.ro" converted to: "||imasdk.googleapis.com/js/sdkloader/ima3.js$script,important,redirect=google-ima3,domain=a1.ro|antena3.ro|antenastars.ro|as.ro|jurnalul.ro|observator.tv|observatornews.ro|spynews.ro|zutv.ro"
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,important,redirect=google-ima.js,domain=a1.ro|antena3.ro|antenastars.ro|as.ro|jurnalul.ro|observator.tv|observatornews.ro|spynews.ro|zutv.ro
 ! Rule "posturi.live##+js(nowoif)" converted to: "posturi.live#%#//scriptlet('ubo-nowoif.js')"
 posturi.live##+js(nowoif)
+! Rule "||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=qbebe.ro,redirect=google-ima.js,important" converted to: "||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=qbebe.ro,redirect=google-ima3,important"
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=qbebe.ro,redirect=google-ima.js,important
+! Rule "||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=divahair.ro,redirect=google-ima.js,important" converted to: "||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=divahair.ro,redirect=google-ima3,important"
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=divahair.ro,redirect=google-ima.js,important
 Error: "Invalid cosmetic rule, wrong brackets" in the rule: "science.hotnews.ro###\$\{tile\.name\}_\$\{tile\.id\}"
 science.hotnews.ro###\$\{tile\.name\}_\$\{tile\.id\}
-Error: "$redirect modifier is invalid" in the rule: "||imasdk.googleapis.com/js/sdkloader/ima3.js$script,important,redirect=google-ima.js,domain=a1.ro|antena3.ro|antenastars.ro|as.ro|jurnalul.ro|observator.tv|observatornews.ro|spynews.ro|zutv.ro"
-||imasdk.googleapis.com/js/sdkloader/ima3.js$script,important,redirect=google-ima.js,domain=a1.ro|antena3.ro|antenastars.ro|as.ro|jurnalul.ro|observator.tv|observatornews.ro|spynews.ro|zutv.ro

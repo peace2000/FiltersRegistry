@@ -72,10 +72,12 @@ calcalist.co.il##+js(aopw, upManager)
 ||xads.zedo.com/ads2/c?*.one.co.il/$script,important,redirect=noopjs,1p
 ! Rule "||inn.co.il^$important,websocket,1p,domain=inn.co.il" converted to: "||inn.co.il^$important,websocket,~third-party,domain=inn.co.il"
 ||inn.co.il^$important,websocket,1p,domain=inn.co.il
-! Rule "inn.co.il##+js(aopr, TextDecoder)" converted to: "inn.co.il#%#//scriptlet('ubo-aopr.js', 'TextDecoder')"
-inn.co.il##+js(aopr, TextDecoder)
 ! Rule "inn.co.il##+js(aopw, upManager)" converted to: "inn.co.il#%#//scriptlet('ubo-aopw.js', 'upManager')"
 inn.co.il##+js(aopw, upManager)
+! Rule "inn.co.il##+js(nostif, popup)" converted to: "inn.co.il#%#//scriptlet('ubo-nostif.js', 'popup')"
+inn.co.il##+js(nostif, popup)
+! Rule "inn.co.il##+js(nowoif)" converted to: "inn.co.il#%#//scriptlet('ubo-nowoif.js')"
+inn.co.il##+js(nowoif)
 ! Rule "||yad2.co.il^$important,websocket,1p,domain=homeprices.yad2.co.il|my.yad2.co.il|pricelist.yad2.co.il|www.yad2.co.il|yad1.yad2.co.il" converted to: "||yad2.co.il^$important,websocket,~third-party,domain=homeprices.yad2.co.il|my.yad2.co.il|pricelist.yad2.co.il|www.yad2.co.il|yad1.yad2.co.il"
 ||yad2.co.il^$important,websocket,1p,domain=homeprices.yad2.co.il|my.yad2.co.il|pricelist.yad2.co.il|www.yad2.co.il|yad1.yad2.co.il
 ! Rule "||ad.doubleclick.net/favicon.ico?ad=$image,important,redirect=2x2.png,domain=yad2.co.il" converted to: "||ad.doubleclick.net/favicon.ico?ad=$image,important,redirect=2x2-transparent.png,domain=yad2.co.il"
@@ -94,6 +96,8 @@ haaretz.co.il##html:style(height: auto !important; overflow: auto !important)
 @@||foodsdictionary.co.il^$ghide
 ! Rule "morfix.co.il##+js(acis, document.createElement, admiral)" converted to: "morfix.co.il#%#//scriptlet('ubo-acis.js', 'document.createElement', 'admiral')"
 morfix.co.il##+js(acis, document.createElement, admiral)
+! Rule "morfix.co.il##^script:has-text(admiral)" converted to: "morfix.co.il$$script[tag-content="admiral"][max-length="262144"]"
+morfix.co.il##^script:has-text(admiral)
 ! Rule "bhol.co.il##body:style(overflow: auto !important;)" converted to: "bhol.co.il#$#body { overflow: auto !important; }"
 bhol.co.il##body:style(overflow: auto !important;)
 ! Rule "||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xhr,redirect=nooptext,domain=jmusic.me" converted to: "||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,redirect=nooptext,domain=jmusic.me"
@@ -112,3 +116,17 @@ koozi.info##.tien-ads-video:style(background: none!important;)
 mail.walla.co.il#@#^script:has-text(responseText)
 ! Error: Invalid selector: '^script:has-text((window)}catch)' -- Error: unable to select by '^script' — '^script' is not a valid selector in rule:
 mail.walla.co.il#@#^script:has-text((window)}catch)
+Error: "Unknown modifier: webrtc" in the rule: "*$webrtc,domain=walla.co.il"
+*$webrtc,domain=walla.co.il
+Error: "Unknown modifier: webrtc" in the rule: "*$webrtc,domain=ynet.co.il"
+*$webrtc,domain=ynet.co.il
+Error: "Unknown modifier: webrtc" in the rule: "*$webrtc,domain=mako.co.il"
+*$webrtc,domain=mako.co.il
+Error: "Unknown modifier: webrtc" in the rule: "*$webrtc,domain=globes.co.il"
+*$webrtc,domain=globes.co.il
+Error: "Unknown modifier: webrtc" in the rule: "*$webrtc,domain=calcalist.co.il"
+*$webrtc,domain=calcalist.co.il
+Error: "Unknown modifier: webrtc" in the rule: "*$webrtc,domain=13news.co.il|13tv.co.il"
+*$webrtc,domain=13news.co.il|13tv.co.il
+Error: "Unknown modifier: webrtc" in the rule: "*$webrtc,domain=yad2.co.il"
+*$webrtc,domain=yad2.co.il

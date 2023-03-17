@@ -12,14 +12,50 @@
 /images/affiliasi/*$3p,image
 ! Rule "/[0-9a-f]{32}\/invoke\.js/$3p,script" converted to: "/[0-9a-f]{32}\/invoke\.js/$third-party,script"
 /[0-9a-f]{32}\/invoke\.js/$3p,script
-! Rule "/^https?:\/\/(?:www\.|[0-9a-z]{7,10}\.)?[-0-9a-z]{5,}\.com\/(?:[0-9a-f]{2}\/){2,3}[0-9a-f]{32}\.js/$3p,script,xhr" converted to: "/^https?:\/\/(?:www\.|[0-9a-z]{7,10}\.)?[-0-9a-z]{5,}\.com\/(?:[0-9a-f]{2}\/){2,3}[0-9a-f]{32}\.js/$third-party,script,xmlhttprequest"
-/^https?:\/\/(?:www\.|[0-9a-z]{7,10}\.)?[-0-9a-z]{5,}\.com\/(?:[0-9a-f]{2}\/){2,3}[0-9a-f]{32}\.js/$3p,script,xhr
-! Rule "/^https?:\/\/(?:[a-z]{2}\.)?[0-9a-z]{7,16}\.com\/[a-z](?=[a-z]{0,25}[0-9A-Z])[0-9a-zA-Z]{3,26}\/(?:[1-5]\d{4}|[3-9]\d{3})\??(?:_=\d+|v=\d)?$/$3p,frame,match-case,popup,script,xhr" converted to: "/^https?:\/\/(?:[a-z]{2}\.)?[0-9a-z]{7,16}\.com\/[a-z](?=[a-z]{0,25}[0-9A-Z])[0-9a-zA-Z]{3,26}\/(?:[1-5]\d{4}|[3-9]\d{3})\??(?:_=\d+|v=\d)?$/$third-party,subdocument,match-case,popup,script,xmlhttprequest"
-/^https?:\/\/(?:[a-z]{2}\.)?[0-9a-z]{7,16}\.com\/[a-z](?=[a-z]{0,25}[0-9A-Z])[0-9a-zA-Z]{3,26}\/(?:[1-5]\d{4}|[3-9]\d{3})\??(?:_=\d+|v=\d)?$/$3p,frame,match-case,popup,script,xhr
-! Rule "/^https?:\/\/(?:[a-z]{2}\.)?[0-9a-z]{7,16}\.website\/[a-z](?=[a-z]{0,25}[0-9A-Z])[0-9a-zA-Z]{3,26}\/(?:[1-5]\d{4}|[3-9]\d{3})\??(?:_=\d+|v=\d)?$/$3p,frame,match-case,popup,script,xhr" converted to: "/^https?:\/\/(?:[a-z]{2}\.)?[0-9a-z]{7,16}\.website\/[a-z](?=[a-z]{0,25}[0-9A-Z])[0-9a-zA-Z]{3,26}\/(?:[1-5]\d{4}|[3-9]\d{3})\??(?:_=\d+|v=\d)?$/$third-party,subdocument,match-case,popup,script,xmlhttprequest"
-/^https?:\/\/(?:[a-z]{2}\.)?[0-9a-z]{7,16}\.website\/[a-z](?=[a-z]{0,25}[0-9A-Z])[0-9a-zA-Z]{3,26}\/(?:[1-5]\d{4}|[3-9]\d{3})\??(?:_=\d+|v=\d)?$/$3p,frame,match-case,popup,script,xhr
+! Rule "/^https?:\/\/(?:www\.|[0-9a-z]{7,10}\.)?[-0-9a-z]{5,}\.com\/\/?(?:[0-9a-f]{2}\/){2,3}[0-9a-f]{32}\.js/$3p,script,xhr" converted to: "/^https?:\/\/(?:www\.|[0-9a-z]{7,10}\.)?[-0-9a-z]{5,}\.com\/\/?(?:[0-9a-f]{2}\/){2,3}[0-9a-f]{32}\.js/$third-party,script,xmlhttprequest"
+/^https?:\/\/(?:www\.|[0-9a-z]{7,10}\.)?[-0-9a-z]{5,}\.com\/\/?(?:[0-9a-f]{2}\/){2,3}[0-9a-f]{32}\.js/$3p,script,xhr
+! Rule "/^https?:\/\/(?:[a-z]{2}\.)?[0-9a-z]{7,16}\.[a-z]{3,7}\/[a-z](?=[a-z]{0,25}[0-9A-Z])[0-9a-zA-Z]{3,26}\/(?:[1-6]\d{4}|[3-9]\d{3})\??(?:_=\d+|v=\d)?$/$3p,match-case,script,redirect=noop.js" converted to: "/^https?:\/\/(?:[a-z]{2}\.)?[0-9a-z]{7,16}\.[a-z]{3,7}\/[a-z](?=[a-z]{0,25}[0-9A-Z])[0-9a-zA-Z]{3,26}\/(?:[1-6]\d{4}|[3-9]\d{3})\??(?:_=\d+|v=\d)?$/$third-party,match-case,script,redirect=noopjs"
+/^https?:\/\/(?:[a-z]{2}\.)?[0-9a-z]{7,16}\.[a-z]{3,7}\/[a-z](?=[a-z]{0,25}[0-9A-Z])[0-9a-zA-Z]{3,26}\/(?:[1-6]\d{4}|[3-9]\d{3})\??(?:_=\d+|v=\d)?$/$3p,match-case,script,redirect=noop.js
+! Rule "/^https?:\/\/(?:[a-z]{2}\.)?[0-9a-z]{7,16}\.com\/[a-z](?=[a-z]{0,25}[0-9A-Z])[0-9a-zA-Z]{3,26}\/(?:[1-6]\d{4}|[3-9]\d{3})\??(?:_=\d+|v=\d)?$/$3p,frame,match-case,popup,xhr" converted to: "/^https?:\/\/(?:[a-z]{2}\.)?[0-9a-z]{7,16}\.com\/[a-z](?=[a-z]{0,25}[0-9A-Z])[0-9a-zA-Z]{3,26}\/(?:[1-6]\d{4}|[3-9]\d{3})\??(?:_=\d+|v=\d)?$/$third-party,subdocument,match-case,popup,xmlhttprequest"
+/^https?:\/\/(?:[a-z]{2}\.)?[0-9a-z]{7,16}\.com\/[a-z](?=[a-z]{0,25}[0-9A-Z])[0-9a-zA-Z]{3,26}\/(?:[1-6]\d{4}|[3-9]\d{3})\??(?:_=\d+|v=\d)?$/$3p,frame,match-case,popup,xhr
+! Rule "/^https?:\/\/(?:[a-z]{2}\.)?[0-9a-z]{7,16}\.website\/[a-z](?=[a-z]{0,25}[0-9A-Z])[0-9a-zA-Z]{3,26}\/(?:[1-6]\d{4}|[3-9]\d{3})\??(?:_=\d+|v=\d)?$/$3p,frame,match-case,popup,xhr" converted to: "/^https?:\/\/(?:[a-z]{2}\.)?[0-9a-z]{7,16}\.website\/[a-z](?=[a-z]{0,25}[0-9A-Z])[0-9a-zA-Z]{3,26}\/(?:[1-6]\d{4}|[3-9]\d{3})\??(?:_=\d+|v=\d)?$/$third-party,subdocument,match-case,popup,xmlhttprequest"
+/^https?:\/\/(?:[a-z]{2}\.)?[0-9a-z]{7,16}\.website\/[a-z](?=[a-z]{0,25}[0-9A-Z])[0-9a-zA-Z]{3,26}\/(?:[1-6]\d{4}|[3-9]\d{3})\??(?:_=\d+|v=\d)?$/$3p,frame,match-case,popup,xhr
+! Rule "/^https?:\/\/[0-9a-z]{13,14}\.cloudfront\.net\/\?[a-z]{3,5}=\d{6}$/$3p,script,xhr" converted to: "/^https?:\/\/[0-9a-z]{13,14}\.cloudfront\.net\/\?[a-z]{3,5}=\d{6}$/$third-party,script,xmlhttprequest"
+/^https?:\/\/[0-9a-z]{13,14}\.cloudfront\.net\/\?[a-z]{3,5}=\d{6}$/$3p,script,xhr
 ! Rule "/^https:\/\/[0-9a-f]{10}\.[0-9a-f]{10}\.com\/[0-9a-f]{32}\.js$/$3p,script" converted to: "/^https:\/\/[0-9a-f]{10}\.[0-9a-f]{10}\.com\/[0-9a-f]{32}\.js$/$third-party,script"
 /^https:\/\/[0-9a-f]{10}\.[0-9a-f]{10}\.com\/[0-9a-f]{32}\.js$/$3p,script
+! Rule "/^https?:\/\/[0-9a-f]{50,}\.s3\.amazonaws\.com\/[0-9a-f]{10}$/$3p,xhr" converted to: "/^https?:\/\/[0-9a-f]{50,}\.s3\.amazonaws\.com\/[0-9a-f]{10}$/$third-party,xmlhttprequest"
+/^https?:\/\/[0-9a-f]{50,}\.s3\.amazonaws\.com\/[0-9a-f]{10}$/$3p,xhr
+! Rule "/^https?:\/\/s3\.us-east-1\.amazonaws\.com\/[0-9a-f]{50,}\/[0-9a-f]{10}$/$3p,xhr" converted to: "/^https?:\/\/s3\.us-east-1\.amazonaws\.com\/[0-9a-f]{50,}\/[0-9a-f]{10}$/$third-party,xmlhttprequest"
+/^https?:\/\/s3\.us-east-1\.amazonaws\.com\/[0-9a-f]{50,}\/[0-9a-f]{10}$/$3p,xhr
+! Rule ".top/event|$3p,xhr" converted to: ".top/event|$third-party,xmlhttprequest"
+.top/event|$3p,xhr
+! Rule ".xyz/event|$3p,xhr" converted to: ".xyz/event|$third-party,xmlhttprequest"
+.xyz/event|$3p,xhr
+! Rule "/^https?:\/\/[a-z]{8,15}\.top(\/(?:\d{1,5}|0NaN|articles?|browse|index|movie|news|pages?|static|view|web|wiki)){1,4}(?:\.html|\/)$/$3p,frame,match-case" converted to: "/^https?:\/\/[a-z]{8,15}\.top(\/(?:\d{1,5}|0NaN|articles?|browse|index|movie|news|pages?|static|view|web|wiki)){1,4}(?:\.html|\/)$/$third-party,subdocument,match-case"
+/^https?:\/\/[a-z]{8,15}\.top(\/(?:\d{1,5}|0NaN|articles?|browse|index|movie|news|pages?|static|view|web|wiki)){1,4}(?:\.html|\/)$/$3p,frame,match-case
+! Rule "/^https?:\/\/[a-z]{8,15}\.top\/[-a-z]{4,}\.css\?aHR0c[\/0-9a-zA-Z]{33,}=?=?$/$3p,css,match-case" converted to: "/^https?:\/\/[a-z]{8,15}\.top\/[-a-z]{4,}\.css\?aHR0c[\/0-9a-zA-Z]{33,}=?=?$/$third-party,stylesheet,match-case"
+/^https?:\/\/[a-z]{8,15}\.top\/[-a-z]{4,}\.css\?aHR0c[\/0-9a-zA-Z]{33,}=?=?$/$3p,css,match-case
+! Rule "/^https?:\/\/[a-z]{8,15}\.top\/[a-z]{4,}\.json$/$3p,match-case,xhr" converted to: "/^https?:\/\/[a-z]{8,15}\.top\/[a-z]{4,}\.json$/$third-party,match-case,xmlhttprequest"
+/^https?:\/\/[a-z]{8,15}\.top\/[a-z]{4,}\.json$/$3p,match-case,xhr
+! Rule "/^https?:\/\/[a-z]{8,15}\.top\/[a-z]{4,}\.png\?aHR0c[\/0-9a-zA-Z]{33,}=?=?$/$3p,image,match-case" converted to: "/^https?:\/\/[a-z]{8,15}\.top\/[a-z]{4,}\.png\?aHR0c[\/0-9a-zA-Z]{33,}=?=?$/$third-party,image,match-case"
+/^https?:\/\/[a-z]{8,15}\.top\/[a-z]{4,}\.png\?aHR0c[\/0-9a-zA-Z]{33,}=?=?$/$3p,image,match-case
+! Rule "/^https?:\/\/[a-z]{8,15}\.xyz(\/(?:\d{1,5}|0NaN|articles?|browse|index|movie|news|pages?|static|view|web|wiki)){1,4}(?:\.html|\/)$/$3p,frame,match-case" converted to: "/^https?:\/\/[a-z]{8,15}\.xyz(\/(?:\d{1,5}|0NaN|articles?|browse|index|movie|news|pages?|static|view|web|wiki)){1,4}(?:\.html|\/)$/$third-party,subdocument,match-case"
+/^https?:\/\/[a-z]{8,15}\.xyz(\/(?:\d{1,5}|0NaN|articles?|browse|index|movie|news|pages?|static|view|web|wiki)){1,4}(?:\.html|\/)$/$3p,frame,match-case
+! Rule "/^https?:\/\/[a-z]{8,15}\.xyz\/[-a-z]{4,}\.css\?aHR0c[\/0-9a-zA-Z]{33,}=?=?$/$3p,css,match-case" converted to: "/^https?:\/\/[a-z]{8,15}\.xyz\/[-a-z]{4,}\.css\?aHR0c[\/0-9a-zA-Z]{33,}=?=?$/$third-party,stylesheet,match-case"
+/^https?:\/\/[a-z]{8,15}\.xyz\/[-a-z]{4,}\.css\?aHR0c[\/0-9a-zA-Z]{33,}=?=?$/$3p,css,match-case
+! Rule "/^https?:\/\/[a-z]{8,15}\.xyz\/[a-z]{4,}\.json$/$3p,match-case,xhr" converted to: "/^https?:\/\/[a-z]{8,15}\.xyz\/[a-z]{4,}\.json$/$third-party,match-case,xmlhttprequest"
+/^https?:\/\/[a-z]{8,15}\.xyz\/[a-z]{4,}\.json$/$3p,match-case,xhr
+! Rule "/^https?:\/\/[a-z]{8,15}\.xyz\/[a-z]{4,}\.png\?aHR0c[\/0-9a-zA-Z]{33,}=?=?$/$3p,image,match-case" converted to: "/^https?:\/\/[a-z]{8,15}\.xyz\/[a-z]{4,}\.png\?aHR0c[\/0-9a-zA-Z]{33,}=?=?$/$third-party,image,match-case"
+/^https?:\/\/[a-z]{8,15}\.xyz\/[a-z]{4,}\.png\?aHR0c[\/0-9a-zA-Z]{33,}=?=?$/$3p,image,match-case
+! Rule "/^https?:\/\/[-a-z]{6,}\.com?\/[a-d][-\.\/_A-Za-z][DHWXm][-\.\/_A-Za-z][59FVZ][-\.\/_A-Za-z][6swyz][-\.\/_A-Za-z][-\/_0-9a-zA-Z][-\.\/_A-Za-z][-\/_0-9a-zA-Z]{22,162}$/$3p,match-case,script,xhr" converted to: "/^https?:\/\/[-a-z]{6,}\.com?\/[a-d][-\.\/_A-Za-z][DHWXm][-\.\/_A-Za-z][59FVZ][-\.\/_A-Za-z][6swyz][-\.\/_A-Za-z][-\/_0-9a-zA-Z][-\.\/_A-Za-z][-\/_0-9a-zA-Z]{22,162}$/$third-party,match-case,script,xmlhttprequest"
+/^https?:\/\/[-a-z]{6,}\.com?\/[a-d][-\.\/_A-Za-z][DHWXm][-\.\/_A-Za-z][59FVZ][-\.\/_A-Za-z][6swyz][-\.\/_A-Za-z][-\/_0-9a-zA-Z][-\.\/_A-Za-z][-\/_0-9a-zA-Z]{22,162}$/$3p,match-case,script,xhr
+! Rule "/^https?:\/\/[-a-z]{6,}\.info\/[a-d][-\.\/_A-Za-z][DHWXm][-\.\/_A-Za-z][59FVZ][-\.\/_A-Za-z][6swyz][-\.\/_A-Za-z][-\/_0-9a-zA-Z][-\.\/_A-Za-z][-\/_0-9a-zA-Z]{22,162}$/$3p,match-case,script,xhr" converted to: "/^https?:\/\/[-a-z]{6,}\.info\/[a-d][-\.\/_A-Za-z][DHWXm][-\.\/_A-Za-z][59FVZ][-\.\/_A-Za-z][6swyz][-\.\/_A-Za-z][-\/_0-9a-zA-Z][-\.\/_A-Za-z][-\/_0-9a-zA-Z]{22,162}$/$third-party,match-case,script,xmlhttprequest"
+/^https?:\/\/[-a-z]{6,}\.info\/[a-d][-\.\/_A-Za-z][DHWXm][-\.\/_A-Za-z][59FVZ][-\.\/_A-Za-z][6swyz][-\.\/_A-Za-z][-\/_0-9a-zA-Z][-\.\/_A-Za-z][-\/_0-9a-zA-Z]{22,162}$/$3p,match-case,script,xhr
+! Rule "/^https?:\/\/[-a-z]{6,}\.pro\/[a-d][-\.\/_A-Za-z][DHWXm][-\.\/_A-Za-z][59FVZ][-\.\/_A-Za-z][6swyz][-\.\/_A-Za-z][-\/_0-9a-zA-Z][-\.\/_A-Za-z][-\/_0-9a-zA-Z]{22,162}$/$3p,match-case,script,xhr" converted to: "/^https?:\/\/[-a-z]{6,}\.pro\/[a-d][-\.\/_A-Za-z][DHWXm][-\.\/_A-Za-z][59FVZ][-\.\/_A-Za-z][6swyz][-\.\/_A-Za-z][-\/_0-9a-zA-Z][-\.\/_A-Za-z][-\/_0-9a-zA-Z]{22,162}$/$third-party,match-case,script,xmlhttprequest"
+/^https?:\/\/[-a-z]{6,}\.pro\/[a-d][-\.\/_A-Za-z][DHWXm][-\.\/_A-Za-z][59FVZ][-\.\/_A-Za-z][6swyz][-\.\/_A-Za-z][-\/_0-9a-zA-Z][-\.\/_A-Za-z][-\/_0-9a-zA-Z]{22,162}$/$3p,match-case,script,xhr
+! Rule "/^https?:\/\/[-a-z]{6,}\.xyz\/[a-d][-\.\/_A-Za-z][DHWXm][-\.\/_A-Za-z][59FVZ][-\.\/_A-Za-z][6swyz][-\.\/_A-Za-z][-\/_0-9a-zA-Z][-\.\/_A-Za-z][-\/_0-9a-zA-Z]{22,162}$/$3p,match-case,script,xhr" converted to: "/^https?:\/\/[-a-z]{6,}\.xyz\/[a-d][-\.\/_A-Za-z][DHWXm][-\.\/_A-Za-z][59FVZ][-\.\/_A-Za-z][6swyz][-\.\/_A-Za-z][-\/_0-9a-zA-Z][-\.\/_A-Za-z][-\/_0-9a-zA-Z]{22,162}$/$third-party,match-case,script,xmlhttprequest"
+/^https?:\/\/[-a-z]{6,}\.xyz\/[a-d][-\.\/_A-Za-z][DHWXm][-\.\/_A-Za-z][59FVZ][-\.\/_A-Za-z][6swyz][-\.\/_A-Za-z][-\/_0-9a-zA-Z][-\.\/_A-Za-z][-\/_0-9a-zA-Z]{22,162}$/$3p,match-case,script,xhr
 ! Rule "/lv/esnk/*$3p,script" converted to: "/lv/esnk/*$third-party,script"
 /lv/esnk/*$3p,script
 ! Rule "/pfe/current/*$3p,script" converted to: "/pfe/current/*$third-party,script"
@@ -38,6 +74,8 @@
 ||adslop.com^$3p
 ! Rule "||adstarsmedia.co.id^$3p" converted to: "||adstarsmedia.co.id^$third-party"
 ||adstarsmedia.co.id^$3p
+! Rule "||avtub.click/assets/$3p,image" converted to: "||avtub.click/assets/$third-party,image"
+||avtub.click/assets/$3p,image
 ! Rule "||berangkasilmu.com^$3p" converted to: "||berangkasilmu.com^$third-party"
 ||berangkasilmu.com^$3p
 ! Rule "||c303.pw^$3p" converted to: "||c303.pw^$third-party"
@@ -82,16 +120,6 @@
 ||pondokiklan.com^$3p
 ! Rule "||rajatraffic.com^$3p" converted to: "||rajatraffic.com^$third-party"
 ||rajatraffic.com^$3p
-! Rule "||ghaahq.com^$3p" converted to: "||ghaahq.com^$third-party"
-||ghaahq.com^$3p
-! Rule "||jjekxle.com^$3p" converted to: "||jjekxle.com^$third-party"
-||jjekxle.com^$3p
-! Rule "||luckyads.com^$3p" converted to: "||luckyads.com^$third-party"
-||luckyads.com^$3p
-! Rule "||vkwaeo.com^$3p" converted to: "||vkwaeo.com^$third-party"
-||vkwaeo.com^$3p
-! Rule "||wkuave.com^$3p" converted to: "||wkuave.com^$third-party"
-||wkuave.com^$3p
 ! Rule "||pc3ads.com^$3p" converted to: "||pc3ads.com^$third-party"
 ||pc3ads.com^$3p
 ! Rule "||ibn.adreach.co^$3p" converted to: "||ibn.adreach.co^$third-party"
@@ -114,6 +142,14 @@
 ||welcome.indihome.co.id^$3p
 ! Rule "||darts-ads.telkom.co.id^$3p" converted to: "||darts-ads.telkom.co.id^$third-party"
 ||darts-ads.telkom.co.id^$3p
+! Rule "||amutheastse.com^$3p" converted to: "||amutheastse.com^$third-party"
+||amutheastse.com^$3p
+! Rule "||itwasbrghttohwe.xyz^$3p" converted to: "||itwasbrghttohwe.xyz^$third-party"
+||itwasbrghttohwe.xyz^$3p
+! Rule "||meredithcorp.io^$3p" converted to: "||meredithcorp.io^$third-party"
+||meredithcorp.io^$3p
+! Rule "||aogkfujgtmfwp.xyz^$3p" converted to: "||aogkfujgtmfwp.xyz^$third-party"
+||aogkfujgtmfwp.xyz^$3p
 ! Rule "||daudejuw.com^$3p" converted to: "||daudejuw.com^$third-party"
 ||daudejuw.com^$3p
 ! Rule "||logitxaequk.com^$3p" converted to: "||logitxaequk.com^$third-party"
@@ -142,196 +178,6 @@
 ||zaubanel.com^$3p
 ! Rule "||owoxauky.com^$3p" converted to: "||owoxauky.com^$third-party"
 ||owoxauky.com^$3p
-! Rule "||ceeleeca.com^$3p" converted to: "||ceeleeca.com^$third-party"
-||ceeleeca.com^$3p
-! Rule "||oagudole.net^$3p" converted to: "||oagudole.net^$third-party"
-||oagudole.net^$3p
-! Rule "||aistolsu.net^$3p" converted to: "||aistolsu.net^$third-party"
-||aistolsu.net^$3p
-! Rule "||aufr67i8sten.com^$3p" converted to: "||aufr67i8sten.com^$third-party"
-||aufr67i8sten.com^$3p
-! Rule "||fcouvtlwzocok.com^$3p" converted to: "||fcouvtlwzocok.com^$third-party"
-||fcouvtlwzocok.com^$3p
-! Rule "||fmjvsmavummyjnc.com^$3p" converted to: "||fmjvsmavummyjnc.com^$third-party"
-||fmjvsmavummyjnc.com^$3p
-! Rule "||jfecfzzuwevyqc.com^$3p" converted to: "||jfecfzzuwevyqc.com^$third-party"
-||jfecfzzuwevyqc.com^$3p
-! Rule "||jqxqddvyw.com^$3p" converted to: "||jqxqddvyw.com^$third-party"
-||jqxqddvyw.com^$3p
-! Rule "||psairtoo.com^$3p" converted to: "||psairtoo.com^$third-party"
-||psairtoo.com^$3p
-! Rule "||ttwscqlqmbcb.com^$3p" converted to: "||ttwscqlqmbcb.com^$third-party"
-||ttwscqlqmbcb.com^$3p
-! Rule "||tyiqebrbpxc.com^$3p" converted to: "||tyiqebrbpxc.com^$third-party"
-||tyiqebrbpxc.com^$3p
-! Rule "||yajlpetccbodq.com^$3p" converted to: "||yajlpetccbodq.com^$third-party"
-||yajlpetccbodq.com^$3p
-! Rule "||dcwkgvoeufhnm.com^$3p" converted to: "||dcwkgvoeufhnm.com^$third-party"
-||dcwkgvoeufhnm.com^$3p
-! Rule "||dsvkgvrftkpds.com^$3p" converted to: "||dsvkgvrftkpds.com^$third-party"
-||dsvkgvrftkpds.com^$3p
-! Rule "||esoeoanl.com^$3p" converted to: "||esoeoanl.com^$third-party"
-||esoeoanl.com^$3p
-! Rule "||fbmklibvrroltd.com^$3p" converted to: "||fbmklibvrroltd.com^$third-party"
-||fbmklibvrroltd.com^$3p
-! Rule "||fpefaoxbmkpgc.com^$3p" converted to: "||fpefaoxbmkpgc.com^$third-party"
-||fpefaoxbmkpgc.com^$3p
-! Rule "||hlofnpbentcv.com^$3p" converted to: "||hlofnpbentcv.com^$third-party"
-||hlofnpbentcv.com^$3p
-! Rule "||joapsiro.com^$3p" converted to: "||joapsiro.com^$third-party"
-||joapsiro.com^$3p
-! Rule "||lfjaqwwsgyu.com^$3p" converted to: "||lfjaqwwsgyu.com^$third-party"
-||lfjaqwwsgyu.com^$3p
-! Rule "||mivkijds.com^$3p" converted to: "||mivkijds.com^$third-party"
-||mivkijds.com^$3p
-! Rule "||nnlczheczlq.com^$3p" converted to: "||nnlczheczlq.com^$third-party"
-||nnlczheczlq.com^$3p
-! Rule "||onohgmfhtavjef.com^$3p" converted to: "||onohgmfhtavjef.com^$third-party"
-||onohgmfhtavjef.com^$3p
-! Rule "||ptistyvymi.com^$3p" converted to: "||ptistyvymi.com^$third-party"
-||ptistyvymi.com^$3p
-! Rule "||qqaskpbofrji.com^$3p" converted to: "||qqaskpbofrji.com^$third-party"
-||qqaskpbofrji.com^$3p
-! Rule "||stithujogle.pro^$3p" converted to: "||stithujogle.pro^$third-party"
-||stithujogle.pro^$3p
-! Rule "||tlprxzujk.com^$3p" converted to: "||tlprxzujk.com^$third-party"
-||tlprxzujk.com^$3p
-! Rule "||update48451.xyz^$3p" converted to: "||update48451.xyz^$third-party"
-||update48451.xyz^$3p
-! Rule "||wonsegax.net^$3p" converted to: "||wonsegax.net^$third-party"
-||wonsegax.net^$3p
-! Rule "||xqrprttdvmynv.com^$3p" converted to: "||xqrprttdvmynv.com^$third-party"
-||xqrprttdvmynv.com^$3p
-! Rule "||zomtanup.com^$3p" converted to: "||zomtanup.com^$third-party"
-||zomtanup.com^$3p
-! Rule "||aclcdxkukaa.com^$3p" converted to: "||aclcdxkukaa.com^$third-party"
-||aclcdxkukaa.com^$3p
-! Rule "||awjvnfncw.com^$3p" converted to: "||awjvnfncw.com^$third-party"
-||awjvnfncw.com^$3p
-! Rule "||cvlfqxeujyg.com^$3p" converted to: "||cvlfqxeujyg.com^$third-party"
-||cvlfqxeujyg.com^$3p
-! Rule "||dhlhtcmdb.com^$3p" converted to: "||dhlhtcmdb.com^$third-party"
-||dhlhtcmdb.com^$3p
-! Rule "||fltbqfjsbrj.com^$3p" converted to: "||fltbqfjsbrj.com^$third-party"
-||fltbqfjsbrj.com^$3p
-! Rule "||gmldlwugyjwff.com^$3p" converted to: "||gmldlwugyjwff.com^$third-party"
-||gmldlwugyjwff.com^$3p
-! Rule "||goyusa.cloud^$3p" converted to: "||goyusa.cloud^$third-party"
-||goyusa.cloud^$3p
-! Rule "||goyusa.xyz^$3p" converted to: "||goyusa.xyz^$third-party"
-||goyusa.xyz^$3p
-! Rule "||gsaopxqo.com^$3p" converted to: "||gsaopxqo.com^$third-party"
-||gsaopxqo.com^$3p
-! Rule "||hoyukoda.cloud^$3p" converted to: "||hoyukoda.cloud^$third-party"
-||hoyukoda.cloud^$3p
-! Rule "||hoyukoda.lol^$3p" converted to: "||hoyukoda.lol^$third-party"
-||hoyukoda.lol^$3p
-! Rule "||hoyukoda.mom^$3p" converted to: "||hoyukoda.mom^$third-party"
-||hoyukoda.mom^$3p
-! Rule "||hoyukoda.pics^$3p" converted to: "||hoyukoda.pics^$third-party"
-||hoyukoda.pics^$3p
-! Rule "||hoyukoda.shop^$3p" converted to: "||hoyukoda.shop^$third-party"
-||hoyukoda.shop^$3p
-! Rule "||hoyukoda.xyz^$3p" converted to: "||hoyukoda.xyz^$third-party"
-||hoyukoda.xyz^$3p
-! Rule "||hscoscdn20.net^$3p" converted to: "||hscoscdn20.net^$third-party"
-||hscoscdn20.net^$3p
-! Rule "||koaohcsoprbr.com^$3p" converted to: "||koaohcsoprbr.com^$third-party"
-||koaohcsoprbr.com^$3p
-! Rule "||kusinakusa.xyz^$3p" converted to: "||kusinakusa.xyz^$third-party"
-||kusinakusa.xyz^$3p
-! Rule "||kuyanosa.shop^$3p" converted to: "||kuyanosa.shop^$third-party"
-||kuyanosa.shop^$3p
-! Rule "||kvmnndjbgvmxa.com^$3p" converted to: "||kvmnndjbgvmxa.com^$third-party"
-||kvmnndjbgvmxa.com^$3p
-! Rule "||mhvllvgrefplg.com^$3p" converted to: "||mhvllvgrefplg.com^$third-party"
-||mhvllvgrefplg.com^$3p
-! Rule "||mkgekotijxqthj.com^$3p" converted to: "||mkgekotijxqthj.com^$third-party"
-||mkgekotijxqthj.com^$3p
-! Rule "||porekosa.autos^$3p" converted to: "||porekosa.autos^$third-party"
-||porekosa.autos^$3p
-! Rule "||porekosa.click^$3p" converted to: "||porekosa.click^$third-party"
-||porekosa.click^$3p
-! Rule "||porekosa.lol^$3p" converted to: "||porekosa.lol^$third-party"
-||porekosa.lol^$3p
-! Rule "||porekosa.mom^$3p" converted to: "||porekosa.mom^$third-party"
-||porekosa.mom^$3p
-! Rule "||porekosa.pics^$3p" converted to: "||porekosa.pics^$third-party"
-||porekosa.pics^$3p
-! Rule "||porekosa.shop^$3p" converted to: "||porekosa.shop^$third-party"
-||porekosa.shop^$3p
-! Rule "||porekosa.xyz^$3p" converted to: "||porekosa.xyz^$third-party"
-||porekosa.xyz^$3p
-! Rule "||rblxgeionyqax.com^$3p" converted to: "||rblxgeionyqax.com^$third-party"
-||rblxgeionyqax.com^$3p
-! Rule "||rwuqhjhmahslbov.com^$3p" converted to: "||rwuqhjhmahslbov.com^$third-party"
-||rwuqhjhmahslbov.com^$3p
-! Rule "||sukodanos.click^$3p" converted to: "||sukodanos.click^$third-party"
-||sukodanos.click^$3p
-! Rule "||sukodanos.cloud^$3p" converted to: "||sukodanos.cloud^$third-party"
-||sukodanos.cloud^$3p
-! Rule "||sukodanos.mom^$3p" converted to: "||sukodanos.mom^$third-party"
-||sukodanos.mom^$3p
-! Rule "||sukodanos.pics^$3p" converted to: "||sukodanos.pics^$third-party"
-||sukodanos.pics^$3p
-! Rule "||sukodanos.xyz^$3p" converted to: "||sukodanos.xyz^$third-party"
-||sukodanos.xyz^$3p
-! Rule "||tiwhaiph.net^$3p" converted to: "||tiwhaiph.net^$third-party"
-||tiwhaiph.net^$3p
-! Rule "||ucxfdvhuqwpig.com^$3p" converted to: "||ucxfdvhuqwpig.com^$third-party"
-||ucxfdvhuqwpig.com^$3p
-! Rule "||usfmjrnlklmken.com^$3p" converted to: "||usfmjrnlklmken.com^$third-party"
-||usfmjrnlklmken.com^$3p
-! Rule "||wqrgqthofslhx.com^$3p" converted to: "||wqrgqthofslhx.com^$third-party"
-||wqrgqthofslhx.com^$3p
-! Rule "||yurosikua.autos^$3p" converted to: "||yurosikua.autos^$third-party"
-||yurosikua.autos^$3p
-! Rule "||yurosikua.click^$3p" converted to: "||yurosikua.click^$third-party"
-||yurosikua.click^$3p
-! Rule "||yurosikua.cloud^$3p" converted to: "||yurosikua.cloud^$third-party"
-||yurosikua.cloud^$3p
-! Rule "||yurosikua.lol^$3p" converted to: "||yurosikua.lol^$third-party"
-||yurosikua.lol^$3p
-! Rule "||yurosikua.shop^$3p" converted to: "||yurosikua.shop^$third-party"
-||yurosikua.shop^$3p
-! Rule "||yurosikua.xyz^$3p" converted to: "||yurosikua.xyz^$third-party"
-||yurosikua.xyz^$3p
-! Rule "||akurqevfpikjwpi.com^$3p" converted to: "||akurqevfpikjwpi.com^$third-party"
-||akurqevfpikjwpi.com^$3p
-! Rule "||ehxqelwtthwyo.com^$3p" converted to: "||ehxqelwtthwyo.com^$third-party"
-||ehxqelwtthwyo.com^$3p
-! Rule "||fcjglegnjab.com^$3p" converted to: "||fcjglegnjab.com^$third-party"
-||fcjglegnjab.com^$3p
-! Rule "||frdcjiahxphxn.com^$3p" converted to: "||frdcjiahxphxn.com^$third-party"
-||frdcjiahxphxn.com^$3p
-! Rule "||stiteicjkcw.com^$3p" converted to: "||stiteicjkcw.com^$third-party"
-||stiteicjkcw.com^$3p
-! Rule "||boremgmxebra.com^$3p" converted to: "||boremgmxebra.com^$third-party"
-||boremgmxebra.com^$3p
-! Rule "||dcesxdvixnrwlu.com^$3p" converted to: "||dcesxdvixnrwlu.com^$third-party"
-||dcesxdvixnrwlu.com^$3p
-! Rule "||kumascans.com^$3p" converted to: "||kumascans.com^$third-party"
-||kumascans.com^$3p
-! Rule "||lyiwnltxmvunvp.com^$3p" converted to: "||lyiwnltxmvunvp.com^$third-party"
-||lyiwnltxmvunvp.com^$3p
-! Rule "||rmpkbdggulmm.com^$3p" converted to: "||rmpkbdggulmm.com^$third-party"
-||rmpkbdggulmm.com^$3p
-! Rule "||uwokheqtpxwk.com^$3p" converted to: "||uwokheqtpxwk.com^$third-party"
-||uwokheqtpxwk.com^$3p
-! Rule "||xowelamcwijxp.com^$3p" converted to: "||xowelamcwijxp.com^$third-party"
-||xowelamcwijxp.com^$3p
-! Rule "||xuqowuab.com^$3p" converted to: "||xuqowuab.com^$third-party"
-||xuqowuab.com^$3p
-! Rule "||yayiniwkbq.com^$3p" converted to: "||yayiniwkbq.com^$third-party"
-||yayiniwkbq.com^$3p
-! Rule "||yjtfqomeym.com^$3p" converted to: "||yjtfqomeym.com^$third-party"
-||yjtfqomeym.com^$3p
-! Rule "||3d5b53449b.com^$3p" converted to: "||3d5b53449b.com^$third-party"
-||3d5b53449b.com^$3p
-! Rule "||a41468e3c9.com^$3p" converted to: "||a41468e3c9.com^$third-party"
-||a41468e3c9.com^$3p
-! Rule "||finkyepbows.com^$3p" converted to: "||finkyepbows.com^$third-party"
-||finkyepbows.com^$3p
 ! Rule "||amazonaws.com^*/banner/$3p,domain=bogornews.com" converted to: "||amazonaws.com^*/banner/$third-party,domain=bogornews.com"
 ||amazonaws.com^*/banner/$3p,domain=bogornews.com
 ! Rule "||anon.wapsite.info^$3p" converted to: "||anon.wapsite.info^$third-party"
@@ -344,6 +190,8 @@
 ||booking.com^$frame,domain=venuemagz.com
 ! Rule "||cryptobrowser.site/promo/ad/$3p,frame" converted to: "||cryptobrowser.site/promo/ad/$third-party,subdocument"
 ||cryptobrowser.site/promo/ad/$3p,frame
+! Rule "||d3g5ovfngjw9bw.cloudfront.net^$script,redirect-rule=noop.js" converted to: "||d3g5ovfngjw9bw.cloudfront.net^$script,redirect-rule=noopjs"
+||d3g5ovfngjw9bw.cloudfront.net^$script,redirect-rule=noop.js
 ! Rule "||daftarsb1m.net/file/get/path/banners.$3p,image" converted to: "||daftarsb1m.net/file/get/path/banners.$third-party,image"
 ||daftarsb1m.net/file/get/path/banners.$3p,image
 ! Rule "||filemanager.work/banner/$3p" converted to: "||filemanager.work/banner/$third-party"
@@ -374,14 +222,14 @@
 ||tokosexy.com^$3p
 ! Rule "||ubloger.com^$3p" converted to: "||ubloger.com^$third-party"
 ||ubloger.com^$3p
+! Rule "||zenfone9.xyz/banner/$3p" converted to: "||zenfone9.xyz/banner/$third-party"
+||zenfone9.xyz/banner/$3p
 ! Rule "/agrihajrian/hs/*/adv$3p,mp4" converted to: "/agrihajrian/hs/*/adv$third-party,redirect=noopmp4-1s,media"
 /agrihajrian/hs/*/adv$3p,mp4
 ! Rule "||bitball.b-cdn.net/video/$3p,mp4" converted to: "||bitball.b-cdn.net/video/$third-party,redirect=noopmp4-1s,media"
 ||bitball.b-cdn.net/video/$3p,mp4
-! Rule "||idlix.live/static/video/HD1080.mp4$3p,mp4" converted to: "||idlix.live/static/video/HD1080.mp4$third-party,redirect=noopmp4-1s,media"
-||idlix.live/static/video/HD1080.mp4$3p,mp4
-! Rule "||indexmovies.xyz/Luxury777.mp4$mp4" converted to: "||indexmovies.xyz/Luxury777.mp4$redirect=noopmp4-1s,media"
-||indexmovies.xyz/Luxury777.mp4$mp4
+! Rule "||donghuapoi.com/wp-content/uploads/*/banner-$mp4" converted to: "||donghuapoi.com/wp-content/uploads/*/banner-$redirect=noopmp4-1s,media"
+||donghuapoi.com/wp-content/uploads/*/banner-$mp4
 ! Rule "||jeniusplay.com/cdn/video/HD1080.$mp4" converted to: "||jeniusplay.com/cdn/video/HD1080.$redirect=noopmp4-1s,media"
 ||jeniusplay.com/cdn/video/HD1080.$mp4
 ! Rule "||jeniusplay.com/cdn/video/qq$mp4" converted to: "||jeniusplay.com/cdn/video/qq$redirect=noopmp4-1s,media"
@@ -404,10 +252,6 @@
 ||cloudmediabiz.com/images/banner/$3p,image
 ! Rule "||dewabiz.com/assets/images/affiliate/$3p,image" converted to: "||dewabiz.com/assets/images/affiliate/$third-party,image"
 ||dewabiz.com/assets/images/affiliate/$3p,image
-! Rule "||dijaminmurah.com/images/affi$3p,image" converted to: "||dijaminmurah.com/images/affi$third-party,image"
-||dijaminmurah.com/images/affi$3p,image
-! Rule "||dijaminmurah.com/images/dj_affiliasi$3p,image" converted to: "||dijaminmurah.com/images/dj_affiliasi$third-party,image"
-||dijaminmurah.com/images/dj_affiliasi$3p,image
 ! Rule "||domainesia-assets.s3.amazonaws.com/Affiliasi/$3p" converted to: "||domainesia-assets.s3.amazonaws.com/Affiliasi/$third-party"
 ||domainesia-assets.s3.amazonaws.com/Affiliasi/$3p
 ! Rule "||hosteko.com^*/banner/$3p,image" converted to: "||hosteko.com^*/banner/$third-party,image"
@@ -442,6 +286,8 @@
 ||safelinku.com/728x20.$3p,image
 ! Rule "wartaekonomi.co.id##.ad-container:remove()" converted to: "wartaekonomi.co.id#$?#.ad-container { remove: true; }"
 wartaekonomi.co.id##.ad-container:remove()
+! Rule "sirclo.com###banner-starter:matches-path(/blog)" converted to: "[$path=/blog]sirclo.com###banner-starter"
+sirclo.com###banner-starter:matches-path(/blog)
 ! Rule "iwanbanaran.com,kotakgame.com,tmcblog.com##body:style(background-image: none!important;)" converted to: "iwanbanaran.com,kotakgame.com,tmcblog.com#$#body { background-image: none!important; }"
 iwanbanaran.com,kotakgame.com,tmcblog.com##body:style(background-image: none!important;)
 ! Rule "kotakgame.com##html:style(background-image: none!important;)" converted to: "kotakgame.com#$#html { background-image: none!important; }"
@@ -472,8 +318,12 @@ m.akurat.co###mainPage:style(margin-top: 0!important;)
 dutaislam.com###xmlthemes-feat1:style(margin-top:60px!important;)
 ! Rule "detik.com##.containerBB:style(margin-top: 0!important;)" converted to: "detik.com#$#.containerBB { margin-top: 0!important; }"
 detik.com##.containerBB:style(margin-top: 0!important;)
-! Rule "okezone.com##.content-wrap:style(margin-top: 0!important;)" converted to: "okezone.com#$#.content-wrap { margin-top: 0!important; }"
-okezone.com##.content-wrap:style(margin-top: 0!important;)
+! Rule "celebrities.id,okezone.com##.content-wrap:style(margin-top: 0!important;)" converted to: "celebrities.id,okezone.com#$#.content-wrap { margin-top: 0!important; }"
+celebrities.id,okezone.com##.content-wrap:style(margin-top: 0!important;)
+! Rule "inews.id##.content-wrap:style(margin-top:0!important;)" converted to: "inews.id#$#.content-wrap { margin-top:0!important; }"
+inews.id##.content-wrap:style(margin-top:0!important;)
+! Rule "bola.com##.layout__content:style(margin-top: 0!important;)" converted to: "bola.com#$#.layout__content { margin-top: 0!important; }"
+bola.com##.layout__content:style(margin-top: 0!important;)
 ! Rule "uzone.id##.main-section-detail > section:style(min-height: 0!important;)" converted to: "uzone.id#$#.main-section-detail > section { min-height: 0!important; }"
 uzone.id##.main-section-detail > section:style(min-height: 0!important;)
 ! Rule "medcom.id##.mid_content div.box_7_ct:nth-of-type(4):style(margin-bottom:0!important;)" converted to: "medcom.id#$#.mid_content div.box_7_ct:nth-of-type(4) { margin-bottom:0!important; }"
@@ -492,8 +342,8 @@ wowbabel.com##script + .container:style(padding-top: 160px!important;)
 anaktekno.com,aquatoyou.com,azislamayuda.com,belajaroffice.com,berkeluarga.id,bismillah-gratis.blogspot.com,bospajak.com,ceklist.id,daridesignstudio.com,dokterpajak.com,dokumen.tips,eplusgo.com,foldertips.com,fullversionsoftware.org,gubukpintar.com,hanupis.com,iqra.id,itkoding.com,kodingindonesia.com,kucingimut.my.id,kuyhaa-me.com,lebakcyber.net,lellyfitriana.com,mahirphotoshop.com,musbikhin.com,ndoware.com,nesabamedia.com,penaindigo.com,pergikuliner.com,petpintar.com,pickybest.id,posciety.com,qerdus.com,rasabunda.com,resepbundaida.com,rumahcoding.co.id,saidalfaruq.net,skillacademy.com,teknocrash.web.id,teknolagi.id,thegorbalsla.com,yamaha-motor.co.id##*::selection:style(color:#212121!important;background:#fde69a!important;)
 ! Rule "teksnologi.com##+js(acis, String.fromCharCode, decodeURIComponent)" converted to: "teksnologi.com#%#//scriptlet('ubo-acis.js', 'String.fromCharCode', 'decodeURIComponent')"
 teksnologi.com##+js(acis, String.fromCharCode, decodeURIComponent)
-! Rule "cydiaguide.app,eltelu.blogspot.com,redaksiid.blogspot.com##+js(acis, addEventListener, DOMNodeRemoved)" converted to: "cydiaguide.app,eltelu.blogspot.com,redaksiid.blogspot.com#%#//scriptlet('ubo-acis.js', 'addEventListener', 'DOMNodeRemoved')"
-cydiaguide.app,eltelu.blogspot.com,redaksiid.blogspot.com##+js(acis, addEventListener, DOMNodeRemoved)
+! Rule "cydiaguide.app,eltelu.blogspot.com,redaksiid.blogspot.com,tohaboy.web.id##+js(acis, addEventListener, DOMNodeRemoved)" converted to: "cydiaguide.app,eltelu.blogspot.com,redaksiid.blogspot.com,tohaboy.web.id#%#//scriptlet('ubo-acis.js', 'addEventListener', 'DOMNodeRemoved')"
+cydiaguide.app,eltelu.blogspot.com,redaksiid.blogspot.com,tohaboy.web.id##+js(acis, addEventListener, DOMNodeRemoved)
 ! Rule "dafideff.com##+js(acis, addEventListener, google_ad_client)" converted to: "dafideff.com#%#//scriptlet('ubo-acis.js', 'addEventListener', 'google_ad_client')"
 dafideff.com##+js(acis, addEventListener, google_ad_client)
 ! Rule "ad4msan.com##+js(aopr, DHAntiAdBlocker)" converted to: "ad4msan.com#%#//scriptlet('ubo-aopr.js', 'DHAntiAdBlocker')"
@@ -502,12 +352,12 @@ ad4msan.com##+js(aopr, DHAntiAdBlocker)
 kucingmediaid.blogspot.com##+js(aopr, absda)
 ! Rule "adikcloud.my.id,adikdrive.my.id,alexanews.id,blog-dnz.com,ichi.pro,malutsatu.com,sultengraya.com##+js(aopr, adBlockDetected)" converted to: "adikcloud.my.id,adikdrive.my.id,alexanews.id,blog-dnz.com,ichi.pro,malutsatu.com,sultengraya.com#%#//scriptlet('ubo-aopr.js', 'adBlockDetected')"
 adikcloud.my.id,adikdrive.my.id,alexanews.id,blog-dnz.com,ichi.pro,malutsatu.com,sultengraya.com##+js(aopr, adBlockDetected)
-! Rule "paraedu.id##+js(aopr, anOptions)" converted to: "paraedu.id#%#//scriptlet('ubo-aopr.js', 'anOptions')"
-paraedu.id##+js(aopr, anOptions)
+! Rule "paraedu.id,tohaboy.web.id##+js(aopr, anOptions)" converted to: "paraedu.id,tohaboy.web.id#%#//scriptlet('ubo-aopr.js', 'anOptions')"
+paraedu.id,tohaboy.web.id##+js(aopr, anOptions)
+! Rule "ilmuguru.org##+js(aopr, antiAdBlockerHandler)" converted to: "ilmuguru.org#%#//scriptlet('ubo-aopr.js', 'antiAdBlockerHandler')"
+ilmuguru.org##+js(aopr, antiAdBlockerHandler)
 ! Rule "adynr17.com##+js(aopr, detectAdblock)" converted to: "adynr17.com#%#//scriptlet('ubo-aopr.js', 'detectAdblock')"
 adynr17.com##+js(aopr, detectAdblock)
-! Rule "cuitandokter.com##+js(aopr, mdpDeBlocker)" converted to: "cuitandokter.com#%#//scriptlet('ubo-aopr.js', 'mdpDeBlocker')"
-cuitandokter.com##+js(aopr, mdpDeBlocker)
 ! Rule "brotutor.net,cikimm.com,isrul.com##+js(aopr, mql)" converted to: "brotutor.net,cikimm.com,isrul.com#%#//scriptlet('ubo-aopr.js', 'mql')"
 brotutor.net,cikimm.com,isrul.com##+js(aopr, mql)
 ! Rule "kontrastimes.com##+js(aopr, quadsOptions)" converted to: "kontrastimes.com#%#//scriptlet('ubo-aopr.js', 'quadsOptions')"
@@ -526,6 +376,12 @@ idlegionoob.com,surgatekno.com##+js(nofab)
 rifqimulyawan.com##+js(nostif,  adblockEnabled)
 ! Rule "freesoft.id,zcteam.id##+js(nostif, nextFunction)" converted to: "freesoft.id,zcteam.id#%#//scriptlet('ubo-nostif.js', 'nextFunction')"
 freesoft.id,zcteam.id##+js(nostif, nextFunction)
+! Rule "paketmu.com##+js(set, detectAdBlock, noopFunc)" converted to: "paketmu.com#%#//scriptlet('ubo-set.js', 'detectAdBlock', 'noopFunc')"
+paketmu.com##+js(set, detectAdBlock, noopFunc)
+! Rule "cuitandokter.com##+js(aopr, mdpDeBlocker)" converted to: "cuitandokter.com#%#//scriptlet('ubo-aopr.js', 'mdpDeBlocker')"
+cuitandokter.com##+js(aopr, mdpDeBlocker)
+! Rule "lumpiastudio.com##+js(nostif, mdp)" converted to: "lumpiastudio.com#%#//scriptlet('ubo-nostif.js', 'mdp')"
+lumpiastudio.com##+js(nostif, mdp)
 ! Rule "semuanyabola.com,urbandigital.id##+js(acis, ai_check_and_insert_block)" converted to: "semuanyabola.com,urbandigital.id#%#//scriptlet('ubo-acis.js', 'ai_check_and_insert_block')"
 semuanyabola.com,urbandigital.id##+js(acis, ai_check_and_insert_block)
 ! Rule "adammuiz.com,duniailkom.com,nusagates.com,solotrend.net,upahminimum.com##+js(aopr, ai_run_scripts)" converted to: "adammuiz.com,duniailkom.com,nusagates.com,solotrend.net,upahminimum.com#%#//scriptlet('ubo-aopr.js', 'ai_run_scripts')"
@@ -546,6 +402,10 @@ wendycode.com##+js(aopr, wcadbwp)
 /fuckadblock.$script,redirect=noop.js,domain=akurasinews.com
 ! Rule "||ads.maskoding.com/ads.js$script,redirect=noop.js" converted to: "||ads.maskoding.com/ads.js$script,redirect=noopjs"
 ||ads.maskoding.com/ads.js$script,redirect=noop.js
+! Rule "||tts.voiceoftext.com/javascript/ad-info-message/main.js$3p,script" converted to: "||tts.voiceoftext.com/javascript/ad-info-message/main.js$third-party,script"
+||tts.voiceoftext.com/javascript/ad-info-message/main.js$3p,script
+! Rule "@@||arlinacode.com^$ghide" converted to: "@@||arlinacode.com^$generichide"
+@@||arlinacode.com^$ghide
 ! Rule "@@||monitorteknologi.com^$ghide" converted to: "@@||monitorteknologi.com^$generichide"
 @@||monitorteknologi.com^$ghide
 ! Rule "/images/ads.$image,redirect-rule=1x1.gif" converted to: "/images/ads.$image,redirect-rule=1x1-transparent.gif"
@@ -600,8 +460,6 @@ wendycode.com##+js(aopr, wcadbwp)
 @@||inwepo.co^$ghide,badfilter
 ! Rule "?key=*&submetric=$3p,popup" converted to: "?key=*&submetric=$third-party,popup"
 ?key=*&submetric=$3p,popup
-! Rule "gamebrott.com##+js(aopr, advads_options)" converted to: "gamebrott.com#%#//scriptlet('ubo-aopr.js', 'advads_options')"
-gamebrott.com##+js(aopr, advads_options)
 ! Rule "cilegonnews.com##+js(aopr, eplm_cooki_name)" converted to: "cilegonnews.com#%#//scriptlet('ubo-aopr.js', 'eplm_cooki_name')"
 cilegonnews.com##+js(aopr, eplm_cooki_name)
 ! Rule "idfl.info##+js(aopr, open)" converted to: "idfl.info#%#//scriptlet('ubo-aopr.js', 'open')"
@@ -610,8 +468,8 @@ idfl.info##+js(aopr, open)
 suki48.web.id##+js(aopw, _pop)
 ! Rule "kotakgame.com##+js(set, $.magnificPopup.open, noopFunc)" converted to: "kotakgame.com#%#//scriptlet('ubo-set.js', '$.magnificPopup.open', 'noopFunc')"
 kotakgame.com##+js(set, $.magnificPopup.open, noopFunc)
-! Rule "gigapurbalingga.cc,helmiau.com,jalanku.my.id,jandaqu.xyz,kicausejati.com,kurazone.net,newsparodiquote.blogspot.com,topwisata.info,visual-effects-motion.blogspot.com##+js(window.open-defuser)" converted to: "gigapurbalingga.cc,helmiau.com,jalanku.my.id,jandaqu.xyz,kicausejati.com,kurazone.net,newsparodiquote.blogspot.com,topwisata.info,visual-effects-motion.blogspot.com#%#//scriptlet('ubo-window.open-defuser.js')"
-gigapurbalingga.cc,helmiau.com,jalanku.my.id,jandaqu.xyz,kicausejati.com,kurazone.net,newsparodiquote.blogspot.com,topwisata.info,visual-effects-motion.blogspot.com##+js(window.open-defuser)
+! Rule "gammafisblog.com,gigapurbalingga.cc,helmiau.com,jalanku.my.id,jandaqu.xyz,kicausejati.com,kurazone.net,kuyhaa-me.com,newsparodiquote.blogspot.com,topwisata.info,visual-effects-motion.blogspot.com##+js(window.open-defuser)" converted to: "gammafisblog.com,gigapurbalingga.cc,helmiau.com,jalanku.my.id,jandaqu.xyz,kicausejati.com,kurazone.net,kuyhaa-me.com,newsparodiquote.blogspot.com,topwisata.info,visual-effects-motion.blogspot.com#%#//scriptlet('ubo-window.open-defuser.js')"
+gammafisblog.com,gigapurbalingga.cc,helmiau.com,jalanku.my.id,jandaqu.xyz,kicausejati.com,kurazone.net,kuyhaa-me.com,newsparodiquote.blogspot.com,topwisata.info,visual-effects-motion.blogspot.com##+js(window.open-defuser)
 ! Rule "213.136.91.132,klikpapua.com,papuabaratpos.com,radarsriwijaya.com,rajawarta.com,suaramandiri.co,suarapubliknews.net##+js(aopr, popup_custom_data)" converted to: "213.136.91.132,klikpapua.com,papuabaratpos.com,radarsriwijaya.com,rajawarta.com,suaramandiri.co,suarapubliknews.net#%#//scriptlet('ubo-aopr.js', 'popup_custom_data')"
 213.136.91.132,klikpapua.com,papuabaratpos.com,radarsriwijaya.com,rajawarta.com,suaramandiri.co,suarapubliknews.net##+js(aopr, popup_custom_data)
 ! Rule "faktabanten.co.id,papuatoday.com,radarbanten.co.id,sindomanado.com,suluttimes.com##+js(acis, SGPopup)" converted to: "faktabanten.co.id,papuatoday.com,radarbanten.co.id,sindomanado.com,suluttimes.com#%#//scriptlet('ubo-acis.js', 'SGPopup')"
@@ -620,8 +478,8 @@ faktabanten.co.id,papuatoday.com,radarbanten.co.id,sindomanado.com,suluttimes.co
 topwisata.info##+js(aopr, SGPB_POPUP_PARAMS)
 ! Rule "papuakita.com##+js(aopr, window.pum_popups)" converted to: "papuakita.com#%#//scriptlet('ubo-aopr.js', 'window.pum_popups')"
 papuakita.com##+js(aopr, window.pum_popups)
-! Rule "23.29.126.0,jurnalweb.com##+js(aopr, $, SPU_master)" converted to: "23.29.126.0,jurnalweb.com#%#//scriptlet('ubo-aopr.js', '$', 'SPU_master')"
-23.29.126.0,jurnalweb.com##+js(aopr, $, SPU_master)
+! Rule "jurnalweb.com##+js(aopr, $, SPU_master)" converted to: "jurnalweb.com#%#//scriptlet('ubo-aopr.js', '$', 'SPU_master')"
+jurnalweb.com##+js(aopr, $, SPU_master)
 ! Rule "jeniusplay.com##+js(window.open-defuser)" converted to: "jeniusplay.com#%#//scriptlet('ubo-window.open-defuser.js')"
 jeniusplay.com##+js(window.open-defuser)
 ! Rule "||embed.dugout.com^$3p,domain=bolasport.com|indosport.com|skor.id" converted to: "||embed.dugout.com^$third-party,domain=bolasport.com|indosport.com|skor.id"
@@ -644,8 +502,16 @@ gamereactor.asia###livestreamBox:remove()
 kompas.com##.content_article .rVideo-middle:remove()
 ! Rule "kompas.com##.content_article .video-box-wrap:remove()" converted to: "kompas.com#$?#.content_article .video-box-wrap { remove: true; }"
 kompas.com##.content_article .video-box-wrap:remove()
+! Rule "suara.com##.detail-berita #player-video:remove()" converted to: "suara.com#$?#.detail-berita #player-video { remove: true; }"
+suara.com##.detail-berita #player-video:remove()
+! Rule "beautynesia.id##.detail__embed:remove()" converted to: "beautynesia.id#$?#.detail__embed { remove: true; }"
+beautynesia.id##.detail__embed:remove()
 ! Rule "cnnindonesia.com##.detail_text #idvideocnn:remove()" converted to: "cnnindonesia.com#$?#.detail_text #idvideocnn { remove: true; }"
 cnnindonesia.com##.detail_text #idvideocnn:remove()
+! Rule "cnnindonesia.com##.detail_text .sisip_video_ds:remove()" converted to: "cnnindonesia.com#$?#.detail_text .sisip_video_ds { remove: true; }"
+cnnindonesia.com##.detail_text .sisip_video_ds:remove()
+! Rule "herworld.co.id,pramborsfm.com##.gliaplayer-container:remove()" converted to: "herworld.co.id,pramborsfm.com#$?#.gliaplayer-container { remove: true; }"
+herworld.co.id,pramborsfm.com##.gliaplayer-container:remove()
 ! Rule "kompas.com##.js-read-article .rVideo-player:remove()" converted to: "kompas.com#$?#.js-read-article .rVideo-player { remove: true; }"
 kompas.com##.js-read-article .rVideo-player:remove()
 ! Rule "kompas.com##.js-read-article .video-box-wrap:remove()" converted to: "kompas.com#$?#.js-read-article .video-box-wrap { remove: true; }"
@@ -666,8 +532,8 @@ sindonews.com##.vidembed-box:remove()
 kompas.com,kompasiana.com##.video-box-wrap:has(.rVideo-player):remove()
 ! Rule "detik.com##.video20detik_1:remove()" converted to: "detik.com#$?#.video20detik_1 { remove: true; }"
 detik.com##.video20detik_1:remove()
-! Rule "parapuan.co,sonora.id##[class^=rVideo-]:remove()" converted to: "parapuan.co,sonora.id#$?#[class^=rVideo-] { remove: true; }"
-parapuan.co,sonora.id##[class^=rVideo-]:remove()
+! Rule "parapuan.co,sonora.id##[class^="rVideo-"]:remove()" converted to: "parapuan.co,sonora.id#$?#[class^="rVideo-"] { remove: true; }"
+parapuan.co,sonora.id##[class^="rVideo-"]:remove()
 ! Rule "jalantikus.com##[id^="gliaplayer-"]:remove()" converted to: "jalantikus.com#$?#[id^="gliaplayer-"] { remove: true; }"
 jalantikus.com##[id^="gliaplayer-"]:remove()
 ! Rule "carisinyal.com##[id^="gliaplayer-props_"]:remove()" converted to: "carisinyal.com#$?#[id^="gliaplayer-props_"] { remove: true; }"
@@ -690,8 +556,8 @@ liputan6.com##article iframe.vidio-embed:remove()
 kompas.tv##script + .rVideo-wrapper:remove()
 ! Rule "intipseleb.com###dmRelatedPlayer:remove()" converted to: "intipseleb.com#$?##dmRelatedPlayer { remove: true; }"
 intipseleb.com###dmRelatedPlayer:remove()
-! Rule "100kpj.com,bisnis.com,intipseleb.com,viva.co.id##.dm-player:remove()" converted to: "100kpj.com,bisnis.com,intipseleb.com,viva.co.id#$?#.dm-player { remove: true; }"
-100kpj.com,bisnis.com,intipseleb.com,viva.co.id##.dm-player:remove()
+! Rule "100kpj.com,bisnis.com,intipseleb.com,tempo.co,viva.co.id##.dm-player:remove()" converted to: "100kpj.com,bisnis.com,intipseleb.com,tempo.co,viva.co.id#$?#.dm-player { remove: true; }"
+100kpj.com,bisnis.com,intipseleb.com,tempo.co,viva.co.id##.dm-player:remove()
 ! Rule "bisnis.com##.readVideo:remove()" converted to: "bisnis.com#$?#.readVideo { remove: true; }"
 bisnis.com##.readVideo:remove()
 ! Rule "katadata.co.id##article .dm-player:remove()" converted to: "katadata.co.id#$?#article .dm-player { remove: true; }"
@@ -702,16 +568,18 @@ okezone.com###rekomendasi_video:remove()
 okezone.com##.video-wrap:has(#rekomendasi_video):remove()
 ! Rule "okezone.com##.vplayer:has(iframe[src^="https://video.okezone.com/embedoutstream"]):remove()" converted to: "okezone.com#$?#.vplayer:has(iframe[src^="https://video.okezone.com/embedoutstream"]) { remove: true; }"
 okezone.com##.vplayer:has(iframe[src^="https://video.okezone.com/embedoutstream"]):remove()
+! Rule "okezone.com##[id^="ivs-"]:remove()" converted to: "okezone.com#$?#[id^="ivs-"] { remove: true; }"
+okezone.com##[id^="ivs-"]:remove()
 ! Rule "gridoto.com##.content_footer .artikel_terkait:has(script[src^="https://player.ivideosmart.com"]):remove()" converted to: "gridoto.com#$?#.content_footer .artikel_terkait:has(script[src^="https://player.ivideosmart.com"]) { remove: true; }"
 gridoto.com##.content_footer .artikel_terkait:has(script[src^="https://player.ivideosmart.com"]):remove()
 ! Rule "gridoto.com##.ivs-box:remove()" converted to: "gridoto.com#$?#.ivs-box { remove: true; }"
 gridoto.com##.ivs-box:remove()
 ! Rule "theasianparent.com##.player-ivideosmart-wrap:remove()" converted to: "theasianparent.com#$?#.player-ivideosmart-wrap { remove: true; }"
 theasianparent.com##.player-ivideosmart-wrap:remove()
-! Rule "beritasatu.com,dailysia.com,greenscene.co.id,grid.id,japanesestation.com,katadata.co.id,magdalene.co,momsmoney.id,motorplus-online.com,parapuan.co,tempo.co,wartaekonomi.co.id,wowkeren.com##[class^=ivs-]:remove()" converted to: "beritasatu.com,dailysia.com,greenscene.co.id,grid.id,japanesestation.com,katadata.co.id,magdalene.co,momsmoney.id,motorplus-online.com,parapuan.co,tempo.co,wartaekonomi.co.id,wowkeren.com#$?#[class^=ivs-] { remove: true; }"
-beritasatu.com,dailysia.com,greenscene.co.id,grid.id,japanesestation.com,katadata.co.id,magdalene.co,momsmoney.id,motorplus-online.com,parapuan.co,tempo.co,wartaekonomi.co.id,wowkeren.com##[class^=ivs-]:remove()
-! Rule "dailysia.com,tempo.co##[id^=ivs-]:remove()" converted to: "dailysia.com,tempo.co#$?#[id^=ivs-] { remove: true; }"
-dailysia.com,tempo.co##[id^=ivs-]:remove()
+! Rule "beritasatu.com,dailysia.com,greenscene.co.id,grid.id,japanesestation.com,katadata.co.id,magdalene.co,momsmoney.id,motorplus-online.com,parapuan.co,tempo.co,wartaekonomi.co.id,wowkeren.com##[class^="ivs-"]:remove()" converted to: "beritasatu.com,dailysia.com,greenscene.co.id,grid.id,japanesestation.com,katadata.co.id,magdalene.co,momsmoney.id,motorplus-online.com,parapuan.co,tempo.co,wartaekonomi.co.id,wowkeren.com#$?#[class^="ivs-"] { remove: true; }"
+beritasatu.com,dailysia.com,greenscene.co.id,grid.id,japanesestation.com,katadata.co.id,magdalene.co,momsmoney.id,motorplus-online.com,parapuan.co,tempo.co,wartaekonomi.co.id,wowkeren.com##[class^="ivs-"]:remove()
+! Rule "dailysia.com,tempo.co##[id^="ivs-"]:remove()" converted to: "dailysia.com,tempo.co#$?#[id^="ivs-"] { remove: true; }"
+dailysia.com,tempo.co##[id^="ivs-"]:remove()
 ! Rule "grid.id##*::selection:style(color:white!important;background:#0078d7!important;)" converted to: "grid.id#$#*::selection { color:white!important;background:#0078d7!important; }"
 grid.id##*::selection:style(color:white!important;background:#0078d7!important;)
 ! Rule "liputan6.com##+js(aeld, scroll)" converted to: "liputan6.com#%#//scriptlet('ubo-aeld.js', 'scroll')"
@@ -724,20 +592,20 @@ jalanku.my.id##+js(aopr, UnGrabber)
 hienzo.com##+js(ra, oncontextmenu, div)
 ! Rule "ainamulyana.blogspot.com,banjirembun.com,cumirproduction.blogspot.com,kenangananggora.com,kucingmania.net,kuskuspintar.com,njongeblog.blogspot.com,nomor.net,overlordfree.web.id,rumahmaterial.com##+js(ra, oncontextmenu|ondragstart|onkeydown|onmousedown|onselectstart|style, body)" converted to: "ainamulyana.blogspot.com,banjirembun.com,cumirproduction.blogspot.com,kenangananggora.com,kucingmania.net,kuskuspintar.com,njongeblog.blogspot.com,nomor.net,overlordfree.web.id,rumahmaterial.com#%#//scriptlet('ubo-ra.js', 'oncontextmenu|ondragstart|onkeydown|onmousedown|onselectstart|style', 'body')"
 ainamulyana.blogspot.com,banjirembun.com,cumirproduction.blogspot.com,kenangananggora.com,kucingmania.net,kuskuspintar.com,njongeblog.blogspot.com,nomor.net,overlordfree.web.id,rumahmaterial.com##+js(ra, oncontextmenu|ondragstart|onkeydown|onmousedown|onselectstart|style, body)
-! Rule "belajarbro.id,bisnisukm.com,dikemas.com,gadgetidn.id,kucingpersia.co.id,laciusang.com,mahirngoding.blogspot.com,mercon.id,modoomarblecodex.site,my24hours.net,nusantararom.org,rakyatbengkulu.com,ridertua.com,rumahweb.com,seputarkuliah.com,tepat.id,thebabelianchannel.site,websiteedukasi.com##+js(aeld, contextmenu)" converted to: "belajarbro.id,bisnisukm.com,dikemas.com,gadgetidn.id,kucingpersia.co.id,laciusang.com,mahirngoding.blogspot.com,mercon.id,modoomarblecodex.site,my24hours.net,nusantararom.org,rakyatbengkulu.com,ridertua.com,rumahweb.com,seputarkuliah.com,tepat.id,thebabelianchannel.site,websiteedukasi.com#%#//scriptlet('ubo-aeld.js', 'contextmenu')"
-belajarbro.id,bisnisukm.com,dikemas.com,gadgetidn.id,kucingpersia.co.id,laciusang.com,mahirngoding.blogspot.com,mercon.id,modoomarblecodex.site,my24hours.net,nusantararom.org,rakyatbengkulu.com,ridertua.com,rumahweb.com,seputarkuliah.com,tepat.id,thebabelianchannel.site,websiteedukasi.com##+js(aeld, contextmenu)
-! Rule "1001tutorial.com,ahzaa.net,akupakarblog.blogspot.com,alternatifmu.com,amskyindonesia.com,apabedanya.com,ardra.biz,bacamalang.com,balimediakomputer.com,banjirembun.com,beritasampit.co.id,besoksore.com,binarayaberkahutama.com,blog-dnz.com,bloggermuntilan.com,blogsecond.com,bospajak.com,burungnya.com,cahayaguru.com,caracepat.net,carbonexpo.com,cikimm.com,cilegonnews.com,ciriseo.net,codeflare.net,daftarhewan.com,debgameku.com,dedyakas.com,defriansyah.net,destiku.net,detikbanten.com,dinaspajak.com,dosenonline.id,edumor.com,egsean.com,ekor9.com,fendydjael.blogspot.com,gamefinity.id,guru-id.com,hargacampur.com,hargalift.com,hazamusik.com,headlinekaltim.co,ilmumemikatwanita.com,ilmuveteriner.com,infoastronomy.org,invesnesia.com,iqrosoft.co.id,isrul.com,kabarrakyat.id,kaltaraaktual.com,kampusexcel.com,kanzalia.com,keluargahamsa.com,kherysuryawan.id,kucingmu.com,lesiaso.com,majalahponsel.org,malangnews.id,mditack.co.id,mengapa.net,miuiarena.com,murianews.com,nandatrio.com,nusramedia.com,oliswel.com,overlordfree.web.id,paketsoundsystem.com,panduanteknisi.com,psikologicinta.com,radiokucing.com,rajasanews.com,renovrainbow.com,rgamesstore.com,rukim.id,selatsunda.com,serba.site,siantarupdate.com,simomotaro.com,smppgrisatubdl.com,solusipro.com,sorodot.com,strukturkata.my.id,suaraindonesianews.com,sukasukaamel.com,sumselupdate.com,teraa.net,tipspetani.com,tipssehatcantik.com,tobasatu.com,tourketurki.com,triharyono.com,upahminimum.com,vromedia.com,wartaterkini.news##+js(aopr, document.oncontextmenu)" converted to: "1001tutorial.com,ahzaa.net,akupakarblog.blogspot.com,alternatifmu.com,amskyindonesia.com,apabedanya.com,ardra.biz,bacamalang.com,balimediakomputer.com,banjirembun.com,beritasampit.co.id,besoksore.com,binarayaberkahutama.com,blog-dnz.com,bloggermuntilan.com,blogsecond.com,bospajak.com,burungnya.com,cahayaguru.com,caracepat.net,carbonexpo.com,cikimm.com,cilegonnews.com,ciriseo.net,codeflare.net,daftarhewan.com,debgameku.com,dedyakas.com,defriansyah.net,destiku.net,detikbanten.com,dinaspajak.com,dosenonline.id,edumor.com,egsean.com,ekor9.com,fendydjael.blogspot.com,gamefinity.id,guru-id.com,hargacampur.com,hargalift.com,hazamusik.com,headlinekaltim.co,ilmumemikatwanita.com,ilmuveteriner.com,infoastronomy.org,invesnesia.com,iqrosoft.co.id,isrul.com,kabarrakyat.id,kaltaraaktual.com,kampusexcel.com,kanzalia.com,keluargahamsa.com,kherysuryawan.id,kucingmu.com,lesiaso.com,majalahponsel.org,malangnews.id,mditack.co.id,mengapa.net,miuiarena.com,murianews.com,nandatrio.com,nusramedia.com,oliswel.com,overlordfree.web.id,paketsoundsystem.com,panduanteknisi.com,psikologicinta.com,radiokucing.com,rajasanews.com,renovrainbow.com,rgamesstore.com,rukim.id,selatsunda.com,serba.site,siantarupdate.com,simomotaro.com,smppgrisatubdl.com,solusipro.com,sorodot.com,strukturkata.my.id,suaraindonesianews.com,sukasukaamel.com,sumselupdate.com,teraa.net,tipspetani.com,tipssehatcantik.com,tobasatu.com,tourketurki.com,triharyono.com,upahminimum.com,vromedia.com,wartaterkini.news#%#//scriptlet('ubo-aopr.js', 'document.oncontextmenu')"
-1001tutorial.com,ahzaa.net,akupakarblog.blogspot.com,alternatifmu.com,amskyindonesia.com,apabedanya.com,ardra.biz,bacamalang.com,balimediakomputer.com,banjirembun.com,beritasampit.co.id,besoksore.com,binarayaberkahutama.com,blog-dnz.com,bloggermuntilan.com,blogsecond.com,bospajak.com,burungnya.com,cahayaguru.com,caracepat.net,carbonexpo.com,cikimm.com,cilegonnews.com,ciriseo.net,codeflare.net,daftarhewan.com,debgameku.com,dedyakas.com,defriansyah.net,destiku.net,detikbanten.com,dinaspajak.com,dosenonline.id,edumor.com,egsean.com,ekor9.com,fendydjael.blogspot.com,gamefinity.id,guru-id.com,hargacampur.com,hargalift.com,hazamusik.com,headlinekaltim.co,ilmumemikatwanita.com,ilmuveteriner.com,infoastronomy.org,invesnesia.com,iqrosoft.co.id,isrul.com,kabarrakyat.id,kaltaraaktual.com,kampusexcel.com,kanzalia.com,keluargahamsa.com,kherysuryawan.id,kucingmu.com,lesiaso.com,majalahponsel.org,malangnews.id,mditack.co.id,mengapa.net,miuiarena.com,murianews.com,nandatrio.com,nusramedia.com,oliswel.com,overlordfree.web.id,paketsoundsystem.com,panduanteknisi.com,psikologicinta.com,radiokucing.com,rajasanews.com,renovrainbow.com,rgamesstore.com,rukim.id,selatsunda.com,serba.site,siantarupdate.com,simomotaro.com,smppgrisatubdl.com,solusipro.com,sorodot.com,strukturkata.my.id,suaraindonesianews.com,sukasukaamel.com,sumselupdate.com,teraa.net,tipspetani.com,tipssehatcantik.com,tobasatu.com,tourketurki.com,triharyono.com,upahminimum.com,vromedia.com,wartaterkini.news##+js(aopr, document.oncontextmenu)
-! Rule "asianami.com,cinemags.co.id,goozir.com,jayaherlambang.com##+js(aopw, document.oncontextmenu)" converted to: "asianami.com,cinemags.co.id,goozir.com,jayaherlambang.com#%#//scriptlet('ubo-aopw.js', 'document.oncontextmenu')"
-asianami.com,cinemags.co.id,goozir.com,jayaherlambang.com##+js(aopw, document.oncontextmenu)
+! Rule "belajarbro.id,bisnisukm.com,dikemas.com,gadgetidn.id,hotelier.id,kucingpersia.co.id,laciusang.com,mahirngoding.blogspot.com,mercon.id,modoomarblecodex.site,my24hours.net,nusantararom.org,rakyatbengkulu.com,ridertua.com,rumahweb.com,seputarkuliah.com,tepat.id,thebabelianchannel.site,websiteedukasi.com##+js(aeld, contextmenu)" converted to: "belajarbro.id,bisnisukm.com,dikemas.com,gadgetidn.id,hotelier.id,kucingpersia.co.id,laciusang.com,mahirngoding.blogspot.com,mercon.id,modoomarblecodex.site,my24hours.net,nusantararom.org,rakyatbengkulu.com,ridertua.com,rumahweb.com,seputarkuliah.com,tepat.id,thebabelianchannel.site,websiteedukasi.com#%#//scriptlet('ubo-aeld.js', 'contextmenu')"
+belajarbro.id,bisnisukm.com,dikemas.com,gadgetidn.id,hotelier.id,kucingpersia.co.id,laciusang.com,mahirngoding.blogspot.com,mercon.id,modoomarblecodex.site,my24hours.net,nusantararom.org,rakyatbengkulu.com,ridertua.com,rumahweb.com,seputarkuliah.com,tepat.id,thebabelianchannel.site,websiteedukasi.com##+js(aeld, contextmenu)
+! Rule "1001tutorial.com,agussuratna.net,ahzaa.net,akupakarblog.blogspot.com,alternatifmu.com,amskyindonesia.com,apabedanya.com,ardra.biz,asiacon.co.id,bacamalang.com,balimediakomputer.com,banjirembun.com,beritasampit.co.id,besoksore.com,binarayaberkahutama.com,blog-dnz.com,bloggermuntilan.com,blogsecond.com,bospajak.com,burungnya.com,caracepat.net,carbonexpo.com,cikimm.com,cilegonnews.com,ciriseo.net,codeflare.net,daftarhewan.com,debgameku.com,dedyakas.com,defriansyah.net,destiku.net,detikbanten.com,dinaspajak.com,dosenonline.id,edumor.com,egsean.com,ekor9.com,fendydjael.blogspot.com,gamefinity.id,garudacitizen.com,guru-id.com,hargacampur.com,hargalift.com,hazamusik.com,headlinekaltim.co,ilmumemikatwanita.com,ilmuveteriner.com,infoastronomy.org,invesnesia.com,iqrosoft.co.id,isrul.com,kabarrakyat.id,kaltaraaktual.com,kampusexcel.com,kanzalia.com,keluargahamsa.com,kherysuryawan.id,kucingmu.com,lesiaso.com,majalahponsel.org,malangnews.id,mditack.co.id,mengapa.net,miuiarena.com,murianews.com,nandatrio.com,nusramedia.com,oliswel.com,overlordfree.web.id,paketsoundsystem.com,panduanteknisi.com,psikologicinta.com,publikasimedia.com,radiokucing.com,rajasanews.com,renovrainbow.com,rgamesstore.com,rukim.id,selatsunda.com,serba.site,siantarupdate.com,simomotaro.com,smppgrisatubdl.com,solusipro.com,sorodot.com,strukturkata.my.id,suaraindonesianews.com,sukasukaamel.com,sumselupdate.com,tentik.com,teraa.net,tipspetani.com,tipssehatcantik.com,tobasatu.com,tourketurki.com,triharyono.com,upahminimum.com,vromedia.com,wartaterkini.news##+js(aopr, document.oncontextmenu)" converted to: "1001tutorial.com,agussuratna.net,ahzaa.net,akupakarblog.blogspot.com,alternatifmu.com,amskyindonesia.com,apabedanya.com,ardra.biz,asiacon.co.id,bacamalang.com,balimediakomputer.com,banjirembun.com,beritasampit.co.id,besoksore.com,binarayaberkahutama.com,blog-dnz.com,bloggermuntilan.com,blogsecond.com,bospajak.com,burungnya.com,caracepat.net,carbonexpo.com,cikimm.com,cilegonnews.com,ciriseo.net,codeflare.net,daftarhewan.com,debgameku.com,dedyakas.com,defriansyah.net,destiku.net,detikbanten.com,dinaspajak.com,dosenonline.id,edumor.com,egsean.com,ekor9.com,fendydjael.blogspot.com,gamefinity.id,garudacitizen.com,guru-id.com,hargacampur.com,hargalift.com,hazamusik.com,headlinekaltim.co,ilmumemikatwanita.com,ilmuveteriner.com,infoastronomy.org,invesnesia.com,iqrosoft.co.id,isrul.com,kabarrakyat.id,kaltaraaktual.com,kampusexcel.com,kanzalia.com,keluargahamsa.com,kherysuryawan.id,kucingmu.com,lesiaso.com,majalahponsel.org,malangnews.id,mditack.co.id,mengapa.net,miuiarena.com,murianews.com,nandatrio.com,nusramedia.com,oliswel.com,overlordfree.web.id,paketsoundsystem.com,panduanteknisi.com,psikologicinta.com,publikasimedia.com,radiokucing.com,rajasanews.com,renovrainbow.com,rgamesstore.com,rukim.id,selatsunda.com,serba.site,siantarupdate.com,simomotaro.com,smppgrisatubdl.com,solusipro.com,sorodot.com,strukturkata.my.id,suaraindonesianews.com,sukasukaamel.com,sumselupdate.com,tentik.com,teraa.net,tipspetani.com,tipssehatcantik.com,tobasatu.com,tourketurki.com,triharyono.com,upahminimum.com,vromedia.com,wartaterkini.news#%#//scriptlet('ubo-aopr.js', 'document.oncontextmenu')"
+1001tutorial.com,agussuratna.net,ahzaa.net,akupakarblog.blogspot.com,alternatifmu.com,amskyindonesia.com,apabedanya.com,ardra.biz,asiacon.co.id,bacamalang.com,balimediakomputer.com,banjirembun.com,beritasampit.co.id,besoksore.com,binarayaberkahutama.com,blog-dnz.com,bloggermuntilan.com,blogsecond.com,bospajak.com,burungnya.com,caracepat.net,carbonexpo.com,cikimm.com,cilegonnews.com,ciriseo.net,codeflare.net,daftarhewan.com,debgameku.com,dedyakas.com,defriansyah.net,destiku.net,detikbanten.com,dinaspajak.com,dosenonline.id,edumor.com,egsean.com,ekor9.com,fendydjael.blogspot.com,gamefinity.id,garudacitizen.com,guru-id.com,hargacampur.com,hargalift.com,hazamusik.com,headlinekaltim.co,ilmumemikatwanita.com,ilmuveteriner.com,infoastronomy.org,invesnesia.com,iqrosoft.co.id,isrul.com,kabarrakyat.id,kaltaraaktual.com,kampusexcel.com,kanzalia.com,keluargahamsa.com,kherysuryawan.id,kucingmu.com,lesiaso.com,majalahponsel.org,malangnews.id,mditack.co.id,mengapa.net,miuiarena.com,murianews.com,nandatrio.com,nusramedia.com,oliswel.com,overlordfree.web.id,paketsoundsystem.com,panduanteknisi.com,psikologicinta.com,publikasimedia.com,radiokucing.com,rajasanews.com,renovrainbow.com,rgamesstore.com,rukim.id,selatsunda.com,serba.site,siantarupdate.com,simomotaro.com,smppgrisatubdl.com,solusipro.com,sorodot.com,strukturkata.my.id,suaraindonesianews.com,sukasukaamel.com,sumselupdate.com,tentik.com,teraa.net,tipspetani.com,tipssehatcantik.com,tobasatu.com,tourketurki.com,triharyono.com,upahminimum.com,vromedia.com,wartaterkini.news##+js(aopr, document.oncontextmenu)
+! Rule "asianami.com,cinemags.co.id,goozir.com,heikamu.com,jayaherlambang.com##+js(aopw, document.oncontextmenu)" converted to: "asianami.com,cinemags.co.id,goozir.com,heikamu.com,jayaherlambang.com#%#//scriptlet('ubo-aopw.js', 'document.oncontextmenu')"
+asianami.com,cinemags.co.id,goozir.com,heikamu.com,jayaherlambang.com##+js(aopw, document.oncontextmenu)
 ! Rule "radiokucing.com##+js(aopw, document.onmousedown)" converted to: "radiokucing.com#%#//scriptlet('ubo-aopw.js', 'document.onmousedown')"
 radiokucing.com##+js(aopw, document.onmousedown)
-! Rule "logosconsulting.co.id,ridertua.com,tepat.id##*::selection:style(color:white!important;background:#0078d7!important;)" converted to: "logosconsulting.co.id,ridertua.com,tepat.id#$#*::selection { color:white!important;background:#0078d7!important; }"
-logosconsulting.co.id,ridertua.com,tepat.id##*::selection:style(color:white!important;background:#0078d7!important;)
-! Rule "aditema.blogspot.com,agussiswanto097.blogspot.com,ahzaa.net,aka321.blogspot.com,alimumedia.blogspot.com,amskyindonesia.com,andrie.id,andronezia.com,anhar.my.id,antero.co,apabedanya.com,ardra.biz,arlinacode.com,arlinadzgn.com,asianami.com,ataeh.blogspot.com,baca.co.id,bacamalang.com,bahasagaul.id,bahasaindonesia.web.id,balimediakomputer.com,balipost.com,bangkitmedia.com,bangsiagian.id,banjirembun.com,barungeblog.com,besoksore.com,biodata-artis.com,bisablog.com,blikomang.com,blogcozone.com,bloggermuntilan.com,bloging-gampang.blogspot.com,blogsecond.com,blogsetyaaji.com,bosinformasi.web.id,boss-ant.blogspot.com,bungasbanten.id,bungfrangki.com,candilkfb.blogspot.com,candilkuya.com,cara1001.com,caraono.blogspot.com,carasettingterbaru.blogspot.com,carasyarif.blogspot.com,carbonexpo.com,carigaji.com,champions.my.id,cilegonnews.com,cinemags.co.id,codeflare.net,contohpantunpuisicerpen.blogspot.com,cop4sberita.blogspot.com,daftarhewan.com,dailysocial.id,datadikdasmen.com,dedyakas.com,dewainside.blogspot.com,dewaplokis.com,dezige-in.blogspot.com,dinaspajak.com,dualipa.id,duniamu38.com,elmu-blog.blogspot.com,ewafebri.com,fabelia.com,fajrinfo.com,gamefinity.id,geograpik.blogspot.com,goozir.com,gotutorid.com,gubukpintar.com,guntur.eu.org,gweone.com,hargacampur.com,heru.my.id,heyriad.com,hienzo.com,hobbytekno.xyz,huzenify.blogspot.com,id.theasianparent.com,idekevin.blogspot.com,igniel.com,ilmumemikatwanita.com,inblogspot.com,iniesa.com,inphedia.id,invesnesia.com,iqrosoft.co.id,irnanto.com,ismynr.xyz,isrul.com,jagoandzgn.com,jakartastudio.com,jatimtimes.com,jayaherlambang.com,kaltaraaktual.com,kangghani.com,kanzalia.com,keluargahamsa.com,kherysuryawan.id,kiyandra.com,kucingmania.net,kucingpersia.co.id,kulcis.blogspot.com,kurazone.net,lesiaso.com,magelang1337.com,mahirngoding.blogspot.com,mahiroffice.com,malangnews.id,malangtimes.com,malasngeblog.com,malasngoding.com,maribelajarcoding.com,maskoding.com,masmalven.com,masrana.com,massiswo.com,mastamvan.blogspot.com,mayuf.info,mditack.co.id,mediachmad.blogspot.com,mengapa.net,misterikisah.com,miuiarena.com,miuipedia.com,modoomarblecodex.site,mrmung.com,multimedialy.com,murianews.com,naminakiky.com,nandatrio.com,nganggurajah.blogspot.com,ninoartikel.com,njongeblog.blogspot.com,normalestari.blogspot.com,nusramedia.com,oom.web.id,overlordfree.web.id,paketsoundsystem.com,pondok-belajar.com,ponselsoak.com,porosilmu.com,psikologicinta.com,rahmancyber.net,rajatips.com,rancax.blogspot.com,ratutips.com,reedpax.blogspot.com,rencanamu.id,renovrainbow.com,reviewaz.id,reviewsteknologiku.tech,rgamesstore.com,ridergalau.com,rukim.id,rumahmaterial.com,rzkbdlhsn.blogspot.com,santriema.blogspot.com,sasihsaum.com,satupiston.com,sedotcode.blogspot.com,seniartaja.blogspot.com,serba-serbi-bisa.blogspot.com,serba.site,serieswans.com,seuntaipuisi.blogspot.com,simomotaro.com,smsucapan.com,solusipro.com,sorodot.com,struckturcode.blogspot.com,strukturkode.blogspot.com,suaraindonesianews.com,suarapapua.com,suatekno.id,suckittrees.com,suhux.com,sukasukaamel.com,sumselupdate.com,suryadhi.web.id,susahtidur.my.id,suyachan.my.id,tamboenman.xyz,tanyadigital.com,tapanulipost.com,techno-ct2.eu.org,teh-goyang.blogspot.com,teknojempol.com,teknolalat.com,thebabelianchannel.site,tigaribu.net,tipspetani.com,topolelonocomputer.blogspot.com,upahminimum.com,vromedia.com,waktubaca.com,wartaterkini.news,warunginter.net,wawang.id,webbudi.com,webkeren.net,websiteedukasi.com,wendycode.com,winmahdi.com,zotutorial.com##*:style(user-select: text !important; -webkit-user-select: text !important; -webkit-touch-callout: default !important;)" converted to: "aditema.blogspot.com,agussiswanto097.blogspot.com,ahzaa.net,aka321.blogspot.com,alimumedia.blogspot.com,amskyindonesia.com,andrie.id,andronezia.com,anhar.my.id,antero.co,apabedanya.com,ardra.biz,arlinacode.com,arlinadzgn.com,asianami.com,ataeh.blogspot.com,baca.co.id,bacamalang.com,bahasagaul.id,bahasaindonesia.web.id,balimediakomputer.com,balipost.com,bangkitmedia.com,bangsiagian.id,banjirembun.com,barungeblog.com,besoksore.com,biodata-artis.com,bisablog.com,blikomang.com,blogcozone.com,bloggermuntilan.com,bloging-gampang.blogspot.com,blogsecond.com,blogsetyaaji.com,bosinformasi.web.id,boss-ant.blogspot.com,bungasbanten.id,bungfrangki.com,candilkfb.blogspot.com,candilkuya.com,cara1001.com,caraono.blogspot.com,carasettingterbaru.blogspot.com,carasyarif.blogspot.com,carbonexpo.com,carigaji.com,champions.my.id,cilegonnews.com,cinemags.co.id,codeflare.net,contohpantunpuisicerpen.blogspot.com,cop4sberita.blogspot.com,daftarhewan.com,dailysocial.id,datadikdasmen.com,dedyakas.com,dewainside.blogspot.com,dewaplokis.com,dezige-in.blogspot.com,dinaspajak.com,dualipa.id,duniamu38.com,elmu-blog.blogspot.com,ewafebri.com,fabelia.com,fajrinfo.com,gamefinity.id,geograpik.blogspot.com,goozir.com,gotutorid.com,gubukpintar.com,guntur.eu.org,gweone.com,hargacampur.com,heru.my.id,heyriad.com,hienzo.com,hobbytekno.xyz,huzenify.blogspot.com,id.theasianparent.com,idekevin.blogspot.com,igniel.com,ilmumemikatwanita.com,inblogspot.com,iniesa.com,inphedia.id,invesnesia.com,iqrosoft.co.id,irnanto.com,ismynr.xyz,isrul.com,jagoandzgn.com,jakartastudio.com,jatimtimes.com,jayaherlambang.com,kaltaraaktual.com,kangghani.com,kanzalia.com,keluargahamsa.com,kherysuryawan.id,kiyandra.com,kucingmania.net,kucingpersia.co.id,kulcis.blogspot.com,kurazone.net,lesiaso.com,magelang1337.com,mahirngoding.blogspot.com,mahiroffice.com,malangnews.id,malangtimes.com,malasngeblog.com,malasngoding.com,maribelajarcoding.com,maskoding.com,masmalven.com,masrana.com,massiswo.com,mastamvan.blogspot.com,mayuf.info,mditack.co.id,mediachmad.blogspot.com,mengapa.net,misterikisah.com,miuiarena.com,miuipedia.com,modoomarblecodex.site,mrmung.com,multimedialy.com,murianews.com,naminakiky.com,nandatrio.com,nganggurajah.blogspot.com,ninoartikel.com,njongeblog.blogspot.com,normalestari.blogspot.com,nusramedia.com,oom.web.id,overlordfree.web.id,paketsoundsystem.com,pondok-belajar.com,ponselsoak.com,porosilmu.com,psikologicinta.com,rahmancyber.net,rajatips.com,rancax.blogspot.com,ratutips.com,reedpax.blogspot.com,rencanamu.id,renovrainbow.com,reviewaz.id,reviewsteknologiku.tech,rgamesstore.com,ridergalau.com,rukim.id,rumahmaterial.com,rzkbdlhsn.blogspot.com,santriema.blogspot.com,sasihsaum.com,satupiston.com,sedotcode.blogspot.com,seniartaja.blogspot.com,serba-serbi-bisa.blogspot.com,serba.site,serieswans.com,seuntaipuisi.blogspot.com,simomotaro.com,smsucapan.com,solusipro.com,sorodot.com,struckturcode.blogspot.com,strukturkode.blogspot.com,suaraindonesianews.com,suarapapua.com,suatekno.id,suckittrees.com,suhux.com,sukasukaamel.com,sumselupdate.com,suryadhi.web.id,susahtidur.my.id,suyachan.my.id,tamboenman.xyz,tanyadigital.com,tapanulipost.com,techno-ct2.eu.org,teh-goyang.blogspot.com,teknojempol.com,teknolalat.com,thebabelianchannel.site,tigaribu.net,tipspetani.com,topolelonocomputer.blogspot.com,upahminimum.com,vromedia.com,waktubaca.com,wartaterkini.news,warunginter.net,wawang.id,webbudi.com,webkeren.net,websiteedukasi.com,wendycode.com,winmahdi.com,zotutorial.com#$#* { user-select: text !important; -webkit-user-select: text !important; -webkit-touch-callout: default !important; }"
-aditema.blogspot.com,agussiswanto097.blogspot.com,ahzaa.net,aka321.blogspot.com,alimumedia.blogspot.com,amskyindonesia.com,andrie.id,andronezia.com,anhar.my.id,antero.co,apabedanya.com,ardra.biz,arlinacode.com,arlinadzgn.com,asianami.com,ataeh.blogspot.com,baca.co.id,bacamalang.com,bahasagaul.id,bahasaindonesia.web.id,balimediakomputer.com,balipost.com,bangkitmedia.com,bangsiagian.id,banjirembun.com,barungeblog.com,besoksore.com,biodata-artis.com,bisablog.com,blikomang.com,blogcozone.com,bloggermuntilan.com,bloging-gampang.blogspot.com,blogsecond.com,blogsetyaaji.com,bosinformasi.web.id,boss-ant.blogspot.com,bungasbanten.id,bungfrangki.com,candilkfb.blogspot.com,candilkuya.com,cara1001.com,caraono.blogspot.com,carasettingterbaru.blogspot.com,carasyarif.blogspot.com,carbonexpo.com,carigaji.com,champions.my.id,cilegonnews.com,cinemags.co.id,codeflare.net,contohpantunpuisicerpen.blogspot.com,cop4sberita.blogspot.com,daftarhewan.com,dailysocial.id,datadikdasmen.com,dedyakas.com,dewainside.blogspot.com,dewaplokis.com,dezige-in.blogspot.com,dinaspajak.com,dualipa.id,duniamu38.com,elmu-blog.blogspot.com,ewafebri.com,fabelia.com,fajrinfo.com,gamefinity.id,geograpik.blogspot.com,goozir.com,gotutorid.com,gubukpintar.com,guntur.eu.org,gweone.com,hargacampur.com,heru.my.id,heyriad.com,hienzo.com,hobbytekno.xyz,huzenify.blogspot.com,id.theasianparent.com,idekevin.blogspot.com,igniel.com,ilmumemikatwanita.com,inblogspot.com,iniesa.com,inphedia.id,invesnesia.com,iqrosoft.co.id,irnanto.com,ismynr.xyz,isrul.com,jagoandzgn.com,jakartastudio.com,jatimtimes.com,jayaherlambang.com,kaltaraaktual.com,kangghani.com,kanzalia.com,keluargahamsa.com,kherysuryawan.id,kiyandra.com,kucingmania.net,kucingpersia.co.id,kulcis.blogspot.com,kurazone.net,lesiaso.com,magelang1337.com,mahirngoding.blogspot.com,mahiroffice.com,malangnews.id,malangtimes.com,malasngeblog.com,malasngoding.com,maribelajarcoding.com,maskoding.com,masmalven.com,masrana.com,massiswo.com,mastamvan.blogspot.com,mayuf.info,mditack.co.id,mediachmad.blogspot.com,mengapa.net,misterikisah.com,miuiarena.com,miuipedia.com,modoomarblecodex.site,mrmung.com,multimedialy.com,murianews.com,naminakiky.com,nandatrio.com,nganggurajah.blogspot.com,ninoartikel.com,njongeblog.blogspot.com,normalestari.blogspot.com,nusramedia.com,oom.web.id,overlordfree.web.id,paketsoundsystem.com,pondok-belajar.com,ponselsoak.com,porosilmu.com,psikologicinta.com,rahmancyber.net,rajatips.com,rancax.blogspot.com,ratutips.com,reedpax.blogspot.com,rencanamu.id,renovrainbow.com,reviewaz.id,reviewsteknologiku.tech,rgamesstore.com,ridergalau.com,rukim.id,rumahmaterial.com,rzkbdlhsn.blogspot.com,santriema.blogspot.com,sasihsaum.com,satupiston.com,sedotcode.blogspot.com,seniartaja.blogspot.com,serba-serbi-bisa.blogspot.com,serba.site,serieswans.com,seuntaipuisi.blogspot.com,simomotaro.com,smsucapan.com,solusipro.com,sorodot.com,struckturcode.blogspot.com,strukturkode.blogspot.com,suaraindonesianews.com,suarapapua.com,suatekno.id,suckittrees.com,suhux.com,sukasukaamel.com,sumselupdate.com,suryadhi.web.id,susahtidur.my.id,suyachan.my.id,tamboenman.xyz,tanyadigital.com,tapanulipost.com,techno-ct2.eu.org,teh-goyang.blogspot.com,teknojempol.com,teknolalat.com,thebabelianchannel.site,tigaribu.net,tipspetani.com,topolelonocomputer.blogspot.com,upahminimum.com,vromedia.com,waktubaca.com,wartaterkini.news,warunginter.net,wawang.id,webbudi.com,webkeren.net,websiteedukasi.com,wendycode.com,winmahdi.com,zotutorial.com##*:style(user-select: text !important; -webkit-user-select: text !important; -webkit-touch-callout: default !important;)
-! Rule "carbonexpo.com,champions.my.id,edumor.com,hargalift.com,ilmuveteriner.com,keluargahamsa.com,serba.site,solusipro.com,sukasukaamel.com,sumselupdate.com,vromedia.com##+js(acis, disableSelection, reEnable)" converted to: "carbonexpo.com,champions.my.id,edumor.com,hargalift.com,ilmuveteriner.com,keluargahamsa.com,serba.site,solusipro.com,sukasukaamel.com,sumselupdate.com,vromedia.com#%#//scriptlet('ubo-acis.js', 'disableSelection', 'reEnable')"
-carbonexpo.com,champions.my.id,edumor.com,hargalift.com,ilmuveteriner.com,keluargahamsa.com,serba.site,solusipro.com,sukasukaamel.com,sumselupdate.com,vromedia.com##+js(acis, disableSelection, reEnable)
+! Rule "hotelier.id,logosconsulting.co.id,ridertua.com,tepat.id##*::selection:style(color:white!important;background:#0078d7!important;)" converted to: "hotelier.id,logosconsulting.co.id,ridertua.com,tepat.id#$#*::selection { color:white!important;background:#0078d7!important; }"
+hotelier.id,logosconsulting.co.id,ridertua.com,tepat.id##*::selection:style(color:white!important;background:#0078d7!important;)
+! Rule "aditema.blogspot.com,agussiswanto097.blogspot.com,agussuratna.net,ahzaa.net,aka321.blogspot.com,alimumedia.blogspot.com,amskyindonesia.com,andrie.id,andronezia.com,anhar.my.id,antero.co,apabedanya.com,ardra.biz,arlinacode.com,arlinadzgn.com,asianami.com,ataeh.blogspot.com,baca.co.id,bacamalang.com,bahasagaul.id,bahasaindonesia.web.id,balimediakomputer.com,balipost.com,bangkitmedia.com,bangsiagian.id,banjirembun.com,barungeblog.com,besoksore.com,biodata-artis.com,bisablog.com,blikomang.com,blogcozone.com,bloggermuntilan.com,bloging-gampang.blogspot.com,blogrumahan.com,blogsecond.com,blogsetyaaji.com,bosinformasi.web.id,boss-ant.blogspot.com,bungasbanten.id,bungfrangki.com,candilkfb.blogspot.com,candilkuya.com,cara1001.com,caraono.blogspot.com,carasettingterbaru.blogspot.com,carasyarif.blogspot.com,carbonexpo.com,carigaji.com,champions.my.id,cilegonnews.com,cinemags.co.id,codeflare.net,contohpantunpuisicerpen.blogspot.com,cop4sberita.blogspot.com,daftarhewan.com,dailysocial.id,datadikdasmen.com,dedyakas.com,dewainside.blogspot.com,dewaplokis.com,dezige-in.blogspot.com,dinaspajak.com,dualipa.id,duniamu38.com,elmu-blog.blogspot.com,ewafebri.com,fabelia.com,fajrinfo.com,ferisp.com,gamefinity.id,garudacitizen.com,geograpik.blogspot.com,goozir.com,gotutorid.com,gubukpintar.com,guntur.eu.org,gweone.com,hargacampur.com,heikamu.com,heru.my.id,heyriad.com,hienzo.com,hobbytekno.xyz,hotelier.id,huzenify.blogspot.com,id.theasianparent.com,idekevin.blogspot.com,igniel.com,ilmumemikatwanita.com,inblogspot.com,iniesa.com,inphedia.id,invesnesia.com,iqrosoft.co.id,irnanto.com,ismynr.xyz,isrul.com,jagoandzgn.com,jakartastudio.com,jatimtimes.com,jayaherlambang.com,kaltaraaktual.com,kangghani.com,kanzalia.com,keluargahamsa.com,kherysuryawan.id,kiyandra.com,kucingmania.net,kucingpersia.co.id,kulcis.blogspot.com,kurazone.net,lesiaso.com,magelang1337.com,mahirngoding.blogspot.com,mahiroffice.com,malangnews.id,malangtimes.com,malasngeblog.com,malasngoding.com,maribelajarcoding.com,maskoding.com,masmalven.com,masrana.com,massiswo.com,mastamvan.blogspot.com,mayuf.info,mditack.co.id,mediachmad.blogspot.com,mengapa.net,misterikisah.com,miuiarena.com,miuipedia.com,modoomarblecodex.site,mrmung.com,multimedialy.com,multimediatama.com,murianews.com,naminakiky.com,nandatrio.com,nganggurajah.blogspot.com,ninoartikel.com,njongeblog.blogspot.com,normalestari.blogspot.com,nusramedia.com,oom.web.id,overlordfree.web.id,paketsoundsystem.com,pondok-belajar.com,ponselsoak.com,porosilmu.com,psikologicinta.com,publikasimedia.com,rahmancyber.net,rajatips.com,rancax.blogspot.com,ratutips.com,reedpax.blogspot.com,rencanamu.id,renovrainbow.com,reviewaz.id,reviewsteknologiku.tech,rgamesstore.com,ridergalau.com,rukim.id,rumahmaterial.com,rzkbdlhsn.blogspot.com,santriema.blogspot.com,sasihsaum.com,satupiston.com,sedotcode.blogspot.com,seniartaja.blogspot.com,serba-serbi-bisa.blogspot.com,serba.site,serieswans.com,seuntaipuisi.blogspot.com,simomotaro.com,smsucapan.com,solusipro.com,sorodot.com,struckturcode.blogspot.com,strukturkode.blogspot.com,suaraindonesianews.com,suarapapua.com,suatekno.id,suckittrees.com,suhux.com,sukasukaamel.com,sumselupdate.com,suryadhi.web.id,susahtidur.my.id,suyachan.my.id,tamboenman.xyz,tanyadigital.com,tapanulipost.com,techno-ct2.eu.org,teh-goyang.blogspot.com,teknojempol.com,teknolalat.com,tentik.com,thebabelianchannel.site,tigaribu.net,tipspetani.com,topolelonocomputer.blogspot.com,travpackerindonesia.com,upahminimum.com,vromedia.com,waktubaca.com,wartaterkini.news,warunginter.net,wawang.id,webbudi.com,webkeren.net,websiteedukasi.com,wendycode.com,winmahdi.com,zotutorial.com##*:style(user-select: text !important; -webkit-user-select: text !important; -webkit-touch-callout: default !important;)" converted to: "aditema.blogspot.com,agussiswanto097.blogspot.com,agussuratna.net,ahzaa.net,aka321.blogspot.com,alimumedia.blogspot.com,amskyindonesia.com,andrie.id,andronezia.com,anhar.my.id,antero.co,apabedanya.com,ardra.biz,arlinacode.com,arlinadzgn.com,asianami.com,ataeh.blogspot.com,baca.co.id,bacamalang.com,bahasagaul.id,bahasaindonesia.web.id,balimediakomputer.com,balipost.com,bangkitmedia.com,bangsiagian.id,banjirembun.com,barungeblog.com,besoksore.com,biodata-artis.com,bisablog.com,blikomang.com,blogcozone.com,bloggermuntilan.com,bloging-gampang.blogspot.com,blogrumahan.com,blogsecond.com,blogsetyaaji.com,bosinformasi.web.id,boss-ant.blogspot.com,bungasbanten.id,bungfrangki.com,candilkfb.blogspot.com,candilkuya.com,cara1001.com,caraono.blogspot.com,carasettingterbaru.blogspot.com,carasyarif.blogspot.com,carbonexpo.com,carigaji.com,champions.my.id,cilegonnews.com,cinemags.co.id,codeflare.net,contohpantunpuisicerpen.blogspot.com,cop4sberita.blogspot.com,daftarhewan.com,dailysocial.id,datadikdasmen.com,dedyakas.com,dewainside.blogspot.com,dewaplokis.com,dezige-in.blogspot.com,dinaspajak.com,dualipa.id,duniamu38.com,elmu-blog.blogspot.com,ewafebri.com,fabelia.com,fajrinfo.com,ferisp.com,gamefinity.id,garudacitizen.com,geograpik.blogspot.com,goozir.com,gotutorid.com,gubukpintar.com,guntur.eu.org,gweone.com,hargacampur.com,heikamu.com,heru.my.id,heyriad.com,hienzo.com,hobbytekno.xyz,hotelier.id,huzenify.blogspot.com,id.theasianparent.com,idekevin.blogspot.com,igniel.com,ilmumemikatwanita.com,inblogspot.com,iniesa.com,inphedia.id,invesnesia.com,iqrosoft.co.id,irnanto.com,ismynr.xyz,isrul.com,jagoandzgn.com,jakartastudio.com,jatimtimes.com,jayaherlambang.com,kaltaraaktual.com,kangghani.com,kanzalia.com,keluargahamsa.com,kherysuryawan.id,kiyandra.com,kucingmania.net,kucingpersia.co.id,kulcis.blogspot.com,kurazone.net,lesiaso.com,magelang1337.com,mahirngoding.blogspot.com,mahiroffice.com,malangnews.id,malangtimes.com,malasngeblog.com,malasngoding.com,maribelajarcoding.com,maskoding.com,masmalven.com,masrana.com,massiswo.com,mastamvan.blogspot.com,mayuf.info,mditack.co.id,mediachmad.blogspot.com,mengapa.net,misterikisah.com,miuiarena.com,miuipedia.com,modoomarblecodex.site,mrmung.com,multimedialy.com,multimediatama.com,murianews.com,naminakiky.com,nandatrio.com,nganggurajah.blogspot.com,ninoartikel.com,njongeblog.blogspot.com,normalestari.blogspot.com,nusramedia.com,oom.web.id,overlordfree.web.id,paketsoundsystem.com,pondok-belajar.com,ponselsoak.com,porosilmu.com,psikologicinta.com,publikasimedia.com,rahmancyber.net,rajatips.com,rancax.blogspot.com,ratutips.com,reedpax.blogspot.com,rencanamu.id,renovrainbow.com,reviewaz.id,reviewsteknologiku.tech,rgamesstore.com,ridergalau.com,rukim.id,rumahmaterial.com,rzkbdlhsn.blogspot.com,santriema.blogspot.com,sasihsaum.com,satupiston.com,sedotcode.blogspot.com,seniartaja.blogspot.com,serba-serbi-bisa.blogspot.com,serba.site,serieswans.com,seuntaipuisi.blogspot.com,simomotaro.com,smsucapan.com,solusipro.com,sorodot.com,struckturcode.blogspot.com,strukturkode.blogspot.com,suaraindonesianews.com,suarapapua.com,suatekno.id,suckittrees.com,suhux.com,sukasukaamel.com,sumselupdate.com,suryadhi.web.id,susahtidur.my.id,suyachan.my.id,tamboenman.xyz,tanyadigital.com,tapanulipost.com,techno-ct2.eu.org,teh-goyang.blogspot.com,teknojempol.com,teknolalat.com,tentik.com,thebabelianchannel.site,tigaribu.net,tipspetani.com,topolelonocomputer.blogspot.com,travpackerindonesia.com,upahminimum.com,vromedia.com,waktubaca.com,wartaterkini.news,warunginter.net,wawang.id,webbudi.com,webkeren.net,websiteedukasi.com,wendycode.com,winmahdi.com,zotutorial.com#$#* { user-select: text !important; -webkit-user-select: text !important; -webkit-touch-callout: default !important; }"
+aditema.blogspot.com,agussiswanto097.blogspot.com,agussuratna.net,ahzaa.net,aka321.blogspot.com,alimumedia.blogspot.com,amskyindonesia.com,andrie.id,andronezia.com,anhar.my.id,antero.co,apabedanya.com,ardra.biz,arlinacode.com,arlinadzgn.com,asianami.com,ataeh.blogspot.com,baca.co.id,bacamalang.com,bahasagaul.id,bahasaindonesia.web.id,balimediakomputer.com,balipost.com,bangkitmedia.com,bangsiagian.id,banjirembun.com,barungeblog.com,besoksore.com,biodata-artis.com,bisablog.com,blikomang.com,blogcozone.com,bloggermuntilan.com,bloging-gampang.blogspot.com,blogrumahan.com,blogsecond.com,blogsetyaaji.com,bosinformasi.web.id,boss-ant.blogspot.com,bungasbanten.id,bungfrangki.com,candilkfb.blogspot.com,candilkuya.com,cara1001.com,caraono.blogspot.com,carasettingterbaru.blogspot.com,carasyarif.blogspot.com,carbonexpo.com,carigaji.com,champions.my.id,cilegonnews.com,cinemags.co.id,codeflare.net,contohpantunpuisicerpen.blogspot.com,cop4sberita.blogspot.com,daftarhewan.com,dailysocial.id,datadikdasmen.com,dedyakas.com,dewainside.blogspot.com,dewaplokis.com,dezige-in.blogspot.com,dinaspajak.com,dualipa.id,duniamu38.com,elmu-blog.blogspot.com,ewafebri.com,fabelia.com,fajrinfo.com,ferisp.com,gamefinity.id,garudacitizen.com,geograpik.blogspot.com,goozir.com,gotutorid.com,gubukpintar.com,guntur.eu.org,gweone.com,hargacampur.com,heikamu.com,heru.my.id,heyriad.com,hienzo.com,hobbytekno.xyz,hotelier.id,huzenify.blogspot.com,id.theasianparent.com,idekevin.blogspot.com,igniel.com,ilmumemikatwanita.com,inblogspot.com,iniesa.com,inphedia.id,invesnesia.com,iqrosoft.co.id,irnanto.com,ismynr.xyz,isrul.com,jagoandzgn.com,jakartastudio.com,jatimtimes.com,jayaherlambang.com,kaltaraaktual.com,kangghani.com,kanzalia.com,keluargahamsa.com,kherysuryawan.id,kiyandra.com,kucingmania.net,kucingpersia.co.id,kulcis.blogspot.com,kurazone.net,lesiaso.com,magelang1337.com,mahirngoding.blogspot.com,mahiroffice.com,malangnews.id,malangtimes.com,malasngeblog.com,malasngoding.com,maribelajarcoding.com,maskoding.com,masmalven.com,masrana.com,massiswo.com,mastamvan.blogspot.com,mayuf.info,mditack.co.id,mediachmad.blogspot.com,mengapa.net,misterikisah.com,miuiarena.com,miuipedia.com,modoomarblecodex.site,mrmung.com,multimedialy.com,multimediatama.com,murianews.com,naminakiky.com,nandatrio.com,nganggurajah.blogspot.com,ninoartikel.com,njongeblog.blogspot.com,normalestari.blogspot.com,nusramedia.com,oom.web.id,overlordfree.web.id,paketsoundsystem.com,pondok-belajar.com,ponselsoak.com,porosilmu.com,psikologicinta.com,publikasimedia.com,rahmancyber.net,rajatips.com,rancax.blogspot.com,ratutips.com,reedpax.blogspot.com,rencanamu.id,renovrainbow.com,reviewaz.id,reviewsteknologiku.tech,rgamesstore.com,ridergalau.com,rukim.id,rumahmaterial.com,rzkbdlhsn.blogspot.com,santriema.blogspot.com,sasihsaum.com,satupiston.com,sedotcode.blogspot.com,seniartaja.blogspot.com,serba-serbi-bisa.blogspot.com,serba.site,serieswans.com,seuntaipuisi.blogspot.com,simomotaro.com,smsucapan.com,solusipro.com,sorodot.com,struckturcode.blogspot.com,strukturkode.blogspot.com,suaraindonesianews.com,suarapapua.com,suatekno.id,suckittrees.com,suhux.com,sukasukaamel.com,sumselupdate.com,suryadhi.web.id,susahtidur.my.id,suyachan.my.id,tamboenman.xyz,tanyadigital.com,tapanulipost.com,techno-ct2.eu.org,teh-goyang.blogspot.com,teknojempol.com,teknolalat.com,tentik.com,thebabelianchannel.site,tigaribu.net,tipspetani.com,topolelonocomputer.blogspot.com,travpackerindonesia.com,upahminimum.com,vromedia.com,waktubaca.com,wartaterkini.news,warunginter.net,wawang.id,webbudi.com,webkeren.net,websiteedukasi.com,wendycode.com,winmahdi.com,zotutorial.com##*:style(user-select: text !important; -webkit-user-select: text !important; -webkit-touch-callout: default !important;)
+! Rule "agussuratna.net,carbonexpo.com,champions.my.id,edumor.com,hargalift.com,ilmuveteriner.com,keluargahamsa.com,serba.site,solusipro.com,sukasukaamel.com,sumselupdate.com,vromedia.com##+js(acis, disableSelection, reEnable)" converted to: "agussuratna.net,carbonexpo.com,champions.my.id,edumor.com,hargalift.com,ilmuveteriner.com,keluargahamsa.com,serba.site,solusipro.com,sukasukaamel.com,sumselupdate.com,vromedia.com#%#//scriptlet('ubo-acis.js', 'disableSelection', 'reEnable')"
+agussuratna.net,carbonexpo.com,champions.my.id,edumor.com,hargalift.com,ilmuveteriner.com,keluargahamsa.com,serba.site,solusipro.com,sukasukaamel.com,sumselupdate.com,vromedia.com##+js(acis, disableSelection, reEnable)
 ! Rule "unja.ac.id##+js(acis, disableselect, reEnable)" converted to: "unja.ac.id#%#//scriptlet('ubo-acis.js', 'disableselect', 'reEnable')"
 unja.ac.id##+js(acis, disableselect, reEnable)
 ! Rule "gadgetidn.id,seputarkuliah.com##+js(aeld, /dragstart|selectstart/)" converted to: "gadgetidn.id,seputarkuliah.com#%#//scriptlet('ubo-aeld.js', '/dragstart|selectstart/')"
@@ -748,8 +616,8 @@ alamatbank.com,amskyindonesia.com,asianami.com,caracepat.net,destiku.net,fachmyc
 kaltaraaktual.com##+js(aopr, document.ondragstart)
 ! Rule "kerajaannusantara.com,rajasanews.com##+js(aopr, document.onmousedown)" converted to: "kerajaannusantara.com,rajasanews.com#%#//scriptlet('ubo-aopr.js', 'document.onmousedown')"
 kerajaannusantara.com,rajasanews.com##+js(aopr, document.onmousedown)
-! Rule "akupakarblog.blogspot.com,amplaumplu.com,ardra.biz,balimediakomputer.com,balipost.com,blog-dnz.com,broexcel.com,chiarafarina.blogspot.com,dailysocial.id,dedyakas.com,dinaspajak.com,dosenonline.id,duniamu38.com,fendydjael.blogspot.com,gudangcoding.com,gudangcodingaplikasi.blogspot.com,gurupenyemangat.com,hazamusik.com,heru.my.id,icloudice.com,invesnesia.com,iwakbuncit.com,kabarmakkah.com,listrik-praktis.com,mediametropolitan.id,menoreh.net,metodepraktis.com,miuitutorial.com,pintudunia.com,rajaonline.my.id,rajasanews.com,sahabat-akmi.blogspot.com,satugoogle.blogspot.com,scanharga.com,sheptyiecha.com,steffifauziah.com,techno-ct2.eu.org,tourketurki.com,upahminimum.com##+js(aopr, document.onselectstart)" converted to: "akupakarblog.blogspot.com,amplaumplu.com,ardra.biz,balimediakomputer.com,balipost.com,blog-dnz.com,broexcel.com,chiarafarina.blogspot.com,dailysocial.id,dedyakas.com,dinaspajak.com,dosenonline.id,duniamu38.com,fendydjael.blogspot.com,gudangcoding.com,gudangcodingaplikasi.blogspot.com,gurupenyemangat.com,hazamusik.com,heru.my.id,icloudice.com,invesnesia.com,iwakbuncit.com,kabarmakkah.com,listrik-praktis.com,mediametropolitan.id,menoreh.net,metodepraktis.com,miuitutorial.com,pintudunia.com,rajaonline.my.id,rajasanews.com,sahabat-akmi.blogspot.com,satugoogle.blogspot.com,scanharga.com,sheptyiecha.com,steffifauziah.com,techno-ct2.eu.org,tourketurki.com,upahminimum.com#%#//scriptlet('ubo-aopr.js', 'document.onselectstart')"
-akupakarblog.blogspot.com,amplaumplu.com,ardra.biz,balimediakomputer.com,balipost.com,blog-dnz.com,broexcel.com,chiarafarina.blogspot.com,dailysocial.id,dedyakas.com,dinaspajak.com,dosenonline.id,duniamu38.com,fendydjael.blogspot.com,gudangcoding.com,gudangcodingaplikasi.blogspot.com,gurupenyemangat.com,hazamusik.com,heru.my.id,icloudice.com,invesnesia.com,iwakbuncit.com,kabarmakkah.com,listrik-praktis.com,mediametropolitan.id,menoreh.net,metodepraktis.com,miuitutorial.com,pintudunia.com,rajaonline.my.id,rajasanews.com,sahabat-akmi.blogspot.com,satugoogle.blogspot.com,scanharga.com,sheptyiecha.com,steffifauziah.com,techno-ct2.eu.org,tourketurki.com,upahminimum.com##+js(aopr, document.onselectstart)
+! Rule "akupakarblog.blogspot.com,amplaumplu.com,ardra.biz,balimediakomputer.com,balipost.com,blog-dnz.com,broexcel.com,cacatrik.com,chiarafarina.blogspot.com,dailysocial.id,dedyakas.com,dinaspajak.com,dosenonline.id,duniamu38.com,fendydjael.blogspot.com,gudangcoding.com,gudangcodingaplikasi.blogspot.com,gurupenyemangat.com,hazamusik.com,heru.my.id,icloudice.com,invesnesia.com,iwakbuncit.com,kabarmakkah.com,listrik-praktis.com,mediametropolitan.id,menoreh.net,metodepraktis.com,miuitutorial.com,pintudunia.com,rajaonline.my.id,rajasanews.com,sahabat-akmi.blogspot.com,satugoogle.blogspot.com,scanharga.com,sheptyiecha.com,steffifauziah.com,techno-ct2.eu.org,tentik.com,tourketurki.com,upahminimum.com##+js(aopr, document.onselectstart)" converted to: "akupakarblog.blogspot.com,amplaumplu.com,ardra.biz,balimediakomputer.com,balipost.com,blog-dnz.com,broexcel.com,cacatrik.com,chiarafarina.blogspot.com,dailysocial.id,dedyakas.com,dinaspajak.com,dosenonline.id,duniamu38.com,fendydjael.blogspot.com,gudangcoding.com,gudangcodingaplikasi.blogspot.com,gurupenyemangat.com,hazamusik.com,heru.my.id,icloudice.com,invesnesia.com,iwakbuncit.com,kabarmakkah.com,listrik-praktis.com,mediametropolitan.id,menoreh.net,metodepraktis.com,miuitutorial.com,pintudunia.com,rajaonline.my.id,rajasanews.com,sahabat-akmi.blogspot.com,satugoogle.blogspot.com,scanharga.com,sheptyiecha.com,steffifauziah.com,techno-ct2.eu.org,tentik.com,tourketurki.com,upahminimum.com#%#//scriptlet('ubo-aopr.js', 'document.onselectstart')"
+akupakarblog.blogspot.com,amplaumplu.com,ardra.biz,balimediakomputer.com,balipost.com,blog-dnz.com,broexcel.com,cacatrik.com,chiarafarina.blogspot.com,dailysocial.id,dedyakas.com,dinaspajak.com,dosenonline.id,duniamu38.com,fendydjael.blogspot.com,gudangcoding.com,gudangcodingaplikasi.blogspot.com,gurupenyemangat.com,hazamusik.com,heru.my.id,icloudice.com,invesnesia.com,iwakbuncit.com,kabarmakkah.com,listrik-praktis.com,mediametropolitan.id,menoreh.net,metodepraktis.com,miuitutorial.com,pintudunia.com,rajaonline.my.id,rajasanews.com,sahabat-akmi.blogspot.com,satugoogle.blogspot.com,scanharga.com,sheptyiecha.com,steffifauziah.com,techno-ct2.eu.org,tentik.com,tourketurki.com,upahminimum.com##+js(aopr, document.onselectstart)
 ! Rule "detikbanten.com##+js(aopw, disableSelection)" converted to: "detikbanten.com#%#//scriptlet('ubo-aopw.js', 'disableSelection')"
 detikbanten.com##+js(aopw, disableSelection)
 ! Rule "1001tutorial.com,alternatifmu.com,animenyus.com,apabedanya.com,bacamalang.com,barusinopsis.blogspot.com,besoksore.com,binarayaberkahutama.com,bloggermuntilan.com,bospajak.com,burungnya.com,cilegonnews.com,contohsurat.co,daftarhewan.com,egsean.com,ekor9.com,hargacampur.com,hitlava.com,jakartastudio.com,jayaherlambang.com,kagetweb.com,kanzalia.com,lesiaso.com,malangnews.id,mditack.co.id,mengapa.net,miuiarena.com,nandatrio.com,nusramedia.com,overlordfree.web.id,radiokucing.com,renovrainbow.com,selatsunda.com,siantarupdate.com,smppgrisatubdl.com,sorodot.com,suaraindonesianews.com,suarapapua.com,teraa.net,tipssehatcantik.com,tobasatu.comx,yunoya.id##+js(aopw, document.onselectstart)" converted to: "1001tutorial.com,alternatifmu.com,animenyus.com,apabedanya.com,bacamalang.com,barusinopsis.blogspot.com,besoksore.com,binarayaberkahutama.com,bloggermuntilan.com,bospajak.com,burungnya.com,cilegonnews.com,contohsurat.co,daftarhewan.com,egsean.com,ekor9.com,hargacampur.com,hitlava.com,jakartastudio.com,jayaherlambang.com,kagetweb.com,kanzalia.com,lesiaso.com,malangnews.id,mditack.co.id,mengapa.net,miuiarena.com,nandatrio.com,nusramedia.com,overlordfree.web.id,radiokucing.com,renovrainbow.com,selatsunda.com,siantarupdate.com,smppgrisatubdl.com,sorodot.com,suaraindonesianews.com,suarapapua.com,teraa.net,tipssehatcantik.com,tobasatu.comx,yunoya.id#%#//scriptlet('ubo-aopw.js', 'document.onselectstart')"
@@ -1042,38 +910,42 @@ _usafelink.$3p,script
 /VoreCorporation/Customer-Host/*$3p,script
 ! Rule "/xmithzyl/safelink/*$3p,script" converted to: "/xmithzyl/safelink/*$third-party,script"
 /xmithzyl/safelink/*$3p,script
-! Rule "$3p,script,xhr,denyallow=disqus.com|disquscdn.com|fastlylb.net|googleapis.com,domain=nanimein.xyz|nonton08.com" converted to: "$third-party,script,xmlhttprequest,denyallow=disqus.com|disquscdn.com|fastlylb.net|googleapis.com,domain=nanimein.xyz|nonton08.com"
-$3p,script,xhr,denyallow=disqus.com|disquscdn.com|fastlylb.net|googleapis.com,domain=nanimein.xyz|nonton08.com
-! Rule "||161.97.125.184/wp-content/uploads/$~image,mp4" converted to: "||161.97.125.184/wp-content/uploads/$~image,redirect=noopmp4-1s,media"
-||161.97.125.184/wp-content/uploads/$~image,mp4
-! Rule "||194.163.150.84/wp-content/uploads/$~image,mp4" converted to: "||194.163.150.84/wp-content/uploads/$~image,redirect=noopmp4-1s,media"
-||194.163.150.84/wp-content/uploads/$~image,mp4
-! Rule "||213.136.91.132/wp-content/uploads/$~image,mp4" converted to: "||213.136.91.132/wp-content/uploads/$~image,redirect=noopmp4-1s,media"
-||213.136.91.132/wp-content/uploads/$~image,mp4
-! Rule "||38.242.215.228/wp-content/uploads/$~image,mp4" converted to: "||38.242.215.228/wp-content/uploads/$~image,redirect=noopmp4-1s,media"
-||38.242.215.228/wp-content/uploads/$~image,mp4
+! Rule "*$3p,script,xhr,domain=nonton08.com,denyallow=disqus.com|disquscdn.com|fastlylb.net|googleapis.com" converted to: "*$third-party,script,xmlhttprequest,domain=nonton08.com,denyallow=disqus.com|disquscdn.com|fastlylb.net|googleapis.com"
+*$3p,script,xhr,domain=nonton08.com,denyallow=disqus.com|disquscdn.com|fastlylb.net|googleapis.com
+! Rule "||212.224.88.51/wp-content/uploads/$mp4" converted to: "||212.224.88.51/wp-content/uploads/$redirect=noopmp4-1s,media"
+||212.224.88.51/wp-content/uploads/$mp4
+! Rule "||213.136.91.132/wp-content/uploads/$mp4" converted to: "||213.136.91.132/wp-content/uploads/$redirect=noopmp4-1s,media"
+||213.136.91.132/wp-content/uploads/$mp4
+! Rule "||38.242.215.228/wp-content/uploads/$mp4" converted to: "||38.242.215.228/wp-content/uploads/$redirect=noopmp4-1s,media"
+||38.242.215.228/wp-content/uploads/$mp4
+! Rule "||45.144.31.240/wp-content/uploads/$mp4" converted to: "||45.144.31.240/wp-content/uploads/$redirect=noopmp4-1s,media"
+||45.144.31.240/wp-content/uploads/$mp4
 ! Rule "||api.nontongo.win/promomenubola.xml$xhr" converted to: "||api.nontongo.win/promomenubola.xml$xmlhttprequest"
 ||api.nontongo.win/promomenubola.xml$xhr
 ! Rule "||bebasdownloadfilm.com/iframe/content.php$frame" converted to: "||bebasdownloadfilm.com/iframe/content.php$subdocument"
 ||bebasdownloadfilm.com/iframe/content.php$frame
+! Rule "||idlix.live/static/video/HD1080.mp4$3p,mp4" converted to: "||idlix.live/static/video/HD1080.mp4$third-party,redirect=noopmp4-1s,media"
+||idlix.live/static/video/HD1080.mp4$3p,mp4
+! Rule "||indexmovies.xyz/Luxury777.mp4$mp4" converted to: "||indexmovies.xyz/Luxury777.mp4$redirect=noopmp4-1s,media"
+||indexmovies.xyz/Luxury777.mp4$mp4
 ! Rule "||konveti.onicdn.xyz/adam/*.mp4$mp4" converted to: "||konveti.onicdn.xyz/adam/*.mp4$redirect=noopmp4-1s,media"
 ||konveti.onicdn.xyz/adam/*.mp4$mp4
-! Rule "93.104.211.22##.bannerplayer:remove()" converted to: "93.104.211.22#$?#.bannerplayer { remove: true; }"
-93.104.211.22##.bannerplayer:remove()
-! Rule "185.231.223.254,shinobijawi.id,tohaboy.web.id,zonachina21.blogspot.com##+js(acis, addEventListener, DOMNodeRemoved)" converted to: "185.231.223.254,shinobijawi.id,tohaboy.web.id,zonachina21.blogspot.com#%#//scriptlet('ubo-acis.js', 'addEventListener', 'DOMNodeRemoved')"
-185.231.223.254,shinobijawi.id,tohaboy.web.id,zonachina21.blogspot.com##+js(acis, addEventListener, DOMNodeRemoved)
-! Rule "nanidrama.com,nezunime.com##+js(acis, ai_run_scripts)" converted to: "nanidrama.com,nezunime.com#%#//scriptlet('ubo-acis.js', 'ai_run_scripts')"
-nanidrama.com,nezunime.com##+js(acis, ai_run_scripts)
+! Rule "||pusatfilm21.info/wp-content/uploads/*/388hero.mp4$3p,mp4" converted to: "||pusatfilm21.info/wp-content/uploads/*/388hero.mp4$third-party,redirect=noopmp4-1s,media"
+||pusatfilm21.info/wp-content/uploads/*/388hero.mp4$3p,mp4
+! Rule "nezunime.com##+js(acis, ai_run_scripts)" converted to: "nezunime.com#%#//scriptlet('ubo-acis.js', 'ai_run_scripts')"
+nezunime.com##+js(acis, ai_run_scripts)
+! Rule "layardrama21.icu##+js(acis, chp_ads_blocker_detector)" converted to: "layardrama21.icu#%#//scriptlet('ubo-acis.js', 'chp_ads_blocker_detector')"
+layardrama21.icu##+js(acis, chp_ads_blocker_detector)
 ! Rule "subindo.sbs##+js(aopr, absda)" converted to: "subindo.sbs#%#//scriptlet('ubo-aopr.js', 'absda')"
 subindo.sbs##+js(aopr, absda)
-! Rule "blackavelic.com,kudonime.xyz,mikanime.com,onbatch.my.id##+js(aopr, adBlockDetected)" converted to: "blackavelic.com,kudonime.xyz,mikanime.com,onbatch.my.id#%#//scriptlet('ubo-aopr.js', 'adBlockDetected')"
-blackavelic.com,kudonime.xyz,mikanime.com,onbatch.my.id##+js(aopr, adBlockDetected)
+! Rule "kudonime.xyz,mikanime.com,onbatch.my.id##+js(aopr, adBlockDetected)" converted to: "kudonime.xyz,mikanime.com,onbatch.my.id#%#//scriptlet('ubo-aopr.js', 'adBlockDetected')"
+kudonime.xyz,mikanime.com,onbatch.my.id##+js(aopr, adBlockDetected)
 ! Rule "koenime.com##+js(aopr, adblockModal)" converted to: "koenime.com#%#//scriptlet('ubo-aopr.js', 'adblockModal')"
 koenime.com##+js(aopr, adblockModal)
-! Rule "filmboxoffice.web.id,neosubs.net,tohaboy.web.id##+js(aopr, anOptions)" converted to: "filmboxoffice.web.id,neosubs.net,tohaboy.web.id#%#//scriptlet('ubo-aopr.js', 'anOptions')"
-filmboxoffice.web.id,neosubs.net,tohaboy.web.id##+js(aopr, anOptions)
-! Rule "koenime.web.id##+js(aopr, chp_ads_blocker_detector)" converted to: "koenime.web.id#%#//scriptlet('ubo-aopr.js', 'chp_ads_blocker_detector')"
-koenime.web.id##+js(aopr, chp_ads_blocker_detector)
+! Rule "filmboxoffice.web.id,neosubs.net##+js(aopr, anOptions)" converted to: "filmboxoffice.web.id,neosubs.net#%#//scriptlet('ubo-aopr.js', 'anOptions')"
+filmboxoffice.web.id,neosubs.net##+js(aopr, anOptions)
+! Rule "oploverz.tokyo##+js(aopr, chp_adblock_browser)" converted to: "oploverz.tokyo#%#//scriptlet('ubo-aopr.js', 'chp_adblock_browser')"
+oploverz.tokyo##+js(aopr, chp_adblock_browser)
 ! Rule "animesaku.com##+js(aopr, tie.ad_blocker_detector)" converted to: "animesaku.com#%#//scriptlet('ubo-aopr.js', 'tie.ad_blocker_detector')"
 animesaku.com##+js(aopr, tie.ad_blocker_detector)
 ! Rule "167.99.31.48,doramaflix.com,dramaencode.xyz,dramazon.id,driverays.com,koenime.com##+js(nobab)" converted to: "167.99.31.48,doramaflix.com,dramaencode.xyz,dramazon.id,driverays.com,koenime.com#%#//scriptlet('ubo-nobab.js')"
@@ -1082,60 +954,58 @@ animesaku.com##+js(aopr, tie.ad_blocker_detector)
 anidraw.net##+js(set, config.adblock, null)
 ! Rule "5.182.210.145,akashinime.com##+js(acis, eval, replace)" converted to: "5.182.210.145,akashinime.com#%#//scriptlet('ubo-acis.js', 'eval', 'replace')"
 5.182.210.145,akashinime.com##+js(acis, eval, replace)
-! Rule "38.242.198.170,38.242.199.52,5.182.211.129,91.208.197.24##+js(aeld, DOMContentLoaded, adsBlocked)" converted to: "38.242.198.170,38.242.199.52,5.182.211.129,91.208.197.24#%#//scriptlet('ubo-aeld.js', 'DOMContentLoaded', 'adsBlocked')"
-38.242.198.170,38.242.199.52,5.182.211.129,91.208.197.24##+js(aeld, DOMContentLoaded, adsBlocked)
+! Rule "5.182.211.129##+js(aeld, DOMContentLoaded, adsBlocked)" converted to: "5.182.211.129#%#//scriptlet('ubo-aeld.js', 'DOMContentLoaded', 'adsBlocked')"
+5.182.211.129##+js(aeld, DOMContentLoaded, adsBlocked)
 ! Rule "animecracks.com##+js(aopr, mdpDeBlocker)" converted to: "animecracks.com#%#//scriptlet('ubo-aopr.js', 'mdpDeBlocker')"
 animecracks.com##+js(aopr, mdpDeBlocker)
 ! Rule "dhaniproduction.com##+js(aopr, wcadbwp)" converted to: "dhaniproduction.com#%#//scriptlet('ubo-aopr.js', 'wcadbwp')"
 dhaniproduction.com##+js(aopr, wcadbwp)
-! Rule "/adsby.$image,redirect=2x2.png,domain=62.182.83.93" converted to: "/adsby.$image,redirect=2x2-transparent.png,domain=62.182.83.93"
-/adsby.$image,redirect=2x2.png,domain=62.182.83.93
 ! Rule "@@||ryuukoi.web.id^$ghide,badfilter" converted to: "@@||ryuukoi.web.id^$generichide,badfilter"
 @@||ryuukoi.web.id^$ghide,badfilter
-! Rule "194.163.183.129##+js(acis, Math, break)" converted to: "194.163.183.129#%#//scriptlet('ubo-acis.js', 'Math', 'break')"
-194.163.183.129##+js(acis, Math, break)
-! Rule "51.79.146.226##+js(acis, SGPopup)" converted to: "51.79.146.226#%#//scriptlet('ubo-acis.js', 'SGPopup')"
-51.79.146.226##+js(acis, SGPopup)
+! Rule "0.0.realodix##+js(acis, Math, break)" converted to: "0.0.realodix#%#//scriptlet('ubo-acis.js', 'Math', 'break')"
+0.0.realodix##+js(acis, Math, break)
+! Rule "oploverz.tv##+js(acis, SGPopup)" converted to: "oploverz.tv#%#//scriptlet('ubo-acis.js', 'SGPopup')"
+oploverz.tv##+js(acis, SGPopup)
 ! Rule "dramaluv.com##+js(acis, decodeURI, decodeURIComponent)" converted to: "dramaluv.com#%#//scriptlet('ubo-acis.js', 'decodeURI', 'decodeURIComponent')"
 dramaluv.com##+js(acis, decodeURI, decodeURIComponent)
-! Rule "109.205.183.156,109.205.183.213,144.126.141.214,144.126.144.40,144.126.144.41,144.126.146.236,144.126.147.95,149.102.137.68,161.97.125.184,161.97.86.180,173.212.244.21,185.225.232.52,38.242.196.210,93.104.211.22,drakorfans.com##+js(acis, puShown , /doOpen|popundr/)" converted to: "109.205.183.156,109.205.183.213,144.126.141.214,144.126.144.40,144.126.144.41,144.126.146.236,144.126.147.95,149.102.137.68,161.97.125.184,161.97.86.180,173.212.244.21,185.225.232.52,38.242.196.210,93.104.211.22,drakorfans.com#%#//scriptlet('ubo-acis.js', 'puShown', '/doOpen|popundr/')"
-109.205.183.156,109.205.183.213,144.126.141.214,144.126.144.40,144.126.144.41,144.126.146.236,144.126.147.95,149.102.137.68,161.97.125.184,161.97.86.180,173.212.244.21,185.225.232.52,38.242.196.210,93.104.211.22,drakorfans.com##+js(acis, puShown , /doOpen|popundr/)
-! Rule "104.161.33.116,104.161.33.126,148.163.72.77,199.231.164.28##+js(aopr, $, SPU_master)" converted to: "104.161.33.116,104.161.33.126,148.163.72.77,199.231.164.28#%#//scriptlet('ubo-aopr.js', '$', 'SPU_master')"
-104.161.33.116,104.161.33.126,148.163.72.77,199.231.164.28##+js(aopr, $, SPU_master)
-! Rule "104.161.33.103,107.152.36.57,111.90.142.149,139.99.33.217,144.126.147.95,144.91.98.14,148.163.72.89,15.235.147.107,173.212.233.209,185.173.38.216,185.212.128.50,185.212.128.53,185.224.83.128,194.163.142.218,194.67.196.93,199.231.164.17,213.136.91.132,37.49.229.132,38.242.196.210,38.242.236.29,45.141.56.103,5.189.166.52,62.141.43.154,62.171.143.175,91.230.121.24,brindecousette.com,mataharimall.xyz##+js(aopr, $.magnificPopup.open)" converted to: "104.161.33.103,107.152.36.57,111.90.142.149,139.99.33.217,144.126.147.95,144.91.98.14,148.163.72.89,15.235.147.107,173.212.233.209,185.173.38.216,185.212.128.50,185.212.128.53,185.224.83.128,194.163.142.218,194.67.196.93,199.231.164.17,213.136.91.132,37.49.229.132,38.242.196.210,38.242.236.29,45.141.56.103,5.189.166.52,62.141.43.154,62.171.143.175,91.230.121.24,brindecousette.com,mataharimall.xyz#%#//scriptlet('ubo-aopr.js', '$.magnificPopup.open')"
-104.161.33.103,107.152.36.57,111.90.142.149,139.99.33.217,144.126.147.95,144.91.98.14,148.163.72.89,15.235.147.107,173.212.233.209,185.173.38.216,185.212.128.50,185.212.128.53,185.224.83.128,194.163.142.218,194.67.196.93,199.231.164.17,213.136.91.132,37.49.229.132,38.242.196.210,38.242.236.29,45.141.56.103,5.189.166.52,62.141.43.154,62.171.143.175,91.230.121.24,brindecousette.com,mataharimall.xyz##+js(aopr, $.magnificPopup.open)
+! Rule "144.126.141.214,144.126.144.41,161.97.86.180##+js(acis, puShown , /doOpen|popundr/)" converted to: "144.126.141.214,144.126.144.41,161.97.86.180#%#//scriptlet('ubo-acis.js', 'puShown', '/doOpen|popundr/')"
+144.126.141.214,144.126.144.41,161.97.86.180##+js(acis, puShown , /doOpen|popundr/)
+! Rule "0.0.realodix##+js(aopr, $, SPU_master)" converted to: "0.0.realodix#%#//scriptlet('ubo-aopr.js', '$', 'SPU_master')"
+0.0.realodix##+js(aopr, $, SPU_master)
+! Rule "104.161.33.103,107.152.36.57,111.90.142.149,139.99.33.217,213.136.91.132,37.49.229.132,45.141.56.103,62.171.143.175,brindecousette.com,mataharimall.xyz##+js(aopr, $.magnificPopup.open)" converted to: "104.161.33.103,107.152.36.57,111.90.142.149,139.99.33.217,213.136.91.132,37.49.229.132,45.141.56.103,62.171.143.175,brindecousette.com,mataharimall.xyz#%#//scriptlet('ubo-aopr.js', '$.magnificPopup.open')"
+104.161.33.103,107.152.36.57,111.90.142.149,139.99.33.217,213.136.91.132,37.49.229.132,45.141.56.103,62.171.143.175,brindecousette.com,mataharimall.xyz##+js(aopr, $.magnificPopup.open)
 ! Rule "otakudere.net##+js(aopr, Light.Popup)" converted to: "otakudere.net#%#//scriptlet('ubo-aopr.js', 'Light.Popup')"
 otakudere.net##+js(aopr, Light.Popup)
-! Rule "185.231.223.76##+js(aopr, PBlib)" converted to: "185.231.223.76#%#//scriptlet('ubo-aopr.js', 'PBlib')"
-185.231.223.76##+js(aopr, PBlib)
-! Rule "144.91.117.175,15.235.11.45,65.108.132.145##+js(aopr, SGPB_POPUP_PARAMS)" converted to: "144.91.117.175,15.235.11.45,65.108.132.145#%#//scriptlet('ubo-aopr.js', 'SGPB_POPUP_PARAMS')"
-144.91.117.175,15.235.11.45,65.108.132.145##+js(aopr, SGPB_POPUP_PARAMS)
+! Rule "0.0.realodix##+js(aopr, PBlib)" converted to: "0.0.realodix#%#//scriptlet('ubo-aopr.js', 'PBlib')"
+0.0.realodix##+js(aopr, PBlib)
+! Rule "checast.com,sattorrent.com##+js(aopr, SGPB_POPUP_PARAMS)" converted to: "checast.com,sattorrent.com#%#//scriptlet('ubo-aopr.js', 'SGPB_POPUP_PARAMS')"
+checast.com,sattorrent.com##+js(aopr, SGPB_POPUP_PARAMS)
 ! Rule "lengket.com,sangkut.com##+js(aopr, SmartPopunder)" converted to: "lengket.com,sangkut.com#%#//scriptlet('ubo-aopr.js', 'SmartPopunder')"
 lengket.com,sangkut.com##+js(aopr, SmartPopunder)
-! Rule "koenime.web.id##+js(aopr, popup_custom_data)" converted to: "koenime.web.id#%#//scriptlet('ubo-aopr.js', 'popup_custom_data')"
-koenime.web.id##+js(aopr, popup_custom_data)
 ! Rule "159.65.11.63##+js(aopr, showPopUpBanner)" converted to: "159.65.11.63#%#//scriptlet('ubo-aopr.js', 'showPopUpBanner')"
 159.65.11.63##+js(aopr, showPopUpBanner)
-! Rule "filmxxi.co##+js(aopr, ujiPopups)" converted to: "filmxxi.co#%#//scriptlet('ubo-aopr.js', 'ujiPopups')"
-filmxxi.co##+js(aopr, ujiPopups)
-! Rule "95.111.231.122##+js(aopr, window.pum_popups)" converted to: "95.111.231.122#%#//scriptlet('ubo-aopr.js', 'window.pum_popups')"
-95.111.231.122##+js(aopr, window.pum_popups)
-! Rule "103.194.171.18,111.90.150.31,139.99.61.225,144.126.136.208,144.126.148.112,149.102.137.70,149.102.143.158,154.12.235.118,154.53.35.209,154.53.44.56,161.97.149.35,161.97.86.165,173.212.216.207,176.119.30.88,176.57.150.203,185.192.96.125,185.217.93.56,185.224.83.34,185.241.151.22,193.164.131.42,194.147.58.136,194.163.129.165,194.163.137.202,194.163.139.52,194.163.150.84,194.163.154.34,194.163.157.243,194.242.56.199,199.231.164.17,38.242.129.194,38.242.195.41,38.242.202.148,38.242.237.91,45.67.230.2,51.79.159.65,62.182.82.226,66.94.127.15,75.119.136.118,75.119.139.75,75.119.152.230,75.119.155.191,amoviemedia.com,anichin.my.id,clampschoolholic.web.id,drakorindoo.net,huntersekai.download,indodrama.net,layarfilm21.website,nanidrama.com,negumo.com,nimegami.id,oploverz.web.id,putingfilm.com,samehadaku.icu,sobatgo.xyz,subindo.sbs##+js(window.open-defuser)" converted to: "103.194.171.18,111.90.150.31,139.99.61.225,144.126.136.208,144.126.148.112,149.102.137.70,149.102.143.158,154.12.235.118,154.53.35.209,154.53.44.56,161.97.149.35,161.97.86.165,173.212.216.207,176.119.30.88,176.57.150.203,185.192.96.125,185.217.93.56,185.224.83.34,185.241.151.22,193.164.131.42,194.147.58.136,194.163.129.165,194.163.137.202,194.163.139.52,194.163.150.84,194.163.154.34,194.163.157.243,194.242.56.199,199.231.164.17,38.242.129.194,38.242.195.41,38.242.202.148,38.242.237.91,45.67.230.2,51.79.159.65,62.182.82.226,66.94.127.15,75.119.136.118,75.119.139.75,75.119.152.230,75.119.155.191,amoviemedia.com,anichin.my.id,clampschoolholic.web.id,drakorindoo.net,huntersekai.download,indodrama.net,layarfilm21.website,nanidrama.com,negumo.com,nimegami.id,oploverz.web.id,putingfilm.com,samehadaku.icu,sobatgo.xyz,subindo.sbs#%#//scriptlet('ubo-window.open-defuser.js')"
-103.194.171.18,111.90.150.31,139.99.61.225,144.126.136.208,144.126.148.112,149.102.137.70,149.102.143.158,154.12.235.118,154.53.35.209,154.53.44.56,161.97.149.35,161.97.86.165,173.212.216.207,176.119.30.88,176.57.150.203,185.192.96.125,185.217.93.56,185.224.83.34,185.241.151.22,193.164.131.42,194.147.58.136,194.163.129.165,194.163.137.202,194.163.139.52,194.163.150.84,194.163.154.34,194.163.157.243,194.242.56.199,199.231.164.17,38.242.129.194,38.242.195.41,38.242.202.148,38.242.237.91,45.67.230.2,51.79.159.65,62.182.82.226,66.94.127.15,75.119.136.118,75.119.139.75,75.119.152.230,75.119.155.191,amoviemedia.com,anichin.my.id,clampschoolholic.web.id,drakorindoo.net,huntersekai.download,indodrama.net,layarfilm21.website,nanidrama.com,negumo.com,nimegami.id,oploverz.web.id,putingfilm.com,samehadaku.icu,sobatgo.xyz,subindo.sbs##+js(window.open-defuser)
+! Rule "filmxxi.co,juraganmovie.club##+js(aopr, ujiPopups)" converted to: "filmxxi.co,juraganmovie.club#%#//scriptlet('ubo-aopr.js', 'ujiPopups')"
+filmxxi.co,juraganmovie.club##+js(aopr, ujiPopups)
+! Rule "0.0.realodix##+js(aopr, window.pum_popups)" converted to: "0.0.realodix#%#//scriptlet('ubo-aopr.js', 'window.pum_popups')"
+0.0.realodix##+js(aopr, window.pum_popups)
+! Rule "139.99.61.225,144.126.148.112,144.91.116.224,144.91.76.123,149.102.143.155,149.102.143.158,154.12.235.118,159.253.120.195,159.253.120.58,161.97.152.47,161.97.167.120,161.97.86.165,167.86.125.4,173.212.216.207,176.119.30.88,176.123.2.122,176.57.150.203,178.18.254.0,185.192.96.125,185.234.69.69,194.163.139.52,194.242.56.199,209.126.1.119,212.224.88.51,217.76.48.32,217.76.57.125,217.76.57.139,31.172.83.181,31.172.83.245,38.242.195.41,38.242.202.148,38.242.202.181,38.242.237.91,38.242.255.224,75.119.147.15,75.119.159.194,75.119.159.38,89.117.53.104,89.117.58.137,89.117.58.216,89.117.58.222,89.117.58.249,89.117.62.102,91.208.206.98,91.229.239.100,91.229.239.150,91.229.239.246,91.229.239.55,amoviemedia.com,bioskopvirtual.com,clampschoolholic.web.id,drakorindos.bond,huntersekai.download,negumo.com,nimegami.id,putingfilm.com,samehada.care,sobatgo.xyz,subindo.sbs##+js(window.open-defuser)" converted to: "139.99.61.225,144.126.148.112,144.91.116.224,144.91.76.123,149.102.143.155,149.102.143.158,154.12.235.118,159.253.120.195,159.253.120.58,161.97.152.47,161.97.167.120,161.97.86.165,167.86.125.4,173.212.216.207,176.119.30.88,176.123.2.122,176.57.150.203,178.18.254.0,185.192.96.125,185.234.69.69,194.163.139.52,194.242.56.199,209.126.1.119,212.224.88.51,217.76.48.32,217.76.57.125,217.76.57.139,31.172.83.181,31.172.83.245,38.242.195.41,38.242.202.148,38.242.202.181,38.242.237.91,38.242.255.224,75.119.147.15,75.119.159.194,75.119.159.38,89.117.53.104,89.117.58.137,89.117.58.216,89.117.58.222,89.117.58.249,89.117.62.102,91.208.206.98,91.229.239.100,91.229.239.150,91.229.239.246,91.229.239.55,amoviemedia.com,bioskopvirtual.com,clampschoolholic.web.id,drakorindos.bond,huntersekai.download,negumo.com,nimegami.id,putingfilm.com,samehada.care,sobatgo.xyz,subindo.sbs#%#//scriptlet('ubo-window.open-defuser.js')"
+139.99.61.225,144.126.148.112,144.91.116.224,144.91.76.123,149.102.143.155,149.102.143.158,154.12.235.118,159.253.120.195,159.253.120.58,161.97.152.47,161.97.167.120,161.97.86.165,167.86.125.4,173.212.216.207,176.119.30.88,176.123.2.122,176.57.150.203,178.18.254.0,185.192.96.125,185.234.69.69,194.163.139.52,194.242.56.199,209.126.1.119,212.224.88.51,217.76.48.32,217.76.57.125,217.76.57.139,31.172.83.181,31.172.83.245,38.242.195.41,38.242.202.148,38.242.202.181,38.242.237.91,38.242.255.224,75.119.147.15,75.119.159.194,75.119.159.38,89.117.53.104,89.117.58.137,89.117.58.216,89.117.58.222,89.117.58.249,89.117.62.102,91.208.206.98,91.229.239.100,91.229.239.150,91.229.239.246,91.229.239.55,amoviemedia.com,bioskopvirtual.com,clampschoolholic.web.id,drakorindos.bond,huntersekai.download,negumo.com,nimegami.id,putingfilm.com,samehada.care,sobatgo.xyz,subindo.sbs##+js(window.open-defuser)
 ! Rule "putingfilm.com##+js(acis, parseInt, break;case $.)" converted to: "putingfilm.com#%#//scriptlet('ubo-acis.js', 'parseInt', 'break;case $.')"
 putingfilm.com##+js(acis, parseInt, break;case $.)
-! Rule "112mov.xyz,45.14.226.136,45.148.122.191###popbox:remove()" converted to: "112mov.xyz,45.14.226.136,45.148.122.191#$?##popbox { remove: true; }"
-112mov.xyz,45.14.226.136,45.148.122.191###popbox:remove()
-! Rule "144.126.148.112,148.163.72.90,161.97.174.8,161.97.86.165,178.18.242.20,185.99.135.222,185.99.135.247,23.92.79.80,75.119.132.68,drachindo.us,koenime.com##+js(aopr, popup_custom_data)" converted to: "144.126.148.112,148.163.72.90,161.97.174.8,161.97.86.165,178.18.242.20,185.99.135.222,185.99.135.247,23.92.79.80,75.119.132.68,drachindo.us,koenime.com#%#//scriptlet('ubo-aopr.js', 'popup_custom_data')"
-144.126.148.112,148.163.72.90,161.97.174.8,161.97.86.165,178.18.242.20,185.99.135.222,185.99.135.247,23.92.79.80,75.119.132.68,drachindo.us,koenime.com##+js(aopr, popup_custom_data)
-! Rule "185.231.223.71##+js(ra, href, #clickfakeplayer)" converted to: "185.231.223.71#%#//scriptlet('ubo-ra.js', 'href', '#clickfakeplayer')"
-185.231.223.71##+js(ra, href, #clickfakeplayer)
-! Rule "animebatch.in,wibudesu.co##+js(aopr, app_url)" converted to: "animebatch.in,wibudesu.co#%#//scriptlet('ubo-aopr.js', 'app_url')"
-animebatch.in,wibudesu.co##+js(aopr, app_url)
+! Rule "jfweb10.xyz,jfweb11.xyz,jfweb12.xyz,jfweb13.xyz,jfweb14.xyz,jfweb15.xyz,jfweb16.xyz,jfweb17.xyz,jfweb18.xyz,jfweb19.xyz,jfweb2.xyz,jfweb20.xyz,jfweb4.xyz,jfweb5.xyz,jfweb6.xyz,jfweb8.xyz,jfweb9.xyz,juraganfilm.space##+js(aopr, $.magnificPopup.open)" converted to: "jfweb10.xyz,jfweb11.xyz,jfweb12.xyz,jfweb13.xyz,jfweb14.xyz,jfweb15.xyz,jfweb16.xyz,jfweb17.xyz,jfweb18.xyz,jfweb19.xyz,jfweb2.xyz,jfweb20.xyz,jfweb4.xyz,jfweb5.xyz,jfweb6.xyz,jfweb8.xyz,jfweb9.xyz,juraganfilm.space#%#//scriptlet('ubo-aopr.js', '$.magnificPopup.open')"
+jfweb10.xyz,jfweb11.xyz,jfweb12.xyz,jfweb13.xyz,jfweb14.xyz,jfweb15.xyz,jfweb16.xyz,jfweb17.xyz,jfweb18.xyz,jfweb19.xyz,jfweb2.xyz,jfweb20.xyz,jfweb4.xyz,jfweb5.xyz,jfweb6.xyz,jfweb8.xyz,jfweb9.xyz,juraganfilm.space##+js(aopr, $.magnificPopup.open)
+! Rule "45.14.226.136,45.148.122.191###popbox:remove()" converted to: "45.14.226.136,45.148.122.191#$?##popbox { remove: true; }"
+45.14.226.136,45.148.122.191###popbox:remove()
+! Rule "0.0.realodix,144.126.148.112,149.102.143.158,161.97.152.47,161.97.86.165,164.68.116.123,178.18.242.20,185.217.93.17,185.99.135.244,193.57.137.12,212.224.88.51,217.76.59.156,31.172.83.181,38.242.202.181,38.242.237.91,45.129.230.100,75.119.130.231,75.119.132.68,89.117.53.104,89.117.58.222,91.208.206.98,drachindo.info,koenime.com##+js(aopr, popup_custom_data)" converted to: "0.0.realodix,144.126.148.112,149.102.143.158,161.97.152.47,161.97.86.165,164.68.116.123,178.18.242.20,185.217.93.17,185.99.135.244,193.57.137.12,212.224.88.51,217.76.59.156,31.172.83.181,38.242.202.181,38.242.237.91,45.129.230.100,75.119.130.231,75.119.132.68,89.117.53.104,89.117.58.222,91.208.206.98,drachindo.info,koenime.com#%#//scriptlet('ubo-aopr.js', 'popup_custom_data')"
+0.0.realodix,144.126.148.112,149.102.143.158,161.97.152.47,161.97.86.165,164.68.116.123,178.18.242.20,185.217.93.17,185.99.135.244,193.57.137.12,212.224.88.51,217.76.59.156,31.172.83.181,38.242.202.181,38.242.237.91,45.129.230.100,75.119.130.231,75.119.132.68,89.117.53.104,89.117.58.222,91.208.206.98,drachindo.info,koenime.com##+js(aopr, popup_custom_data)
+! Rule "samehada.care##+js(aopr, app_get_url)" converted to: "samehada.care#%#//scriptlet('ubo-aopr.js', 'app_get_url')"
+samehada.care##+js(aopr, app_get_url)
+! Rule "koenime.net,wibudesu.co##+js(aopr, app_url)" converted to: "koenime.net,wibudesu.co#%#//scriptlet('ubo-aopr.js', 'app_url')"
+koenime.net,wibudesu.co##+js(aopr, app_url)
 ! Rule "mikanime.com##+js(aopr, encodeURIComponent)" converted to: "mikanime.com#%#//scriptlet('ubo-aopr.js', 'encodeURIComponent')"
 mikanime.com##+js(aopr, encodeURIComponent)
-! Rule "animebatch.id,animebatchs.org,awsubs.xyz,maxnime.com,meownime.moe,nimegami.com,nimegami.id##+js(aopr, go_url)" converted to: "animebatch.id,animebatchs.org,awsubs.xyz,maxnime.com,meownime.moe,nimegami.com,nimegami.id#%#//scriptlet('ubo-aopr.js', 'go_url')"
-animebatch.id,animebatchs.org,awsubs.xyz,maxnime.com,meownime.moe,nimegami.com,nimegami.id##+js(aopr, go_url)
+! Rule "animebatch.id,animebatchs.us,awsubs.xyz,maxnime.com,meownime.ai,nimegami.id##+js(aopr, go_url)" converted to: "animebatch.id,animebatchs.us,awsubs.xyz,maxnime.com,meownime.ai,nimegami.id#%#//scriptlet('ubo-aopr.js', 'go_url')"
+animebatch.id,animebatchs.us,awsubs.xyz,maxnime.com,meownime.ai,nimegami.id##+js(aopr, go_url)
 ! Rule "batchkun.com,keinime.web.id##+js(aopr, protected_links)" converted to: "batchkun.com,keinime.web.id#%#//scriptlet('ubo-aopr.js', 'protected_links')"
 batchkun.com,keinime.web.id##+js(aopr, protected_links)
 ! Rule "nekopoi.web.id##+js(aopr, showurl)" converted to: "nekopoi.web.id#%#//scriptlet('ubo-aopr.js', 'showurl')"
@@ -1146,78 +1016,70 @@ kuramanime.com##+js(aopr, sora_base_url)
 niihen.com##+js(aopr, auto_safelink)
 ! Rule "niihen.com##.entry-content div:matches-css(text-align: center) > a:style(display: inline !important;)" converted to: "niihen.com#$?#.entry-content div:matches-css(text-align: center) > a { display: inline !important; }"
 niihen.com##.entry-content div:matches-css(text-align: center) > a:style(display: inline !important;)
-! Rule "104.237.198.194,167.88.14.149,nekopoi.web.id##+js(ra, oncontextmenu|ondragstart|onkeydown|onmousedown|onselectstart|style, body)" converted to: "104.237.198.194,167.88.14.149,nekopoi.web.id#%#//scriptlet('ubo-ra.js', 'oncontextmenu|ondragstart|onkeydown|onmousedown|onselectstart|style', 'body')"
-104.237.198.194,167.88.14.149,nekopoi.web.id##+js(ra, oncontextmenu|ondragstart|onkeydown|onmousedown|onselectstart|style, body)
-! Rule "144.126.136.208,144.91.105.32,216.250.252.7,63.250.41.34,mikanime.com,odkblog.info,wibudesu.co##*:style(user-select: text !important; -webkit-user-select: text !important; -webkit-touch-callout: default !important;)" converted to: "144.126.136.208,144.91.105.32,216.250.252.7,63.250.41.34,mikanime.com,odkblog.info,wibudesu.co#$#* { user-select: text !important; -webkit-user-select: text !important; -webkit-touch-callout: default !important; }"
-144.126.136.208,144.91.105.32,216.250.252.7,63.250.41.34,mikanime.com,odkblog.info,wibudesu.co##*:style(user-select: text !important; -webkit-user-select: text !important; -webkit-touch-callout: default !important;)
-! Rule "144.91.105.32##+js(acis, disableEnterKey)" converted to: "144.91.105.32#%#//scriptlet('ubo-acis.js', 'disableEnterKey')"
-144.91.105.32##+js(acis, disableEnterKey)
-! Rule "216.250.252.7,62.182.85.168,63.250.41.34,mikanime.com,wibudesu.co##+js(acis, disableSelection, reEnable)" converted to: "216.250.252.7,62.182.85.168,63.250.41.34,mikanime.com,wibudesu.co#%#//scriptlet('ubo-acis.js', 'disableSelection', 'reEnable')"
-216.250.252.7,62.182.85.168,63.250.41.34,mikanime.com,wibudesu.co##+js(acis, disableSelection, reEnable)
-! Rule "144.91.105.32,63.250.41.34,otakudesu.bid##+js(acis, document.oncontextmenu)" converted to: "144.91.105.32,63.250.41.34,otakudesu.bid#%#//scriptlet('ubo-acis.js', 'document.oncontextmenu')"
-144.91.105.32,63.250.41.34,otakudesu.bid##+js(acis, document.oncontextmenu)
+! Rule "104.237.198.194,104.237.198.198,nekopoi.web.id##+js(ra, oncontextmenu|ondragstart|onkeydown|onmousedown|onselectstart|style, body)" converted to: "104.237.198.194,104.237.198.198,nekopoi.web.id#%#//scriptlet('ubo-ra.js', 'oncontextmenu|ondragstart|onkeydown|onmousedown|onselectstart|style', 'body')"
+104.237.198.194,104.237.198.198,nekopoi.web.id##+js(ra, oncontextmenu|ondragstart|onkeydown|onmousedown|onselectstart|style, body)
+! Rule "216.250.252.7,63.250.41.34,mikanime.com,wibudesu.co##*:style(user-select: text !important; -webkit-user-select: text !important; -webkit-touch-callout: default !important;)" converted to: "216.250.252.7,63.250.41.34,mikanime.com,wibudesu.co#$#* { user-select: text !important; -webkit-user-select: text !important; -webkit-touch-callout: default !important; }"
+216.250.252.7,63.250.41.34,mikanime.com,wibudesu.co##*:style(user-select: text !important; -webkit-user-select: text !important; -webkit-touch-callout: default !important;)
+! Rule "216.250.252.7,63.250.41.34,mikanime.com,wibudesu.co##+js(acis, disableSelection, reEnable)" converted to: "216.250.252.7,63.250.41.34,mikanime.com,wibudesu.co#%#//scriptlet('ubo-acis.js', 'disableSelection', 'reEnable')"
+216.250.252.7,63.250.41.34,mikanime.com,wibudesu.co##+js(acis, disableSelection, reEnable)
+! Rule "63.250.41.34,otakudesu.ltd##+js(acis, document.oncontextmenu)" converted to: "63.250.41.34,otakudesu.ltd#%#//scriptlet('ubo-acis.js', 'document.oncontextmenu')"
+63.250.41.34,otakudesu.ltd##+js(acis, document.oncontextmenu)
 ! Rule "akashinime.com##+js(acis, nocontextmenu)" converted to: "akashinime.com#%#//scriptlet('ubo-acis.js', 'nocontextmenu')"
 akashinime.com##+js(acis, nocontextmenu)
-! Rule "194.163.142.218,kawanfilm21.in##+js(aeld, /^(?:contextmenu|selectstart)$/)" converted to: "194.163.142.218,kawanfilm21.in#%#//scriptlet('ubo-aeld.js', '/^(?:contextmenu|selectstart)$/')"
-194.163.142.218,kawanfilm21.in##+js(aeld, /^(?:contextmenu|selectstart)$/)
-! Rule "144.91.105.32##+js(aeld, /touchstart|touchend/, wccp_pro_is_passive)" converted to: "144.91.105.32#%#//scriptlet('ubo-aeld.js', '/touchstart|touchend/', 'wccp_pro_is_passive')"
-144.91.105.32##+js(aeld, /touchstart|touchend/, wccp_pro_is_passive)
-! Rule "51.79.146.226##+js(aeld, contextmenu)" converted to: "51.79.146.226#%#//scriptlet('ubo-aeld.js', 'contextmenu')"
-51.79.146.226##+js(aeld, contextmenu)
+! Rule "0.0.realodix##+js(aeld, contextmenu)" converted to: "0.0.realodix#%#//scriptlet('ubo-aeld.js', 'contextmenu')"
+0.0.realodix##+js(aeld, contextmenu)
 ! Rule "kusonime.com##+js(aeld, keydown)" converted to: "kusonime.com#%#//scriptlet('ubo-aeld.js', 'keydown')"
 kusonime.com##+js(aeld, keydown)
-! Rule "185.217.93.56,188.119.113.246,216.250.252.7,kusonime.com##+js(aopr, document.oncontextmenu)" converted to: "185.217.93.56,188.119.113.246,216.250.252.7,kusonime.com#%#//scriptlet('ubo-aopr.js', 'document.oncontextmenu')"
-185.217.93.56,188.119.113.246,216.250.252.7,kusonime.com##+js(aopr, document.oncontextmenu)
+! Rule "104.237.198.198,216.250.252.7,kusonime.com##+js(aopr, document.oncontextmenu)" converted to: "104.237.198.198,216.250.252.7,kusonime.com#%#//scriptlet('ubo-aopr.js', 'document.oncontextmenu')"
+104.237.198.198,216.250.252.7,kusonime.com##+js(aopr, document.oncontextmenu)
 ! Rule "nekopoi.web.id##+js(aopr, document.oncopy)" converted to: "nekopoi.web.id#%#//scriptlet('ubo-aopr.js', 'document.oncopy')"
 nekopoi.web.id##+js(aopr, document.oncopy)
-! Rule "144.126.136.208##+js(aopr, document.onkeydown)" converted to: "144.126.136.208#%#//scriptlet('ubo-aopr.js', 'document.onkeydown')"
-144.126.136.208##+js(aopr, document.onkeydown)
-! Rule "kawanfilm21.in,serguruku.com##+js(aopr, document.onselectstart)" converted to: "kawanfilm21.in,serguruku.com#%#//scriptlet('ubo-aopr.js', 'document.onselectstart')"
-kawanfilm21.in,serguruku.com##+js(aopr, document.onselectstart)
+! Rule "0.0.realodix##+js(aopr, document.onkeydown)" converted to: "0.0.realodix#%#//scriptlet('ubo-aopr.js', 'document.onkeydown')"
+0.0.realodix##+js(aopr, document.onkeydown)
+! Rule "serguruku.com##+js(aopr, document.onselectstart)" converted to: "serguruku.com#%#//scriptlet('ubo-aopr.js', 'document.onselectstart')"
+serguruku.com##+js(aopr, document.onselectstart)
 ! Rule "mikanime.com##+js(aopr, nocontext)" converted to: "mikanime.com#%#//scriptlet('ubo-aopr.js', 'nocontext')"
 mikanime.com##+js(aopr, nocontext)
-! Rule "188.119.113.246##+js(aopw, document.onselectstart)" converted to: "188.119.113.246#%#//scriptlet('ubo-aopw.js', 'document.onselectstart')"
-188.119.113.246##+js(aopw, document.onselectstart)
+! Rule "0.0.realodix##+js(aopw, document.onselectstart)" converted to: "0.0.realodix#%#//scriptlet('ubo-aopw.js', 'document.onselectstart')"
+0.0.realodix##+js(aopw, document.onselectstart)
 ! Rule "wibudesu.co##+js(aopw, nocontext)" converted to: "wibudesu.co#%#//scriptlet('ubo-aopw.js', 'nocontext')"
 wibudesu.co##+js(aopw, nocontext)
-! Rule "104.219.250.135,144.91.105.32##+js(ra, oncontextmenu|onselectstart, body)" converted to: "104.219.250.135,144.91.105.32#%#//scriptlet('ubo-ra.js', 'oncontextmenu|onselectstart', 'body')"
-104.219.250.135,144.91.105.32##+js(ra, oncontextmenu|onselectstart, body)
-! Rule "194.163.142.218##+js(set, document.onselectstart, noopFunc)" converted to: "194.163.142.218#%#//scriptlet('ubo-set.js', 'document.onselectstart', 'noopFunc')"
-194.163.142.218##+js(set, document.onselectstart, noopFunc)
+! Rule "0.0.realodix##+js(ra, oncontextmenu|onselectstart, body)" converted to: "0.0.realodix#%#//scriptlet('ubo-ra.js', 'oncontextmenu|onselectstart', 'body')"
+0.0.realodix##+js(ra, oncontextmenu|onselectstart, body)
 ! Rule "mangaindo.web.id##+js(aopr, anOptions)" converted to: "mangaindo.web.id#%#//scriptlet('ubo-aopr.js', 'anOptions')"
 mangaindo.web.id##+js(aopr, anOptions)
-! Rule "komikmoe.web.id,komiku.id,manhwaid.fun,mgkomik.com,mihentai.com,novelgo.id,sektedoujin.info,sheamanga.my.id##+js(nobab)" converted to: "komikmoe.web.id,komiku.id,manhwaid.fun,mgkomik.com,mihentai.com,novelgo.id,sektedoujin.info,sheamanga.my.id#%#//scriptlet('ubo-nobab.js')"
-komikmoe.web.id,komiku.id,manhwaid.fun,mgkomik.com,mihentai.com,novelgo.id,sektedoujin.info,sheamanga.my.id##+js(nobab)
+! Rule "komikmoe.web.id,komiku.id,manhwaid.fun,mgkomik.com,mihentai.com,novelgo.id,sektedoujin.lol,sheamanga.my.id##+js(nobab)" converted to: "komikmoe.web.id,komiku.id,manhwaid.fun,mgkomik.com,mihentai.com,novelgo.id,sektedoujin.lol,sheamanga.my.id#%#//scriptlet('ubo-nobab.js')"
+komikmoe.web.id,komiku.id,manhwaid.fun,mgkomik.com,mihentai.com,novelgo.id,sektedoujin.lol,sheamanga.my.id##+js(nobab)
 ! Rule "@@||mangalist.org/url/lib/$1p,script" converted to: "@@||mangalist.org/url/lib/$~third-party,script"
 @@||mangalist.org/url/lib/$1p,script
 ! Rule "mangaindo.web.id##+js(acis, Math, zfgloaded)" converted to: "mangaindo.web.id#%#//scriptlet('ubo-acis.js', 'Math', 'zfgloaded')"
 mangaindo.web.id##+js(acis, Math, zfgloaded)
 ! Rule "klikmanga.com,komikstation.co,sheamanga.my.id##+js(acis, document.querySelectorAll, popMagic)" converted to: "klikmanga.com,komikstation.co,sheamanga.my.id#%#//scriptlet('ubo-acis.js', 'document.querySelectorAll', 'popMagic')"
 klikmanga.com,komikstation.co,sheamanga.my.id##+js(acis, document.querySelectorAll, popMagic)
-! Rule "manhwaland.mom##+js(aopr, generateURL1)" converted to: "manhwaland.mom#%#//scriptlet('ubo-aopr.js', 'generateURL1')"
-manhwaland.mom##+js(aopr, generateURL1)
+! Rule "manhwaland.us##+js(aopr, generateURL1)" converted to: "manhwaland.us#%#//scriptlet('ubo-aopr.js', 'generateURL1')"
+manhwaland.us##+js(aopr, generateURL1)
 ! Rule "manhwaid.fun##+js(aopr, popup_custom_data)" converted to: "manhwaid.fun#%#//scriptlet('ubo-aopr.js', 'popup_custom_data')"
 manhwaid.fun##+js(aopr, popup_custom_data)
-! Rule "animebatch.id,bacakomik.co,komikav.com,komikcast.site,komikcastid.com,komikindo.id,mangakita.net,mangaku.my.id,mangaku.vip,manhwaindo.id,masterkomik.com,ngomik.net,sektedoujin.info,westmanga.info##+js(window.open-defuser)" converted to: "animebatch.id,bacakomik.co,komikav.com,komikcast.site,komikcastid.com,komikindo.id,mangakita.net,mangaku.my.id,mangaku.vip,manhwaindo.id,masterkomik.com,ngomik.net,sektedoujin.info,westmanga.info#%#//scriptlet('ubo-window.open-defuser.js')"
-animebatch.id,bacakomik.co,komikav.com,komikcast.site,komikcastid.com,komikindo.id,mangakita.net,mangaku.my.id,mangaku.vip,manhwaindo.id,masterkomik.com,ngomik.net,sektedoujin.info,westmanga.info##+js(window.open-defuser)
-! Rule "bacamanga.id,komikcastid.com,komikindo.id,komikstation.co,ngomik.net##+js(acis, JSON.parse, break;case $.)" converted to: "bacamanga.id,komikcastid.com,komikindo.id,komikstation.co,ngomik.net#%#//scriptlet('ubo-acis.js', 'JSON.parse', 'break;case $.')"
-bacamanga.id,komikcastid.com,komikindo.id,komikstation.co,ngomik.net##+js(acis, JSON.parse, break;case $.)
+! Rule "animebatch.id,bacakomik.co,komik18.art,komikav.com,komikcast.site,komikcastid.com,komikindo.pro,mangakita.net,mangaku.my.id,mangaku.vip,manhwaindo.icu,manhwaindo.id,masterkomik.com,ngomik.net,sektedoujin.lol,westmanga.info##+js(window.open-defuser)" converted to: "animebatch.id,bacakomik.co,komik18.art,komikav.com,komikcast.site,komikcastid.com,komikindo.pro,mangakita.net,mangaku.my.id,mangaku.vip,manhwaindo.icu,manhwaindo.id,masterkomik.com,ngomik.net,sektedoujin.lol,westmanga.info#%#//scriptlet('ubo-window.open-defuser.js')"
+animebatch.id,bacakomik.co,komik18.art,komikav.com,komikcast.site,komikcastid.com,komikindo.pro,mangakita.net,mangaku.my.id,mangaku.vip,manhwaindo.icu,manhwaindo.id,masterkomik.com,ngomik.net,sektedoujin.lol,westmanga.info##+js(window.open-defuser)
+! Rule "bacamanga.id,komikcastid.com,komikindo.pro,komikstation.co,ngomik.net##+js(acis, JSON.parse, break;case $.)" converted to: "bacamanga.id,komikcastid.com,komikindo.pro,komikstation.co,ngomik.net#%#//scriptlet('ubo-acis.js', 'JSON.parse', 'break;case $.')"
+bacamanga.id,komikcastid.com,komikindo.pro,komikstation.co,ngomik.net##+js(acis, JSON.parse, break;case $.)
 ! Rule "kiryuu.id##+js(acis, parseInt, break;case $.)" converted to: "kiryuu.id#%#//scriptlet('ubo-acis.js', 'parseInt', 'break;case $.')"
 kiryuu.id##+js(acis, parseInt, break;case $.)
-! Rule "212.32.226.234,komikindo.id,mangadewasa.com,mangaku.my.id,mangaku.vip##*:style(user-select: text !important; -webkit-user-select: text !important; -webkit-touch-callout: default !important;)" converted to: "212.32.226.234,komikindo.id,mangadewasa.com,mangaku.my.id,mangaku.vip#$#* { user-select: text !important; -webkit-user-select: text !important; -webkit-touch-callout: default !important; }"
-212.32.226.234,komikindo.id,mangadewasa.com,mangaku.my.id,mangaku.vip##*:style(user-select: text !important; -webkit-user-select: text !important; -webkit-touch-callout: default !important;)
+! Rule "212.32.226.234,komikindo.pro,mangadewasa.com,mangahentai.me,mangaku.my.id,mangaku.vip##*:style(user-select: text !important; -webkit-user-select: text !important; -webkit-touch-callout: default !important;)" converted to: "212.32.226.234,komikindo.pro,mangadewasa.com,mangahentai.me,mangaku.my.id,mangaku.vip#$#* { user-select: text !important; -webkit-user-select: text !important; -webkit-touch-callout: default !important; }"
+212.32.226.234,komikindo.pro,mangadewasa.com,mangahentai.me,mangaku.my.id,mangaku.vip##*:style(user-select: text !important; -webkit-user-select: text !important; -webkit-touch-callout: default !important;)
 ! Rule "212.32.226.234##+js(acis, disableSelection, reEnable)" converted to: "212.32.226.234#%#//scriptlet('ubo-acis.js', 'disableSelection', 'reEnable')"
 212.32.226.234##+js(acis, disableSelection, reEnable)
 ! Rule "mangacanblog.com##+js(aeld, /^(?:contextmenu|selectstart)$/)" converted to: "mangacanblog.com#%#//scriptlet('ubo-aeld.js', '/^(?:contextmenu|selectstart)$/')"
 mangacanblog.com##+js(aeld, /^(?:contextmenu|selectstart)$/)
-! Rule "bacakomikid.co,bacamanga.id,bacamanga.org,boosei.net,kiryuu.id,komikav.com,mangaku.my.id,mangaku.vip,mangakyo.me,masterkomik.com,nekomik.com,rawkuma.com,softkomik.com,westmanga.info##+js(aeld, contextmenu)" converted to: "bacakomikid.co,bacamanga.id,bacamanga.org,boosei.net,kiryuu.id,komikav.com,mangaku.my.id,mangaku.vip,mangakyo.me,masterkomik.com,nekomik.com,rawkuma.com,softkomik.com,westmanga.info#%#//scriptlet('ubo-aeld.js', 'contextmenu')"
-bacakomikid.co,bacamanga.id,bacamanga.org,boosei.net,kiryuu.id,komikav.com,mangaku.my.id,mangaku.vip,mangakyo.me,masterkomik.com,nekomik.com,rawkuma.com,softkomik.com,westmanga.info##+js(aeld, contextmenu)
-! Rule "212.32.226.234,doujinlands.com,komik18.art,komiktap.in##+js(aopr, document.oncontextmenu)" converted to: "212.32.226.234,doujinlands.com,komik18.art,komiktap.in#%#//scriptlet('ubo-aopr.js', 'document.oncontextmenu')"
-212.32.226.234,doujinlands.com,komik18.art,komiktap.in##+js(aopr, document.oncontextmenu)
+! Rule "bacakomikid.co,bacamanga.id,boosei.net,kiryuu.id,komikav.com,mangaku.my.id,mangaku.vip,mangatale.co,masterkomik.com,nekomik.com,rawkuma.com,softkomik.com,westmanga.info##+js(aeld, contextmenu)" converted to: "bacakomikid.co,bacamanga.id,boosei.net,kiryuu.id,komikav.com,mangaku.my.id,mangaku.vip,mangatale.co,masterkomik.com,nekomik.com,rawkuma.com,softkomik.com,westmanga.info#%#//scriptlet('ubo-aeld.js', 'contextmenu')"
+bacakomikid.co,bacamanga.id,boosei.net,kiryuu.id,komikav.com,mangaku.my.id,mangaku.vip,mangatale.co,masterkomik.com,nekomik.com,rawkuma.com,softkomik.com,westmanga.info##+js(aeld, contextmenu)
+! Rule "212.32.226.234,92.87.6.124,komik18.art,komikita.art,mangahentai.me##+js(aopr, document.oncontextmenu)" converted to: "212.32.226.234,92.87.6.124,komik18.art,komikita.art,mangahentai.me#%#//scriptlet('ubo-aopr.js', 'document.oncontextmenu')"
+212.32.226.234,92.87.6.124,komik18.art,komikita.art,mangahentai.me##+js(aopr, document.oncontextmenu)
 ! Rule "mangacanblog.com##+js(aopr, document.onkeydown)" converted to: "mangacanblog.com#%#//scriptlet('ubo-aopr.js', 'document.onkeydown')"
 mangacanblog.com##+js(aopr, document.onkeydown)
-! Rule "doujinlands.com,komik18.art##+js(aopr, document.onselectstart)" converted to: "doujinlands.com,komik18.art#%#//scriptlet('ubo-aopr.js', 'document.onselectstart')"
-doujinlands.com,komik18.art##+js(aopr, document.onselectstart)
+! Rule "komik18.art,komikita.art##+js(aopr, document.onselectstart)" converted to: "komik18.art,komikita.art#%#//scriptlet('ubo-aopr.js', 'document.onselectstart')"
+komik18.art,komikita.art##+js(aopr, document.onselectstart)
 ! Rule "mangadewasa.com##+js(aopr, nocontextmenu)" converted to: "mangadewasa.com#%#//scriptlet('ubo-aopr.js', 'nocontextmenu')"
 mangadewasa.com##+js(aopr, nocontextmenu)
 ! Rule "sektekomik.xyz##+js(ra, oncontextmenu|ondragstart|onkeydown|onmousedown|onselectstart|style, body)" converted to: "sektekomik.xyz#%#//scriptlet('ubo-ra.js', 'oncontextmenu|ondragstart|onkeydown|onmousedown|onselectstart|style', 'body')"
@@ -1226,18 +1088,16 @@ sektekomik.xyz##+js(ra, oncontextmenu|ondragstart|onkeydown|onmousedown|onselect
 fc-lc.com,fc.lc##+js(acis, addEventListener, DOMNodeRemoved)
 ! Rule "belinfo.my.id,linkerload.com,metroupdate.biz,pf-electronicstt.com,skiped.me##+js(acis, addEventListener, google_ad_client)" converted to: "belinfo.my.id,linkerload.com,metroupdate.biz,pf-electronicstt.com,skiped.me#%#//scriptlet('ubo-acis.js', 'addEventListener', 'google_ad_client')"
 belinfo.my.id,linkerload.com,metroupdate.biz,pf-electronicstt.com,skiped.me##+js(acis, addEventListener, google_ad_client)
+! Rule "nyawang.com##+js(acis, chp_ads_blocker_detector)" converted to: "nyawang.com#%#//scriptlet('ubo-acis.js', 'chp_ads_blocker_detector')"
+nyawang.com##+js(acis, chp_ads_blocker_detector)
 ! Rule "bevru.club,bolssc.com,cuts-url.com,eio.io,eririo.club,exe.app,exee.io,exey.io##+js(acis, disableItToContinue)" converted to: "bevru.club,bolssc.com,cuts-url.com,eio.io,eririo.club,exe.app,exee.io,exey.io#%#//scriptlet('ubo-acis.js', 'disableItToContinue')"
 bevru.club,bolssc.com,cuts-url.com,eio.io,eririo.club,exe.app,exee.io,exey.io##+js(acis, disableItToContinue)
 ! Rule "toolss.net##+js(aeld, load, daadb_get_data)" converted to: "toolss.net#%#//scriptlet('ubo-aeld.js', 'load', 'daadb_get_data')"
 toolss.net##+js(aeld, load, daadb_get_data)
-! Rule "tmearn.*##+js(aopr, AaDetector)" converted to: "tmearn.*#%#//scriptlet('ubo-aopr.js', 'AaDetector')"
-tmearn.*##+js(aopr, AaDetector)
 ! Rule "adikinfo.my.id,mangindo.xyz,nurhamka.com##+js(aopr, adBlockDetected)" converted to: "adikinfo.my.id,mangindo.xyz,nurhamka.com#%#//scriptlet('ubo-aopr.js', 'adBlockDetected')"
 adikinfo.my.id,mangindo.xyz,nurhamka.com##+js(aopr, adBlockDetected)
 ! Rule "ta2deem7arbya.com##+js(aopr, adsBlocked)" converted to: "ta2deem7arbya.com#%#//scriptlet('ubo-aopr.js', 'adsBlocked')"
 ta2deem7arbya.com##+js(aopr, adsBlocked)
-! Rule "adsafelink.com,aii.sh,bevru.club,bolssc.com,cuts-url.com,dz4link.com,eio.io,eririo.club,exe.app,exee.io,exey.io,fotodovana.com,jameeltips.us,linkpoi.me,megaurl.in,metroupdate.biz,paired.my.id,rancah.com,sekilastekno.com,shrinke.me,shrinkme.in,skiped.me,stfly.io,stfly.me,tei.ai,tmearn.*,viral-topics.com##+js(aopr, app_vars.force_disable_adblock)" converted to: "adsafelink.com,aii.sh,bevru.club,bolssc.com,cuts-url.com,dz4link.com,eio.io,eririo.club,exe.app,exee.io,exey.io,fotodovana.com,jameeltips.us,linkpoi.me,megaurl.in,metroupdate.biz,paired.my.id,rancah.com,sekilastekno.com,shrinke.me,shrinkme.in,skiped.me,stfly.io,stfly.me,tei.ai,tmearn.*,viral-topics.com#%#//scriptlet('ubo-aopr.js', 'app_vars.force_disable_adblock')"
-adsafelink.com,aii.sh,bevru.club,bolssc.com,cuts-url.com,dz4link.com,eio.io,eririo.club,exe.app,exee.io,exey.io,fotodovana.com,jameeltips.us,linkpoi.me,megaurl.in,metroupdate.biz,paired.my.id,rancah.com,sekilastekno.com,shrinke.me,shrinkme.in,skiped.me,stfly.io,stfly.me,tei.ai,tmearn.*,viral-topics.com##+js(aopr, app_vars.force_disable_adblock)
 ! Rule "linkpoi.me##+js(aopr, disableItToContinue)" converted to: "linkpoi.me#%#//scriptlet('ubo-aopr.js', 'disableItToContinue')"
 linkpoi.me##+js(aopr, disableItToContinue)
 ! Rule "ljutkeunvpn.blogspot.com,safelkmeong.blogspot.com,usesafelink.blogspot.com##+js(aopr, mql)" converted to: "ljutkeunvpn.blogspot.com,safelkmeong.blogspot.com,usesafelink.blogspot.com#%#//scriptlet('ubo-aopr.js', 'mql')"
@@ -1258,18 +1118,22 @@ my-code4you.blogspot.com##+js(nostif, offsetLeft)
 my-code4you.blogspot.com##+js(set, config.pauseInspect, false)
 ! Rule "teknorizen.blogspot.com##+js(set, safelink.adblock, false)" converted to: "teknorizen.blogspot.com#%#//scriptlet('ubo-set.js', 'safelink.adblock', 'false')"
 teknorizen.blogspot.com##+js(set, safelink.adblock, false)
+! Rule "adsafelink.com,aii.sh,bevru.club,bolssc.com,cuts-url.com,dz4link.com,eio.io,eririo.club,exe.app,exee.io,exey.io,jameeltips.us,linkpoi.me,megaurl.in,metroupdate.biz,paired.my.id,rancah.com,sekilastekno.com,shrinke.me,shrinkme.in,skiped.me,stfly.io,stfly.me,tei.ai,tmearn.*,viral-topics.com##+js(aopr, app_vars.force_disable_adblock)" converted to: "adsafelink.com,aii.sh,bevru.club,bolssc.com,cuts-url.com,dz4link.com,eio.io,eririo.club,exe.app,exee.io,exey.io,jameeltips.us,linkpoi.me,megaurl.in,metroupdate.biz,paired.my.id,rancah.com,sekilastekno.com,shrinke.me,shrinkme.in,skiped.me,stfly.io,stfly.me,tei.ai,tmearn.*,viral-topics.com#%#//scriptlet('ubo-aopr.js', 'app_vars.force_disable_adblock')"
+adsafelink.com,aii.sh,bevru.club,bolssc.com,cuts-url.com,dz4link.com,eio.io,eririo.club,exe.app,exee.io,exey.io,jameeltips.us,linkpoi.me,megaurl.in,metroupdate.biz,paired.my.id,rancah.com,sekilastekno.com,shrinke.me,shrinkme.in,skiped.me,stfly.io,stfly.me,tei.ai,tmearn.*,viral-topics.com##+js(aopr, app_vars.force_disable_adblock)
+! Rule "tmearn.*##+js(aopr, AaDetector)" converted to: "tmearn.*#%#//scriptlet('ubo-aopr.js', 'AaDetector')"
+tmearn.*##+js(aopr, AaDetector)
 ! Rule "ta2deem7arbya.com###makingdifferenttimer:style(display: block!important)" converted to: "ta2deem7arbya.com#$##makingdifferenttimer { display: block!important }"
 ta2deem7arbya.com###makingdifferenttimer:style(display: block!important)
 ! Rule "short2fly.xyz##+js(acis, onclick, window.open)" converted to: "short2fly.xyz#%#//scriptlet('ubo-acis.js', 'onclick', 'window.open')"
 short2fly.xyz##+js(acis, onclick, window.open)
 ! Rule "stfly.me,tei.ai##+js(aopr, open)" converted to: "stfly.me,tei.ai#%#//scriptlet('ubo-aopr.js', 'open')"
 stfly.me,tei.ai##+js(aopr, open)
-! Rule "tmearn.*##+js(aopw, _pop)" converted to: "tmearn.*#%#//scriptlet('ubo-aopw.js', '_pop')"
-tmearn.*##+js(aopw, _pop)
 ! Rule "belinfo.my.id##+js(ra, onclick, [onclick*="window.open"])" converted to: "belinfo.my.id#%#//scriptlet('ubo-ra.js', 'onclick', '[onclick*="window.open"]')"
 belinfo.my.id##+js(ra, onclick, [onclick*="window.open"])
-! Rule "bevru.club,bolssc.com,carapedi.id,cararegistrasi.com,ceesty.com,cuts-url.com,eio.io,eririo.club,exe.app,exee.io,exey.io,fc-lc.com,fc.lc,luangusaha.com,miuiku.com,oceantech.xyz,onlinecorp.me,p4link.com,paired.my.id,ponselharian.com,sekilastekno.com,semawur.com,shrinke.me,teknosimple.com,tmearn.*##+js(window.open-defuser)" converted to: "bevru.club,bolssc.com,carapedi.id,cararegistrasi.com,ceesty.com,cuts-url.com,eio.io,eririo.club,exe.app,exee.io,exey.io,fc-lc.com,fc.lc,luangusaha.com,miuiku.com,oceantech.xyz,onlinecorp.me,p4link.com,paired.my.id,ponselharian.com,sekilastekno.com,semawur.com,shrinke.me,teknosimple.com,tmearn.*#%#//scriptlet('ubo-window.open-defuser.js')"
-bevru.club,bolssc.com,carapedi.id,cararegistrasi.com,ceesty.com,cuts-url.com,eio.io,eririo.club,exe.app,exee.io,exey.io,fc-lc.com,fc.lc,luangusaha.com,miuiku.com,oceantech.xyz,onlinecorp.me,p4link.com,paired.my.id,ponselharian.com,sekilastekno.com,semawur.com,shrinke.me,teknosimple.com,tmearn.*##+js(window.open-defuser)
+! Rule "besargaji.com,bevru.club,bolssc.com,carapedi.id,cararegistrasi.com,ceesty.com,cuts-url.com,eio.io,eririo.club,exe.app,exee.io,exey.io,fc-lc.com,fc.lc,khaddavi.net,luangusaha.com,miuiku.com,oceantech.xyz,onlinecorp.me,p4link.com,paired.my.id,ponselharian.com,sekilastekno.com,semawur.com,shrinke.me,teknosimple.com,tmearn.*##+js(window.open-defuser)" converted to: "besargaji.com,bevru.club,bolssc.com,carapedi.id,cararegistrasi.com,ceesty.com,cuts-url.com,eio.io,eririo.club,exe.app,exee.io,exey.io,fc-lc.com,fc.lc,khaddavi.net,luangusaha.com,miuiku.com,oceantech.xyz,onlinecorp.me,p4link.com,paired.my.id,ponselharian.com,sekilastekno.com,semawur.com,shrinke.me,teknosimple.com,tmearn.*#%#//scriptlet('ubo-window.open-defuser.js')"
+besargaji.com,bevru.club,bolssc.com,carapedi.id,cararegistrasi.com,ceesty.com,cuts-url.com,eio.io,eririo.club,exe.app,exee.io,exey.io,fc-lc.com,fc.lc,khaddavi.net,luangusaha.com,miuiku.com,oceantech.xyz,onlinecorp.me,p4link.com,paired.my.id,ponselharian.com,sekilastekno.com,semawur.com,shrinke.me,teknosimple.com,tmearn.*##+js(window.open-defuser)
+! Rule "tmearn.*##+js(aopw, _pop)" converted to: "tmearn.*#%#//scriptlet('ubo-aopw.js', '_pop')"
+tmearn.*##+js(aopw, _pop)
 ! Rule "cararegistrasi.com,modebaca.com,saungfirmware.id,teknorizen.blogspot.com,teknosimple.com##+js(nano-sib)" converted to: "cararegistrasi.com,modebaca.com,saungfirmware.id,teknorizen.blogspot.com,teknosimple.com#%#//scriptlet('ubo-nano-sib.js')"
 cararegistrasi.com,modebaca.com,saungfirmware.id,teknorizen.blogspot.com,teknosimple.com##+js(nano-sib)
 ! Rule "urbharat.xyz##+js(nano-sib, timePassed, 1300)" converted to: "urbharat.xyz#%#//scriptlet('ubo-nano-sib.js', 'timePassed', '1300')"
@@ -1278,117 +1142,73 @@ urbharat.xyz##+js(nano-sib, timePassed, 1300)
 adikinfo.my.id,inafut.com##+js(nano-stb)
 ! Rule "ceesty.com##+js(set, app.options.timerPageVisibilityChecking, false)" converted to: "ceesty.com#%#//scriptlet('ubo-set.js', 'app.options.timerPageVisibilityChecking', 'false')"
 ceesty.com##+js(set, app.options.timerPageVisibilityChecking, false)
-! Rule "123link.biz,2ota.com,7r6.com,abdeo8.com,abre.click,adcorto.me,adcorto.xyz,adfloz.co,adinsurance.xyz,adlinkfly.wartakilat.com,adnit.xyz,adomainscan.com,adpop.me,adsafelink.com,adsh.cc,adshort.*,adslink.programasfulltaf16.com,adslink.pw,adslinkfly.online,adsrt.click,adsrt.live,adsrt.net,adsrt.org,adsy.pw,adurly.cc,adwork.us,afly.pro,afly.us,aii.sh,akashort.com,allcryptoz.net,androidnougatapk.com,apkshrt.com,apksvip.com,arab-chat.club,artipedia.id,arurio.club,ashort1a.xyz,asupload.com,automotur.club,aylink.info,baominh.tech,bblink.com,bdnewsx.com,beautyram.info,beingtek.com,bestcash2020.com,bestearnonline.com,bevru.club,bigb0ss.net,birdurls.com,biroads.com,bit-url.com,bitcoinly.in,bitconews.net,bitfly.io,bitlinks.pw,bloggingguidance.com,bolssc.com,btcads24.com,btcwalk.com,c-ut.com,cashearn.cc,cashurl.in,cekip.xyz,charexempire.com,cheappath.com,claimcrypto.cc,claimfreebits.com,clicksbee.com,clickscoin.com,clk.asia,clk.ink,coin.mg,coinadfly.com,coinlyhub.com,coredp.com,crazyblog.in,cryptoads.space,csd.xmod.in,cut-fly.com,cut-y.net,cut4fun.com,cutdl.xyz,cutlink.link,cutp.in,cuts-url.com,cuturl.in,dash-free.com,dl.tech-story.net,doctor-groups.com,download.freestudyweb.com,download.sharenulled.net,droplink.co,du-link.in,dutchycorp.ovh,dutchycorp.space,dz-linkk.com,dz4win.com,earnfasts.com,earnforclick.online,earnguap.com,earnme.club,earnwithshortlink.com,easysky.in,eio.io,enagato.com,encurta.eu,enrt.eu,eririo.club,exe.app,exee.io,exey.*,fc.lc,filezipa.com,filmyzilla-in.xyz,fir3.net,fire-link.net,foxseotools.com,freshi.site,fwarycash.moviestar.fun,fx4vip.com,gainbtc.click,galaxy-link.space,genpassword.top,get4link.xyz,getlink.tienichmaytinh.net,gibit.xyz,giscr.ac.th,go.gets4link.com,go2.surf,gplinks.co,gtlink.co,haonguyen.top,holaurl.com,iir.ai,ilinks.in,illink.net,imagenesderopaparaperros.com,insurance-space.xyz,insuranceblog.xyz,insurglobal.xyz,internewstv.com,intothelink.com,ivn3.com,jameeltips.us,jp88.xyz,kadal.club,katflys.com,kiiw.icu,kingurls.com,kutt.io,link-yz.com,link.ltc24.com,link.tokenoto.com,link.turkdown.com,link1s.com,link1s.net,linkad.in,linkadshield.xyz,linkbr.xyz,linkebr.com,linkfly.io,linkjust.com,linkres.in,linkrex.net,links.spidermods.in,linksfire.co,linkshortify.site,linkshorts.*,linkshorts.me,linkshrnk.com,linksly.co,linkszia.co,linkviet.xyz,lite-link.com,lite-link.xyz,loptelink.vip,luangusaha.com,lucidcam.com,manikusa.com,mcmcryptos.xyz,mealip.com,mediumarticles.com,metroupdate.biz,mfk-shorter.com,miklpro.com,minilinks.in,mitly.us,miuiku.com,mixfaucet.com,modapk.link,mondainai.moe,mozlink.net,mshort.top,musicc.xyz,myad.biz,mynewshub.in,myshrinker.com,nerdy.vn,newsalret.com,newshour.pw,newstomat.com,oceantech.xyz,oncehelp.com,onlinecorp.me,onroid.com,ouofly.com,owllink.net,p4link.com,paid4.link,paidthe.site,paidtomoney.com,pandaznetwork.com,payskip.org,pewgame.com,pingit.link,pix4link.com,pkr.pw,pngit.live,popimed.com,profitlink.info,projecto2.xyz,pslfive.com,pureshort.link,rajsayt.xyz,rancah.com,real-sky.com,rocklink.in,rozfly.com,rubtech.xyz,sakastau.com,samaa-pro.com,samapro.me,sanos.xyz,sanoybonito.club,saungfirmware.id,savelink.site,sekilastekno.com,semawur.com,semruwet.com,seulink.online,short-cash2.xyz,short2.cash,short2fly.xyz,short88.com,shortbled.com,shortenbuddy.com,shortenmm.cf,shorterall.com,shorthero.site,shorthitz.com,shortie.link,shortlink.prz.pw,shorttey.link,shorttey.org,shortx.net,shortzzy.in,shotly.io,shrink.icu,shrinkbtc.cc,shrinke.me,shrinkme.in,shrinkme.io,shrlink.top,shrx.in,skincarie.com,skiped.me,slink.bid,smoner.com,softairbay.com,sohexo.org,srt.leechpremium.link,srts.me,stfly.io,stfly.me,swzz.xyz,tawiia.com,techgeek.digital,techupme.com,tecnologiapp.site,tei.ai,theblissempire.com,theconomy.me,tii.ai,tlin.me,tmearn.*,tmearn.com,todaynewspk.win,toptap.website,toroox.com,trinddz.com,try2link.com,try2link.net,tui.click,ultraten.net,upfiles.com,upfiles.io,uplinks.in,upshrink.com,url4cut.xyz,usanewstoday.club,usdshort.com,vhorizads.com,viraloc.com,vrlinks.xyz,vshort.link,wealthystyle.online,win10.vn,womenhaircolors.review,wplink.*,yxoshort.com,za.uy,zipurls.com,zirof.com,zlink.tk,zshort.cc,zshort.io##+js(set, blurred, false)" converted to: "123link.biz,2ota.com,7r6.com,abdeo8.com,abre.click,adcorto.me,adcorto.xyz,adfloz.co,adinsurance.xyz,adlinkfly.wartakilat.com,adnit.xyz,adomainscan.com,adpop.me,adsafelink.com,adsh.cc,adshort.*,adslink.programasfulltaf16.com,adslink.pw,adslinkfly.online,adsrt.click,adsrt.live,adsrt.net,adsrt.org,adsy.pw,adurly.cc,adwork.us,afly.pro,afly.us,aii.sh,akashort.com,allcryptoz.net,androidnougatapk.com,apkshrt.com,apksvip.com,arab-chat.club,artipedia.id,arurio.club,ashort1a.xyz,asupload.com,automotur.club,aylink.info,baominh.tech,bblink.com,bdnewsx.com,beautyram.info,beingtek.com,bestcash2020.com,bestearnonline.com,bevru.club,bigb0ss.net,birdurls.com,biroads.com,bit-url.com,bitcoinly.in,bitconews.net,bitfly.io,bitlinks.pw,bloggingguidance.com,bolssc.com,btcads24.com,btcwalk.com,c-ut.com,cashearn.cc,cashurl.in,cekip.xyz,charexempire.com,cheappath.com,claimcrypto.cc,claimfreebits.com,clicksbee.com,clickscoin.com,clk.asia,clk.ink,coin.mg,coinadfly.com,coinlyhub.com,coredp.com,crazyblog.in,cryptoads.space,csd.xmod.in,cut-fly.com,cut-y.net,cut4fun.com,cutdl.xyz,cutlink.link,cutp.in,cuts-url.com,cuturl.in,dash-free.com,dl.tech-story.net,doctor-groups.com,download.freestudyweb.com,download.sharenulled.net,droplink.co,du-link.in,dutchycorp.ovh,dutchycorp.space,dz-linkk.com,dz4win.com,earnfasts.com,earnforclick.online,earnguap.com,earnme.club,earnwithshortlink.com,easysky.in,eio.io,enagato.com,encurta.eu,enrt.eu,eririo.club,exe.app,exee.io,exey.*,fc.lc,filezipa.com,filmyzilla-in.xyz,fir3.net,fire-link.net,foxseotools.com,freshi.site,fwarycash.moviestar.fun,fx4vip.com,gainbtc.click,galaxy-link.space,genpassword.top,get4link.xyz,getlink.tienichmaytinh.net,gibit.xyz,giscr.ac.th,go.gets4link.com,go2.surf,gplinks.co,gtlink.co,haonguyen.top,holaurl.com,iir.ai,ilinks.in,illink.net,imagenesderopaparaperros.com,insurance-space.xyz,insuranceblog.xyz,insurglobal.xyz,internewstv.com,intothelink.com,ivn3.com,jameeltips.us,jp88.xyz,kadal.club,katflys.com,kiiw.icu,kingurls.com,kutt.io,link-yz.com,link.ltc24.com,link.tokenoto.com,link.turkdown.com,link1s.com,link1s.net,linkad.in,linkadshield.xyz,linkbr.xyz,linkebr.com,linkfly.io,linkjust.com,linkres.in,linkrex.net,links.spidermods.in,linksfire.co,linkshortify.site,linkshorts.*,linkshorts.me,linkshrnk.com,linksly.co,linkszia.co,linkviet.xyz,lite-link.com,lite-link.xyz,loptelink.vip,luangusaha.com,lucidcam.com,manikusa.com,mcmcryptos.xyz,mealip.com,mediumarticles.com,metroupdate.biz,mfk-shorter.com,miklpro.com,minilinks.in,mitly.us,miuiku.com,mixfaucet.com,modapk.link,mondainai.moe,mozlink.net,mshort.top,musicc.xyz,myad.biz,mynewshub.in,myshrinker.com,nerdy.vn,newsalret.com,newshour.pw,newstomat.com,oceantech.xyz,oncehelp.com,onlinecorp.me,onroid.com,ouofly.com,owllink.net,p4link.com,paid4.link,paidthe.site,paidtomoney.com,pandaznetwork.com,payskip.org,pewgame.com,pingit.link,pix4link.com,pkr.pw,pngit.live,popimed.com,profitlink.info,projecto2.xyz,pslfive.com,pureshort.link,rajsayt.xyz,rancah.com,real-sky.com,rocklink.in,rozfly.com,rubtech.xyz,sakastau.com,samaa-pro.com,samapro.me,sanos.xyz,sanoybonito.club,saungfirmware.id,savelink.site,sekilastekno.com,semawur.com,semruwet.com,seulink.online,short-cash2.xyz,short2.cash,short2fly.xyz,short88.com,shortbled.com,shortenbuddy.com,shortenmm.cf,shorterall.com,shorthero.site,shorthitz.com,shortie.link,shortlink.prz.pw,shorttey.link,shorttey.org,shortx.net,shortzzy.in,shotly.io,shrink.icu,shrinkbtc.cc,shrinke.me,shrinkme.in,shrinkme.io,shrlink.top,shrx.in,skincarie.com,skiped.me,slink.bid,smoner.com,softairbay.com,sohexo.org,srt.leechpremium.link,srts.me,stfly.io,stfly.me,swzz.xyz,tawiia.com,techgeek.digital,techupme.com,tecnologiapp.site,tei.ai,theblissempire.com,theconomy.me,tii.ai,tlin.me,tmearn.*,tmearn.com,todaynewspk.win,toptap.website,toroox.com,trinddz.com,try2link.com,try2link.net,tui.click,ultraten.net,upfiles.com,upfiles.io,uplinks.in,upshrink.com,url4cut.xyz,usanewstoday.club,usdshort.com,vhorizads.com,viraloc.com,vrlinks.xyz,vshort.link,wealthystyle.online,win10.vn,womenhaircolors.review,wplink.*,yxoshort.com,za.uy,zipurls.com,zirof.com,zlink.tk,zshort.cc,zshort.io#%#//scriptlet('ubo-set.js', 'blurred', 'false')"
-123link.biz,2ota.com,7r6.com,abdeo8.com,abre.click,adcorto.me,adcorto.xyz,adfloz.co,adinsurance.xyz,adlinkfly.wartakilat.com,adnit.xyz,adomainscan.com,adpop.me,adsafelink.com,adsh.cc,adshort.*,adslink.programasfulltaf16.com,adslink.pw,adslinkfly.online,adsrt.click,adsrt.live,adsrt.net,adsrt.org,adsy.pw,adurly.cc,adwork.us,afly.pro,afly.us,aii.sh,akashort.com,allcryptoz.net,androidnougatapk.com,apkshrt.com,apksvip.com,arab-chat.club,artipedia.id,arurio.club,ashort1a.xyz,asupload.com,automotur.club,aylink.info,baominh.tech,bblink.com,bdnewsx.com,beautyram.info,beingtek.com,bestcash2020.com,bestearnonline.com,bevru.club,bigb0ss.net,birdurls.com,biroads.com,bit-url.com,bitcoinly.in,bitconews.net,bitfly.io,bitlinks.pw,bloggingguidance.com,bolssc.com,btcads24.com,btcwalk.com,c-ut.com,cashearn.cc,cashurl.in,cekip.xyz,charexempire.com,cheappath.com,claimcrypto.cc,claimfreebits.com,clicksbee.com,clickscoin.com,clk.asia,clk.ink,coin.mg,coinadfly.com,coinlyhub.com,coredp.com,crazyblog.in,cryptoads.space,csd.xmod.in,cut-fly.com,cut-y.net,cut4fun.com,cutdl.xyz,cutlink.link,cutp.in,cuts-url.com,cuturl.in,dash-free.com,dl.tech-story.net,doctor-groups.com,download.freestudyweb.com,download.sharenulled.net,droplink.co,du-link.in,dutchycorp.ovh,dutchycorp.space,dz-linkk.com,dz4win.com,earnfasts.com,earnforclick.online,earnguap.com,earnme.club,earnwithshortlink.com,easysky.in,eio.io,enagato.com,encurta.eu,enrt.eu,eririo.club,exe.app,exee.io,exey.*,fc.lc,filezipa.com,filmyzilla-in.xyz,fir3.net,fire-link.net,foxseotools.com,freshi.site,fwarycash.moviestar.fun,fx4vip.com,gainbtc.click,galaxy-link.space,genpassword.top,get4link.xyz,getlink.tienichmaytinh.net,gibit.xyz,giscr.ac.th,go.gets4link.com,go2.surf,gplinks.co,gtlink.co,haonguyen.top,holaurl.com,iir.ai,ilinks.in,illink.net,imagenesderopaparaperros.com,insurance-space.xyz,insuranceblog.xyz,insurglobal.xyz,internewstv.com,intothelink.com,ivn3.com,jameeltips.us,jp88.xyz,kadal.club,katflys.com,kiiw.icu,kingurls.com,kutt.io,link-yz.com,link.ltc24.com,link.tokenoto.com,link.turkdown.com,link1s.com,link1s.net,linkad.in,linkadshield.xyz,linkbr.xyz,linkebr.com,linkfly.io,linkjust.com,linkres.in,linkrex.net,links.spidermods.in,linksfire.co,linkshortify.site,linkshorts.*,linkshorts.me,linkshrnk.com,linksly.co,linkszia.co,linkviet.xyz,lite-link.com,lite-link.xyz,loptelink.vip,luangusaha.com,lucidcam.com,manikusa.com,mcmcryptos.xyz,mealip.com,mediumarticles.com,metroupdate.biz,mfk-shorter.com,miklpro.com,minilinks.in,mitly.us,miuiku.com,mixfaucet.com,modapk.link,mondainai.moe,mozlink.net,mshort.top,musicc.xyz,myad.biz,mynewshub.in,myshrinker.com,nerdy.vn,newsalret.com,newshour.pw,newstomat.com,oceantech.xyz,oncehelp.com,onlinecorp.me,onroid.com,ouofly.com,owllink.net,p4link.com,paid4.link,paidthe.site,paidtomoney.com,pandaznetwork.com,payskip.org,pewgame.com,pingit.link,pix4link.com,pkr.pw,pngit.live,popimed.com,profitlink.info,projecto2.xyz,pslfive.com,pureshort.link,rajsayt.xyz,rancah.com,real-sky.com,rocklink.in,rozfly.com,rubtech.xyz,sakastau.com,samaa-pro.com,samapro.me,sanos.xyz,sanoybonito.club,saungfirmware.id,savelink.site,sekilastekno.com,semawur.com,semruwet.com,seulink.online,short-cash2.xyz,short2.cash,short2fly.xyz,short88.com,shortbled.com,shortenbuddy.com,shortenmm.cf,shorterall.com,shorthero.site,shorthitz.com,shortie.link,shortlink.prz.pw,shorttey.link,shorttey.org,shortx.net,shortzzy.in,shotly.io,shrink.icu,shrinkbtc.cc,shrinke.me,shrinkme.in,shrinkme.io,shrlink.top,shrx.in,skincarie.com,skiped.me,slink.bid,smoner.com,softairbay.com,sohexo.org,srt.leechpremium.link,srts.me,stfly.io,stfly.me,swzz.xyz,tawiia.com,techgeek.digital,techupme.com,tecnologiapp.site,tei.ai,theblissempire.com,theconomy.me,tii.ai,tlin.me,tmearn.*,tmearn.com,todaynewspk.win,toptap.website,toroox.com,trinddz.com,try2link.com,try2link.net,tui.click,ultraten.net,upfiles.com,upfiles.io,uplinks.in,upshrink.com,url4cut.xyz,usanewstoday.club,usdshort.com,vhorizads.com,viraloc.com,vrlinks.xyz,vshort.link,wealthystyle.online,win10.vn,womenhaircolors.review,wplink.*,yxoshort.com,za.uy,zipurls.com,zirof.com,zlink.tk,zshort.cc,zshort.io##+js(set, blurred, false)
+! Rule "123link.biz,2ota.com,7r6.com,abdeo8.com,abre.click,adcorto.xyz,adfloz.co,adinsurance.xyz,adlinkfly.wartakilat.com,adnit.xyz,adomainscan.com,adpop.me,adsafelink.com,adsh.cc,adshort.*,adslink.programasfulltaf16.com,adslink.pw,adslinkfly.online,adsrt.click,adsrt.live,adsrt.net,adsrt.org,adsy.pw,adurly.cc,adwork.us,afly.pro,afly.us,aii.sh,akashort.com,allcryptoz.net,androidnougatapk.com,apkshrt.com,apksvip.com,arab-chat.club,artipedia.id,arurio.club,ashort1a.xyz,asupload.com,automotur.club,aylink.info,baominh.tech,bblink.com,bdnewsx.com,beautyram.info,beingtek.com,bestcash2020.com,bestearnonline.com,bevru.club,bigb0ss.net,birdurls.com,biroads.com,bit-url.com,bitcoinly.in,bitconews.net,bitfly.io,bitlinks.pw,bloggingguidance.com,bolssc.com,btcads24.com,btcwalk.com,c-ut.com,cashearn.cc,cashurl.in,cekip.xyz,charexempire.com,cheappath.com,claimcrypto.cc,claimfreebits.com,clicksbee.com,clickscoin.com,clk.asia,clk.ink,coin.mg,coinadfly.com,coinlyhub.com,coredp.com,crazyblog.in,cryptoads.space,cut-fly.com,cut-y.net,cut4fun.com,cutdl.xyz,cutlink.link,cutp.in,cuts-url.com,cuturl.in,dash-free.com,dl.tech-story.net,doctor-groups.com,download.freestudyweb.com,download.sharenulled.net,droplink.co,du-link.in,dutchycorp.ovh,dutchycorp.space,dz-linkk.com,dz4win.com,earnfasts.com,earnforclick.online,earnguap.com,earnme.club,earnwithshortlink.com,easysky.in,eio.io,enagato.com,encurta.eu,enrt.eu,eririo.club,exe.app,exee.io,exey.*,fc.lc,filezipa.com,filmyzilla-in.xyz,fir3.net,fire-link.net,foxseotools.com,freshi.site,fwarycash.moviestar.fun,fx4vip.com,gainbtc.click,galaxy-link.space,genpassword.top,get4link.xyz,getlink.tienichmaytinh.net,gibit.xyz,giscr.ac.th,go.gets4link.com,go2.surf,gplinks.co,gtlink.co,haonguyen.top,holaurl.com,iir.ai,ilinks.in,illink.net,imagenesderopaparaperros.com,insurance-space.xyz,insuranceblog.xyz,insurglobal.xyz,internewstv.com,intothelink.com,ivn3.com,jameeltips.us,jp88.xyz,kadal.club,katflys.com,kiiw.icu,kingurls.com,kutt.io,link-yz.com,link.ltc24.com,link.tokenoto.com,link.turkdown.com,link1s.com,link1s.net,linkad.in,linkadshield.xyz,linkbr.xyz,linkebr.com,linkfly.io,linkjust.com,linkres.in,linkrex.net,links.spidermods.in,linksfire.co,linkshortify.site,linkshorts.*,linkshorts.me,linkshrnk.com,linksly.co,linkszia.co,linkviet.xyz,lite-link.com,loptelink.vip,luangusaha.com,lucidcam.com,manikusa.com,mcmcryptos.xyz,mealip.com,mediumarticles.com,metroupdate.biz,mfk-shorter.com,miklpro.com,minilinks.in,mitly.us,miuiku.com,mixfaucet.com,modapk.link,mondainai.moe,mozlink.net,mshort.top,musicc.xyz,myad.biz,mynewshub.in,myshrinker.com,nerdy.vn,newsalret.com,newshour.pw,newstomat.com,oceantech.xyz,oncehelp.com,onlinecorp.me,onroid.com,ouofly.com,owllink.net,p4link.com,paid4.link,paidthe.site,paidtomoney.com,pandaznetwork.com,payskip.org,pewgame.com,pingit.link,pix4link.com,pkr.pw,pngit.live,popimed.com,profitlink.info,projecto2.xyz,pslfive.com,pureshort.link,rajsayt.xyz,rancah.com,real-sky.com,rocklink.in,rozfly.com,rubtech.xyz,sakastau.com,samaa-pro.com,samapro.me,sanos.xyz,sanoybonito.club,saungfirmware.id,savelink.site,sekilastekno.com,semawur.com,semruwet.com,seulink.online,short-cash2.xyz,short2.cash,short2fly.xyz,short88.com,shortbled.com,shortenbuddy.com,shortenmm.cf,shorterall.com,shorthero.site,shorthitz.com,shortie.link,shortlink.prz.pw,shorttey.link,shorttey.org,shortx.net,shortzzy.in,shotly.io,shrink.icu,shrinkbtc.cc,shrinke.me,shrinkme.in,shrinkme.io,shrlink.top,shrx.in,skincarie.com,skiped.me,slink.bid,smoner.com,softairbay.com,sohexo.org,srt.leechpremium.link,srts.me,stfly.io,stfly.me,swzz.xyz,tawiia.com,techgeek.digital,techupme.com,tecnologiapp.site,tei.ai,theblissempire.com,theconomy.me,tii.ai,tlin.me,tmearn.*,tmearn.com,toptap.website,toroox.com,trinddz.com,try2link.com,try2link.net,tui.click,ultraten.net,upfiles.com,upfiles.io,uplinks.in,upshrink.com,url4cut.xyz,usanewstoday.club,usdshort.com,vhorizads.com,viraloc.com,vrlinks.xyz,vshort.link,wealthystyle.online,win10.vn,womenhaircolors.review,wplink.*,yxoshort.com,za.uy,zipurls.com,zirof.com,zshort.cc,zshort.io##+js(set, blurred, false)" converted to: "123link.biz,2ota.com,7r6.com,abdeo8.com,abre.click,adcorto.xyz,adfloz.co,adinsurance.xyz,adlinkfly.wartakilat.com,adnit.xyz,adomainscan.com,adpop.me,adsafelink.com,adsh.cc,adshort.*,adslink.programasfulltaf16.com,adslink.pw,adslinkfly.online,adsrt.click,adsrt.live,adsrt.net,adsrt.org,adsy.pw,adurly.cc,adwork.us,afly.pro,afly.us,aii.sh,akashort.com,allcryptoz.net,androidnougatapk.com,apkshrt.com,apksvip.com,arab-chat.club,artipedia.id,arurio.club,ashort1a.xyz,asupload.com,automotur.club,aylink.info,baominh.tech,bblink.com,bdnewsx.com,beautyram.info,beingtek.com,bestcash2020.com,bestearnonline.com,bevru.club,bigb0ss.net,birdurls.com,biroads.com,bit-url.com,bitcoinly.in,bitconews.net,bitfly.io,bitlinks.pw,bloggingguidance.com,bolssc.com,btcads24.com,btcwalk.com,c-ut.com,cashearn.cc,cashurl.in,cekip.xyz,charexempire.com,cheappath.com,claimcrypto.cc,claimfreebits.com,clicksbee.com,clickscoin.com,clk.asia,clk.ink,coin.mg,coinadfly.com,coinlyhub.com,coredp.com,crazyblog.in,cryptoads.space,cut-fly.com,cut-y.net,cut4fun.com,cutdl.xyz,cutlink.link,cutp.in,cuts-url.com,cuturl.in,dash-free.com,dl.tech-story.net,doctor-groups.com,download.freestudyweb.com,download.sharenulled.net,droplink.co,du-link.in,dutchycorp.ovh,dutchycorp.space,dz-linkk.com,dz4win.com,earnfasts.com,earnforclick.online,earnguap.com,earnme.club,earnwithshortlink.com,easysky.in,eio.io,enagato.com,encurta.eu,enrt.eu,eririo.club,exe.app,exee.io,exey.*,fc.lc,filezipa.com,filmyzilla-in.xyz,fir3.net,fire-link.net,foxseotools.com,freshi.site,fwarycash.moviestar.fun,fx4vip.com,gainbtc.click,galaxy-link.space,genpassword.top,get4link.xyz,getlink.tienichmaytinh.net,gibit.xyz,giscr.ac.th,go.gets4link.com,go2.surf,gplinks.co,gtlink.co,haonguyen.top,holaurl.com,iir.ai,ilinks.in,illink.net,imagenesderopaparaperros.com,insurance-space.xyz,insuranceblog.xyz,insurglobal.xyz,internewstv.com,intothelink.com,ivn3.com,jameeltips.us,jp88.xyz,kadal.club,katflys.com,kiiw.icu,kingurls.com,kutt.io,link-yz.com,link.ltc24.com,link.tokenoto.com,link.turkdown.com,link1s.com,link1s.net,linkad.in,linkadshield.xyz,linkbr.xyz,linkebr.com,linkfly.io,linkjust.com,linkres.in,linkrex.net,links.spidermods.in,linksfire.co,linkshortify.site,linkshorts.*,linkshorts.me,linkshrnk.com,linksly.co,linkszia.co,linkviet.xyz,lite-link.com,loptelink.vip,luangusaha.com,lucidcam.com,manikusa.com,mcmcryptos.xyz,mealip.com,mediumarticles.com,metroupdate.biz,mfk-shorter.com,miklpro.com,minilinks.in,mitly.us,miuiku.com,mixfaucet.com,modapk.link,mondainai.moe,mozlink.net,mshort.top,musicc.xyz,myad.biz,mynewshub.in,myshrinker.com,nerdy.vn,newsalret.com,newshour.pw,newstomat.com,oceantech.xyz,oncehelp.com,onlinecorp.me,onroid.com,ouofly.com,owllink.net,p4link.com,paid4.link,paidthe.site,paidtomoney.com,pandaznetwork.com,payskip.org,pewgame.com,pingit.link,pix4link.com,pkr.pw,pngit.live,popimed.com,profitlink.info,projecto2.xyz,pslfive.com,pureshort.link,rajsayt.xyz,rancah.com,real-sky.com,rocklink.in,rozfly.com,rubtech.xyz,sakastau.com,samaa-pro.com,samapro.me,sanos.xyz,sanoybonito.club,saungfirmware.id,savelink.site,sekilastekno.com,semawur.com,semruwet.com,seulink.online,short-cash2.xyz,short2.cash,short2fly.xyz,short88.com,shortbled.com,shortenbuddy.com,shortenmm.cf,shorterall.com,shorthero.site,shorthitz.com,shortie.link,shortlink.prz.pw,shorttey.link,shorttey.org,shortx.net,shortzzy.in,shotly.io,shrink.icu,shrinkbtc.cc,shrinke.me,shrinkme.in,shrinkme.io,shrlink.top,shrx.in,skincarie.com,skiped.me,slink.bid,smoner.com,softairbay.com,sohexo.org,srt.leechpremium.link,srts.me,stfly.io,stfly.me,swzz.xyz,tawiia.com,techgeek.digital,techupme.com,tecnologiapp.site,tei.ai,theblissempire.com,theconomy.me,tii.ai,tlin.me,tmearn.*,tmearn.com,toptap.website,toroox.com,trinddz.com,try2link.com,try2link.net,tui.click,ultraten.net,upfiles.com,upfiles.io,uplinks.in,upshrink.com,url4cut.xyz,usanewstoday.club,usdshort.com,vhorizads.com,viraloc.com,vrlinks.xyz,vshort.link,wealthystyle.online,win10.vn,womenhaircolors.review,wplink.*,yxoshort.com,za.uy,zipurls.com,zirof.com,zshort.cc,zshort.io#%#//scriptlet('ubo-set.js', 'blurred', 'false')"
+123link.biz,2ota.com,7r6.com,abdeo8.com,abre.click,adcorto.xyz,adfloz.co,adinsurance.xyz,adlinkfly.wartakilat.com,adnit.xyz,adomainscan.com,adpop.me,adsafelink.com,adsh.cc,adshort.*,adslink.programasfulltaf16.com,adslink.pw,adslinkfly.online,adsrt.click,adsrt.live,adsrt.net,adsrt.org,adsy.pw,adurly.cc,adwork.us,afly.pro,afly.us,aii.sh,akashort.com,allcryptoz.net,androidnougatapk.com,apkshrt.com,apksvip.com,arab-chat.club,artipedia.id,arurio.club,ashort1a.xyz,asupload.com,automotur.club,aylink.info,baominh.tech,bblink.com,bdnewsx.com,beautyram.info,beingtek.com,bestcash2020.com,bestearnonline.com,bevru.club,bigb0ss.net,birdurls.com,biroads.com,bit-url.com,bitcoinly.in,bitconews.net,bitfly.io,bitlinks.pw,bloggingguidance.com,bolssc.com,btcads24.com,btcwalk.com,c-ut.com,cashearn.cc,cashurl.in,cekip.xyz,charexempire.com,cheappath.com,claimcrypto.cc,claimfreebits.com,clicksbee.com,clickscoin.com,clk.asia,clk.ink,coin.mg,coinadfly.com,coinlyhub.com,coredp.com,crazyblog.in,cryptoads.space,cut-fly.com,cut-y.net,cut4fun.com,cutdl.xyz,cutlink.link,cutp.in,cuts-url.com,cuturl.in,dash-free.com,dl.tech-story.net,doctor-groups.com,download.freestudyweb.com,download.sharenulled.net,droplink.co,du-link.in,dutchycorp.ovh,dutchycorp.space,dz-linkk.com,dz4win.com,earnfasts.com,earnforclick.online,earnguap.com,earnme.club,earnwithshortlink.com,easysky.in,eio.io,enagato.com,encurta.eu,enrt.eu,eririo.club,exe.app,exee.io,exey.*,fc.lc,filezipa.com,filmyzilla-in.xyz,fir3.net,fire-link.net,foxseotools.com,freshi.site,fwarycash.moviestar.fun,fx4vip.com,gainbtc.click,galaxy-link.space,genpassword.top,get4link.xyz,getlink.tienichmaytinh.net,gibit.xyz,giscr.ac.th,go.gets4link.com,go2.surf,gplinks.co,gtlink.co,haonguyen.top,holaurl.com,iir.ai,ilinks.in,illink.net,imagenesderopaparaperros.com,insurance-space.xyz,insuranceblog.xyz,insurglobal.xyz,internewstv.com,intothelink.com,ivn3.com,jameeltips.us,jp88.xyz,kadal.club,katflys.com,kiiw.icu,kingurls.com,kutt.io,link-yz.com,link.ltc24.com,link.tokenoto.com,link.turkdown.com,link1s.com,link1s.net,linkad.in,linkadshield.xyz,linkbr.xyz,linkebr.com,linkfly.io,linkjust.com,linkres.in,linkrex.net,links.spidermods.in,linksfire.co,linkshortify.site,linkshorts.*,linkshorts.me,linkshrnk.com,linksly.co,linkszia.co,linkviet.xyz,lite-link.com,loptelink.vip,luangusaha.com,lucidcam.com,manikusa.com,mcmcryptos.xyz,mealip.com,mediumarticles.com,metroupdate.biz,mfk-shorter.com,miklpro.com,minilinks.in,mitly.us,miuiku.com,mixfaucet.com,modapk.link,mondainai.moe,mozlink.net,mshort.top,musicc.xyz,myad.biz,mynewshub.in,myshrinker.com,nerdy.vn,newsalret.com,newshour.pw,newstomat.com,oceantech.xyz,oncehelp.com,onlinecorp.me,onroid.com,ouofly.com,owllink.net,p4link.com,paid4.link,paidthe.site,paidtomoney.com,pandaznetwork.com,payskip.org,pewgame.com,pingit.link,pix4link.com,pkr.pw,pngit.live,popimed.com,profitlink.info,projecto2.xyz,pslfive.com,pureshort.link,rajsayt.xyz,rancah.com,real-sky.com,rocklink.in,rozfly.com,rubtech.xyz,sakastau.com,samaa-pro.com,samapro.me,sanos.xyz,sanoybonito.club,saungfirmware.id,savelink.site,sekilastekno.com,semawur.com,semruwet.com,seulink.online,short-cash2.xyz,short2.cash,short2fly.xyz,short88.com,shortbled.com,shortenbuddy.com,shortenmm.cf,shorterall.com,shorthero.site,shorthitz.com,shortie.link,shortlink.prz.pw,shorttey.link,shorttey.org,shortx.net,shortzzy.in,shotly.io,shrink.icu,shrinkbtc.cc,shrinke.me,shrinkme.in,shrinkme.io,shrlink.top,shrx.in,skincarie.com,skiped.me,slink.bid,smoner.com,softairbay.com,sohexo.org,srt.leechpremium.link,srts.me,stfly.io,stfly.me,swzz.xyz,tawiia.com,techgeek.digital,techupme.com,tecnologiapp.site,tei.ai,theblissempire.com,theconomy.me,tii.ai,tlin.me,tmearn.*,tmearn.com,toptap.website,toroox.com,trinddz.com,try2link.com,try2link.net,tui.click,ultraten.net,upfiles.com,upfiles.io,uplinks.in,upshrink.com,url4cut.xyz,usanewstoday.club,usdshort.com,vhorizads.com,viraloc.com,vrlinks.xyz,vshort.link,wealthystyle.online,win10.vn,womenhaircolors.review,wplink.*,yxoshort.com,za.uy,zipurls.com,zirof.com,zshort.cc,zshort.io##+js(set, blurred, false)
 ! Rule "safelkmeong.blogspot.com,usesafelink.blogspot.com##+js(ra, oncontextmenu|ondragstart|onkeydown|onmousedown|onselectstart, body)" converted to: "safelkmeong.blogspot.com,usesafelink.blogspot.com#%#//scriptlet('ubo-ra.js', 'oncontextmenu|ondragstart|onkeydown|onmousedown|onselectstart', 'body')"
 safelkmeong.blogspot.com,usesafelink.blogspot.com##+js(ra, oncontextmenu|ondragstart|onkeydown|onmousedown|onselectstart, body)
 ! Rule "@@/abdiusu/project-safelink-viomagz/*/safelink-ViomagzV3.2-2tombol$3p,script" converted to: "@@/abdiusu/project-safelink-viomagz/*/safelink-ViomagzV3.2-2tombol$third-party,script"
 @@/abdiusu/project-safelink-viomagz/*/safelink-ViomagzV3.2-2tombol$3p,script
+! Rule "||18.142.93.216/wp-content/uploads/$mp4" converted to: "||18.142.93.216/wp-content/uploads/$redirect=noopmp4-1s,media"
+||18.142.93.216/wp-content/uploads/$mp4
 ! Rule "||pornhd.asia^*.gif$3p,image" converted to: "||pornhd.asia^*.gif$third-party,image"
 ||pornhd.asia^*.gif$3p,image
 ! Rule "||tokosexy.com/$3p,frame" converted to: "||tokosexy.com/$third-party,subdocument"
 ||tokosexy.com/$3p,frame
 ! Rule "ceritaseru.sextgem.com,togefoto.com##.content a:style(display: inline !important;)" converted to: "ceritaseru.sextgem.com,togefoto.com#$#.content a { display: inline !important; }"
 ceritaseru.sextgem.com,togefoto.com##.content a:style(display: inline !important;)
-! Rule "93.115.24.211,forumitu.com,semprot.com##+js(acis, String.fromCharCode, ahli)" converted to: "93.115.24.211,forumitu.com,semprot.com#%#//scriptlet('ubo-acis.js', 'String.fromCharCode', 'ahli')"
-93.115.24.211,forumitu.com,semprot.com##+js(acis, String.fromCharCode, ahli)
-! Rule "hijab.link##+js(acis, addEventListener, DOMNodeRemoved)" converted to: "hijab.link#%#//scriptlet('ubo-acis.js', 'addEventListener', 'DOMNodeRemoved')"
-hijab.link##+js(acis, addEventListener, DOMNodeRemoved)
+! Rule "beritamaju.com,forumitu.com,semprot.com##+js(acis, String.fromCharCode, ahli)" converted to: "beritamaju.com,forumitu.com,semprot.com#%#//scriptlet('ubo-acis.js', 'String.fromCharCode', 'ahli')"
+beritamaju.com,forumitu.com,semprot.com##+js(acis, String.fromCharCode, ahli)
+! Rule "hijablink.sbs##+js(acis, addEventListener, DOMNodeRemoved)" converted to: "hijablink.sbs#%#//scriptlet('ubo-acis.js', 'addEventListener', 'DOMNodeRemoved')"
+hijablink.sbs##+js(acis, addEventListener, DOMNodeRemoved)
 ! Rule "144.126.138.140##+js(acis, eval, replace)" converted to: "144.126.138.140#%#//scriptlet('ubo-acis.js', 'eval', 'replace')"
 144.126.138.140##+js(acis, eval, replace)
 ! Rule "38.242.194.12##+js(aopr, adsBlocked)" converted to: "38.242.194.12#%#//scriptlet('ubo-aopr.js', 'adsBlocked')"
 38.242.194.12##+js(aopr, adsBlocked)
-! Rule "167.86.118.222##+js(aost, String.prototype.charCodeAt, ai_)" converted to: "167.86.118.222#%#//scriptlet('ubo-aost.js', 'String.prototype.charCodeAt', 'ai_')"
-167.86.118.222##+js(aost, String.prototype.charCodeAt, ai_)
+! Rule "ngocobat-s.eu.org##+js(aost, String.prototype.charCodeAt, ai_)" converted to: "ngocobat-s.eu.org#%#//scriptlet('ubo-aost.js', 'String.prototype.charCodeAt', 'ai_')"
+ngocobat-s.eu.org##+js(aost, String.prototype.charCodeAt, ai_)
 ! Rule "herodex.org,minioppai.org##+js(nobab)" converted to: "herodex.org,minioppai.org#%#//scriptlet('ubo-nobab.js')"
 herodex.org,minioppai.org##+js(nobab)
+! Rule "173.249.8.3##+js(acis, eval, split)" converted to: "173.249.8.3#%#//scriptlet('ubo-acis.js', 'eval', 'split')"
+173.249.8.3##+js(acis, eval, split)
+! Rule "173.249.8.3##+js(nostif, /showModal\(\)|chooseAction\(\)/)" converted to: "173.249.8.3#%#//scriptlet('ubo-nostif.js', '/showModal\(\)|chooseAction\(\)/')"
+173.249.8.3##+js(nostif, /showModal\(\)|chooseAction\(\)/)
 ! Rule "jilboob.top##+js(acis, document.querySelectorAll, adConfig)" converted to: "jilboob.top#%#//scriptlet('ubo-acis.js', 'document.querySelectorAll', 'adConfig')"
 jilboob.top##+js(acis, document.querySelectorAll, adConfig)
-! Rule "80.85.140.251##+js(acis, parseInt, break;case $.)" converted to: "80.85.140.251#%#//scriptlet('ubo-acis.js', 'parseInt', 'break;case $.')"
-80.85.140.251##+js(acis, parseInt, break;case $.)
-! Rule "185.211.5.9,75.119.147.12##+js(acis, puShown , /doOpen|popundr/)" converted to: "185.211.5.9,75.119.147.12#%#//scriptlet('ubo-acis.js', 'puShown', '/doOpen|popundr/')"
-185.211.5.9,75.119.147.12##+js(acis, puShown , /doOpen|popundr/)
+! Rule "75.119.147.12##+js(acis, puShown , /doOpen|popundr/)" converted to: "75.119.147.12#%#//scriptlet('ubo-acis.js', 'puShown', '/doOpen|popundr/')"
+75.119.147.12##+js(acis, puShown , /doOpen|popundr/)
 ! Rule "softcore69.club##+js(acis, userout)" converted to: "softcore69.club#%#//scriptlet('ubo-acis.js', 'userout')"
 softcore69.club##+js(acis, userout)
 ! Rule "dalamhati.com##+js(aopr, $, SPU_master)" converted to: "dalamhati.com#%#//scriptlet('ubo-aopr.js', '$', 'SPU_master')"
 dalamhati.com##+js(aopr, $, SPU_master)
 ! Rule "139.99.33.207,155.138.155.177##+js(aopr, $.magnificPopup.open)" converted to: "139.99.33.207,155.138.155.177#%#//scriptlet('ubo-aopr.js', '$.magnificPopup.open')"
 139.99.33.207,155.138.155.177##+js(aopr, $.magnificPopup.open)
-! Rule "173.249.5.27##+js(aopr, minutes_popup)" converted to: "173.249.5.27#%#//scriptlet('ubo-aopr.js', 'minutes_popup')"
-173.249.5.27##+js(aopr, minutes_popup)
-! Rule "207.244.225.48##+js(aopr, popup_custom_data)" converted to: "207.244.225.48#%#//scriptlet('ubo-aopr.js', 'popup_custom_data')"
-207.244.225.48##+js(aopr, popup_custom_data)
-! Rule "memekviral.top##+js(aopr, window.pum_popups)" converted to: "memekviral.top#%#//scriptlet('ubo-aopr.js', 'window.pum_popups')"
-memekviral.top##+js(aopr, window.pum_popups)
-! Rule "103.194.170.153,128.199.158.141,128.199.174.22,128.199.175.251,128.199.187.59,128.199.190.86,128.199.84.59,139.59.223.160,139.99.118.115,139.99.33.195,139.99.33.199,139.99.33.204,139.99.33.205,139.99.33.207,139.99.33.210,139.99.33.213,139.99.33.214,139.99.51.105,144.126.138.140,144.126.154.75,144.91.116.224,148.163.72.91,149.248.60.75,149.28.142.38,154.12.229.9,155.138.155.177,157.245.195.114,157.245.63.252,159.65.128.138,159.89.198.98,159.89.214.26,159.89.221.2,162.213.249.120,164.68.111.161,164.68.127.15,165.22.61.29,167.99.31.83,167.99.77.72,173.249.49.204,173.249.5.27,173.82.166.10,173.82.166.11,173.82.166.12,173.82.166.13,173.82.166.14,178.128.114.78,178.128.220.28,178.128.62.5,185.193.67.184,185.211.5.9,185.99.135.216,185.99.135.251,188.166.197.213,192.243.98.23,194.163.153.227,194.233.87.224,198.54.112.76,199.192.17.66,206.189.33.12,206.189.33.151,206.189.88.35,207.148.6.82,207.244.225.48,207.244.250.35,209.97.161.160,209.97.171.113,45.138.157.10,45.14.226.94,45.32.122.145,45.63.23.4,45.76.144.150,45.76.33.4,45.81.224.60,45.84.0.60,51.81.115.212,54.36.246.81,54.39.165.146,54.39.250.131,62.182.85.163,63.141.243.30,66.29.129.121,66.29.129.161,66.42.87.58,68.183.237.173,69.197.132.190,75.119.147.12,75.119.155.196,80.209.252.69,80.85.140.251,94.237.69.121,94.237.69.126,94.237.74.194,94.237.74.225,94.237.78.220,adultdeepfakes.com,alatestnews.com,bacol.lol,bandarsub.com,bindoxxxx.xyz,bokep8.icu,bokepah.com,bokepbarat.net,bokepcuy.net,bokepcuy.one,bokepfbx.xyz,bokephdx.com,bokepindohotxpanas.sbs,bokepindoviral.com,bokepla.com,bokepmama.sex,bokeponlinestreaming.link,bokepsange.net,bokepsd.lol,bokepsub.com,bokepv.com,bokepviral.vip,cambaby.link,ceritabokepindonesia.com,ceritadewasa98.com,ceritaseksindo.com,ceritaseru.sextgem.com,ceritasex16.com,dalamhati.com,deepfakeporn.net,deepfakesweb.com,dunia121.blogspot.com,erocafe.net,gocrot.com,herodex.org,hijab.link,indo-bioskop.blogspot.com,indobispak.com,indoviral13.com,indoviral22.com,indoxxibokep.com,inibokep.asia,javstory.me,javsubindo.com,javxxi.com,jilboob.top,kamarbokep.net,kebokepanku.com,komik18.art,kontol.in,kumpulan-film-bokep.blogspot.com,layarkc21.club,linkbokep.cam,makkaroni.info,malemjumat.lol,manhwaindo.me,memeksiana.cam,memekviral.top,minioppai.org,moviemantap21.blogspot.com,myhdjav.me,nekopoi.care,nesaporn.com,net18plus.vip,onbatch.my.id,palingmontok.top,perawanbokep.site,photomemek.com,pornogrim.xyz,potobugill.sextgem.com,putri77.org,rajacoli.click,ruangbokep.co,ruangbokep.ws,sexcelebrity.net,site2853.live,softcore69.club,stampin-de-va.blogspot.com,subindojav.com,subindojav.xyz,tanteseksi.lol,vidiobokepbarat.xyz,viralabg.net,xbokep.art,xbokepfb.com,xn--bokeponline-zl9z.xyz,xn--gudangbkepnline-1rbd.com,xn--nontonbokeponline-zm69a.xyz,xnxx54.online,yabaisub.com##+js(window.open-defuser)" converted to: "103.194.170.153,128.199.158.141,128.199.174.22,128.199.175.251,128.199.187.59,128.199.190.86,128.199.84.59,139.59.223.160,139.99.118.115,139.99.33.195,139.99.33.199,139.99.33.204,139.99.33.205,139.99.33.207,139.99.33.210,139.99.33.213,139.99.33.214,139.99.51.105,144.126.138.140,144.126.154.75,144.91.116.224,148.163.72.91,149.248.60.75,149.28.142.38,154.12.229.9,155.138.155.177,157.245.195.114,157.245.63.252,159.65.128.138,159.89.198.98,159.89.214.26,159.89.221.2,162.213.249.120,164.68.111.161,164.68.127.15,165.22.61.29,167.99.31.83,167.99.77.72,173.249.49.204,173.249.5.27,173.82.166.10,173.82.166.11,173.82.166.12,173.82.166.13,173.82.166.14,178.128.114.78,178.128.220.28,178.128.62.5,185.193.67.184,185.211.5.9,185.99.135.216,185.99.135.251,188.166.197.213,192.243.98.23,194.163.153.227,194.233.87.224,198.54.112.76,199.192.17.66,206.189.33.12,206.189.33.151,206.189.88.35,207.148.6.82,207.244.225.48,207.244.250.35,209.97.161.160,209.97.171.113,45.138.157.10,45.14.226.94,45.32.122.145,45.63.23.4,45.76.144.150,45.76.33.4,45.81.224.60,45.84.0.60,51.81.115.212,54.36.246.81,54.39.165.146,54.39.250.131,62.182.85.163,63.141.243.30,66.29.129.121,66.29.129.161,66.42.87.58,68.183.237.173,69.197.132.190,75.119.147.12,75.119.155.196,80.209.252.69,80.85.140.251,94.237.69.121,94.237.69.126,94.237.74.194,94.237.74.225,94.237.78.220,adultdeepfakes.com,alatestnews.com,bacol.lol,bandarsub.com,bindoxxxx.xyz,bokep8.icu,bokepah.com,bokepbarat.net,bokepcuy.net,bokepcuy.one,bokepfbx.xyz,bokephdx.com,bokepindohotxpanas.sbs,bokepindoviral.com,bokepla.com,bokepmama.sex,bokeponlinestreaming.link,bokepsange.net,bokepsd.lol,bokepsub.com,bokepv.com,bokepviral.vip,cambaby.link,ceritabokepindonesia.com,ceritadewasa98.com,ceritaseksindo.com,ceritaseru.sextgem.com,ceritasex16.com,dalamhati.com,deepfakeporn.net,deepfakesweb.com,dunia121.blogspot.com,erocafe.net,gocrot.com,herodex.org,hijab.link,indo-bioskop.blogspot.com,indobispak.com,indoviral13.com,indoviral22.com,indoxxibokep.com,inibokep.asia,javstory.me,javsubindo.com,javxxi.com,jilboob.top,kamarbokep.net,kebokepanku.com,komik18.art,kontol.in,kumpulan-film-bokep.blogspot.com,layarkc21.club,linkbokep.cam,makkaroni.info,malemjumat.lol,manhwaindo.me,memeksiana.cam,memekviral.top,minioppai.org,moviemantap21.blogspot.com,myhdjav.me,nekopoi.care,nesaporn.com,net18plus.vip,onbatch.my.id,palingmontok.top,perawanbokep.site,photomemek.com,pornogrim.xyz,potobugill.sextgem.com,putri77.org,rajacoli.click,ruangbokep.co,ruangbokep.ws,sexcelebrity.net,site2853.live,softcore69.club,stampin-de-va.blogspot.com,subindojav.com,subindojav.xyz,tanteseksi.lol,vidiobokepbarat.xyz,viralabg.net,xbokep.art,xbokepfb.com,xn--bokeponline-zl9z.xyz,xn--gudangbkepnline-1rbd.com,xn--nontonbokeponline-zm69a.xyz,xnxx54.online,yabaisub.com#%#//scriptlet('ubo-window.open-defuser.js')"
-103.194.170.153,128.199.158.141,128.199.174.22,128.199.175.251,128.199.187.59,128.199.190.86,128.199.84.59,139.59.223.160,139.99.118.115,139.99.33.195,139.99.33.199,139.99.33.204,139.99.33.205,139.99.33.207,139.99.33.210,139.99.33.213,139.99.33.214,139.99.51.105,144.126.138.140,144.126.154.75,144.91.116.224,148.163.72.91,149.248.60.75,149.28.142.38,154.12.229.9,155.138.155.177,157.245.195.114,157.245.63.252,159.65.128.138,159.89.198.98,159.89.214.26,159.89.221.2,162.213.249.120,164.68.111.161,164.68.127.15,165.22.61.29,167.99.31.83,167.99.77.72,173.249.49.204,173.249.5.27,173.82.166.10,173.82.166.11,173.82.166.12,173.82.166.13,173.82.166.14,178.128.114.78,178.128.220.28,178.128.62.5,185.193.67.184,185.211.5.9,185.99.135.216,185.99.135.251,188.166.197.213,192.243.98.23,194.163.153.227,194.233.87.224,198.54.112.76,199.192.17.66,206.189.33.12,206.189.33.151,206.189.88.35,207.148.6.82,207.244.225.48,207.244.250.35,209.97.161.160,209.97.171.113,45.138.157.10,45.14.226.94,45.32.122.145,45.63.23.4,45.76.144.150,45.76.33.4,45.81.224.60,45.84.0.60,51.81.115.212,54.36.246.81,54.39.165.146,54.39.250.131,62.182.85.163,63.141.243.30,66.29.129.121,66.29.129.161,66.42.87.58,68.183.237.173,69.197.132.190,75.119.147.12,75.119.155.196,80.209.252.69,80.85.140.251,94.237.69.121,94.237.69.126,94.237.74.194,94.237.74.225,94.237.78.220,adultdeepfakes.com,alatestnews.com,bacol.lol,bandarsub.com,bindoxxxx.xyz,bokep8.icu,bokepah.com,bokepbarat.net,bokepcuy.net,bokepcuy.one,bokepfbx.xyz,bokephdx.com,bokepindohotxpanas.sbs,bokepindoviral.com,bokepla.com,bokepmama.sex,bokeponlinestreaming.link,bokepsange.net,bokepsd.lol,bokepsub.com,bokepv.com,bokepviral.vip,cambaby.link,ceritabokepindonesia.com,ceritadewasa98.com,ceritaseksindo.com,ceritaseru.sextgem.com,ceritasex16.com,dalamhati.com,deepfakeporn.net,deepfakesweb.com,dunia121.blogspot.com,erocafe.net,gocrot.com,herodex.org,hijab.link,indo-bioskop.blogspot.com,indobispak.com,indoviral13.com,indoviral22.com,indoxxibokep.com,inibokep.asia,javstory.me,javsubindo.com,javxxi.com,jilboob.top,kamarbokep.net,kebokepanku.com,komik18.art,kontol.in,kumpulan-film-bokep.blogspot.com,layarkc21.club,linkbokep.cam,makkaroni.info,malemjumat.lol,manhwaindo.me,memeksiana.cam,memekviral.top,minioppai.org,moviemantap21.blogspot.com,myhdjav.me,nekopoi.care,nesaporn.com,net18plus.vip,onbatch.my.id,palingmontok.top,perawanbokep.site,photomemek.com,pornogrim.xyz,potobugill.sextgem.com,putri77.org,rajacoli.click,ruangbokep.co,ruangbokep.ws,sexcelebrity.net,site2853.live,softcore69.club,stampin-de-va.blogspot.com,subindojav.com,subindojav.xyz,tanteseksi.lol,vidiobokepbarat.xyz,viralabg.net,xbokep.art,xbokepfb.com,xn--bokeponline-zl9z.xyz,xn--gudangbkepnline-1rbd.com,xn--nontonbokeponline-zm69a.xyz,xnxx54.online,yabaisub.com##+js(window.open-defuser)
+! Rule "0.0.realodix##+js(aopr, minutes_popup)" converted to: "0.0.realodix#%#//scriptlet('ubo-aopr.js', 'minutes_popup')"
+0.0.realodix##+js(aopr, minutes_popup)
+! Rule "avtub.shop,avtub.yt,bokepbest.net,bokepsin.guru,bokepsin.net,playbokep.wiki,simontok.ink##+js(aopr, ujiPopups)" converted to: "avtub.shop,avtub.yt,bokepbest.net,bokepsin.guru,bokepsin.net,playbokep.wiki,simontok.ink#%#//scriptlet('ubo-aopr.js', 'ujiPopups')"
+avtub.shop,avtub.yt,bokepbest.net,bokepsin.guru,bokepsin.net,playbokep.wiki,simontok.ink##+js(aopr, ujiPopups)
+! Rule "memekviral.live##+js(aopr, window.pum_popups)" converted to: "memekviral.live#%#//scriptlet('ubo-aopr.js', 'window.pum_popups')"
+memekviral.live##+js(aopr, window.pum_popups)
+! Rule "128.199.158.141,128.199.174.22,128.199.175.251,128.199.187.59,139.59.247.35,139.99.33.195,139.99.33.199,139.99.33.205,139.99.33.207,139.99.33.210,139.99.33.213,139.99.33.214,139.99.51.105,144.126.138.140,144.126.154.75,149.248.60.75,154.12.229.9,154.53.44.57,155.138.155.177,157.230.41.236,159.89.198.98,159.89.214.26,159.89.221.2,162.213.249.120,164.68.127.15,167.172.7.30,167.99.31.83,178.128.114.78,178.128.220.28,178.128.25.172,178.128.62.5,185.193.67.184,194.163.129.165,194.163.153.227,206.189.33.151,206.189.88.35,207.244.225.48,207.244.250.35,212.90.120.57,38.242.140.59,45.14.226.94,45.63.23.4,45.76.33.4,51.81.115.212,54.39.165.146,62.171.164.179,62.182.85.163,63.141.243.30,66.29.129.121,66.29.129.161,69.197.132.190,75.119.147.12,adultdeepfakes.com,alatestnews.com,avtub.shop,avtub.yt,bacol.cfd,bandarsub.com,bokep8.icu,bokepbest.net,bokepcuy.mom,bokephdx.com,bokepindo.best,bokepindoviral.com,bokepla.com,bokeponlinestreaming.info,bokepsd.lol,bokepsin.guru,bokepsin.net,bokepsub.com,bokepviral.online,cambaby.store,cctvbokep.online,ceritabokepindonesia.com,ceritadewasa98.com,ceritaseru.sextgem.com,ceritasex16.com,dalamhati.com,deepfakeporn.net,deepfakesweb.com,dunia121.blogspot.com,erocafe.net,gocrot.com,herodex.org,hijablink.sbs,indo-bioskop.blogspot.com,indo18.xyz,indoxxibokep.com,inibokep.gay,inibokep.wiki,javstory.me,javsub-indo.biz,javsubindo.com,javxxi.com,jilboob.top,kamarbokep.xyz,kebokepanku.xyz,kontol.in,kumpulan-film-bokep.blogspot.com,layarkc21.club,malemjumat.ink,memekviral.live,minioppai.org,moviemantap21.blogspot.com,myhdjav.me,nekopoi.care,nesaporn.com,onbatch.my.id,paptt.com,photomemek.com,playbokep.wiki,pornogrim.online,pornogrim.xyz,potobugill.sextgem.com,putri77.org,rajacoli.org,rajacoli.site,ruangbokep.gay,ruangbokep.online,sangetube.com,sexcelebrity.net,site2853.live,softcore69.club,stampin-de-va.blogspot.com,subindojav.com,tanteseksi.click,videoviral.cam,vidio.best,xbokep.ink,xbokepfb.top,xn--bokeponline-zl9z.xyz,xnxx54.online,xvideobokepgratis.fun,yabaisub.com##+js(window.open-defuser)" converted to: "128.199.158.141,128.199.174.22,128.199.175.251,128.199.187.59,139.59.247.35,139.99.33.195,139.99.33.199,139.99.33.205,139.99.33.207,139.99.33.210,139.99.33.213,139.99.33.214,139.99.51.105,144.126.138.140,144.126.154.75,149.248.60.75,154.12.229.9,154.53.44.57,155.138.155.177,157.230.41.236,159.89.198.98,159.89.214.26,159.89.221.2,162.213.249.120,164.68.127.15,167.172.7.30,167.99.31.83,178.128.114.78,178.128.220.28,178.128.25.172,178.128.62.5,185.193.67.184,194.163.129.165,194.163.153.227,206.189.33.151,206.189.88.35,207.244.225.48,207.244.250.35,212.90.120.57,38.242.140.59,45.14.226.94,45.63.23.4,45.76.33.4,51.81.115.212,54.39.165.146,62.171.164.179,62.182.85.163,63.141.243.30,66.29.129.121,66.29.129.161,69.197.132.190,75.119.147.12,adultdeepfakes.com,alatestnews.com,avtub.shop,avtub.yt,bacol.cfd,bandarsub.com,bokep8.icu,bokepbest.net,bokepcuy.mom,bokephdx.com,bokepindo.best,bokepindoviral.com,bokepla.com,bokeponlinestreaming.info,bokepsd.lol,bokepsin.guru,bokepsin.net,bokepsub.com,bokepviral.online,cambaby.store,cctvbokep.online,ceritabokepindonesia.com,ceritadewasa98.com,ceritaseru.sextgem.com,ceritasex16.com,dalamhati.com,deepfakeporn.net,deepfakesweb.com,dunia121.blogspot.com,erocafe.net,gocrot.com,herodex.org,hijablink.sbs,indo-bioskop.blogspot.com,indo18.xyz,indoxxibokep.com,inibokep.gay,inibokep.wiki,javstory.me,javsub-indo.biz,javsubindo.com,javxxi.com,jilboob.top,kamarbokep.xyz,kebokepanku.xyz,kontol.in,kumpulan-film-bokep.blogspot.com,layarkc21.club,malemjumat.ink,memekviral.live,minioppai.org,moviemantap21.blogspot.com,myhdjav.me,nekopoi.care,nesaporn.com,onbatch.my.id,paptt.com,photomemek.com,playbokep.wiki,pornogrim.online,pornogrim.xyz,potobugill.sextgem.com,putri77.org,rajacoli.org,rajacoli.site,ruangbokep.gay,ruangbokep.online,sangetube.com,sexcelebrity.net,site2853.live,softcore69.club,stampin-de-va.blogspot.com,subindojav.com,tanteseksi.click,videoviral.cam,vidio.best,xbokep.ink,xbokepfb.top,xn--bokeponline-zl9z.xyz,xnxx54.online,xvideobokepgratis.fun,yabaisub.com#%#//scriptlet('ubo-window.open-defuser.js')"
+128.199.158.141,128.199.174.22,128.199.175.251,128.199.187.59,139.59.247.35,139.99.33.195,139.99.33.199,139.99.33.205,139.99.33.207,139.99.33.210,139.99.33.213,139.99.33.214,139.99.51.105,144.126.138.140,144.126.154.75,149.248.60.75,154.12.229.9,154.53.44.57,155.138.155.177,157.230.41.236,159.89.198.98,159.89.214.26,159.89.221.2,162.213.249.120,164.68.127.15,167.172.7.30,167.99.31.83,178.128.114.78,178.128.220.28,178.128.25.172,178.128.62.5,185.193.67.184,194.163.129.165,194.163.153.227,206.189.33.151,206.189.88.35,207.244.225.48,207.244.250.35,212.90.120.57,38.242.140.59,45.14.226.94,45.63.23.4,45.76.33.4,51.81.115.212,54.39.165.146,62.171.164.179,62.182.85.163,63.141.243.30,66.29.129.121,66.29.129.161,69.197.132.190,75.119.147.12,adultdeepfakes.com,alatestnews.com,avtub.shop,avtub.yt,bacol.cfd,bandarsub.com,bokep8.icu,bokepbest.net,bokepcuy.mom,bokephdx.com,bokepindo.best,bokepindoviral.com,bokepla.com,bokeponlinestreaming.info,bokepsd.lol,bokepsin.guru,bokepsin.net,bokepsub.com,bokepviral.online,cambaby.store,cctvbokep.online,ceritabokepindonesia.com,ceritadewasa98.com,ceritaseru.sextgem.com,ceritasex16.com,dalamhati.com,deepfakeporn.net,deepfakesweb.com,dunia121.blogspot.com,erocafe.net,gocrot.com,herodex.org,hijablink.sbs,indo-bioskop.blogspot.com,indo18.xyz,indoxxibokep.com,inibokep.gay,inibokep.wiki,javstory.me,javsub-indo.biz,javsubindo.com,javxxi.com,jilboob.top,kamarbokep.xyz,kebokepanku.xyz,kontol.in,kumpulan-film-bokep.blogspot.com,layarkc21.club,malemjumat.ink,memekviral.live,minioppai.org,moviemantap21.blogspot.com,myhdjav.me,nekopoi.care,nesaporn.com,onbatch.my.id,paptt.com,photomemek.com,playbokep.wiki,pornogrim.online,pornogrim.xyz,potobugill.sextgem.com,putri77.org,rajacoli.org,rajacoli.site,ruangbokep.gay,ruangbokep.online,sangetube.com,sexcelebrity.net,site2853.live,softcore69.club,stampin-de-va.blogspot.com,subindojav.com,tanteseksi.click,videoviral.cam,vidio.best,xbokep.ink,xbokepfb.top,xn--bokeponline-zl9z.xyz,xnxx54.online,xvideobokepgratis.fun,yabaisub.com##+js(window.open-defuser)
 ! Rule "embedmanager.xyz##+js(window.open-defuser)" converted to: "embedmanager.xyz#%#//scriptlet('ubo-window.open-defuser.js')"
 embedmanager.xyz##+js(window.open-defuser)
-! Rule "154.12.229.9,45.32.122.145,75.119.147.12,herodex.org##+js(aopr, popup_custom_data)" converted to: "154.12.229.9,45.32.122.145,75.119.147.12,herodex.org#%#//scriptlet('ubo-aopr.js', 'popup_custom_data')"
-154.12.229.9,45.32.122.145,75.119.147.12,herodex.org##+js(aopr, popup_custom_data)
-! Rule "149.248.60.75,memeksiana.cam,palingmontok.top##+js(aopr, pum_popups)" converted to: "149.248.60.75,memeksiana.cam,palingmontok.top#%#//scriptlet('ubo-aopr.js', 'pum_popups')"
-149.248.60.75,memeksiana.cam,palingmontok.top##+js(aopr, pum_popups)
-! Rule "bokepterbaruxxi.com##+js(aeld, contextmenu)" converted to: "bokepterbaruxxi.com#%#//scriptlet('ubo-aeld.js', 'contextmenu')"
-bokepterbaruxxi.com##+js(aeld, contextmenu)
+! Rule "207.244.225.48,207.244.250.35,75.119.147.12,herodex.org##+js(aopr, popup_custom_data)" converted to: "207.244.225.48,207.244.250.35,75.119.147.12,herodex.org#%#//scriptlet('ubo-aopr.js', 'popup_custom_data')"
+207.244.225.48,207.244.250.35,75.119.147.12,herodex.org##+js(aopr, popup_custom_data)
+! Rule "149.248.60.75##+js(aopr, pum_popups)" converted to: "149.248.60.75#%#//scriptlet('ubo-aopr.js', 'pum_popups')"
+149.248.60.75##+js(aopr, pum_popups)
+! Rule "sukameki.info##+js(aeld, contextmenu)" converted to: "sukameki.info#%#//scriptlet('ubo-aeld.js', 'contextmenu')"
+sukameki.info##+js(aeld, contextmenu)
 ! Rule "erocafe.net##+js(aopr, document.onselectstart)" converted to: "erocafe.net#%#//scriptlet('ubo-aopr.js', 'document.onselectstart')"
 erocafe.net##+js(aopr, document.onselectstart)
 ! Rule "erocafe.net##+js(aopr, protected_links)" converted to: "erocafe.net#%#//scriptlet('ubo-aopr.js', 'protected_links')"
 erocafe.net##+js(aopr, protected_links)
-! Rule "||13.228.31.157^$3p,css,image,script" converted to: "||13.228.31.157^$third-party,stylesheet,image,script"
-||13.228.31.157^$3p,css,image,script
-! Rule "||135.148.1.139^$3p,css,image,script" converted to: "||135.148.1.139^$third-party,stylesheet,image,script"
-||135.148.1.139^$3p,css,image,script
-! Rule "||138.68.80.19^$3p,css,image,script" converted to: "||138.68.80.19^$third-party,stylesheet,image,script"
-||138.68.80.19^$3p,css,image,script
-! Rule "||14.128.35.112^$3p,css,image,script" converted to: "||14.128.35.112^$third-party,stylesheet,image,script"
-||14.128.35.112^$3p,css,image,script
-! Rule "||143.198.210.224^$3p,css,image,script" converted to: "||143.198.210.224^$third-party,stylesheet,image,script"
-||143.198.210.224^$3p,css,image,script
-! Rule "||148.66.138.185^$3p,css,image,script" converted to: "||148.66.138.185^$third-party,stylesheet,image,script"
-||148.66.138.185^$3p,css,image,script
-! Rule "||156.67.218.139^$3p,css,image,script" converted to: "||156.67.218.139^$third-party,stylesheet,image,script"
-||156.67.218.139^$3p,css,image,script
-! Rule "||159.65.11.79^$3p,css,image,script" converted to: "||159.65.11.79^$third-party,stylesheet,image,script"
-||159.65.11.79^$3p,css,image,script
-! Rule "||165.22.107.153^$3p,css,image,script" converted to: "||165.22.107.153^$third-party,stylesheet,image,script"
-||165.22.107.153^$3p,css,image,script
-! Rule "||166.62.10.125^$3p,css,image,script" converted to: "||166.62.10.125^$third-party,stylesheet,image,script"
-||166.62.10.125^$3p,css,image,script
-! Rule "||173.249.18.193^$3p,css,image,script" converted to: "||173.249.18.193^$third-party,stylesheet,image,script"
-||173.249.18.193^$3p,css,image,script
-! Rule "||174.138.18.126^$3p,css,image,script" converted to: "||174.138.18.126^$third-party,stylesheet,image,script"
-||174.138.18.126^$3p,css,image,script
-! Rule "||23.254.215.129^$3p,css,image,script" converted to: "||23.254.215.129^$third-party,stylesheet,image,script"
-||23.254.215.129^$3p,css,image,script
-! Rule "||27.124.27.125^$3p,css,image,script" converted to: "||27.124.27.125^$third-party,stylesheet,image,script"
-||27.124.27.125^$3p,css,image,script
-! Rule "||50.28.102.195^$3p,css,image,script" converted to: "||50.28.102.195^$third-party,stylesheet,image,script"
-||50.28.102.195^$3p,css,image,script
-! Rule "||51.81.64.171^$3p,css,image,script" converted to: "||51.81.64.171^$third-party,stylesheet,image,script"
-||51.81.64.171^$3p,css,image,script
-! Rule "||64.91.252.215^$3p,css,image,script" converted to: "||64.91.252.215^$third-party,stylesheet,image,script"
-||64.91.252.215^$3p,css,image,script
-! Rule "||69.10.34.78^$3p,css,image,script" converted to: "||69.10.34.78^$third-party,stylesheet,image,script"
-||69.10.34.78^$3p,css,image,script
-! Rule "||81.4.122.148^$3p,css,image,script" converted to: "||81.4.122.148^$third-party,stylesheet,image,script"
-||81.4.122.148^$3p,css,image,script
-! Rule "||bbm88.org^$3p,css,image,script" converted to: "||bbm88.org^$third-party,stylesheet,image,script"
-||bbm88.org^$3p,css,image,script
 ! Rule "||bokep8.icu^$3p,css,image,script" converted to: "||bokep8.icu^$third-party,stylesheet,image,script"
 ||bokep8.icu^$3p,css,image,script
-! Rule "||bosqq.online^$3p,css,image,script" converted to: "||bosqq.online^$third-party,stylesheet,image,script"
-||bosqq.online^$3p,css,image,script
-! Rule "||caramenangtaruhanbola.com^$3p,css,image,script" converted to: "||caramenangtaruhanbola.com^$third-party,stylesheet,image,script"
-||caramenangtaruhanbola.com^$3p,css,image,script
-! Rule "||cmcpoker.info^$3p,css,image,script" converted to: "||cmcpoker.info^$third-party,stylesheet,image,script"
-||cmcpoker.info^$3p,css,image,script
-! Rule "||gebyarbola.org^$3p,css,image,script" converted to: "||gebyarbola.org^$third-party,stylesheet,image,script"
-||gebyarbola.org^$3p,css,image,script
+! Rule "iluminasi.com##*:style(user-select: text !important; -webkit-user-select: text !important; -webkit-touch-callout: default !important;)" converted to: "iluminasi.com#$#* { user-select: text !important; -webkit-user-select: text !important; -webkit-touch-callout: default !important; }"
+iluminasi.com##*:style(user-select: text !important; -webkit-user-select: text !important; -webkit-touch-callout: default !important;)
 ! Rule "mediahiburan.my##+js(acis, disableSelection, reEnable)" converted to: "mediahiburan.my#%#//scriptlet('ubo-acis.js', 'disableSelection', 'reEnable')"
 mediahiburan.my##+js(acis, disableSelection, reEnable)
 ! Rule "mediahiburan.my##+js(acis, document.oncontextmenu)" converted to: "mediahiburan.my#%#//scriptlet('ubo-acis.js', 'document.oncontextmenu')"
 mediahiburan.my##+js(acis, document.oncontextmenu)
-! Rule "iluminasi.com##*:style(user-select: text !important; -webkit-user-select: text !important; -webkit-touch-callout: default !important;)" converted to: "iluminasi.com#$#* { user-select: text !important; -webkit-user-select: text !important; -webkit-touch-callout: default !important; }"
-iluminasi.com##*:style(user-select: text !important; -webkit-user-select: text !important; -webkit-touch-callout: default !important;)
 ! Rule "ohmymedia.cc###mvp-site-main:style(margin-top: 0!important;)" converted to: "ohmymedia.cc#$##mvp-site-main { margin-top: 0!important; }"
 ohmymedia.cc###mvp-site-main:style(margin-top: 0!important;)

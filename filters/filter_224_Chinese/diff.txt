@@ -8,6 +8,8 @@
 ||104.203.72.254^
 ! ||104.233.177.93^ is excluded by "||104." in exclusions.txt
 ||104.233.177.93^
+! 939394.xyz#?#:-abp-properties(/fixed|data/) is excluded by "-abp-properties" in exclusions.txt
+939394.xyz#?#:-abp-properties(/fixed|data/)
 ! pcbeta.com#?#div[class]:-abp-properties(/height: (169|171)px;/) is excluded by "-abp-properties" in exclusions.txt
 pcbeta.com#?#div[class]:-abp-properties(/height: (169|171)px;/)
 ! pcbeta.com#?##wp > div[class][id]:-abp-properties(width: 980px;) is excluded by "-abp-properties" in exclusions.txt
@@ -36,13 +38,13 @@ pcbeta.com#?##wp > div[class][id]:-abp-properties(width: 980px;)
 ||hellocenter.xyz^*.mp4$rewrite=abp-resource:blank-mp4,domain=localmv1.com
 ! Rule "||huya.com/leaf/*=vodadv&$rewrite=abp-resource:blank-mp3,domain=huya.com" converted to: "||huya.com/leaf/*=vodadv&$redirect=noopmp3-0.1s,domain=huya.com"
 ||huya.com/leaf/*=vodadv&$rewrite=abp-resource:blank-mp3,domain=huya.com
-! Rule "||manwa.life/static/upload/ads/$image,rewrite=abp-resource:1x1-transparent-gif,~third-party" converted to: "||manwa.life/static/upload/ads/$image,redirect=1x1-transparent.gif,~third-party"
-||manwa.life/static/upload/ads/$image,rewrite=abp-resource:1x1-transparent-gif,~third-party
-! Rule "||manwa.site/static/upload/ads/$image,rewrite=abp-resource:1x1-transparent-gif,~third-party" converted to: "||manwa.site/static/upload/ads/$image,redirect=1x1-transparent.gif,~third-party"
-||manwa.site/static/upload/ads/$image,rewrite=abp-resource:1x1-transparent-gif,~third-party
+! Rule "||manwa2.me/static/custom/files/300X250.$image,rewrite=abp-resource:1x1-transparent-gif,~third-party" converted to: "||manwa2.me/static/custom/files/300X250.$image,redirect=1x1-transparent.gif,~third-party"
+||manwa2.me/static/custom/files/300X250.$image,rewrite=abp-resource:1x1-transparent-gif,~third-party
 ! Rule "||yitongkan.com/splash.xml$rewrite=abp-resource:blank-js,domain=yitongkan.com" converted to: "||yitongkan.com/splash.xml$redirect=noopjs,domain=yitongkan.com"
 ||yitongkan.com/splash.xml$rewrite=abp-resource:blank-js,domain=yitongkan.com
 ! Rule "||*^sdtfrom=^$media,rewrite=abp-resource:blank-mp3,domain=qq.com" converted to: "||*^sdtfrom=^$media,redirect=noopmp3-0.1s,domain=qq.com"
 ||*^sdtfrom=^$media,rewrite=abp-resource:blank-mp3,domain=qq.com
 ! Rule "||lts*.qq.com^*.ts?index=$media,rewrite=abp-resource:blank-mp3,domain=qq.com" converted to: "||lts*.qq.com^*.ts?index=$media,redirect=noopmp3-0.1s,domain=qq.com"
 ||lts*.qq.com^*.ts?index=$media,rewrite=abp-resource:blank-mp3,domain=qq.com
+! Error: Invalid selector: '.j_l_post[data-field*="\"user_name\":\"\\u4e3f\\u5929\\u4e36\\u4e4b\\u6b87\""]:not([data-field*="\"user_id\":1180601200,"])' -- Error: unable to select by '.j_l_post[data-field*="\"user_name\":\"\\u4e3f\\u5929\\u4e36\\u4e4b\\u6b87\""]:not([data-field*="\"user_id\":1180601200,"])' — missing ) after argument list in rule:
+1111.baidu.com,bdimg.com,live.baidu.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.j_l_post[data-field*="\"user_name\":\"\\u4e3f\\u5929\\u4e36\\u4e4b\\u6b87\""]:not([data-field*="\"user_id\":1180601200,"])

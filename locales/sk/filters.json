@@ -33,11 +33,11 @@
 	},
 	{
 		"filter.9.name": "AdGuard španielsky/portugalský filter",
-		"filter.9.description": "Filter, ktorý špecificky odstraňuje reklamy na stránkach v španielčine a portugalčine."
+		"filter.9.description": "Zoznam filtrov, ktorý odstraňuje reklamy na webových stránkach v španielčine, portugalčine a brazílskej portugalčine."
 	},
 	{
 		"filter.10.name": "Filter pre odblokovanie užitočných reklám",
-		"filter.10.description": "Filter, ktorý odblokuje vyhľadávanie (Duckduckgo, Google, Bing, Yahoo) a vlastnú propagáciu. Vlastnú propagáciu pritom definujeme ako reklamu na stránke, ktorá propaguje tú istú stránku alebo iné stránky, sociálne médiá atď., ktoré s ňou majú úzky vzťah."
+		"filter.10.description": "Filter, ktorý odblokuje vyhľadávanie (DuckDuckGo, Google, Bing, Yahoo) a vlastnú propagáciu. Vlastnú propagáciu pritom definujeme ako reklamu na stránke, ktorá propaguje tú istú stránku alebo iné stránky, sociálne médiá atď., ktoré s ňou majú úzky vzťah."
 	},
 	{
 		"filter.11.name": "AdGuard filter mobilných reklám",
@@ -86,6 +86,10 @@
 	{
 		"filter.22.name": "AdGuard filter miniaplikácií",
 		"filter.22.description": "Blokuje obťažujúce miniaplikácie tretích strán: online asistentov, živé podporné chaty atď. Už je zahrnutý vo filtri AdGuard Annoyances."
+	},
+	{
+		"filter.23.name": "AdGuard ukrajinský filter",
+		"filter.23.description": "Filter, ktorý umožňuje blokovanie reklám na webových stránkach v ukrajinskom jazyku."
 	},
 	{
 		"filter.224.name": "AdGuard čínsky filter",

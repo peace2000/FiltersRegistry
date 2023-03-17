@@ -1,7 +1,7 @@
 !
-! OriginalVersion: 202212111033
+! OriginalVersion: 202303081854
 ! Title: CJX's Annoyance List
-! Last modified: 2022/12/11 10:33 +0800
+! Last modified: 2023/03/08 18:54 +0800
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/cjx82630/cjxlist
 !
@@ -481,7 +481,17 @@
 ||biancheng.net/templets/new/images/index_pc/fudaoban_
 ||3dmgame.com/page/js/indexalert_ad.
 ||nicelinks.site/ad-block-
+||juejin.cn/content_api/v1/advert/query_adverts?
 !------------------------Specific element hiding rules------------------------!
+csdn.net##.csdn-common-logo-advert
+a9vg.com###qrcode
+a9vg.com##.a9-back-top_qrcode
+huya.com##.end-ab-banner
+investing.com##div[class*="overlay_overlay"]
+investing.com##div[class*="adBlock"]
+sina.com.cn##DIV[class^="side-btns-jifen"]
+3dmgame.com##.mb30.warp_f
+tianqi.com##.xcx_erweima
 chinagwy.org##.ewm0610
 360kuai.com##.novel_galery_icon
 iciba.com##div[class^="Kyad_"]
@@ -1440,7 +1450,6 @@ sogou.com##.tg-box-1
 zhcw.com##.tgtc
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.thread_recommend
 jiankang.com##.three_hot
-pc841.com,zol.com.cn##.today-hot-layer
 jianshu.com##.top
 163.com,zybang.com##.top-banner
 btime.com##.top-bar

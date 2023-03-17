@@ -1,5 +1,17 @@
 [
 	{
+		"tag.70.description": "Peştuca dilindeki web sayfalarında reklamları engellemek için özel olarak tasarlandı",
+		"tag.70.name": "Peştuca diline özgü reklam engelleme"
+	},
+	{
+		"tag.69.description": "Tacikçe dilindeki sitelerde reklamları engellemek için özel olarak tasarlandı",
+		"tag.69.name": "Tacikçe diline özgü reklam engelleme"
+	},
+	{
+		"tag.68.description": "Ukrayna dilindeki web sayfalarında reklamları engellemek için özel olarak tasarlandı",
+		"tag.68.name": "Ukrayna diline özgü reklam engelleme"
+	},
+	{
 		"tag.67.description": "Hintçe dilindeki sitelerde reklamları engellemek için özel olarak tasarlandı",
 		"tag.67.name": "Hintçe diline özgü reklam engelleme"
 	},
@@ -105,7 +117,7 @@
 	},
 	{
 		"tag.19.description": "Mobil cihazlarda reklamları ve izleyicileri engellemek için özel olarak tasarlandı",
-		"tag.19.name": "Mobil cihazlar için"
+		"tag.19.name": "Telefon cihazları için"
 	},
 	{
 		"tag.20.description": "Uyumluluk sorunlarını gidermek için bir takım kurallar içerir",

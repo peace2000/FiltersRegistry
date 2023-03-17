@@ -33,11 +33,11 @@
 	},
 	{
 		"filter.9.name": "AdGuards spansk/portugisiska filter",
-		"filter.9.description": "Filterlista som specifikt avlägsnar reklam på spanskspråkiga och portugisspråkiga webbplatser."
+		"filter.9.description": "Filterlista som specifikt tar bort annonser på webbplatser på spanska, portugisiska och brasiliansk portugisiska."
 	},
 	{
 		"filter.10.name": "Filter för att avblockera användbara annonser",
-		"filter.10.description": "Filter som avblockerar sökreklam (Duckduckgo, Google, Bing, Yahoo) och egenreklam. Definition av Egenreklam: när en annons marknadsför den specifika webbplatsen eller andra sajter/sociala medier/etc nära kopplade till sajten betraktas dessa som egenreklam."
+		"filter.10.description": "Filter som avblockerar sökreklam (DuckDuckGo, Google, Bing, Yahoo) och egenreklam. Definition av Egenreklam: när en annons marknadsför den specifika webbplatsen eller andra sajter/sociala medier/etc nära kopplade till sajten betraktas dessa som egenreklam."
 	},
 	{
 		"filter.11.name": "AdGuards filter för mobilannonser",
@@ -86,6 +86,10 @@
 	{
 		"filter.22.name": "AdGuard Widgets filter",
 		"filter.22.description": "Blockerar irriterande widgetar från tredje part: onlineassistenter, chattar för direktsupport osv."
+	},
+	{
+		"filter.23.name": "AdGuard Ukrainska filter",
+		"filter.23.description": "Filter som gör det möjligt att blockera annonser på webbplatser på ukrainska."
 	},
 	{
 		"filter.224.name": "AdGuard Kinesiskt filter",

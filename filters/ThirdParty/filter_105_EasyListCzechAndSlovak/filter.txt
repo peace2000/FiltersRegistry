@@ -86,6 +86,7 @@
 ||report.sport.cz^
 ||romea.cz/images/servis/banner
 ||ronnie.cz/cache/bannery/
+||sbazar.cz/*/v1/xhr
 ||sktorrent.eu/torrent/interstitial.js
 ||ssp.seznam.cz^
 ||stat.novinky.cz^
@@ -239,6 +240,7 @@ denik.cz#@#.ads-box
 denik.cz#@#.reklama-box
 jaguar-club.net,mazdaclub.cz,nissanclub.cz#@#.reklama
 novinky.cz#@#.g_ad
+www.parabola.cz#@#.rklm
 skrblik.cz#@##adsense
 sluzebnik.cz#@##adverts
 !
@@ -393,7 +395,7 @@ konzolista.cz##.ad
 konzolista.cz##.v-card.mb-6
 konzolista.cz##.v-card--link:-abp-has(.ad)
 krimi-plzen.cz##a[rel="sponsored"]
-krimi-plzen.cz##[class*="pаrtner"]
+krimi-plzen.cz##[class*="partnеr"]
 kupi.cz##.top_background
 kurzy.cz##[id^="adv_"]
 kurzy.cz###z990x200
@@ -453,6 +455,8 @@ sauto.cz###pvMid
 serialycz.cz##a[href^="https://prehrajto.cz/?cc=prlbmso2"]
 serialzone.cz##.banner-header
 serialzone.cz##.mid-lead-hp
+seznam.cz##.gadget--zbozi
+seznam.cz##div[data-dot*="gadgetCommercial"]
 seznamzpravy.cz,prozeny.cz,garaz.cz##div.ogm-branding > div > div
 smartmania.cz##a[href*="track.smartmania.cz"]
 sms.cz###P_reklama_horni
@@ -528,6 +532,7 @@ sector.sk,kinema.sk##[id^="back"][onclick]
 sector.sk##iframe[data-src^="/default-ad"]
 serialy.io##div[id][style="position: absolute; top: 0; left: 0; width: 100%; height: 380px; text-align: center;"]
 sktorrent.eu##div[style*="position:absolute;"]
+slovnik.aktuality.sk##.desktop-wrapper:has([id^="div-gpt-ad"])
 topky.sk###top-offers-slider
 topky.sk##.ad
 topky.sk##.addbox.avizo
@@ -539,6 +544,7 @@ tvtv.sk##.ad
 tv-program.sk##.dragobj > div:nth-of-type(2)
 tv-program.sk##.stn.stns > a[target="_blank"]
 tv-program.sk##.stn.stnu > a[target="_blank"]
+vranovske.sk##div[class*="advertisement"]
 zmeskanyhovor.com##.native-ads
 zoznam.sk##a[href^="https://boxu.sk"]
 !

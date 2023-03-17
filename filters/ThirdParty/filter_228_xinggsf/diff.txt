@@ -1,9 +1,13 @@
+! ||greenet.cn/$popunder is excluded by "||greenet.cn/$popunder" in exclusions.txt
+||greenet.cn/$popunder
+! ||click.taobao.com/$third-party,popunder is excluded by "||click.taobao.com/$third-party,popunder" in exclusions.txt
+||click.taobao.com/$third-party,popunder
+! ~google.com##.adsbygoogle is excluded by "/^(~.*)?##\.adsbygoogle$/" in exclusions.txt
+~google.com##.adsbygoogle
 ! */market-$script is excluded by "*/market-$script" in exclusions.txt
 */market-$script
 ! ||img0.pcgames.com.cn^$object,object-subrequest is excluded by ",object-subrequest" in exclusions.txt
 ||img0.pcgames.com.cn^$object,object-subrequest
-! ||g.163.com/$~object-subrequest is excluded by "$~object-subrequest" in exclusions.txt
-||g.163.com/$~object-subrequest
 ! */7mad.$image,object,object-subrequest is excluded by ",object-subrequest" in exclusions.txt
 */7mad.$image,object,object-subrequest
 ! */ejia360$image,object,object-subrequest is excluded by ",object-subrequest" in exclusions.txt
@@ -106,8 +110,8 @@ yy.com,le.com##+js(nowebrtc)
 ||tracker.$xhr,websocket,script,ping
 ! Rule "||p2p.$xhr,websocket,ping,domain=~huya.com|~binance.com" converted to: "||p2p.$xmlhttprequest,websocket,ping,domain=~huya.com|~binance.com"
 ||p2p.$xhr,websocket,ping,domain=~huya.com|~binance.com
-! Rule "m.youku.com,v.youku.com##+js(nano-stb, r--,, 0.02)" converted to: "m.youku.com,v.youku.com#%#//scriptlet('ubo-nano-stb.js', 'r--', '', '0.02')"
-m.youku.com,v.youku.com##+js(nano-stb, r--,, 0.02)
+! Rule "||cibntv.net/youku/$media,mp4" converted to: "||cibntv.net/youku/$media,redirect=noopmp4-1s"
+||cibntv.net/youku/$media,mp4
 ! Rule "iqiyi.com##+js(set, Object.prototype.parseXML, noopFunc)" converted to: "iqiyi.com#%#//scriptlet('ubo-set.js', 'Object.prototype.parseXML', 'noopFunc')"
 iqiyi.com##+js(set, Object.prototype.parseXML, noopFunc)
 ! Rule "iqiyi.com##+js(set, Object.prototype.blackscreenDuration, 1)" converted to: "iqiyi.com#%#//scriptlet('ubo-set.js', 'Object.prototype.blackscreenDuration', '1')"
@@ -140,8 +144,8 @@ new.qq.com##+js(set, SSPAd.prototype.loadAd, noopFunc)
 le.com##+js(set, isAdLoaded, true)
 ! Rule "||letvimg.com/$object,xhr" converted to: "||letvimg.com/$object,xmlhttprequest"
 ||letvimg.com/$object,xhr
-! Rule "www.douyu.com##+js(aeld,/visibilitychange|pagehide/)" converted to: "www.douyu.com#%#//scriptlet('ubo-aeld.js', '/visibilitychange|pagehide/')"
-www.douyu.com##+js(aeld,/visibilitychange|pagehide/)
+! Rule "cctv.com,www.douyu.com##+js(aeld,/visibilitychange|pagehide/)" converted to: "cctv.com,www.douyu.com#%#//scriptlet('ubo-aeld.js', '/visibilitychange|pagehide/')"
+cctv.com,www.douyu.com##+js(aeld,/visibilitychange|pagehide/)
 ! Rule "douyu.com##+js(set, RTCPeerConnection.prototype.addTrack, noopFunc)" converted to: "douyu.com#%#//scriptlet('ubo-set.js', 'RTCPeerConnection.prototype.addTrack', 'noopFunc')"
 douyu.com##+js(set, RTCPeerConnection.prototype.addTrack, noopFunc)
 ! Rule "*_ad_$media,domain=youtube.com,3p" converted to: "*_ad_$media,domain=youtube.com,third-party"
@@ -152,27 +156,27 @@ youtube.com,youtube-nocookie.com##+js(json-prune, [].playerResponse.adPlacements
 youtube.com,youtube-nocookie.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined)
 ! Rule "youtube.com,youtube-nocookie.com##+js(set, playerResponse.adPlacements, undefined)" converted to: "youtube.com,youtube-nocookie.com#%#//scriptlet('ubo-set.js', 'playerResponse.adPlacements', 'undefined')"
 youtube.com,youtube-nocookie.com##+js(set, playerResponse.adPlacements, undefined)
-! Rule "|https://$script,subdocument,popup,3p,domain=btsow.beauty|dandanzan10.top|nunuyy3.org|rarbgprx.org" converted to: "|https://$script,subdocument,popup,third-party,domain=btsow.beauty|dandanzan10.top|nunuyy3.org|rarbgprx.org"
-|https://$script,subdocument,popup,3p,domain=btsow.beauty|dandanzan10.top|nunuyy3.org|rarbgprx.org
+! Rule "|https://$script,subdocument,popup,3p,domain=btsow.mom|dandanzan10.top|dandanzan.*|nunuyingyuan.com|nunuyy5.org|rarbgprx.org" converted to: "|https://$script,subdocument,popup,third-party,domain=btsow.mom|dandanzan10.top|dandanzan.*|nunuyingyuan.com|nunuyy5.org|rarbgprx.org"
+|https://$script,subdocument,popup,3p,domain=btsow.mom|dandanzan10.top|dandanzan.*|nunuyingyuan.com|nunuyy5.org|rarbgprx.org
 ! Rule "age.tv,agemys.net##+js(noeval-if, devtoolsDetector)" converted to: "age.tv,agemys.net#%#//scriptlet('ubo-noeval-if.js', 'devtoolsDetector')"
 age.tv,agemys.net##+js(noeval-if, devtoolsDetector)
-! Rule "hanmidy.com,bimiacg4.net##+js(acis,Object.defineProperty,location.href)" converted to: "hanmidy.com,bimiacg4.net#%#//scriptlet('ubo-acis.js', 'Object.defineProperty', 'location.href')"
-hanmidy.com,bimiacg4.net##+js(acis,Object.defineProperty,location.href)
-! Rule "dandanzan10.top,nunuyy3.org##+js(set,RTCPeerConnection,null)" converted to: "dandanzan10.top,nunuyy3.org#%#//scriptlet('ubo-set.js', 'RTCPeerConnection', 'null')"
-dandanzan10.top,nunuyy3.org##+js(set,RTCPeerConnection,null)
-! Rule "dandanzan10.top,nunuyy3.org##+js(set,webkitRTCPeerConnection,null)" converted to: "dandanzan10.top,nunuyy3.org#%#//scriptlet('ubo-set.js', 'webkitRTCPeerConnection', 'null')"
-dandanzan10.top,nunuyy3.org##+js(set,webkitRTCPeerConnection,null)
-! Rule "dandanzan10.top,nunuyy3.org##+js(set,mozRTCPeerConnection,null)" converted to: "dandanzan10.top,nunuyy3.org#%#//scriptlet('ubo-set.js', 'mozRTCPeerConnection', 'null')"
-dandanzan10.top,nunuyy3.org##+js(set,mozRTCPeerConnection,null)
-! Rule "dandanzan10.top,nunuyy3.org#@#+js(nowebrtc)" converted to: "dandanzan10.top,nunuyy3.org#@%#//scriptlet('ubo-nowebrtc.js')"
-dandanzan10.top,nunuyy3.org#@#+js(nowebrtc)
-! Rule "dandanzan10.top,nunuyy3.org##.gm-fp-body video:style(max-height:100%!important)" converted to: "dandanzan10.top,nunuyy3.org#$#.gm-fp-body video { max-height:100%!important }"
-dandanzan10.top,nunuyy3.org##.gm-fp-body video:style(max-height:100%!important)
+! Rule "dandanzan.com,dandanzan10.top,nunuyy5.org##+js(set,RTCPeerConnection,null)" converted to: "dandanzan.com,dandanzan10.top,nunuyy5.org#%#//scriptlet('ubo-set.js', 'RTCPeerConnection', 'null')"
+dandanzan.com,dandanzan10.top,nunuyy5.org##+js(set,RTCPeerConnection,null)
+! Rule "dandanzan.com,dandanzan10.top,nunuyy5.org##+js(set,webkitRTCPeerConnection,null)" converted to: "dandanzan.com,dandanzan10.top,nunuyy5.org#%#//scriptlet('ubo-set.js', 'webkitRTCPeerConnection', 'null')"
+dandanzan.com,dandanzan10.top,nunuyy5.org##+js(set,webkitRTCPeerConnection,null)
+! Rule "dandanzan.com,dandanzan10.top,nunuyy5.org##+js(set,mozRTCPeerConnection,null)" converted to: "dandanzan.com,dandanzan10.top,nunuyy5.org#%#//scriptlet('ubo-set.js', 'mozRTCPeerConnection', 'null')"
+dandanzan.com,dandanzan10.top,nunuyy5.org##+js(set,mozRTCPeerConnection,null)
+! Rule "dandanzan.com,dandanzan10.top,nunuyy5.org#@#+js(nowebrtc)" converted to: "dandanzan.com,dandanzan10.top,nunuyy5.org#@%#//scriptlet('ubo-nowebrtc.js')"
+dandanzan.com,dandanzan10.top,nunuyy5.org#@#+js(nowebrtc)
+! Rule "dandanzan.com,dandanzan10.top,nunuyy5.org##.gm-fp-body video:style(max-height:100%!important)" converted to: "dandanzan.com,dandanzan10.top,nunuyy5.org#$#.gm-fp-body video { max-height:100%!important }"
+dandanzan.com,dandanzan10.top,nunuyy5.org##.gm-fp-body video:style(max-height:100%!important)
+! Rule "|https://static.cloudflareinsights.com/beacon.min.js^$xhr,script" converted to: "|https://static.cloudflareinsights.com/beacon.min.js^$xmlhttprequest,script"
+|https://static.cloudflareinsights.com/beacon.min.js^$xhr,script
 ! Rule "netflix.mom,netflixya.com,yanetflix.com##+js(aopw,document.onkeydown)" converted to: "netflix.mom,netflixya.com,yanetflix.com#%#//scriptlet('ubo-aopw.js', 'document.onkeydown')"
 netflix.mom,netflixya.com,yanetflix.com##+js(aopw,document.onkeydown)
+! Rule "www.sbdm.net##.ads_all:remove()" converted to: "www.sbdm.net#$?#.ads_all { remove: true; }"
+www.sbdm.net##.ads_all:remove()
 ! Rule "yatu.tv,yhdm15.com##+js(set,document.oncontextmenu,trueFunc)" converted to: "yatu.tv,yhdm15.com#%#//scriptlet('ubo-set.js', 'document.oncontextmenu', 'trueFunc')"
 yatu.tv,yhdm15.com##+js(set,document.oncontextmenu,trueFunc)
-Error: "Unknown modifier: popunder" in the rule: "||greenet.cn/$popunder"
-||greenet.cn/$popunder
-Error: "Unknown modifier: popunder" in the rule: "||click.taobao.com/$third-party,popunder"
-||click.taobao.com/$third-party,popunder
+Error: "Unknown pseudo-class ':\/\/' in selector: '+js(m3u-prune,'',/^https:\/\/[\w\.]+ott\.cibntv\.net.+?\.m3u8\?/)'" in the rule: "m.youku.com,v.youku.com##+js(m3u-prune,'',/^https:\/\/[\w\.]+ott\.cibntv\.net.+?\.m3u8\?/)"
+m.youku.com,v.youku.com##+js(m3u-prune,'',/^https:\/\/[\w\.]+ott\.cibntv\.net.+?\.m3u8\?/)
