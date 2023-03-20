@@ -33,7 +33,7 @@
 	},
 	{
 		"filter.9.name": "AdGuards spanske/portugisiske filter",
-		"filter.9.description": "AdGuard spansk/portugisisk filter. Filterliste som spesifikt fjerner annonser på spanske og portugisiske nettsider."
+		"filter.9.description": "Filterliste som spesifikt fjerner annonser på nettsteder på spansk, portugisisk og brasiliansk portugisisk."
 	},
 	{
 		"filter.10.name": "Filter for ikke å blokkere nyttige annonser",
@@ -86,6 +86,10 @@
 	{
 		"filter.22.name": "AdGuard Widgets-filter",
 		"filter.22.description": "Blokkerer irriterende tredjeparts widgets: online assistenter, live support chat, etc."
+	},
+	{
+		"filter.23.name": "AdGuard ukrainsk filter",
+		"filter.23.description": "Filter som muliggjør annonseblokkering på nettsteder på ukrainsk språk."
 	},
 	{
 		"filter.224.name": "AdGuards kinesiske filter",
