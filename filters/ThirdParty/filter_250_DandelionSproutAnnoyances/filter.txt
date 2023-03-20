@@ -463,17 +463,18 @@ linkedin.com#$?#html { overflow: auto !important; }
 linkedin.com#$?#body { overflow: auto !important; }
 !#if ext_ublock
 ! Title: 💊 Dandelion Sprout's Anti-Malware List
-! OriginalVersion: 08March2023v1
+! OriginalVersion: 19March2023v2
 ! Expires: 2 days
 ! Description: This list goes the extra kilometer to prevent more malware than other mainstream anti-malware lists. It blocks heavily abused top-level domains (and even search engine results for them), blocks domains used in malware redirection trains and in domain parking schemes, blocks sponsored Windows PUP nags on PC guide articles, uses mass blocking of domains belonging to bad IPs, and has many other subcategories that give it a solid advantage over similar lists out there.
 ! For other security-specific lists I've made, check out https://github.com/DandelionSprout/adfilt/tree/master/Special%20security%20lists
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md#-english
 ! ——— Bad top-level domains ———
 ! You can expect these domains to have an overwhelming majority of malware domains that have nothing to do with the countries in question. Nevertheless, if you are in a situation where you have to do active business in any of the countries in question, then this list may not be ideal for you.
+! When asking us to whitelist a site: Make sure the site has some sort of public content. Non-public sites and alias sites are usually not whitelisted.
 ! Tokelau (Put on break due to too many whitelistings being needed)
 !!!||tk^$doc,domain=~google.tk|~coolcmd.tk|~budterence.tk|~transportnews.tk|~c0d3c.tk|~tokelau-info.tk|~loljp-wiki.tk|~ninetail.tk|~goshujin.tk|~graph.tk|~nolfrevival.tk|~bstweaker.tk|~nbd-media.tk|~gotofap.tk|~coppersurfer.tk|~fakaofo.tk
 ! Gabon
-||ga^$document,domain=~google.ga|~filtri-dns.ga|~dgdi.ga|~9191.ga|~animevsub.ga|~my.ga
+||ga^$document,domain=~google.ga|~filtri-dns.ga|~dgdi.ga|~9191.ga|~animevsub.ga|~my.ga|~shorturl.ga
 ! Mali (Put on break due to too many and too frequent whitelistings being needed)
 !!!||ml^$doc,domain=~google.ml|~melody.ml|~info-matin.ml|~amap.ml|~mastodon.ml|~nothingprivate.ml|~lingva.ml|~lemmy.ml|~beatbump.ml|~prompt.ml|~biblioreads.ml
 ! Equatorial Guinea
@@ -483,7 +484,7 @@ linkedin.com#$?#body { overflow: auto !important; }
 ! Palau
 ||pw^$document,domain=~libgen.pw|~petridish.pw|~palaugov.pw|~dpc.pw|~buttercup.pw|~rezka.pw|~darkcrystal.pw|~xor.pw|~fullhdfilmizlesene.pw|~gopass.pw|~vost.pw|~core.pw|~bittor.pw
 ! Legitimate use is almost non-existent, but has a tiny userbase in Japan. Its extreme common-ness in malware redirections means that the entry will be kept forever.
-||top^$document,domain=~caitlin.top|~corriente.top|~gdtot.top|~nicenature.top|~reminder.top|~magocoro.top|~castlevania.top|~suiten.top|~shucks.top|~1stream.top|~ambr.top|~techblog.top|~changlam10.top|~changlam11.top|~pdcdn1.top|~mastodon.top|~pressplay.top|~chillx.top|~strims.top
+||top^$document,domain=~caitlin.top|~corriente.top|~gdtot.top|~nicenature.top|~reminder.top|~magocoro.top|~castlevania.top|~suiten.top|~shucks.top|~1stream.top|~ambr.top|~techblog.top|~changlam10.top|~changlam11.top|~pdcdn1.top|~mastodon.top|~pressplay.top|~chillx.top|~strims.top|~thedesk.top
 ! International topical domains that have consistently horrendous scores on watchlists of bad TLDs, and whose use for legit purposes is practically non-existent.
 ||loan^$document
 ||agency^$document,domain=~battlefield.agency|~baam.agency|~robotzebra.agency|~uphotel.agency
@@ -491,7 +492,7 @@ linkedin.com#$?#body { overflow: auto !important; }
 ||bid^$document
 ||ooo^$document
 ! https://bgp.he.net/AS202492#_prefixes (17/07/2022)
-||monster^$document,domain=~egybest.monster|~yts.monster|~cloudcdn.monster|~fedi.monster|~rollenspiel.monster
+||monster^$document,domain=~egybest.monster|~yts.monster|~cloudcdn.monster|~fedi.monster|~rollenspiel.monster|~tts.monster
 ! https://github.com/AdguardTeam/AdguardFilters/issues/131156
 ||sbs^$document
 ! https://github.com/DandelionSprout/adfilt/issues/659
@@ -508,15 +509,16 @@ linkedin.com#$?#body { overflow: auto !important; }
 !#if !env_mobile
 ! ——— Attempted removal of Google search result entries that lead to the above top-level domains (Advanced adblockers only) ———
 !!!www.google.*##.g:has(a[href*=".tk/"]:not([href*="google.tk"], [href*="coolcmd.tk"], [href*="budterence.tk"], [href*="transportnews.tk"], [href*="c0d3c.tk"], [href*="tokelau-info.tk"], [href*="loljp-wiki.tk"], [href*="ninetail.tk"], [href*="goshujin.tk"], [href*="graph.tk"], [href*="nolfrevival.tk"], [href*="bstweaker.tk"], [href*="nbd-media.tk"], [href*="gotofap.tk"], [href*="coppersurfer.tk"], [href*="fakaofo.tk"]))
-www.google.*##.g:has(a[href*=".ga/"]:not([href*="google.ga"], [href*="filtri-dns.ga"], [href*="dgdi.ga"], [href*="9191.ga"], [href*="animevsub.ga"], [href*="my.ga"]))
+www.google.*##.g:has(a[href*=".ga/"]:not([href*="google.ga"], [href*="filtri-dns.ga"], [href*="dgdi.ga"], [href*="9191.ga"], [href*="animevsub.ga"], [href*="my.ga"], [href*="shorturl.ga"]))
 !!!www.google.*##.g:has(a[href*=".ml/"]:not([href*="google.ml"], [href*="melody.ml"], [href*="info-matin.ml"], [href*="amap.ml"], [href*="mastodon.ml"], [href*="nothingprivate.ml"], [href*="lingva.ml"], [href*="lemmy.ml"], [href*="beatbump.ml"], [href*="prompt.ml"], [href*="biblioreads.ml"]))
 www.google.*##.g:has(a[href*=".gq/"]:not([href*="inege.gq"], [href*="tvgelive.gq"]))
 www.google.*##.g:has(a[href*=".cf/"]:not([href*="google.cf"], [href*="rths.cf"], [href*="acap.cf"]))
 www.google.*##.g:has(a[href*=".pw/"]:not([href*="libgen.pw"], [href*="petridish.pw"], [href*="palaugov.pw"], [href*="dpc.pw"], [href*="buttercup.pw"], [href*="rezka.pw"], [href*="darkcrystal.pw"], [href*="xor.pw"], [href*="fullhdfilmizlesene.pw"], [href*="gopass.pw"], [href*="vost.pw"], [href*="core.pw"], [href*="bittor.pw"]))
 www.google.*##.g:has(a[href*=".loan/"])
+www.google.*##.g:has(a[href*=".agency/"]:not([href*="battlefield.agency"], [href*="baam.agency"], [href*="uphotel.agency"], [href*="robotzebra.agency"]))
 www.google.*##.g:has(a[href*=".gdn/"])
 www.google.*##.g:has(a[href*=".bid/"])
-www.google.*##.g:has(a[href*=".top/"]:not([href*="caitlin.top"], [href*="corriente.top"], [href*="gdtot.top"], [href*="nicenature.top"], [href*="reminder.top"], [href*="magocoro.top"], [href*="castlevania.top"], [href*="suiten.top"], [href*="shucks.top"], [href*="1stream.top"], [href*="ambr.top"], [href*="techblog.top"], [href*="mastodon.top"], [href*="pressplay.top"], [href*="strims.top"]))
+www.google.*##.g:has(a[href*=".top/"]:not([href*="caitlin.top"], [href*="corriente.top"], [href*="gdtot.top"], [href*="nicenature.top"], [href*="reminder.top"], [href*="magocoro.top"], [href*="castlevania.top"], [href*="suiten.top"], [href*="shucks.top"], [href*="1stream.top"], [href*="ambr.top"], [href*="techblog.top"], [href*="mastodon.top"], [href*="pressplay.top"], [href*="strims.top"], [href*="thedesk.top"]))
 ! ——— You know those ultra-fraudulent auto-generated things that clutter up Google searches? These entries should remove some of them. ———
 www.google.*##.g:has(a[href*=".php?xxx="])
 www.google.*##.g:has(cite:has-text(.it › )):has(a[href*="-"][href$=".html"]:not([href*="://www."], [href*="://m."], [href*="carrefour.it"], [href*="gospesa.it"]))
@@ -526,13 +528,23 @@ www.google.*##.g:has(a[href*="/redirect.asp?url="]):has(a[href*=".tk/"], a[href*
 www.google.*##.g:has(a[href*="/go_links.php?"]):has(a[href*=".tk/"], a[href*=".ml/"])
 www.google.*##.g:has(a[href*="/redir?dir="]):has(a[href*=".tk/"], a[href*=".ml/"])
 www.google.*##.g:has(a[href*="/link?url="]):has(a[href*=".tk/"], a[href*=".ml/"])
+www.google.*##.g:has(a[href*="/redirect.aspx?url=" i]):has(a[href*=".tk/"], a[href*=".ml/"])
+www.google.*##.g:has(a[href*="?url=//" i]):has(a[href*=".tk/"], a[href*=".ml/"])
+www.google.*##.g:has(a[href*="redirect=//" i]):has(a[href*=".tk/"], a[href*=".ml/"])
+www.google.*##.g:has(a[href*="return_url=" i]):has(a[href*=".tk/"], a[href*=".ml/"])
+www.google.*##.g:has(a[href*="returnurl=" i]):has(a[href*=".tk/"], a[href*=".ml/"])
+www.google.*##.g:has(a[href*=pag-redireciona i]):has(a[href*=".tk/"], a[href*=".ml/"])
+www.google.*##.g:has(a[href*="/jump.cfm" i]):has(a[href*=".tk/"], a[href*=".ml/"])
+www.google.*##.g:has(a[href*="/www/delivery/"]):has(a[href*=".php?"])
+www.google.*##.g:has([href*="?link=//"]):has(a[href*=".tk/"], a[href*=".ml"])
+www.google.*##.g:has([href*="&url=//"]):has(a[href*=".tk/"], a[href*=".ml"])
 !#endif
 !#if env_mobile
 ! ——— Attempted removal of Google search result entries that lead to the above top-level domains (For Google Mobile) ———
 ! I strongly recommend the use of https://addons.mozilla.org/firefox/addon/google-search-fixer/ for use on Firefox for Android, thus the entries are written for the Chrome version of Google Mobile.
 !!!www.google.*##a[oncontextmenu][href*=".tk/"]:not([href*=coolcmd], [href*=budterence], [href*="google.tk"], [href*=transportnews], [href*=c0d3c], [href*=anonytext], [href*=tokelau-info], [href*=fakaofo], [href*=loljp-wiki], [href*=ninetail], [href*=goshujin], [href*="graph.tk"], [href*=nolfrevival], [href*="steamroller.tk"], [href*="restricted-functions.tk"], [href*="bstweaker.tk"], [href*="nbd-media.tk"], [href*="gotofap.tk"], [href*="somepythonthings.tk"]):upward(2)
 www.google.*##a[oncontextmenu][href*=".ga/"]:not([href*="google.ga"], [href*="filtri-dns.ga"], [href*="dgdi.ga"], [href*="9191.ga"], [href*="animevsub.ga"], [href*="my.ga"]):upward(2)
-!!!www.google.*##a[oncontextmenu][href*=".ml/"]:not([href*="google.ml"], [href*="melody.ml"], [href*="info-matin.ml"], [href*="amap.ml"], [href*="mastodon.ml"], [href*="nothingprivate.ml"], [href*="lingva.ml"], [href*="lemmy.ml"], [href*="beatbump.ml"], [href*="prompt.ml"], [href*="biblioreads.ml"]):upward(2)
+!!!www.google.*##a[oncontextmenu][href*=".ml/"]:not([href*="google.ml"], [href*="melody.ml"], [href*="info-matin.ml"], [href*="amap.ml"], [href*="mastodon.ml"], [href*="nothingprivate.ml"], [href*="lingva.ml"], [href*="lemmy.ml"], [href*="beatbump.ml"], [href*="prompt.ml"], [href*="biblioreads.ml"], [href*="shorturl.ga"]):upward(2)
 www.google.*##a[oncontextmenu][href*=".gq/"]:not([href*="inege.gq"], [href*=tvgelive]):upward(2)
 www.google.*##a[oncontextmenu][href*=".cf/"]:not([href*="google.cf"], [href*="rths.cf"], [href*="acap.cf"]):upward(2)
 www.google.*##a[oncontextmenu][href*=".pw/"]:not([href*="libgen.pw"], [href*="petridish.pw"], [href*="palaugov.pw"], [href*="dpc.pw"], [href*="buttercup.pw"], [href*="rezka.pw"], [href*="darkcrystal.pw"], [href*="xor.pw"], [href*="fullhdfilmizlesene.pw"], [href*="gopass.pw"], [href*="vost.pw"], [href*="core.pw"], [href*="bittor.pw"]):upward(2)
@@ -540,25 +552,25 @@ www.google.*##a[oncontextmenu][href*=".loan/"]:upward(2)
 www.google.*##a[oncontextmenu][href*=".agency/"]:not([href*="battlefield.agency"], [href*="baam.agency"], [href*="uphotel.agency"]):upward(2)
 www.google.*##a[oncontextmenu][href*=".gdn/"]:upward(2)
 www.google.*##a[oncontextmenu][href*=".bid/"]:upward(2)
-www.google.*##a[oncontextmenu][href*=".top/"]:not([href*="caitlin.top"], [href*="corriente.top"], [href*="gdtot.top"], [href*="nicenature.top"], [href*="reminder.top"], [href*="magocoro.top"], [href*="castlevania.top"], [href*="suiten.top"], [href*="shucks.top"], [href*="1stream.top"], [href*="ambr.top"], [href*="techblog.top"], [href*="mastodon.top"], [href*="pressplay.top"], [href*="strims.top"]):upward(2)
+www.google.*##a[oncontextmenu][href*=".top/"]:not([href*="caitlin.top"], [href*="corriente.top"], [href*="gdtot.top"], [href*="nicenature.top"], [href*="reminder.top"], [href*="magocoro.top"], [href*="castlevania.top"], [href*="suiten.top"], [href*="shucks.top"], [href*="1stream.top"], [href*="ambr.top"], [href*="techblog.top"], [href*="mastodon.top"], [href*="pressplay.top"], [href*="strims.top"], [href*="thedesk.top"]):upward(2)
 www.google.*##a[oncontextmenu][href*=".php?xxx="]:upward(2)
 www.google.*##a[oncontextmenu][href^="https://books.google."]:upward(2)
 !#endif
 ! ——— For DuckDuckGo ———
 !!!duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$=".tk"]:not([data-domain*="google.tk"], [data-domain*="coolcmd.tk"], [data-domain*="budterence.tk"], [data-domain*="transportnews.tk"], [data-domain*="c0d3c.tk"], [data-domain*="tokelau-info.tk"], [data-domain*="loljp-wiki.tk"], [data-domain*="ninetail.tk"], [data-domain*="goshujin.tk"], [data-domain*="graph.tk"], [data-domain*="nolfrevival.tk"], [data-domain*="bstweaker.tk"], [data-domain*="nbd-media.tk"], [data-domain*="gotofap.tk"], [data-domain*="coppersurfer.tk"], [data-domain*="fakaofo.tk"])
-duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$=".ga"]:not([data-domain*="google.ga"], [data-domain*="filtri-dns.ga"], [data-domain*="dgdi.ga"], [data-domain*="9191.ga"], [data-domain*="animevsub.ga"], [data-domain*="my.ga"])
+duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*=".ga/"]:not([href*="google.ga"], [href*="filtri-dns.ga"], [href*="dgdi.ga"], [href*="9191.ga"], [href*="animevsub.ga"], [href*="my.ga"], [href*="shorturl.ga"]))
 !!!duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$=".ml"]:not([data-domain*="google.ml"], [data-domain*="melody.ml"], [data-domain*="info-matin.ml"], [data-domain*="amap.ml"], [data-domain*="mastodon.ml"], [data-domain*="nothingprivate.ml"], [data-domain*="lingva.ml"], [data-domain*="lemmy.ml"], [data-domain*="beatbump.ml"], [data-domain*="prompt.ml"], [data-domain*="biblioreads.ml"])
-duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$=".gq"]:not([data-domain*="inege.gq"], [data-domain*="tvgelive.gq"])
-duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$=".cf"]:not([data-domain*="google.cf"], [data-domain*="rths.cf"], [data-domain*="acap.cf"])
-duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$=".pw"]:not([data-domain*="libgen.pw"], [data-domain*="petridish.pw"], [data-domain*="palaugov.pw"], [data-domain*="dpc.pw"], [data-domain*="buttercup.pw"], [data-domain*="rezka.pw"], [data-domain*="darkcrystal.pw"], [data-domain*="xor.pw"], [data-domain*="fullhdfilmizlesene.pw"], [data-domain*="gopass.pw"], [data-domain*="vost.pw"], [data-domain*="core.pw"], [data-domain*="bittor.pw"])
-duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$=".loan"]
-duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$=".agency"]:not([data-domain*="battlefield.agency"], [data-domain*="baam.agency"], [data-domain*="uphotel.agency"], [data-domain*="robotzebra.agency"])
-duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$=".gdn"]
-duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$=".bid"]
-duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$=".top"]:not([href*="caitlin.top"], [data-domain$="corriente.top"], [data-domain$="gdtot.top"], [data-domain$="nicenature.top"], [data-domain$="reminder.top"], [data-domain$="magocoro.top"], [data-domain$="castlevania.top"], [data-domain$="suiten.top"], [data-domain$="shucks.top"], [data-domain$="1stream.top"], [data-domain*="ambr.top"], [data-domain*="techblog.top"], [data-domain*="mastodon.top"], [data-domain*="pressplay.top"], [data-domain*="strims.top"])
+duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*=".gq/"]:not([href*="inege.gq"], [href*="tvgelive.gq"]))
+duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*=".cf/"]:not([href*="google.cf"], [href*="rths.cf"], [href*="acap.cf"]))
+duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*=".pw/"]:not([href*="libgen.pw"], [href*="petridish.pw"], [href*="palaugov.pw"], [href*="dpc.pw"], [href*="buttercup.pw"], [href*="rezka.pw"], [href*="darkcrystal.pw"], [href*="xor.pw"], [href*="fullhdfilmizlesene.pw"], [href*="gopass.pw"], [href*="vost.pw"], [href*="core.pw"], [href*="bittor.pw"]))
+duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*=".loan/"])
+duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*=".agency/"]:not([href*="battlefield.agency"], [href*="baam.agency"], [href*="uphotel.agency"], [href*="robotzebra.agency"]))
+duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*=".gdn/"])
+duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*=".bid/"])
+duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*=".top/"]:not([href*="caitlin.top"], [href*="corriente.top"], [href*="gdtot.top"], [href*="nicenature.top"], [href*="reminder.top"], [href*="magocoro.top"], [href*="castlevania.top"], [href*="suiten.top"], [href*="shucks.top"], [href*="1stream.top"], [href*="ambr.top"], [href*="techblog.top"], [href*="mastodon.top"], [href*="pressplay.top"], [href*="strims.top"], [href*="thedesk.top"]))
 ! ——— For Bing ———
 !!!bing.com##.b_algo:has(a[href*=".tk/"]:not([href*="google.tk"], [href*="coolcmd.tk"], [href*="budterence.tk"], [href*="transportnews.tk"], [href*="c0d3c.tk"], [href*="tokelau-info.tk"], [href*="loljp-wiki.tk"], [href*="ninetail.tk"], [href*="goshujin.tk"], [href*="graph.tk"], [href*="nolfrevival.tk"], [href*="bstweaker.tk"], [href*="nbd-media.tk"], [href*="gotofap.tk"], [href*="coppersurfer.tk"], [href*="fakaofo.tk"]))
-bing.com##.b_algo:has(a[href*=".ga/"]:not([href*="google.ga"], [href*="filtri-dns.ga"], [href*="dgdi.ga"], [href*="9191.ga"], [href*="animevsub.ga"], [href*="my.ga"]))
+bing.com##.b_algo:has(a[href*=".ga/"]:not([href*="google.ga"], [href*="filtri-dns.ga"], [href*="dgdi.ga"], [href*="9191.ga"], [href*="animevsub.ga"], [href*="my.ga"], [href*="shorturl.ga"]))
 !!!bing.com##.b_algo:has(a[href*=".ml/"]:not([href*="google.ml"], [href*="melody.ml"], [href*="info-matin.ml"], [href*="amap.ml"], [href*="mastodon.ml"], [href*="nothingprivate.ml"], [href*="lingva.ml"], [href*="lemmy.ml"], [href*="beatbump.ml"], [href*="prompt.ml"], [href*="biblioreads.ml"]))
 bing.com##.b_algo:has(a[href*=".gq/"]:not([href*="inege.gq"], [href*="tvgelive.gq"]))
 bing.com##.b_algo:has(a[href*=".cf/"]:not([href*="google.cf"], [href*="rths.cf"], [href*="acap.cf"]))
@@ -566,7 +578,7 @@ bing.com##.b_algo:has(a[href*=".pw/"]:not([href*="libgen.pw"], [href*="petridish
 bing.com##.b_algo:has(a[href*=".loan/"])
 bing.com##.b_algo:has(a[href*=".gdn/"])
 bing.com##.b_algo:has(a[href*=".bid/"])
-bing.com##.b_algo:has(a[href*=".top/"]:not([href*="caitlin.top"], [href*="corriente.top"], [href*="gdtot.top"], [href*="nicenature.top"], [href*="reminder.top"], [href*="magocoro.top"], [href*="castlevania.top"], [href*="suiten.top"], [href*="shucks.top"], [href*="1stream.top"], [href*="ambr.top"], [href*="techblog.top"], [href*="mastodon.top"], [href*="pressplay.top"], [href*="strims.top"]))
+bing.com##.b_algo:has(a[href*=".top/"]:not([href*="caitlin.top"], [href*="corriente.top"], [href*="gdtot.top"], [href*="nicenature.top"], [href*="reminder.top"], [href*="magocoro.top"], [href*="castlevania.top"], [href*="suiten.top"], [href*="shucks.top"], [href*="1stream.top"], [href*="ambr.top"], [href*="techblog.top"], [href*="mastodon.top"], [href*="pressplay.top"], [href*="strims.top"], [href*="thedesk.top"]))
 ! ——— Old dead tech-related domains ———
 ! Domains that used to host lists for adblockers or "hosts" tools, but which are now either used by malware pushers, or could potentially be snapped up by them.
 ||adblock.gjtech.net^$document
@@ -587,7 +599,7 @@ bing.com##.b_algo:has(a[href*=".top/"]:not([href*="caitlin.top"], [href*="corrie
 ||ssl.bblck.me^$document
 ||allblock.net^$document
 ||microsoftedge.microsoft.com/addons/detail/allblock/nkllnmjaaifdphkfbmedklkimjmnjeen^$document
-! Malicious or purchaseable domains found in videogame manuals and title screens
+! Malicious or purchaseable domains found in videogame manuals, title screens, or game driver/patch sites
 ||acclaimsports.com^$document
 ||acclaimmaxsports.com^$document
 ||hip-games.com^$document
@@ -599,6 +611,7 @@ bing.com##.b_algo:has(a[href*=".top/"]:not([href*="caitlin.top"], [href*="corrie
 ||cuttherope.ie^$document
 ||cloudyvideogame.com^$document
 ||marsshooter.org^$document
+||fortevr.com^$document
 ! Dead router connection URİs
 ! To log in to TP-Link routers, use tplinkwifi.net instead.
 ||tplinklogin.net^$document
@@ -1481,6 +1494,11 @@ zombooru.com##a[href="http://www.hard55.com"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/144823
 !+ NOT_OPTIMIZED
 ://landings.*_slots/?partner=$document
+! https://github.com/AdguardTeam/AdguardFilters/issues/145513
+||redirect.newprogrammatic.click^$document
+! https://github.com/DandelionSprout/adfilt/issues/808
+! https://www.mandiant.com/resources/blog/tracking-evolution-gootloader-operations (26/01/2023)
+||i-likefood.co^$document
 ! ——— Standard malware that I stumbled upon on my own ———
 ! http://www.toorgle.net/results.php?q=fetishkitsch&security=666
 ##a[href*=".downloadprovider.me/"]
@@ -1984,6 +2002,12 @@ www.microsoft.com##a[data-pfns][data-pfns*="amongonline."]
 www.microsoft.com##a[data-pfns][data-pfns*=lupygames]
 www.microsoft.com##a[data-pfns][data-pfns*="juliept."]
 www.microsoft.com##a[data-pfns][data-pfns*=caoucaoua]
+www.microsoft.com##a[data-pfns][data-pfns*="gameboxstudio."]
+www.microsoft.com##a[data-pfns][data-pfns*="carracing."]
+www.microsoft.com##a[data-pfns][data-pfns*=dressupgamefor]
+www.microsoft.com##a[data-pfns][data-pfns*=brianeducation]
+www.microsoft.com##a[data-pfns][data-pfns*=gamdev]
+www.microsoft.com##a[data-pfns][data-pfns*=gambild]
 www.microsoft.com##a[data-pfns][data-pfns^="1"][data-pfns*="games."]
 www.microsoft.com##a[data-pfns][data-pfns^="2"][data-pfns*="games."]
 www.microsoft.com##a[data-pfns][data-pfns^="3"][data-pfns*="games."]
@@ -2142,21 +2166,27 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||www.goldenpalace.com^
 ||www.xxsy.net^
 !#endif
+! https://github.com/AdguardTeam/AdguardFilters/issues/145513
+||amazonaws.com^$all,badfilter
+||amazonaws.com^$document,popup,badfilter
+||amazonaws.com^$document,badfilter
+||amazonaws.com^$badfilter
 ! Placeholder line for alternate list versions
 !#endif
 !#if adguard
 ! Title: 💊 Dandelion Sprout's Anti-Malware List (for AdGuard)
-! OriginalVersion: 07March2023v4
+! OriginalVersion: 19March2023v2
 ! Expires: 2 days
 ! Description: This list goes the extra kilometer to prevent more malware than other mainstream anti-malware lists. It blocks heavily abused top-level domains (and even search engine results for them), blocks domains used in malware redirection trains and in domain parking schemes, blocks sponsored Windows PUP nags on PC guide articles, uses mass blocking of domains belonging to bad IPs, and has many other subcategories that give it a solid advantage over similar lists out there.
 ! For other security-specific lists I've made, check out https://github.com/DandelionSprout/adfilt/tree/master/Special%20security%20lists
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md#-english
 ! ——— Bad top-level domains ———
 ! You can expect these domains to have an overwhelming majority of malware domains that have nothing to do with the countries in question. Nevertheless, if you are in a situation where you have to do active business in any of the countries in question, then this list may not be ideal for you.
+! When asking us to whitelist a site: Make sure the site has some sort of public content. Non-public sites and alias sites are usually not whitelisted.
 ! Tokelau (Put on break due to too many whitelistings being needed)
 !!!||tk^$document,domain=~google.tk|~coolcmd.tk|~budterence.tk|~transportnews.tk|~c0d3c.tk|~tokelau-info.tk|~loljp-wiki.tk|~ninetail.tk|~goshujin.tk|~graph.tk|~nolfrevival.tk|~bstweaker.tk|~nbd-media.tk|~gotofap.tk|~coppersurfer.tk|~fakaofo.tk
 ! Gabon
-||ga^$document,domain=~google.ga|~filtri-dns.ga|~dgdi.ga|~9191.ga|~animevsub.ga|~my.ga
+||ga^$document,domain=~google.ga|~filtri-dns.ga|~dgdi.ga|~9191.ga|~animevsub.ga|~my.ga|~shorturl.ga
 ! Mali (Put on break due to too many and too frequent whitelistings being needed)
 !!!||ml^$document,domain=~google.ml|~melody.ml|~info-matin.ml|~amap.ml|~mastodon.ml|~nothingprivate.ml|~lingva.ml|~lemmy.ml|~beatbump.ml|~prompt.ml|~biblioreads.ml
 ! Equatorial Guinea
@@ -2166,7 +2196,7 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ! Palau
 ||pw^$document,domain=~libgen.pw|~petridish.pw|~palaugov.pw|~dpc.pw|~buttercup.pw|~rezka.pw|~darkcrystal.pw|~xor.pw|~fullhdfilmizlesene.pw|~gopass.pw|~vost.pw|~core.pw|~bittor.pw
 ! Legitimate use is almost non-existent, but has a tiny userbase in Japan. Its extreme common-ness in malware redirections means that the entry will be kept forever.
-||top^$document,domain=~caitlin.top|~corriente.top|~gdtot.top|~nicenature.top|~reminder.top|~magocoro.top|~castlevania.top|~suiten.top|~shucks.top|~1stream.top|~ambr.top|~techblog.top|~changlam10.top|~changlam11.top|~pdcdn1.top|~mastodon.top|~pressplay.top|~chillx.top|~strims.top
+||top^$document,domain=~caitlin.top|~corriente.top|~gdtot.top|~nicenature.top|~reminder.top|~magocoro.top|~castlevania.top|~suiten.top|~shucks.top|~1stream.top|~ambr.top|~techblog.top|~changlam10.top|~changlam11.top|~pdcdn1.top|~mastodon.top|~pressplay.top|~chillx.top|~strims.top|~thedesk.top
 ! International topical domains that have consistently horrendous scores on watchlists of bad TLDs, and whose use for legit purposes is practically non-existent.
 ||loan^$document
 ||agency^$document,domain=~battlefield.agency|~baam.agency|~robotzebra.agency|~uphotel.agency
@@ -2174,7 +2204,7 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ||bid^$document
 ||ooo^$document
 ! https://bgp.he.net/AS202492#_prefixes (17/07/2022)
-||monster^$document,domain=~egybest.monster|~yts.monster|~cloudcdn.monster|~fedi.monster|~rollenspiel.monster
+||monster^$document,domain=~egybest.monster|~yts.monster|~cloudcdn.monster|~fedi.monster|~rollenspiel.monster|~tts.monster
 ! https://github.com/AdguardTeam/AdguardFilters/issues/131156
 ||sbs^$document
 ! https://github.com/DandelionSprout/adfilt/issues/659
@@ -2191,15 +2221,16 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 !#if !env_mobile
 ! ——— Attempted removal of Google search result entries that lead to the above top-level domains (Advanced adblockers only) ———
 !!!www.google.*##.g:has(a[href*=".tk/"]:not([href*="google.tk"], [href*="coolcmd.tk"], [href*="budterence.tk"], [href*="transportnews.tk"], [href*="c0d3c.tk"], [href*="tokelau-info.tk"], [href*="loljp-wiki.tk"], [href*="ninetail.tk"], [href*="goshujin.tk"], [href*="graph.tk"], [href*="nolfrevival.tk"], [href*="bstweaker.tk"], [href*="nbd-media.tk"], [href*="gotofap.tk"], [href*="coppersurfer.tk"], [href*="fakaofo.tk"]))
-www.google.*##.g:has(a[href*=".ga/"]:not([href*="google.ga"], [href*="filtri-dns.ga"], [href*="dgdi.ga"], [href*="9191.ga"], [href*="animevsub.ga"], [href*="my.ga"]))
+www.google.*##.g:has(a[href*=".ga/"]:not([href*="google.ga"], [href*="filtri-dns.ga"], [href*="dgdi.ga"], [href*="9191.ga"], [href*="animevsub.ga"], [href*="my.ga"], [href*="shorturl.ga"]))
 !!!www.google.*##.g:has(a[href*=".ml/"]:not([href*="google.ml"], [href*="melody.ml"], [href*="info-matin.ml"], [href*="amap.ml"], [href*="mastodon.ml"], [href*="nothingprivate.ml"], [href*="lingva.ml"], [href*="lemmy.ml"], [href*="beatbump.ml"], [href*="prompt.ml"], [href*="biblioreads.ml"]))
 www.google.*##.g:has(a[href*=".gq/"]:not([href*="inege.gq"], [href*="tvgelive.gq"]))
 www.google.*##.g:has(a[href*=".cf/"]:not([href*="google.cf"], [href*="rths.cf"], [href*="acap.cf"]))
 www.google.*##.g:has(a[href*=".pw/"]:not([href*="libgen.pw"], [href*="petridish.pw"], [href*="palaugov.pw"], [href*="dpc.pw"], [href*="buttercup.pw"], [href*="rezka.pw"], [href*="darkcrystal.pw"], [href*="xor.pw"], [href*="fullhdfilmizlesene.pw"], [href*="gopass.pw"], [href*="vost.pw"], [href*="core.pw"], [href*="bittor.pw"]))
 www.google.*##.g:has(a[href*=".loan/"])
+www.google.*##.g:has(a[href*=".agency/"]:not([href*="battlefield.agency"], [href*="baam.agency"], [href*="uphotel.agency"], [href*="robotzebra.agency"]))
 www.google.*##.g:has(a[href*=".gdn/"])
 www.google.*##.g:has(a[href*=".bid/"])
-www.google.*##.g:has(a[href*=".top/"]:not([href*="caitlin.top"], [href*="corriente.top"], [href*="gdtot.top"], [href*="nicenature.top"], [href*="reminder.top"], [href*="magocoro.top"], [href*="castlevania.top"], [href*="suiten.top"], [href*="shucks.top"], [href*="1stream.top"], [href*="ambr.top"], [href*="techblog.top"], [href*="mastodon.top"], [href*="pressplay.top"], [href*="strims.top"]))
+www.google.*##.g:has(a[href*=".top/"]:not([href*="caitlin.top"], [href*="corriente.top"], [href*="gdtot.top"], [href*="nicenature.top"], [href*="reminder.top"], [href*="magocoro.top"], [href*="castlevania.top"], [href*="suiten.top"], [href*="shucks.top"], [href*="1stream.top"], [href*="ambr.top"], [href*="techblog.top"], [href*="mastodon.top"], [href*="pressplay.top"], [href*="strims.top"], [href*="thedesk.top"]))
 ! ——— You know those ultra-fraudulent auto-generated things that clutter up Google searches? These entries should remove some of them. ———
 www.google.*##.g:has(a[href*=".php?xxx="])
 www.google.*##.g:has(cite:has-text(.it › )):has(a[href*="-"][href$=".html"]:not([href*="://www."], [href*="://m."], [href*="carrefour.it"], [href*="gospesa.it"]))
@@ -2209,13 +2240,23 @@ www.google.*##.g:has(a[href*="/redirect.asp?url="]):has(a[href*=".tk/"], a[href*
 www.google.*##.g:has(a[href*="/go_links.php?"]):has(a[href*=".tk/"], a[href*=".ml/"])
 www.google.*##.g:has(a[href*="/redir?dir="]):has(a[href*=".tk/"], a[href*=".ml/"])
 www.google.*##.g:has(a[href*="/link?url="]):has(a[href*=".tk/"], a[href*=".ml/"])
+www.google.*##.g:has(a[href*="/redirect.aspx?url=" i]):has(a[href*=".tk/"], a[href*=".ml/"])
+www.google.*##.g:has(a[href*="?url=//" i]):has(a[href*=".tk/"], a[href*=".ml/"])
+www.google.*##.g:has(a[href*="redirect=//" i]):has(a[href*=".tk/"], a[href*=".ml/"])
+www.google.*##.g:has(a[href*="return_url=" i]):has(a[href*=".tk/"], a[href*=".ml/"])
+www.google.*##.g:has(a[href*="returnurl=" i]):has(a[href*=".tk/"], a[href*=".ml/"])
+www.google.*##.g:has(a[href*=pag-redireciona i]):has(a[href*=".tk/"], a[href*=".ml/"])
+www.google.*##.g:has(a[href*="/jump.cfm" i]):has(a[href*=".tk/"], a[href*=".ml/"])
+www.google.*##.g:has(a[href*="/www/delivery/"]):has(a[href*=".php?"])
+www.google.*##.g:has([href*="?link=//"]):has(a[href*=".tk/"], a[href*=".ml"])
+www.google.*##.g:has([href*="&url=//"]):has(a[href*=".tk/"], a[href*=".ml"])
 !#endif
 !#if env_mobile
 ! ——— Attempted removal of Google search result entries that lead to the above top-level domains (For Google Mobile) ———
 ! I strongly recommend the use of https://addons.mozilla.org/firefox/addon/google-search-fixer/ for use on Firefox for Android, thus the entries are written for the Chrome version of Google Mobile.
 !!!www.google.*#?#*:has(> * > a[oncontextmenu][href*=".tk/"]:not([href*=coolcmd], [href*=budterence], [href*="google.tk"], [href*=transportnews], [href*=c0d3c], [href*=anonytext], [href*=tokelau-info], [href*=fakaofo], [href*=loljp-wiki], [href*=ninetail], [href*=goshujin], [href*="graph.tk"], [href*=nolfrevival], [href*="steamroller.tk"], [href*="restricted-functions.tk"], [href*="bstweaker.tk"], [href*="nbd-media.tk"], [href*="gotofap.tk"], [href*="somepythonthings.tk"]))
 www.google.*#?#*:has(> * > a[oncontextmenu][href*=".ga/"]:not([href*="google.ga"], [href*="filtri-dns.ga"], [href*="dgdi.ga"], [href*="9191.ga"], [href*="animevsub.ga"], [href*="my.ga"]))
-!!!www.google.*#?#*:has(> * > a[oncontextmenu][href*=".ml/"]:not([href*="google.ml"], [href*="melody.ml"], [href*="info-matin.ml"], [href*="amap.ml"], [href*="mastodon.ml"], [href*="nothingprivate.ml"], [href*="lingva.ml"], [href*="lemmy.ml"], [href*="beatbump.ml"], [href*="prompt.ml"], [href*="biblioreads.ml"]))
+!!!www.google.*#?#*:has(> * > a[oncontextmenu][href*=".ml/"]:not([href*="google.ml"], [href*="melody.ml"], [href*="info-matin.ml"], [href*="amap.ml"], [href*="mastodon.ml"], [href*="nothingprivate.ml"], [href*="lingva.ml"], [href*="lemmy.ml"], [href*="beatbump.ml"], [href*="prompt.ml"], [href*="biblioreads.ml"], [href*="shorturl.ga"]))
 www.google.*#?#*:has(> * > a[oncontextmenu][href*=".gq/"]:not([href*="inege.gq"], [href*=tvgelive]))
 www.google.*#?#*:has(> * > a[oncontextmenu][href*=".cf/"]:not([href*="google.cf"], [href*="rths.cf"], [href*="acap.cf"]))
 www.google.*#?#*:has(> * > a[oncontextmenu][href*=".pw/"]:not([href*="libgen.pw"], [href*="petridish.pw"], [href*="palaugov.pw"], [href*="dpc.pw"], [href*="buttercup.pw"], [href*="rezka.pw"], [href*="darkcrystal.pw"], [href*="xor.pw"], [href*="fullhdfilmizlesene.pw"], [href*="gopass.pw"], [href*="vost.pw"], [href*="core.pw"], [href*="bittor.pw"]))
@@ -2223,25 +2264,25 @@ www.google.*#?#*:has(> * > a[oncontextmenu][href*=".loan/"])
 www.google.*#?#*:has(> * > a[oncontextmenu][href*=".agency/"]:not([href*="battlefield.agency"], [href*="baam.agency"], [href*="uphotel.agency"]))
 www.google.*#?#*:has(> * > a[oncontextmenu][href*=".gdn/"])
 www.google.*#?#*:has(> * > a[oncontextmenu][href*=".bid/"])
-www.google.*#?#*:has(> * > a[oncontextmenu][href*=".top/"]:not([href*="caitlin.top"], [href*="corriente.top"], [href*="gdtot.top"], [href*="nicenature.top"], [href*="reminder.top"], [href*="magocoro.top"], [href*="castlevania.top"], [href*="suiten.top"], [href*="shucks.top"], [href*="1stream.top"], [href*="ambr.top"], [href*="techblog.top"], [href*="mastodon.top"], [href*="pressplay.top"], [href*="strims.top"]))
+www.google.*#?#*:has(> * > a[oncontextmenu][href*=".top/"]:not([href*="caitlin.top"], [href*="corriente.top"], [href*="gdtot.top"], [href*="nicenature.top"], [href*="reminder.top"], [href*="magocoro.top"], [href*="castlevania.top"], [href*="suiten.top"], [href*="shucks.top"], [href*="1stream.top"], [href*="ambr.top"], [href*="techblog.top"], [href*="mastodon.top"], [href*="pressplay.top"], [href*="strims.top"], [href*="thedesk.top"]))
 www.google.*#?#*:has(> * > a[oncontextmenu][href*=".php?xxx="])
 www.google.*#?#*:has(> * > a[oncontextmenu][href^="https://books.google."])
 !#endif
 ! ——— For DuckDuckGo ———
 !!!duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$=".tk"]:not([data-domain*="google.tk"], [data-domain*="coolcmd.tk"], [data-domain*="budterence.tk"], [data-domain*="transportnews.tk"], [data-domain*="c0d3c.tk"], [data-domain*="tokelau-info.tk"], [data-domain*="loljp-wiki.tk"], [data-domain*="ninetail.tk"], [data-domain*="goshujin.tk"], [data-domain*="graph.tk"], [data-domain*="nolfrevival.tk"], [data-domain*="bstweaker.tk"], [data-domain*="nbd-media.tk"], [data-domain*="gotofap.tk"], [data-domain*="coppersurfer.tk"], [data-domain*="fakaofo.tk"])
-duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$=".ga"]:not([data-domain*="google.ga"], [data-domain*="filtri-dns.ga"], [data-domain*="dgdi.ga"], [data-domain*="9191.ga"], [data-domain*="animevsub.ga"], [data-domain*="my.ga"])
+duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*=".ga/"]:not([href*="google.ga"], [href*="filtri-dns.ga"], [href*="dgdi.ga"], [href*="9191.ga"], [href*="animevsub.ga"], [href*="my.ga"], [href*="shorturl.ga"]))
 !!!duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$=".ml"]:not([data-domain*="google.ml"], [data-domain*="melody.ml"], [data-domain*="info-matin.ml"], [data-domain*="amap.ml"], [data-domain*="mastodon.ml"], [data-domain*="nothingprivate.ml"], [data-domain*="lingva.ml"], [data-domain*="lemmy.ml"], [data-domain*="beatbump.ml"], [data-domain*="prompt.ml"], [data-domain*="biblioreads.ml"])
-duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$=".gq"]:not([data-domain*="inege.gq"], [data-domain*="tvgelive.gq"])
-duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$=".cf"]:not([data-domain*="google.cf"], [data-domain*="rths.cf"], [data-domain*="acap.cf"])
-duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$=".pw"]:not([data-domain*="libgen.pw"], [data-domain*="petridish.pw"], [data-domain*="palaugov.pw"], [data-domain*="dpc.pw"], [data-domain*="buttercup.pw"], [data-domain*="rezka.pw"], [data-domain*="darkcrystal.pw"], [data-domain*="xor.pw"], [data-domain*="fullhdfilmizlesene.pw"], [data-domain*="gopass.pw"], [data-domain*="vost.pw"], [data-domain*="core.pw"], [data-domain*="bittor.pw"])
-duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$=".loan"]
-duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$=".agency"]:not([data-domain*="battlefield.agency"], [data-domain*="baam.agency"], [data-domain*="uphotel.agency"], [data-domain*="robotzebra.agency"])
-duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$=".gdn"]
-duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$=".bid"]
-duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$=".top"]:not([href*="caitlin.top"], [data-domain$="corriente.top"], [data-domain$="gdtot.top"], [data-domain$="nicenature.top"], [data-domain$="reminder.top"], [data-domain$="magocoro.top"], [data-domain$="castlevania.top"], [data-domain$="suiten.top"], [data-domain$="shucks.top"], [data-domain$="1stream.top"], [data-domain*="ambr.top"], [data-domain*="techblog.top"], [data-domain*="mastodon.top"], [data-domain*="pressplay.top"], [data-domain*="strims.top"])
+duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*=".gq/"]:not([href*="inege.gq"], [href*="tvgelive.gq"]))
+duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*=".cf/"]:not([href*="google.cf"], [href*="rths.cf"], [href*="acap.cf"]))
+duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*=".pw/"]:not([href*="libgen.pw"], [href*="petridish.pw"], [href*="palaugov.pw"], [href*="dpc.pw"], [href*="buttercup.pw"], [href*="rezka.pw"], [href*="darkcrystal.pw"], [href*="xor.pw"], [href*="fullhdfilmizlesene.pw"], [href*="gopass.pw"], [href*="vost.pw"], [href*="core.pw"], [href*="bittor.pw"]))
+duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*=".loan/"])
+duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*=".agency/"]:not([href*="battlefield.agency"], [href*="baam.agency"], [href*="uphotel.agency"], [href*="robotzebra.agency"]))
+duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*=".gdn/"])
+duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*=".bid/"])
+duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*=".top/"]:not([href*="caitlin.top"], [href*="corriente.top"], [href*="gdtot.top"], [href*="nicenature.top"], [href*="reminder.top"], [href*="magocoro.top"], [href*="castlevania.top"], [href*="suiten.top"], [href*="shucks.top"], [href*="1stream.top"], [href*="ambr.top"], [href*="techblog.top"], [href*="mastodon.top"], [href*="pressplay.top"], [href*="strims.top"], [href*="thedesk.top"]))
 ! ——— For Bing ———
 !!!bing.com##.b_algo:has(a[href*=".tk/"]:not([href*="google.tk"], [href*="coolcmd.tk"], [href*="budterence.tk"], [href*="transportnews.tk"], [href*="c0d3c.tk"], [href*="tokelau-info.tk"], [href*="loljp-wiki.tk"], [href*="ninetail.tk"], [href*="goshujin.tk"], [href*="graph.tk"], [href*="nolfrevival.tk"], [href*="bstweaker.tk"], [href*="nbd-media.tk"], [href*="gotofap.tk"], [href*="coppersurfer.tk"], [href*="fakaofo.tk"]))
-bing.com##.b_algo:has(a[href*=".ga/"]:not([href*="google.ga"], [href*="filtri-dns.ga"], [href*="dgdi.ga"], [href*="9191.ga"], [href*="animevsub.ga"], [href*="my.ga"]))
+bing.com##.b_algo:has(a[href*=".ga/"]:not([href*="google.ga"], [href*="filtri-dns.ga"], [href*="dgdi.ga"], [href*="9191.ga"], [href*="animevsub.ga"], [href*="my.ga"], [href*="shorturl.ga"]))
 !!!bing.com##.b_algo:has(a[href*=".ml/"]:not([href*="google.ml"], [href*="melody.ml"], [href*="info-matin.ml"], [href*="amap.ml"], [href*="mastodon.ml"], [href*="nothingprivate.ml"], [href*="lingva.ml"], [href*="lemmy.ml"], [href*="beatbump.ml"], [href*="prompt.ml"], [href*="biblioreads.ml"]))
 bing.com##.b_algo:has(a[href*=".gq/"]:not([href*="inege.gq"], [href*="tvgelive.gq"]))
 bing.com##.b_algo:has(a[href*=".cf/"]:not([href*="google.cf"], [href*="rths.cf"], [href*="acap.cf"]))
@@ -2249,7 +2290,7 @@ bing.com##.b_algo:has(a[href*=".pw/"]:not([href*="libgen.pw"], [href*="petridish
 bing.com##.b_algo:has(a[href*=".loan/"])
 bing.com##.b_algo:has(a[href*=".gdn/"])
 bing.com##.b_algo:has(a[href*=".bid/"])
-bing.com##.b_algo:has(a[href*=".top/"]:not([href*="caitlin.top"], [href*="corriente.top"], [href*="gdtot.top"], [href*="nicenature.top"], [href*="reminder.top"], [href*="magocoro.top"], [href*="castlevania.top"], [href*="suiten.top"], [href*="shucks.top"], [href*="1stream.top"], [href*="ambr.top"], [href*="techblog.top"], [href*="mastodon.top"], [href*="pressplay.top"], [href*="strims.top"]))
+bing.com##.b_algo:has(a[href*=".top/"]:not([href*="caitlin.top"], [href*="corriente.top"], [href*="gdtot.top"], [href*="nicenature.top"], [href*="reminder.top"], [href*="magocoro.top"], [href*="castlevania.top"], [href*="suiten.top"], [href*="shucks.top"], [href*="1stream.top"], [href*="ambr.top"], [href*="techblog.top"], [href*="mastodon.top"], [href*="pressplay.top"], [href*="strims.top"], [href*="thedesk.top"]))
 ! ——— Old dead tech-related domains ———
 ! Domains that used to host lists for adblockers or "hosts" tools, but which are now either used by malware pushers, or could potentially be snapped up by them.
 ||adblock.gjtech.net^$document
@@ -2267,7 +2308,7 @@ bing.com##.b_algo:has(a[href*=".top/"]:not([href*="caitlin.top"], [href*="corrie
 ||ssl.bblck.me^$document
 ||allblock.net^$document
 ||microsoftedge.microsoft.com/addons/detail/allblock/nkllnmjaaifdphkfbmedklkimjmnjeen^$document
-! Malicious or purchaseable domains found in videogame manuals and title screens
+! Malicious or purchaseable domains found in videogame manuals, title screens, or game driver/patch sites
 ||acclaimsports.com^$document
 ||acclaimmaxsports.com^$document
 ||hip-games.com^$document
@@ -2280,6 +2321,7 @@ bing.com##.b_algo:has(a[href*=".top/"]:not([href*="caitlin.top"], [href*="corrie
 ||oldgames.4all.cc^$all
 ||cloudyvideogame.com^$document
 ||marsshooter.org^$document
+||fortevr.com^$document
 ! Dead router connection URİs
 ! To log in to TP-Link routers, use tplinkwifi.net instead.
 ||tplinklogin.net^$document
@@ -10360,6 +10402,120 @@ zombooru.com##a[href="http://www.hard55.com"]
 208.88.225.116$network
 208.88.225.117$network
 208.88.225.119$network
+! https://github.com/AdguardTeam/AdguardFilters/issues/144823
+!+ NOT_OPTIMIZED
+://landings.*_slots/?partner=$document
+! https://github.com/AdguardTeam/AdguardFilters/issues/145513
+||achilles-par.com^$all
+||adrastos-eli.com^$all
+||aegid-bal.com^$all
+||aesch-mko.com^$all
+||agapios-gla.com^$all
+||ahura-maz.com^$all
+||alia-iso.com^$all
+||altwi-cha.com^$all
+||amanda-cle.info^$all
+||animikii-ana.com^$all
+||apoll-amp.com^$all
+||aries-nbl.com^$all
+||artax-evn.com^$all
+||aslau-cre.info^$all
+||balor-ghn.com^$all
+||baste-znl.com^$all
+||belia-glp.com^$all
+||bilqi-omv.com^$all
+||blode-cpq.com^$all
+||bricius-ing.com^$all
+||brije-cor.info^$all
+||chima-eoj.com^$all
+||chlod-qui.com^$all
+||ciar-kep.com^$all
+||clarus-che.com^$all
+||cynes-gwf.com^$all
+||daeda-iyk.com^$all
+||dipaka-ead.com^$all
+||enki-mit.com^$all
+||epiph-xvm.com^$all
+||ermin-oxj.info^$all
+||freyr-clo.com^$all
+||galla-uev.com^$all
+||gargi-xba.com^$all
+||gaut-hil.com^$all
+||gloos-zus.info^$all
+||gronw-zis.com^$all
+||gwawl-oqs.com^$all
+||harib-eir.info^$all
+||heily-nin.com^$all
+||hilarion-lar.com^$all
+||hildr-zah.com^$all
+||iason-eug.com^$all
+||illum-sec.com^$all
+||ingig-nes.com^$all
+||iorwe-qmf.com^$all
+||irene-eux.com^$all
+||kamak-mab.com^$all
+||kuno-gae.com^$all
+||laurentia-kor.com^$all
+||leont-pfd.com^$all
+||ligeia-gip.com^$all
+||linus-axz.com^$all
+||lugaid-kal.com^$all
+||lykos-bzm.com^$all
+||lysim-lre.com^$all
+||lysimachus-aur.com^$all
+||menelaus-col.com^$all
+||nesto-sig.com^$all
+||nicomachus-mac.com^$all
+||orest-vlv.com^$all
+||orige-duo.com^$all
+||orion-gen.com^$all
+||patro-sfe.com^$all
+||phara-gte.com^$all
+||philotheos-iov.com^$all
+||phoka-mps.com^$all
+||ponti-pzk.com^$all
+||pritha-ner.com^$all
+||proserpina-zeb.com^$all
+||pyrrh-xbf.com^$all
+||quinctus-isb.com^$all
+||rama-bac.com^$all
+||rober-srr.com^$all
+||sigiward-ger.com^$all
+||sindr-yet.com^$all
+||tanit-adr.com^$all
+||thiem-csl.com^$all
+||thor-pom.com^$all
+||thutm-bru.com^$all
+||uthyr-que.com^$all
+||zeroredirect1.com^$all
+||zp-dom.com^$all
+||redirect.newprogrammatic.click^$document
+3.231.116.86$network
+54.237.193.255$network
+! https://github.com/DandelionSprout/adfilt/issues/808
+! https://www.mandiant.com/resources/blog/tracking-evolution-gootloader-operations (26/01/2023)
+||jonathanbartz.com^$all
+||jp.imonitorsoft.com^$all
+||junk-bros.com^$all
+||kakiosk.adsparkdev.com^$all
+||kepw.org^$all
+||kristinee.com^$all
+||lakeside-fishandchips.com^$all
+||system-libs.com^$all
+||usa-winwin.com^$all
+||optercore.com^$all
+||optimizewin.com^$all
+||office-softs.com^$all
+||office-checker.com^$all
+||system-checker.com^$all
+||center-main.com^$all
+||office-view.com^$all
+||i-likefood.co^$document
+108.61.242.65$network
+146.70.78.43$network
+87.120.254.39$network
+45.150.108.213$network
+92.204.160.240$network
 ! ——— Standard malware that I stumbled upon on my own ———
 ! http://www.toorgle.net/results.php?q=fetishkitsch&security=666
 ||downloadprovider.me^$all
@@ -13724,6 +13880,12 @@ www.microsoft.com##a[data-pfns][data-pfns*="amongonline."]
 www.microsoft.com##a[data-pfns][data-pfns*=lupygames]
 www.microsoft.com##a[data-pfns][data-pfns*="juliept."]
 www.microsoft.com##a[data-pfns][data-pfns*=caoucaoua]
+www.microsoft.com##a[data-pfns][data-pfns*="gameboxstudio."]
+www.microsoft.com##a[data-pfns][data-pfns*="carracing."]
+www.microsoft.com##a[data-pfns][data-pfns*=dressupgamefor]
+www.microsoft.com##a[data-pfns][data-pfns*=brianeducation]
+www.microsoft.com##a[data-pfns][data-pfns*=gamdev]
+www.microsoft.com##a[data-pfns][data-pfns*=gambild]
 www.microsoft.com##a[data-pfns][data-pfns^="1"][data-pfns*="games."]
 www.microsoft.com##a[data-pfns][data-pfns^="2"][data-pfns*="games."]
 www.microsoft.com##a[data-pfns][data-pfns^="3"][data-pfns*="games."]
@@ -13756,10 +13918,15 @@ www.microsoft.com##a[data-pfns][href*=pacman]
 www.microsoft.com##a[data-pfns][href*=pac-men]
 !#if !adguard
 !#endif
+! https://github.com/AdguardTeam/AdguardFilters/issues/145513
+||amazonaws.com^$all,badfilter
+||amazonaws.com^$document,popup,badfilter
+||amazonaws.com^$document,badfilter
+||amazonaws.com^$badfilter
 ! Placeholder line for alternate list versions
 !#endif
 ! Title: 🐐 Dandelion Sprout's Lightweight Anti-'Social share' List
-! OriginalVersion: 03March2023v4-Alpha
+! OriginalVersion: 13March2023v1-Alpha
 ! Expires: 3 days
 ! Description: This list aims to achieve pretty broad (if not overly broad) coverage of social sharing buttons, with perhaps 1/50th~1/100th as many entries as what the biggest anti-'social button' lists out there have.
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md#-english
@@ -14220,6 +14387,7 @@ condoblues.com###milotree_box_wrap
 ~whatsapp.com,~wa.me##a[href*="://wa.me/?text="]
 ~xing.com###xing-share
 ##.sharethis-inline-share-buttons:not(html, body)
+##.share-buttons-bottom:not(html, body)
 !!!~mewe.com,~www.nrk.no##[class*=share-button i]:not(body, html) (Can't be generic due to www.nrk.no, mewe.com, stylecaster.com)
 !!!~tidssonen.no,~mmoculture.com##div[class*=share-container] (Entry needs to be rewritten at some point)
 !!!~twitter.com,~twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion,~feedly.com,~chaturbate.com##.follow (Too many exceptions needed)
@@ -14976,7 +15144,7 @@ vimeo.com#%#//scriptlet('ubo-set.js', 'vimeo.clip_page_config.continuous_play_en
 ted.com#%#//scriptlet('ubo-sid.js', 'd.period', '1000')
 ted.com##.css-1dg07lz:has-text(Up next)
 ! Title: 🎫 Ad Removal List for Unusual Ads
-! OriginalVersion: 16December2022v1-Alpha
+! OriginalVersion: 14March2023v1-Alpha
 ! Expires: 4 days
 ! Description: This is a list to remove the kinds of ads that very few well-established international adblocker lists would want to remove, due to many of them not meeting those lists' strict criteria of what an ad actually is. So that's where this list comes into play.
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md#-english
@@ -15042,11 +15210,14 @@ socket.io###sponsors
 islandecho.co.uk#?#.herald-module:has(.category-news-in-brief)
 ! ——— Placeholders that are seemingly too small for EasyList ———
 mightytext.net###ad-block-holder
-! ——— Denied in EasyList for not being in English, denied in AdGuard Base for not being a popular site, no known language lists for it. May be submitted to uAssets at some point ———
+! ——— Denied (or implied denied) in EasyList for not being in English, denied in AdGuard Base for not being a popular site, no known language lists for it. May be submitted to uAssets at some point ———
 ! https://ilanganews.co.za/
 ilanganews.co.za##.vc_single_image.wpb_wrapper
 ! https://ilanganews.co.za/bayobuke-bafa-ababili-abebentshontsha-amakhebuli/
 ilanganews.co.za##.widget_media_image
+! https://github.com/AdguardTeam/AdguardFilters/issues/145446
+###bann-airtel
+###airtelMlay
 ! ——— Slot machine spam ———
 deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=slotonline i])
 deviantart.com##a[data-hook][href*="/art/"][href*=slotonline i]
@@ -16098,7 +16269,7 @@ vumoo.to#?#div.col-lg-12:has-text(IMDb)
 !#if !env_safari
 !#if !adguard_app_ios
 ! Title: ➗ Actually Legitimate URL Shortener Tool
-! OriginalVersion: 06March2023v1
+! OriginalVersion: 17March2023v1
 ! Expires: 1 day
 ! Description: In a world dominated by bit.ly, adf.ly, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary $/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
@@ -16109,6 +16280,7 @@ vumoo.to#?#div.col-lg-12:has-text(IMDb)
 ! - this list can not bypass tracker redirects through third-party domains. This can be done by strict-blocking said domain and using the ability to view parameters on the strict-block page or tools to bypass it.
 ! - this list can not remove anything after the # in URLs. This is impossible in uBlock Origin and AdGuard.
 ! - this list can not remove parameters added using https://developer.mozilla.org/en-US/docs/Web/API/History/replaceState
+! - as of 10/3/2023, this list is not supported in Brave, due to Brave missing several critical features this list uses. Please use this list only with uBlock Origin or AdGuard
 ! ——— General remove rules ——— !
 ! From AdGuard CoreLibs (11/11/2020)
 $removeparam=yclid
@@ -16146,7 +16318,7 @@ $removeparam=/^utm_/i,domain=~redir.tradedoubler.com|~sendgb.com|~allegro.pl|~ti
 $removeparam=/^itm_/,domain=~redir.tradedoubler.com
 $removeparam=/^stm_/,domain=~redir.tradedoubler.com
 ! https://www.ixigua.com/6888869154099629319?logTag=Y8JlCALntSDuDesMiPno8 (31/10/2020)
-$removeparam=logTag
+$removeparam=logTag,document
 ! https://www.jula.no/catalog/fritid/trening/treningsutstyr/manualer-og-vektstenger/manualsett-951150?gclid=Cj0KCQjwlvT8BRDeARIsAACRFiUj4R30NdrcmVwC1-pBi43uGBKic6uEq0zEJfkXS3hxOfGrJ3CrR9waAoy9EALw_wcB&gclsrc=aw.ds (31/10/2020)
 $removeparam=gclsrc
 ! https://www.nytimes.com/2020/11/10/us/yellowstone-chickens.html?smid=tw-share (11/11/2020)
@@ -17247,6 +17419,9 @@ $removeparam=mibextid
 ! https://www.telegraph.co.uk/business/2022/01/27/wasps-bees-force-heathrow-take-offs-abandoned/?li_source=LI&li_medium=liftigniter-onward-journey
 $removeparam=li_source
 $removeparam=li_medium
+! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-5301390 (15/03/2023)
+$removeparam=/^adpopup=[a-eg-zA-EG-Z0-9]/
+$removeparam=/^adppopup=[a-eg-zA-EG-Z0-9]/
 ! ——— General blocking rules ——— !
 !! Scripts that solely exist to make URLs longer.
 ! https://github.com/DandelionSprout/adfilt/pull/320
@@ -17259,7 +17434,7 @@ $removeparam=cid,domain=abcnews.go.com|adguard.com|adshares.net|ae.com|anntaylor
 ! https://deal.no/apple-thunderbolt-to-gigabit-ethernet/cat-p/c/p4935744&ref=prisjakt (15/11/2020)
 ! https://www.amazon.com/s?k=disney+fairies&ref=nb_sb_noss_2 (27/11/2020)
 ! (https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-488495)
-$removeparam=ref,domain=abebooks.com|accounts.binance.com|adobe.com|akuankka.fi|albiononline.com|altcustoms.com|amazon.*|app.blockfi.com|arvopaperi.fi|audible.*|baidu.com|bestbuy.com|bing.com|bitlox.com|bitwarden.com|blogit.fi|bookdepository.com|brave.com|buzzfeed.com|buzzfeednews.com|bybit.com|catch.com.au|codehs.com|comixology.*|coop.no|deal.no|dell.com|digidip.net|domains.ch|droix.net|eset.com|etsy.com|expo.io|facebook.*|facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion|fig.io|foreca.*|geeksforgeeks.org|github.com|github.io|goodreads.com|hintaopas.fi|hintaseuranta.fi|hs.fi|idenati.com|ikea.com|iltapulu.fi|imdb.com|is.fi|jasonsavard.com|kauppalehti.fi|kesaduuni.org|kickstarter.com|ku.fi|mastermind.ac|mediuutiset.fi|megapornfreehd.com|merrell.com|mikrobitti.fi|motouutiset.fi|oikotie.fi|omataloyhtio.fi|protonvpn.com|proton.me|puutarha.net|rakentaja.fi|reddit.com|reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion|remppatori.fi|sahkovertailu.fi|sanoma.fi|scandinavianphoto.fi|schibsted.fi|semrush.com|shein.com|shodan.io|shopping.google.*|sketch.com|spiegel.de|sportskeeda.com|storyhouseegmont.fi|suomi24.fi|talouselama.fi|target.com|tekniikkatalous.fi|telsu.fi|thedailybeast.com|theregister.com|tivi.fi|tokenmetrics.com|twitch.tv|udemy.com|uusisuomi.fi|vultr.com|webhallen.no|woot.com|wormhole.app|yle.fi|zappos.com|zulily.com
+$removeparam=ref,domain=abebooks.com|accounts.binance.com|adobe.com|akuankka.fi|albiononline.com|altcustoms.com|amazon.*|app.blockfi.com|arvopaperi.fi|audible.*|baidu.com|bestbuy.com|bing.com|bitlox.com|bitwarden.com|blogit.fi|bookdepository.com|brave.com|buzzfeed.com|buzzfeednews.com|bybit.com|catch.com.au|codehs.com|comixology.*|coop.no|deal.no|dell.com|digidip.net|domains.ch|droix.net|eset.com|etsy.com|expo.io|facebook.*|facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion|fig.io|foreca.*|geeksforgeeks.org|github.com|github.io|goodreads.com|hintaopas.fi|hintaseuranta.fi|hs.fi|idenati.com|ikea.com|iltapulu.fi|imdb.com|is.fi|jasonsavard.com|kauppalehti.fi|kesaduuni.org|kickstarter.com|ku.fi|lex.page|mastermind.ac|mediuutiset.fi|megapornfreehd.com|merrell.com|mikrobitti.fi|motouutiset.fi|oikotie.fi|omataloyhtio.fi|protonvpn.com|proton.me|puutarha.net|rakentaja.fi|reddit.com|reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion|remppatori.fi|sahkovertailu.fi|sanoma.fi|scandinavianphoto.fi|schibsted.fi|semrush.com|shein.com|shodan.io|shopping.google.*|sketch.com|spiegel.de|sportskeeda.com|storyhouseegmont.fi|suomi24.fi|talouselama.fi|target.com|tekniikkatalous.fi|telsu.fi|thedailybeast.com|theregister.com|tivi.fi|tokenmetrics.com|twitch.tv|udemy.com|uusisuomi.fi|vultr.com|webhallen.no|woot.com|wormhole.app|yle.fi|zappos.com|zulily.com
 ! https://www.comixology.com/Scooby-Doo-1997-2010/comics-series/353?irgwc=1&tid=IR-affiliate-10451&clickid=VsxVfPSSvxyOWNfwUx0Mo38MUkiXwRwR0xWjW40 (01/03/2021)
 ! (e.g. mirrored.to, tunnistautuminen.suomi.fi)
 $removeparam=tid,domain=clickbank.net|comixology.*|gap.com|gapcanada.ca|mintmobile.com|nhl.com|zulily.com
@@ -17268,7 +17443,7 @@ $removeparam=tid,domain=clickbank.net|comixology.*|gap.com|gapcanada.ca|mintmobi
 $removeparam=src,domain=3cx.com|adafruit.com|ashford.com|bluejeans.com|bose.*|brave.com|buyzero.de|cytron.io|digikey.*|elastix.org|engadget.com|getpocket.com|hallmark.com|hinta.fi|investors.com|kennethcole.com|kipling-usa.com|kubii.*|melopero.com|mozilla.org|msn.com|neeva.com|newbalance.com|nexo.io|officestationery.co.uk|okdo.com|raspipc.es|reichelt.*|thepihut.com|thunderbird.net|tiendatec.es|tokopedia.com|twitter.com|udemy.com|viking-direct.co.uk|webmd.com|welectron.com|wondershare.*|wuzhuiso.com|yahoo.com
 ! https://github.com/DandelionSprout/adfilt/pull/474
 ! https://user.qzone.qq.com/1250252459?source=aiostar (01/02/2022)
-$document,removeparam=source,denyallow=googlevideo.com,domain=1sol.io|ashford.com|asos.com|att.com|awd-it.*|bankofamerica.com|barenecessities.com|bedbathandbeyond.com|betterprogramming.pub|blavity.com|blog.getadblock.com|blogs.oracle.com|boscovs.com|boxboat.com|brownells.*|britishcornershop.co.uk|burkesoutlet.com|bybit.com|choicehotels.com|chollometro.com|coinpanel.com|contabo.com|cyberghostvpn.com|despegar.*|directv.com|discord.*|docs.google.com|docsend.com|drinkhint.com|edx.org|educba.com|eonline.com|escentual.com|eventbrite.*|fiverr.com|fool.com|forms.gle|gethotspotshield.com|gleam.io|goodcrypto.app|googleusercontent.com|greenhouse.io|greenvoice.fr|hammacher.com|hanes.com|hobbyhall.fi|hotspotshield.com|hottopic.com|housing.com|hp.com|instagram.com|itnext.io|jacquielawson.com|just-eat.co.uk|kasta.io|ladbible.com|medium.com|microsoftedgewelcome.microsoft.com|monster.fi|nautica.com|nortonsafe.search.ask.com|onehanesplace.com|outnorth.fi|petsupplies.com|phonesoap.com|quizlet.com|riteaid.com|runnode.com|search.brave.com|seekingalpha.com|sonos.com|spiceworks.com|squarespace.com|studio.co.uk|subscribe.gq.com|t.me|thedailybeast.com|tiktok.com|tokopedia.com|tommybahama.com|torrid.com|tous.com|tradingview.com|tumblr.com|twitter.com|user.qzone.qq.com|vimeo.com|webhint.io|wilsonsleather.com|wired.com|ylighting.com|youtube.com|yubo.live
+$document,removeparam=source,denyallow=googlevideo.com,domain=1sol.io|ashford.com|asos.com|att.com|awd-it.*|bankofamerica.com|barenecessities.com|bedbathandbeyond.com|betterprogramming.pub|blavity.com|blog.getadblock.com|blogs.oracle.com|boscovs.com|boxboat.com|brownells.*|britishcornershop.co.uk|burkesoutlet.com|bybit.com|choicehotels.com|chollometro.com|coinpanel.com|contabo.com|cyberghostvpn.com|despegar.*|directv.com|discord.*|docs.google.com|docsend.com|drinkhint.com|edx.org|educba.com|eonline.com|escentual.com|eventbrite.*|fiverr.com|fool.com|forms.gle|gethotspotshield.com|gleam.io|goodcrypto.app|googleusercontent.com|greenhouse.io|greenvoice.fr|hammacher.com|hanes.com|hobbyhall.fi|hotspotshield.com|hottopic.com|housing.com|hp.com|instagram.com|itnext.io|jacquielawson.com|just-eat.co.uk|kasta.io|ladbible.com|medium.com|microsoftedgewelcome.microsoft.com|monster.fi|nautica.com|nortonsafe.search.ask.com|onehanesplace.com|outnorth.fi|paypal.com|petsupplies.com|phonesoap.com|quizlet.com|riteaid.com|runnode.com|search.brave.com|seekingalpha.com|sonos.com|spiceworks.com|squarespace.com|studio.co.uk|subscribe.gq.com|t.me|thedailybeast.com|tiktok.com|tokopedia.com|tommybahama.com|torrid.com|tous.com|tradingview.com|tumblr.com|twitter.com|user.qzone.qq.com|vimeo.com|webhint.io|wilsonsleather.com|wired.com|ylighting.com|youtube.com|yubo.live
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-525100
 ! https://github.com/DandelionSprout/adfilt/pull/277
 $removeparam=mod,domain=barrons.com|dowjones.com|fnlondon.com|mansionglobal.com|marketwatch.com|penews.com|wsj.com
@@ -19272,7 +19447,7 @@ $removeparam=cvid,domain=msn.cn|msn.com|chinadaily.com.cn|yiyouliao.com|tianqi.c
 ||quizlet.com^$removeparam=funnelUUID
 ||quizlet.com^$removeparam=signupOrigin
 ! https://mini.eastday.com/nsa/n230125110013294.html?qid=04426&cvid=ef9c243ff9fd4d5d8606d5a42b2b2023 (26/01/2023)
-||eastday.com^$removeparam=qid
+$removeparam=qid,domain=eastday.com|bookdepository.com
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-4962768
 $removeparam=pk_vid,document
 ! https://github.com/ClearURLs/Rules/issues/71
@@ -19299,6 +19474,12 @@ $removeparam=natb,domain=duckduckgo.com
 ||cdc.gov^$removeparam=deliveryName
 ! https://vkplay.ru/play/game/witchcrafty/?_1lr=63fe2a3d7f8804b0-3412327_2070601-3424209_2073149-3424209_2073149&mt_click_id=mt-k6vwk7-1677601519-2846701076
 $removeparam=_1lr
+! https://css-tricks.com/trigonometry-in-css-and-javascript-beyond-triangles/?relatedposts_hit=1&relatedposts_origin=377074&relatedposts_position=1
+||css-tricks.com^$removeparam=relatedposts_hit
+||css-tricks.com^$removeparam=relatedposts_origin
+||css-tricks.com^$removeparam=relatedposts_position
+! https://www.bookdepository.com/Ladybird-Readers-Beginner-Level-My-Little-Pony-Sunnys-Garden-ELT-Graded-Reader-Ladybird/9780241616956?qid=1678437368012&sr=1-8 (10/03/2023)
+||bookdepository.com^$removeparam=sr
 !#if !env_mobile
 ! ——— Entries mostly dedicated to maximising image sizes (thus poorly suited for phones) ———
 ! https://sproutsluckycorner.files.wordpress.com/2019/12/ring-fit-adventure-smoothies-1.png?w=600 (Shows the actual raw image instead of a promotion page; 25/11/2020)
@@ -19343,6 +19524,8 @@ buffalonews.com#%#//scriptlet('ubo-set.js', 'lee_trkLinkSrc', 'noopFunc')
 @@/unsub/?$removeparam
 ! Fix driver download section
 @@||canon.*/supportproduct/gettabcontent$removeparam=referrer
+! https://github.com/AdguardTeam/AdguardFilters/issues/89618
+@@||urldefense.com^$removeparam
 !#if adguard
 !#if adguard_ext_firefox
 ! https://github.com/DandelionSprout/adfilt/issues/376
@@ -19466,7 +19649,7 @@ nerdelandslaget.no#$#html { cursor: auto !important }
 ! No iMacs have had less than 1600px wide monitors since 2006, MacBook Pro since 2012, or MacBook Air since 2017. Thus I'm taking a gamble by embedding this for Mac users:
 !+ NOT_OPTIMIZED
 ! Title: 🖥️ Dandelion Sprout's Website Stretcher
-! OriginalVersion: 08March2023v1-Beta
+! OriginalVersion: 17March2023v1-Beta
 ! Expires: 3 days
 ! Licence: https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
 ! Description: Have you ever felt bothered by how many websites still think that everyone are using narrow monitors? Well, here's how to stretch them out like a piece of gum!
@@ -19478,7 +19661,7 @@ nerdelandslaget.no#$#html { cursor: auto !important }
 ! Redesign
 prisjakt.*,pricespy.*,prisjagt.dk,hintaopas.fi,ledenicheur.fr#$#.category-page > div { max-width: 98vw !important }
 prisjakt.*,pricespy.*,prisjagt.dk,hintaopas.fi,ledenicheur.fr#$#.category-page--wrapper { max-width: none !important }
-prisjakt.*,pricespy.*,prisjagt.dk,hintaopas.fi,ledenicheur.fr#$#div[class^=Content-] { max-width: none !important }
+prisjakt.*,pricespy.*,prisjagt.dk,hintaopas.fi,ledenicheur.fr#$#div[class^=Content-] { max-width: calc(100vw - 100px) !important }
 prisjakt.*,pricespy.*,prisjagt.dk,hintaopas.fi,ledenicheur.fr#$#div[class^=PageContent-] { max-width: 97vw !important }
 prisjakt.*,pricespy.*,prisjagt.dk,hintaopas.fi,ledenicheur.fr#$#.category-list--top-level-item { flex: unset !important; margin-right: 15px !important }
 prisjakt.*,pricespy.*,prisjagt.dk,hintaopas.fi,ledenicheur.fr#$#nav[class^=Navigation-] { max-width: 95vw !important }
@@ -19753,15 +19936,16 @@ github.com#$#.with-full-navigation > .repository-sidebar { margin-right: -190px 
 github.com#$#.discussion-sidebar { width: 220px !important }
 github.com#$#.discussion-timeline { width: 100% !important }
 github.com#$#.col-9 { width: 100% !important }
-github.com#$##discussion_bucket > .col-12.col-md-9 { width: calc(100vw - 260px) !important }
+github.com#$##discussion_bucket > .col-12.col-md-9 { width: calc(100vw - 285px) !important }
 github.com#$##partial-discussion-sidebar[data-channel^=issue] { margin-left: 24px !important }
 github.com#$#.col-md-3.col-12.flex-shrink-0 { width: 200px !important }
-github.com#$##discussion_bucket .col-md-3.col-12.flex-shrink-0 { margin-left: 30px !important }
+!!!github.com###discussion_bucket .col-md-3.col-12.flex-shrink-0:style(margin-left: 5px !important)
 github.com#$#.flex-shrink-0.col-12.col-md-9 { width: calc(100% - 250px) !important }
 github.com#$#.js-discussion { width: calc(100vw - 320px) !important }
-github.com#$##discussion_bucket { width: 100% !important }
+!!!github.com###discussion_bucket:style(width: 100% !important)
 github.com#$#.Layout-sidebar { max-width: 210px !important }
-github.com#$#.Layout { --Layout-sidebar-width: 200px !important }
+! (https://github.com/DandelionSprout/adfilt/issues/803)
+!!!github.com##.Layout:style(--Layout-sidebar-width: 200px !important)
 ! PRs only
 github.com#$#.pull-request-tab-content { width: calc(100vw - 275px) !important; }
 github.com#$#.gutter-condensed > .col-3 { width: 200px !important }
@@ -19791,6 +19975,8 @@ github.com#$##comments > .timeline-comment-wrapper { width: calc(100vw - 240px) 
 github.com#$#.js-blob-filename { width: 400px !important }
 ! Profile page
 github.com#$#body.page-profile .flex-shrink-0.col-12.col-md-9 { margin-left: 40px !important }
+! https://github.com/DandelionSprout/adfilt/issues/803
+github.com#$#.Layout--sidebarPosition-flowRow-end { width: 96vw !important; --Layout-sidebar-width: 220px !important; --Layout-gutter: -5px !important }
 ! —————————————————————————————————————————————————————————————————————
 ! Category: Patreon
 ! General entries

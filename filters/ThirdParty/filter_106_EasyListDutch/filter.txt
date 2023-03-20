@@ -1,8 +1,8 @@
 !
-! Checksum: rJEkE5bpBBFLHiukeU+GYg
-! OriginalVersion: 202303090831
+! Checksum: vyemVnM44HrT8UCPMxbtWA
+! OriginalVersion: 202303200431
 ! Title: EasyList Dutch
-! Last modified: 09 Mar 2023 08:31 UTC
+! Last modified: 20 Mar 2023 04:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 !
@@ -941,6 +941,7 @@ qmusic.nl##.partner
 sc-heerenveen.nl##.partner-grid
 sc-heerenveen.nl##.partnerlink
 clubbrugge.be,feyenoord.nl,ftm.nl,royalantwerpfc.be,voetbalindebollenstreek.nl##.partners
+agraaf.nl##.partners-carousel
 golf.be##.partners-holder
 weespernieuws.nl##.pbph
 denachtvlinders.nl##.plek-boven-artikel
@@ -1197,9 +1198,11 @@ tijd.be#?#.o-hpgrid__row-tijdconnect:-abp-has(h2:-abp-contains(Gesponsorde inhou
 tvgids.nl#?#.square-item:-abp-has( > .banner)
 vi.nl#?#.c-articles-list__item.c-articles-list__item--highlight:-abp-has(.c-tag.c-articles-list__label:-abp-contains(Advertorial))
 voetbalcentraal.nl#?#.blok:-abp-has(h3:-abp-contains(Partners))
+weer.nl#?#.shadow-lvl-2:-abp-has(a[href^="https://www.voordeeluitjes.nl/"])
 welingelichtekringen.nl#?#.post:-abp-has(a[href*="/partnerposting/"])
 wielerflits.nl#?#.list-group-item:-abp-has(span:-abp-contains(Ad))
 wielerflits.nl#?#.w-100.p-3:-abp-has(span:-abp-contains(Ad))
+wielerflits.nl#?#.widget:-abp-has(.wf_headline:-abp-contains(Wielerdeals))
 wkdarts.nl#?#.wpb_wrapper:-abp-has(div:-abp-contains(#advertentie))
 !--------Uitzonderingen (verbergregels)--------!
 ! *** easylistdutch/hide_whitelist.txt ***
