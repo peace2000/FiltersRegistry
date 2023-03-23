@@ -1,6 +1,6 @@
 !
 ! Title: ⚙️ Dandelion Sprout's Annoyances List
-! OriginalVersion: 23February2023v1-Compilation
+! OriginalVersion: 21March2023v1-Compilation
 ! Expires: 2 days
 ! Description: This list is made in the style of Fanboy's and AdGuard's annoyances lists, to show that I can make a just as good such annoyances list as them. It combines many of my proudest and most frequently maintained international lists, as a proof-of-concept and as a curated list for simplicity's sake.
 ! What this broad compilation blocks in AdGuard and uBO (from top to bottom): Mobile app download banners, highly untrustworthy TLDs (and their Google results), domains that major tech groups lost the ownership of, PC "optimiser" sponsorships, malicious or tracker-inserting adblockers, auto-generated Android root "guides" that will brick your phone, "Share page" buttons, "Download [browser/Acrobat]" buttons, unnecessary login prompts, blurring of article previews, fake notification counters, empty padding (esp. on macOS), gradients when moving your mouse on video embeds, extra dumb comment sections, prayer time clocks on newssites, webstore "coupon" aggregator listings that are not coupons, large subscription promo banners, general annoyances on Dailymotion/Twitter/Wikia, falling snow on pages, URL parameters believed to be unnecessary or trackers, custom embedded cursors, softens and modernises Japanese fonts on Windows, spacewasting pagelist entries, the "Anonymous animal" bubbles on Google Docs, external IMDB rating embeds, opt-out autoplay on video sites
@@ -463,7 +463,7 @@ linkedin.com#$?#html { overflow: auto !important; }
 linkedin.com#$?#body { overflow: auto !important; }
 !#if ext_ublock
 ! Title: 💊 Dandelion Sprout's Anti-Malware List
-! OriginalVersion: 19March2023v2
+! OriginalVersion: 20March2023v1
 ! Expires: 2 days
 ! Description: This list goes the extra kilometer to prevent more malware than other mainstream anti-malware lists. It blocks heavily abused top-level domains (and even search engine results for them), blocks domains used in malware redirection trains and in domain parking schemes, blocks sponsored Windows PUP nags on PC guide articles, uses mass blocking of domains belonging to bad IPs, and has many other subcategories that give it a solid advantage over similar lists out there.
 ! For other security-specific lists I've made, check out https://github.com/DandelionSprout/adfilt/tree/master/Special%20security%20lists
@@ -478,7 +478,7 @@ linkedin.com#$?#body { overflow: auto !important; }
 ! Mali (Put on break due to too many and too frequent whitelistings being needed)
 !!!||ml^$doc,domain=~google.ml|~melody.ml|~info-matin.ml|~amap.ml|~mastodon.ml|~nothingprivate.ml|~lingva.ml|~lemmy.ml|~beatbump.ml|~prompt.ml|~biblioreads.ml
 ! Equatorial Guinea
-||gq^$document,domain=~inege.gq|~tvgelive.gq
+||gq^$document,domain=~inege.gq|~tvgelive.gq|~siteproxy.gq|~blockly.gq
 ! Central African Republic
 ||cf^$document,domain=~google.cf|~rths.cf|~acap.cf
 ! Palau
@@ -511,7 +511,7 @@ linkedin.com#$?#body { overflow: auto !important; }
 !!!www.google.*##.g:has(a[href*=".tk/"]:not([href*="google.tk"], [href*="coolcmd.tk"], [href*="budterence.tk"], [href*="transportnews.tk"], [href*="c0d3c.tk"], [href*="tokelau-info.tk"], [href*="loljp-wiki.tk"], [href*="ninetail.tk"], [href*="goshujin.tk"], [href*="graph.tk"], [href*="nolfrevival.tk"], [href*="bstweaker.tk"], [href*="nbd-media.tk"], [href*="gotofap.tk"], [href*="coppersurfer.tk"], [href*="fakaofo.tk"]))
 www.google.*##.g:has(a[href*=".ga/"]:not([href*="google.ga"], [href*="filtri-dns.ga"], [href*="dgdi.ga"], [href*="9191.ga"], [href*="animevsub.ga"], [href*="my.ga"], [href*="shorturl.ga"]))
 !!!www.google.*##.g:has(a[href*=".ml/"]:not([href*="google.ml"], [href*="melody.ml"], [href*="info-matin.ml"], [href*="amap.ml"], [href*="mastodon.ml"], [href*="nothingprivate.ml"], [href*="lingva.ml"], [href*="lemmy.ml"], [href*="beatbump.ml"], [href*="prompt.ml"], [href*="biblioreads.ml"]))
-www.google.*##.g:has(a[href*=".gq/"]:not([href*="inege.gq"], [href*="tvgelive.gq"]))
+www.google.*##.g:has(a[href*=".gq/"]:not([href*="inege.gq"], [href*="tvgelive.gq"], [href*="siteproxy.gq"], [href*="blockly.gq"]))
 www.google.*##.g:has(a[href*=".cf/"]:not([href*="google.cf"], [href*="rths.cf"], [href*="acap.cf"]))
 www.google.*##.g:has(a[href*=".pw/"]:not([href*="libgen.pw"], [href*="petridish.pw"], [href*="palaugov.pw"], [href*="dpc.pw"], [href*="buttercup.pw"], [href*="rezka.pw"], [href*="darkcrystal.pw"], [href*="xor.pw"], [href*="fullhdfilmizlesene.pw"], [href*="gopass.pw"], [href*="vost.pw"], [href*="core.pw"], [href*="bittor.pw"]))
 www.google.*##.g:has(a[href*=".loan/"])
@@ -545,7 +545,7 @@ www.google.*##.g:has([href*="&url=//"]):has(a[href*=".tk/"], a[href*=".ml"])
 !!!www.google.*##a[oncontextmenu][href*=".tk/"]:not([href*=coolcmd], [href*=budterence], [href*="google.tk"], [href*=transportnews], [href*=c0d3c], [href*=anonytext], [href*=tokelau-info], [href*=fakaofo], [href*=loljp-wiki], [href*=ninetail], [href*=goshujin], [href*="graph.tk"], [href*=nolfrevival], [href*="steamroller.tk"], [href*="restricted-functions.tk"], [href*="bstweaker.tk"], [href*="nbd-media.tk"], [href*="gotofap.tk"], [href*="somepythonthings.tk"]):upward(2)
 www.google.*##a[oncontextmenu][href*=".ga/"]:not([href*="google.ga"], [href*="filtri-dns.ga"], [href*="dgdi.ga"], [href*="9191.ga"], [href*="animevsub.ga"], [href*="my.ga"]):upward(2)
 !!!www.google.*##a[oncontextmenu][href*=".ml/"]:not([href*="google.ml"], [href*="melody.ml"], [href*="info-matin.ml"], [href*="amap.ml"], [href*="mastodon.ml"], [href*="nothingprivate.ml"], [href*="lingva.ml"], [href*="lemmy.ml"], [href*="beatbump.ml"], [href*="prompt.ml"], [href*="biblioreads.ml"], [href*="shorturl.ga"]):upward(2)
-www.google.*##a[oncontextmenu][href*=".gq/"]:not([href*="inege.gq"], [href*=tvgelive]):upward(2)
+www.google.*##a[oncontextmenu][href*=".gq/"]:not([href*="inege.gq"], [href*=tvgelive], [href*="siteproxy.gq"], [href*="blockly.gq"]):upward(2)
 www.google.*##a[oncontextmenu][href*=".cf/"]:not([href*="google.cf"], [href*="rths.cf"], [href*="acap.cf"]):upward(2)
 www.google.*##a[oncontextmenu][href*=".pw/"]:not([href*="libgen.pw"], [href*="petridish.pw"], [href*="palaugov.pw"], [href*="dpc.pw"], [href*="buttercup.pw"], [href*="rezka.pw"], [href*="darkcrystal.pw"], [href*="xor.pw"], [href*="fullhdfilmizlesene.pw"], [href*="gopass.pw"], [href*="vost.pw"], [href*="core.pw"], [href*="bittor.pw"]):upward(2)
 www.google.*##a[oncontextmenu][href*=".loan/"]:upward(2)
@@ -560,7 +560,7 @@ www.google.*##a[oncontextmenu][href^="https://books.google."]:upward(2)
 !!!duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$=".tk"]:not([data-domain*="google.tk"], [data-domain*="coolcmd.tk"], [data-domain*="budterence.tk"], [data-domain*="transportnews.tk"], [data-domain*="c0d3c.tk"], [data-domain*="tokelau-info.tk"], [data-domain*="loljp-wiki.tk"], [data-domain*="ninetail.tk"], [data-domain*="goshujin.tk"], [data-domain*="graph.tk"], [data-domain*="nolfrevival.tk"], [data-domain*="bstweaker.tk"], [data-domain*="nbd-media.tk"], [data-domain*="gotofap.tk"], [data-domain*="coppersurfer.tk"], [data-domain*="fakaofo.tk"])
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*=".ga/"]:not([href*="google.ga"], [href*="filtri-dns.ga"], [href*="dgdi.ga"], [href*="9191.ga"], [href*="animevsub.ga"], [href*="my.ga"], [href*="shorturl.ga"]))
 !!!duckduckgo.com,3g2upl4pq6kufc4m.onion,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-domain$=".ml"]:not([data-domain*="google.ml"], [data-domain*="melody.ml"], [data-domain*="info-matin.ml"], [data-domain*="amap.ml"], [data-domain*="mastodon.ml"], [data-domain*="nothingprivate.ml"], [data-domain*="lingva.ml"], [data-domain*="lemmy.ml"], [data-domain*="beatbump.ml"], [data-domain*="prompt.ml"], [data-domain*="biblioreads.ml"])
-duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*=".gq/"]:not([href*="inege.gq"], [href*="tvgelive.gq"]))
+duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*=".gq/"]:not([href*="inege.gq"], [href*="tvgelive.gq"], [href*="siteproxy.gq"], [href*="blockly.gq"]))
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*=".cf/"]:not([href*="google.cf"], [href*="rths.cf"], [href*="acap.cf"]))
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*=".pw/"]:not([href*="libgen.pw"], [href*="petridish.pw"], [href*="palaugov.pw"], [href*="dpc.pw"], [href*="buttercup.pw"], [href*="rezka.pw"], [href*="darkcrystal.pw"], [href*="xor.pw"], [href*="fullhdfilmizlesene.pw"], [href*="gopass.pw"], [href*="vost.pw"], [href*="core.pw"], [href*="bittor.pw"]))
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[data-nrn="result"]:has(a[href*=".loan/"])
@@ -572,10 +572,11 @@ duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[
 !!!bing.com##.b_algo:has(a[href*=".tk/"]:not([href*="google.tk"], [href*="coolcmd.tk"], [href*="budterence.tk"], [href*="transportnews.tk"], [href*="c0d3c.tk"], [href*="tokelau-info.tk"], [href*="loljp-wiki.tk"], [href*="ninetail.tk"], [href*="goshujin.tk"], [href*="graph.tk"], [href*="nolfrevival.tk"], [href*="bstweaker.tk"], [href*="nbd-media.tk"], [href*="gotofap.tk"], [href*="coppersurfer.tk"], [href*="fakaofo.tk"]))
 bing.com##.b_algo:has(a[href*=".ga/"]:not([href*="google.ga"], [href*="filtri-dns.ga"], [href*="dgdi.ga"], [href*="9191.ga"], [href*="animevsub.ga"], [href*="my.ga"], [href*="shorturl.ga"]))
 !!!bing.com##.b_algo:has(a[href*=".ml/"]:not([href*="google.ml"], [href*="melody.ml"], [href*="info-matin.ml"], [href*="amap.ml"], [href*="mastodon.ml"], [href*="nothingprivate.ml"], [href*="lingva.ml"], [href*="lemmy.ml"], [href*="beatbump.ml"], [href*="prompt.ml"], [href*="biblioreads.ml"]))
-bing.com##.b_algo:has(a[href*=".gq/"]:not([href*="inege.gq"], [href*="tvgelive.gq"]))
+bing.com##.b_algo:has(a[href*=".gq/"]:not([href*="inege.gq"], [href*="tvgelive.gq"], [href*="siteproxy.gq"], [href*="blockly.gq"]))
 bing.com##.b_algo:has(a[href*=".cf/"]:not([href*="google.cf"], [href*="rths.cf"], [href*="acap.cf"]))
 bing.com##.b_algo:has(a[href*=".pw/"]:not([href*="libgen.pw"], [href*="petridish.pw"], [href*="palaugov.pw"], [href*="dpc.pw"], [href*="buttercup.pw"], [href*="rezka.pw"], [href*="darkcrystal.pw"], [href*="xor.pw"], [href*="fullhdfilmizlesene.pw"], [href*="gopass.pw"], [href*="vost.pw"], [href*="core.pw"], [href*="bittor.pw"]))
 bing.com##.b_algo:has(a[href*=".loan/"])
+bing.com##.b_algo:has(a[href*=".agency/"]:not([href*="battlefield.agency"], [href*="baam.agency"], [href*="uphotel.agency"], [href*="robotzebra.agency"]))
 bing.com##.b_algo:has(a[href*=".gdn/"])
 bing.com##.b_algo:has(a[href*=".bid/"])
 bing.com##.b_algo:has(a[href*=".top/"]:not([href*="caitlin.top"], [href*="corriente.top"], [href*="gdtot.top"], [href*="nicenature.top"], [href*="reminder.top"], [href*="magocoro.top"], [href*="castlevania.top"], [href*="suiten.top"], [href*="shucks.top"], [href*="1stream.top"], [href*="ambr.top"], [href*="techblog.top"], [href*="mastodon.top"], [href*="pressplay.top"], [href*="strims.top"], [href*="thedesk.top"]))
@@ -13926,7 +13927,7 @@ www.microsoft.com##a[data-pfns][href*=pac-men]
 ! Placeholder line for alternate list versions
 !#endif
 ! Title: 🐐 Dandelion Sprout's Lightweight Anti-'Social share' List
-! OriginalVersion: 13March2023v1-Alpha
+! OriginalVersion: 22March2023v1-Alpha
 ! Expires: 3 days
 ! Description: This list aims to achieve pretty broad (if not overly broad) coverage of social sharing buttons, with perhaps 1/50th~1/100th as many entries as what the biggest anti-'social button' lists out there have.
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md#-english
@@ -14388,6 +14389,7 @@ condoblues.com###milotree_box_wrap
 ~xing.com###xing-share
 ##.sharethis-inline-share-buttons:not(html, body)
 ##.share-buttons-bottom:not(html, body)
+##.a2a_kit:not(html, body)
 !!!~mewe.com,~www.nrk.no##[class*=share-button i]:not(body, html) (Can't be generic due to www.nrk.no, mewe.com, stylecaster.com)
 !!!~tidssonen.no,~mmoculture.com##div[class*=share-container] (Entry needs to be rewritten at some point)
 !!!~twitter.com,~twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion,~feedly.com,~chaturbate.com##.follow (Too many exceptions needed)
@@ -14507,7 +14509,7 @@ deezer.com#?#.page-alerts:has(a[href$="/download"])
 fileinfo.com##.fv
 fileinfo.com#?#.top:has(a[href*="/windows_file_viewer"])
 ! Title: 🚪 Browse websites without logging in
-! OriginalVersion: 26February2023v1
+! OriginalVersion: 20March2023v1
 ! Expires: 3 days
 ! Description: Are you tired of being nagged on by websites, that say "Log in to read more"? With this list, you'll be much less nagged on from now own.
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md#-english
@@ -14815,6 +14817,8 @@ deviantart.com##body[class*=ads-] div[style^="width:"][class]:not([class*=" "]) 
 ! Small login banner on bottom on some search pages
 ! (https://github.com/DandelionSprout/adfilt/issues/63#issuecomment-1407020400)
 !!!deviantart.com##header[data-hook=top_nav]:first-of-type + div + div[class^="_"][class*=" "]:last-of-type
+! https://www.deviantart.com/trece-013/art/Chelsea-Ruby-Gillman-02-954136106 (20/02/2023)
+deviantart.com##div[style^="width:"] > div:first-of-type + div:last-of-type:has(> a[href*="/join/?"])
 ! Reddit
 !#if env_mobile
 ! That weird mode where only the top 7 posts from the previous week are shown
@@ -14846,6 +14850,9 @@ pinterest.com##div[style^="opacity:1;"] + div[style="bottom:0;z-index:0"]
 !!! https://www.douyin.com/video/6971423371900849422
 douyin.com###summon-sdk-style + div:not([class], [id])
 douyin.com##script[src*=websdk] + div:not([class], [id])
+! Western Standard
+!! https://github.com/DandelionSprout/adfilt/issues/811
+/tncms/api/access.js|$script,domain=westernstandard.com
 ! ——————————————————————————————————————————————————————————————————————
 ! Below are entries that I borrowed from «Strappazzon's Annoyances filter list», which is maintained by https://github.com/Strappazzon at https://raw.githubusercontent.com/Strappazzon/filterlists/master/Filterlists/Annoyances.txt, and which is licenced under MIT.
 ! Amazon
@@ -15144,7 +15151,7 @@ vimeo.com#%#//scriptlet('ubo-set.js', 'vimeo.clip_page_config.continuous_play_en
 ted.com#%#//scriptlet('ubo-sid.js', 'd.period', '1000')
 ted.com##.css-1dg07lz:has-text(Up next)
 ! Title: 🎫 Ad Removal List for Unusual Ads
-! OriginalVersion: 14March2023v1-Alpha
+! OriginalVersion: 21March2023v3-Alpha
 ! Expires: 4 days
 ! Description: This is a list to remove the kinds of ads that very few well-established international adblocker lists would want to remove, due to many of them not meeting those lists' strict criteria of what an ad actually is. So that's where this list comes into play.
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md#-english
@@ -15211,13 +15218,13 @@ islandecho.co.uk#?#.herald-module:has(.category-news-in-brief)
 ! ——— Placeholders that are seemingly too small for EasyList ———
 mightytext.net###ad-block-holder
 ! ——— Denied (or implied denied) in EasyList for not being in English, denied in AdGuard Base for not being a popular site, no known language lists for it. May be submitted to uAssets at some point ———
-! https://ilanganews.co.za/
-ilanganews.co.za##.vc_single_image.wpb_wrapper
-! https://ilanganews.co.za/bayobuke-bafa-ababili-abebentshontsha-amakhebuli/
-ilanganews.co.za##.widget_media_image
-! https://github.com/AdguardTeam/AdguardFilters/issues/145446
-###bann-airtel
-###airtelMlay
+! For info on languages and which lists to send them to, see https://github.com/DandelionSprout/adfilt/blob/master/Wiki/Status%20for%20rare%20languages.md
+! —— Kazakh (Қазақша) ——
+! https://github.com/AdguardTeam/AdguardFilters/issues/146131
+kostanaytany.kz#?#.elementor-widget-image:not(:has([href*=kostanaytany]))
+kostanaytany.kz#?#.elementor-widget-image:has(a[href*=uploads])
+old.kostanaytany.kz#?#.widget > p:not(:has(a[href*=kostanaytany]))
+old.kostanaytany.kz#?#.widget > p:has(a[href*=uploads])
 ! ——— Slot machine spam ———
 deviantart.com#?#div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=slotonline i])
 deviantart.com##a[data-hook][href*="/art/"][href*=slotonline i]
@@ -15391,6 +15398,33 @@ ctrip.com##.copyright.mod
 mafengwo.cn###footer
 jandan.net###footer
 news.sohu.com##.area.footer
+! Title: 🧜🏾‍♀️ Dandelion Sprout's African Languages List
+! OriginalVersion: 21March2023v4-Alpha
+! Expires: 4 days
+! Licence: https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
+! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
+! Description: Spun off from «Ad Removal List for Unusual Ads», as a result of not all African languages having newssites with high enough Alexa ranks to make it to AdGuard Base Filter's «Foreign» section.
+! Also recommended for African users: EasyList, AdGuard Base Filter, uBlock Filters, AdGuard French Filter, EasyList Portuguese, Liste AR
+! ——— Malagasy ———
+! https://github.com/AdguardTeam/AdguardFilters/issues/145446
+###bann-airtel
+###airtelMlay
+! ——— Somali ———
+! (Somali-English dual sites; currently unclear if Somali-only newssites exist.)
+horseedmedia.net##.before-content
+! ——— Swahili ———
+taifaleo.nation.co.ke##.text-center
+! https://github.com/AdguardTeam/AdguardFilters/issues/146134
+globalpublishers.co.tz##.adcontainer
+globalpublishers.co.tz##.widget_custom_html a[href="#"]
+globalpublishers.co.tz###custom_html-40
+globalpublishers.co.tz#?#.listing-item:has(> div.item-inner a[href*="-sloti-"])
+globalpublishers.co.tz#?#.listing > article:has(> div.item-inner a[href*="-kasino"])
+globalpublishers.co.tz#?#.listing > article:has(> div.item-inner a[href*="-chapride-"])
+! ——— Zulu ———
+ilanganews.co.za##.vc_single_image.wpb_wrapper
+ilanganews.co.za##.widget_media_image
+! TBD: Afrikaans (if EasyDutch rejects it), Amharic, Tigrinya, etc.
 ! Title: 🍿 Know Your Meme: Pure Browsing Experience
 ! OriginalVersion: 28February2021v1
 ! Expires: 10 days

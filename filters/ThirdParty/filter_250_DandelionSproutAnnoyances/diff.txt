@@ -124,8 +124,8 @@ linkedin.com#?#html:style(overflow: auto !important;)
 linkedin.com#?#body:style(overflow: auto !important;)
 ! Rule "||ga^$doc,domain=~google.ga|~filtri-dns.ga|~dgdi.ga|~9191.ga|~animevsub.ga|~my.ga|~shorturl.ga" converted to: "||ga^$document,domain=~google.ga|~filtri-dns.ga|~dgdi.ga|~9191.ga|~animevsub.ga|~my.ga|~shorturl.ga"
 ||ga^$doc,domain=~google.ga|~filtri-dns.ga|~dgdi.ga|~9191.ga|~animevsub.ga|~my.ga|~shorturl.ga
-! Rule "||gq^$doc,domain=~inege.gq|~tvgelive.gq" converted to: "||gq^$document,domain=~inege.gq|~tvgelive.gq"
-||gq^$doc,domain=~inege.gq|~tvgelive.gq
+! Rule "||gq^$doc,domain=~inege.gq|~tvgelive.gq|~siteproxy.gq|~blockly.gq" converted to: "||gq^$document,domain=~inege.gq|~tvgelive.gq|~siteproxy.gq|~blockly.gq"
+||gq^$doc,domain=~inege.gq|~tvgelive.gq|~siteproxy.gq|~blockly.gq
 ! Rule "||cf^$doc,domain=~google.cf|~rths.cf|~acap.cf" converted to: "||cf^$document,domain=~google.cf|~rths.cf|~acap.cf"
 ||cf^$doc,domain=~google.cf|~rths.cf|~acap.cf
 ! Rule "||pw^$doc,domain=~libgen.pw|~petridish.pw|~palaugov.pw|~dpc.pw|~buttercup.pw|~rezka.pw|~darkcrystal.pw|~xor.pw|~fullhdfilmizlesene.pw|~gopass.pw|~vost.pw|~core.pw|~bittor.pw" converted to: "||pw^$document,domain=~libgen.pw|~petridish.pw|~palaugov.pw|~dpc.pw|~buttercup.pw|~rezka.pw|~darkcrystal.pw|~xor.pw|~fullhdfilmizlesene.pw|~gopass.pw|~vost.pw|~core.pw|~bittor.pw"
@@ -2010,8 +2010,6 @@ positivr.fr##.viously-sticked:style(position: absolute !important; top: 0 !impor
 youtube.com##ytd-miniplayer[has-playlist-data] #movie_player video:remove()
 ! vimeo.com#%#AG_setConstant('vimeo.clip_page_config.continuous_play_enabled', 'false'); is excluded by "#%#" in exclusions-high.txt
 vimeo.com#%#AG_setConstant('vimeo.clip_page_config.continuous_play_enabled', 'false');
-! Error: Invalid selector: '.b_algo:has(a[href*=".agency/"]:not([href*="battlefield.agency"], [href*="baam.agency"], [href*="uphotel.agency"], href*=["robotzebra.agency"]))' -- '["robotzebra.agency"]' is not a valid attribute due to '"' at start of it in rule:
-bing.com##.b_algo:has(a[href*=".agency/"]:not([href*="battlefield.agency"], [href*="baam.agency"], [href*="uphotel.agency"], href*=["robotzebra.agency"]))
 Error: "Unknown modifier: ~inline-font" in the rule: "||oldgames.4all.cc^$document,popup,~inline-font,~inline-script"
 ||oldgames.4all.cc^$all,~inline-font,~inline-script
 Error: "Unknown modifier: ~inline-font" in the rule: "||useragentswitch.com^$document,popup,~inline-font,~inline-script"

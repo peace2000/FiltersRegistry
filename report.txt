@@ -1,9 +1,9 @@
 
-FiltersCompiler report 3/20/2023 9:00:14 AM:
+FiltersCompiler report 3/23/2023 9:00:14 AM:
 
 Filter ID: 101
 Filter name: EasyList
-Compiled rules: 56875
+Compiled rules: 57051
 Excluded rules: 54
 URL: https://secure.fanboy.co.nz/easylist.txt
 INVALID RULES:
@@ -27,7 +27,7 @@ All rules are valid.
 ---------------------------
 Filter ID: 104
 Filter name: EasyList China
-Compiled rules: 21485
+Compiled rules: 21539
 Excluded rules: 52
 URL: https://raw.githubusercontent.com/easylist/easylistchina/master/easylistchina.txt
 INVALID RULES:
@@ -50,7 +50,7 @@ All rules are valid.
 ---------------------------
 Filter ID: 107
 Filter name: EasyList Germany
-Compiled rules: 5028
+Compiled rules: 5041
 Excluded rules: 12
 URL: https://easylist.to/easylistgermany/easylistgermany.txt
 All rules are valid.
@@ -73,7 +73,7 @@ Error: "Unknown modifier: webrtc" in the rule: "*$webrtc,domain=yad2.co.il"
 ---------------------------
 Filter ID: 109
 Filter name: EasyList Italy
-Compiled rules: 9612
+Compiled rules: 9613
 Excluded rules: 2
 URL: https://easylist-downloads.adblockplus.org/easylistitaly.txt
 INVALID RULES:
@@ -81,7 +81,7 @@ Error: "Unknown modifier: webrtc" in the rule: "$webrtc,domain=hentaisaturn.com|
 ---------------------------
 Filter ID: 110
 Filter name: EasyList Lithuania
-Compiled rules: 1193
+Compiled rules: 1197
 Excluded rules: 40
 URL: https://raw.githubusercontent.com/EasyList-Lithuania/easylist_lithuania/master/easylistlithuania.txt
 All rules are valid.
@@ -102,11 +102,11 @@ All rules are valid.
 ---------------------------
 Filter ID: 113
 Filter name: Liste FR
-Compiled rules: 23321
+Compiled rules: 23330
 Excluded rules: 66
 URL: https://easylist-downloads.adblockplus.org/liste_fr.txt
 INVALID RULES:
-Error: "Unknown modifier: webrtc" in the rule: "$webrtc,domain=11anim.com|1337x.st|1337x.to|2ddl.ms|ajplugins.com|androidadult.com|animeid.tv|animekb.net|animeland.tv|animezone.pl|avametrie.fr|avgle.com|bindassbros.com|blizzboygames.net|bonstreams.net|catrumahminimalis.me|centrum-dramy.pl|chatytvgratis.net|cinemitas.com|cinestrenostv.tv|clik.pw|cmacapps.com|cocostreaming.com|crictime.com|crictime.is|daclips.com|datpiff.com|ddl.to|ddmix.net|ddownload.com|deltabit.co|deportesmax.info|descargas2020.com|djs.sk|dl-protect.info|dompl3.info|doodstream.co|doodstream.com|draculastream.org|drakula.top|dropapk.com|dropapk.to|dualpaste.net|earnwithshortlink.com|ebook-planete.org|ebookdz.com|fileone.tv|filmeserialeonline.org|filmtelecharger.net|flashx.net|flashx.tv|fluvore.com|free-telecharger.com|free-telecharger.net|free-telecharger.org|free-telecharger.xyz|freecardano.com|freenem.com|fullmatchesandshows.com|gamestorrent.co|ganol.ru|ganool.im|ganool123.com|gtaall.com|gum-gum-streaming.com|hdvid.online|healthoptimizer.net|heapfiles.com|hq-porns.com|ianimes.org|iegybest.film|imagenesmy.com|imgazure.com|immunicity.st|istream2watch.com|ithepiratebay.com|javher.com|jheberg.net|jkanime.net|kinohabr.net|kinokrad.co|kinoprofi.org|kinostuff.com|kinox.me|kinox.tv|kiss-anime.ws|kissasian.ch|kissasian.sh|kooralive.info|kora-live.tv|lafmacun.net|larati.net|latino-webtv.com|leggendaweb.com|leitor.net|lemondedekevin.fr|lewd.ninja|liketvw.com|liveflashplayer.org|lordhd.com|love-drama.pl|ma-famille-dabord-streaming.com|mangaku.in|mejortorrent.org|mejortorrent1.com|mkvcage.com|modsbase.com|monova.org|movie4k.is|movie4k.org|movies123.ac|mp4mania.xyz|multiimg.com|myfeed4u.com|mywatchseries.stream|netiap.com|nicoblog.org|nonpiusolo.com|o2tvseries.com|oasivip.com|oceanoffgames.com|oipeirates.online|onion.ly|onion.pet|openload.cc|openload.ch|openload.fun|opensubtitles.org|ovid.online|ovid.tv|papstream.info|pastehere.xyz|pcgamestorrents.com|pdf-giant.com|peeplink.in|pelislatino3gp.biz|pinoybay.ch|piratebayblocked.com|planet-streaming.net|planete-bd.org|planetfools.com|povwideo.cc|powvideo.cc|powvideo.net|putload.tv|radiofly.ws|reactor.cc|readmanga.today|rivosport.co|rojadirecta.fr|sawlive.tv|scuseami.net|senmanga.com|sharemods.com|sherlockonline.ru|shippuden.tv|short.pe|shrink-service.it|sintelevisor.com|sleeptimer.org|slyid.com|solarmovie.one|sorteosrd.com|srt.am|starmusiq.one|strdef.world|stream2watch.org|stream4free.live|streambeam.io|streamcdn.to|streamcloud.eu|streamhunter.net|streamhunter.top|streamplay.me|streamplay.to|subswiki.com|supervideo.tv|tamilmv.cz|tarjetarojatvonline.com|teleriumtv.net|theappguruz.com|thepiratebay.cr|thepiratebay.vip|thevid.net|thevid.tv|thevideo.ch|thevideo.io|thevideo.me|thevideo.us|tomadivx.tv|topsimages.com|torlock.com|torlock2.com|tpbprox.com|tubetitties.com|tvshqiphd.com|uii.io|ukpass.co|unblocked2.fun|unblocked2.vip|unblocksites.co|up-4.net|upbom.com|upbom.net|upload.ee|uploadfiles.eu|uploadocean.com|uppom.live|uptostream.com|upvid.host|vcrypt.net|veehd.com|vergol.com|verliga1.net|vertelevisor.com|vev.io|vev.red|videobin.co|videowood.tv|vidfile.net|vidoza.co|vidoza.net|vidshare.tv|vidup.io|vidup.tv|viewasian.tv|vup.to|watchonline.to|watchpornfree.ws|wstream.to|wstream.video|x1337x.eu|x1337x.se|x1337x.ws|xclusivejams.com|xfilesharing.com|xrivonet.info|xvideosharing.com|yify-torrent.org|zeroshare.me|zipansion.com|zone-ebook.com"
+Error: "Unknown modifier: webrtc" in the rule: "$webrtc,domain=11anim.com|1337x.st|1337x.to|2ddl.ms|ajplugins.com|androidadult.com|animeid.tv|animekb.net|animeland.tv|animezone.pl|avametrie.fr|avgle.com|bindassbros.com|blizzboygames.net|bonstreams.net|catrumahminimalis.me|centrum-dramy.pl|chatytvgratis.net|cinemitas.com|cinestrenostv.tv|clik.pw|cmacapps.com|cocostreaming.com|crictime.com|crictime.is|daclips.com|datpiff.com|ddl.to|ddmix.net|ddownload.com|deltabit.co|deportesmax.info|descargas2020.com|djs.sk|dl-protect.info|dompl3.info|doodstream.co|doodstream.com|draculastream.org|drakula.top|dropapk.com|dropapk.to|dualpaste.net|earnwithshortlink.com|ebook-planete.org|ebookdz.com|fileone.tv|filmeserialeonline.org|filmtelecharger.net|flashx.net|flashx.tv|fluvore.com|freecardano.com|freenem.com|fullmatchesandshows.com|gamestorrent.co|ganol.ru|ganool.im|ganool123.com|gtaall.com|gum-gum-streaming.com|hdvid.online|healthoptimizer.net|heapfiles.com|hq-porns.com|ianimes.org|iegybest.film|imagenesmy.com|imgazure.com|immunicity.st|istream2watch.com|ithepiratebay.com|javher.com|jheberg.net|jkanime.net|kinohabr.net|kinokrad.co|kinoprofi.org|kinostuff.com|kinox.me|kinox.tv|kiss-anime.ws|kissasian.ch|kissasian.sh|kooralive.info|kora-live.tv|lafmacun.net|larati.net|latino-webtv.com|leggendaweb.com|leitor.net|lemondedekevin.fr|lewd.ninja|liketvw.com|liveflashplayer.org|lordhd.com|love-drama.pl|ma-famille-dabord-streaming.com|mangaku.in|mejortorrent.org|mejortorrent1.com|mkvcage.com|modsbase.com|monova.org|movie4k.is|movie4k.org|movies123.ac|mp4mania.xyz|multiimg.com|myfeed4u.com|mywatchseries.stream|netiap.com|nicoblog.org|nonpiusolo.com|o2tvseries.com|oasivip.com|oceanoffgames.com|oipeirates.online|onion.ly|onion.pet|openload.cc|openload.ch|openload.fun|opensubtitles.org|ovid.online|ovid.tv|papstream.info|pastehere.xyz|pcgamestorrents.com|pdf-giant.com|peeplink.in|pelislatino3gp.biz|pinoybay.ch|piratebayblocked.com|planet-streaming.net|planete-bd.org|planetfools.com|povwideo.cc|powvideo.cc|powvideo.net|putload.tv|radiofly.ws|reactor.cc|readmanga.today|rivosport.co|rojadirecta.fr|sawlive.tv|scuseami.net|senmanga.com|sharemods.com|sherlockonline.ru|shippuden.tv|short.pe|shrink-service.it|sintelevisor.com|sleeptimer.org|slyid.com|solarmovie.one|sorteosrd.com|srt.am|starmusiq.one|strdef.world|stream2watch.org|stream4free.live|streambeam.io|streamcdn.to|streamcloud.eu|streamhunter.net|streamhunter.top|streamplay.me|streamplay.to|subswiki.com|supervideo.tv|tamilmv.cz|tarjetarojatvonline.com|teleriumtv.net|theappguruz.com|thepiratebay.cr|thepiratebay.vip|thevid.net|thevid.tv|thevideo.ch|thevideo.io|thevideo.me|thevideo.us|tomadivx.tv|topsimages.com|torlock.com|torlock2.com|tpbprox.com|tubetitties.com|tvshqiphd.com|uii.io|ukpass.co|unblocked2.fun|unblocked2.vip|unblocksites.co|up-4.net|upbom.com|upbom.net|upload.ee|uploadfiles.eu|uploadocean.com|uppom.live|uptostream.com|upvid.host|vcrypt.net|veehd.com|vergol.com|verliga1.net|vertelevisor.com|vev.io|vev.red|videobin.co|videowood.tv|vidfile.net|vidoza.co|vidoza.net|vidshare.tv|vidup.io|vidup.tv|viewasian.tv|vup.to|watchonline.to|watchpornfree.ws|wstream.to|wstream.video|x1337x.eu|x1337x.se|x1337x.ws|xclusivejams.com|xfilesharing.com|xrivonet.info|xvideosharing.com|yify-torrent.org|zeroshare.me|zipansion.com|zone-ebook.com"
 Error: Invalid selector: '#.ads-follow-next' -- Error: unable to select by '#.ads-follow-next' — '#.ads-follow-next' is not a valid selector in rule: ###.ads-follow-next
 ---------------------------
 Filter ID: 114
@@ -133,7 +133,7 @@ URL: https://raw.githubusercontent.com/KonoromiHimaries/PolishSubFilters/master/
 ---------------------------
 Filter ID: 118
 Filter name: EasyPrivacy
-Compiled rules: 31670
+Compiled rules: 31396
 Excluded rules: 14
 URL: https://easylist.to/easylist/easyprivacy.txt
 All rules are valid.
@@ -145,10 +145,11 @@ URL: https://adblock.gardar.net/is.abp.txt
 ---------------------------
 Filter ID: 120
 Filter name: AdBlockID
-Compiled rules: 5153
+Compiled rules: 5172
 Excluded rules: 1226
 URL: https://raw.githubusercontent.com/realodix/AdBlockID/master/output/adblockid.txt
-All rules are valid.
+INVALID RULES:
+Error: "Unknown pseudo-class ':remove-attr' in selector: 'div[x-data="adtival"] a[href][\@click="scroll"]:remove-attr(href)'" in the rule: "pinloker.com,sekilastekno.com,vebma.com##div[x-data="adtival"] a[href][\@click="scroll"]:remove-attr(href)"
 ---------------------------
 Filter ID: 121
 Filter name: Greek AdBlock Filter
@@ -159,8 +160,8 @@ All rules are valid.
 ---------------------------
 Filter ID: 122
 Filter name: Fanboy's Annoyances
-Compiled rules: 58539
-Excluded rules: 8570
+Compiled rules: 58620
+Excluded rules: 8648
 URL: https://secure.fanboy.co.nz/fanboy-annoyance_ubo.txt
 All rules are valid.
 ---------------------------
@@ -199,7 +200,7 @@ All rules are valid.
 ---------------------------
 Filter ID: 204
 Filter name: Peter Lowe's Blocklist
-Compiled rules: 3778
+Compiled rules: 3775
 Excluded rules: 0
 URL: https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus&mimetype=plaintext
 All rules are valid.
@@ -228,15 +229,15 @@ All rules are valid.
 ---------------------------
 Filter ID: 208
 Filter name: Online Malicious URL Blocklist
-Compiled rules: 3950
-Excluded rules: 22
+Compiled rules: 3833
+Excluded rules: 24
 URL: https://urlhaus-filter.pages.dev/urlhaus-filter-ag-online.txt
 All rules are valid.
 ---------------------------
 Filter ID: 209
 Filter name: ADgk Mobile China list
-Compiled rules: 9079
-Excluded rules: 180
+Compiled rules: 9081
+Excluded rules: 182
 URL: https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt
 All rules are valid.
 ---------------------------
@@ -268,12 +269,10 @@ URL: https://easylist-downloads.adblockplus.org/bitblock.txt
 ---------------------------
 Filter ID: 214
 Filter name: ABPVN List
-Compiled rules: 2846
-Excluded rules: 20
+Compiled rules: 2837
+Excluded rules: 16
 URL: https://raw.githubusercontent.com/abpvn/abpvn/master/filter/abpvn_adguard.txt
-INVALID RULES:
-Error: "Unknown modifier: third-part" in the rule: "||adsplay.net^$third-part"
-Error: "Unknown modifier: third-part" in the rule: "||adsplay.net^$third-part"
+All rules are valid.
 ---------------------------
 Filter ID: 215
 Filter name: Fanboy's Enhanced Tracking List
@@ -339,7 +338,7 @@ URL: https://www.fanboy.co.nz/fanboy-swedish.txt
 ---------------------------
 Filter ID: 225
 Filter name: Fanboy's Anti-Facebook List
-Compiled rules: 101
+Compiled rules: 100
 Excluded rules: 0
 URL: https://www.fanboy.co.nz/fanboy-antifacebook.txt
 All rules are valid.
@@ -351,7 +350,7 @@ URL: https://www.fanboy.co.nz/fanboy-vietnam.txt
 ---------------------------
 Filter ID: 227
 Filter name: List-KR
-Compiled rules: 3050
+Compiled rules: 3058
 Excluded rules: 18
 URL: https://raw.githubusercontent.com/List-KR/List-KR/master/filter-AdGuard.txt
 All rules are valid.
@@ -366,7 +365,7 @@ Error: "Unknown pseudo-class ':\/\/' in selector: '+js(m3u-prune,'',/^https:\/\/
 ---------------------------
 Filter ID: 229
 Filter name: I don't care about cookies
-Compiled rules: 24125
+Compiled rules: 24122
 Excluded rules: 0
 URL: https://www.i-dont-care-about-cookies.eu/abp/
 All rules are valid.
@@ -378,7 +377,7 @@ URL: https://fanboy.co.nz/fanboy-espanol.txt
 ---------------------------
 Filter ID: 231
 Filter name: EasyList Spanish
-Compiled rules: 2909
+Compiled rules: 2924
 Excluded rules: 6
 URL: https://easylist-downloads.adblockplus.org/easylistspanish.txt
 INVALID RULES:
@@ -386,14 +385,14 @@ Error: "Unknown modifier: webrtc" in the rule: "$webrtc,domain=allpeliculas.com|
 ---------------------------
 Filter ID: 232
 Filter name: KAD - Anti-Scam
-Compiled rules: 55274
+Compiled rules: 56295
 Excluded rules: 212
 URL: https://raw.githubusercontent.com/FiltersHeroes/KAD/master/KAD.txt
 All rules are valid.
 ---------------------------
 Filter ID: 233
 Filter name: Adblock List for Finland
-Compiled rules: 1543
+Compiled rules: 1545
 Excluded rules: 110
 URL: https://raw.githubusercontent.com/theel0ja/finnish-easylist-addition/master/Finland_adb.txt
 All rules are valid.
@@ -407,10 +406,11 @@ All rules are valid.
 ---------------------------
 Filter ID: 235
 Filter name: Persian Blocker
-Compiled rules: 3143
-Excluded rules: 1484
+Compiled rules: 3127
+Excluded rules: 1508
 URL: https://raw.githubusercontent.com/MasterKia/PersianBlocker/main/PersianBlocker.txt
 INVALID RULES:
+Error: "Unknown modifier: strict3p" in the rule: "||websocket.*/?u=*&s=$websocket,~third-party,strict3p"
 Error: "Unknown pseudo-class ':remove-attr' in selector: '[onclick^="sendDataLayer"]:remove-attr(onclick)'" in the rule: "khanoumi.com##[onclick^="sendDataLayer"]:remove-attr(onclick)"
 Error: "Unknown pseudo-class ':remove-attr' in selector: '[onclick^="sendBannerDataLayer"]:remove-attr(onclick)'" in the rule: "khanoumi.com##[onclick^="sendBannerDataLayer"]:remove-attr(onclick)"
 Error: "Unknown pseudo-class ':remove-attr' in selector: '[onclick^="sendCardDataLayer"]:remove-attr(onclick)'" in the rule: "khanoumi.com##[onclick^="sendCardDataLayer"]:remove-attr(onclick)"
@@ -428,8 +428,8 @@ Error: "Invalid cosmetic rule, wrong brackets" in the rule: "science.hotnews.ro#
 ---------------------------
 Filter ID: 237
 Filter name: Polish Annoyances Filters
-Compiled rules: 13096
-Excluded rules: 1894
+Compiled rules: 13105
+Excluded rules: 1892
 URL: https://raw.githubusercontent.com/PolishFiltersTeam/PolishAnnoyanceFilters/master/PPB.txt
 INVALID RULES:
 Error: "Unknown pseudo-class ':remove-class' in selector: 'body[class*=" _"]:remove-class(/_[a-z0-9]{12}/)'" in the rule: "[$path=/login/login.html]poczta.o2.pl,poczta.wp.pl## body[class*=" _"]:remove-class(/_[a-z0-9]{12}/)"
@@ -460,8 +460,8 @@ URL: https://paulgb.github.io/BarbBlock/blacklists/adblock-plus.txt
 ---------------------------
 Filter ID: 241
 Filter name: EasyList Cookie List
-Compiled rules: 27431
-Excluded rules: 1840
+Compiled rules: 27484
+Excluded rules: 1852
 URL: https://www.fanboy.co.nz/fanboy-cookiemonster.txt
 All rules are valid.
 ---------------------------
@@ -474,7 +474,7 @@ All rules are valid.
 ---------------------------
 Filter ID: 243
 Filter name: Frellwit's Swedish Filter
-Compiled rules: 2979
+Compiled rules: 2980
 Excluded rules: 412
 URL: https://raw.githubusercontent.com/lassekongo83/Frellwits-filter-lists/master/Frellwits-Swedish-Filter.txt
 INVALID RULES:
@@ -526,18 +526,17 @@ All rules are valid.
 ---------------------------
 Filter ID: 249
 Filter name: Dandelion Sprout's Nordic Filters
-Compiled rules: 2693
+Compiled rules: 2696
 Excluded rules: 196
 URL: https://raw.githubusercontent.com/DandelionSprout/adfilt/master/NorwegianExperimentalList%20alternate%20versions/NordicFiltersAdGuard.txt
 All rules are valid.
 ---------------------------
 Filter ID: 250
 Filter name: Dandelion Sprout's Annoyances List
-Compiled rules: 20204
-Excluded rules: 22460
+Compiled rules: 20238
+Excluded rules: 22458
 URL: https://raw.githubusercontent.com/DandelionSprout/adfilt/master/AnnoyancesList
 INVALID RULES:
-Error: Invalid selector: '.b_algo:has(a[href*=".agency/"]:not([href*="battlefield.agency"], [href*="baam.agency"], [href*="uphotel.agency"], href*=["robotzebra.agency"]))' -- '["robotzebra.agency"]' is not a valid attribute due to '"' at start of it in rule: bing.com##.b_algo:has(a[href*=".agency/"]:not([href*="battlefield.agency"], [href*="baam.agency"], [href*="uphotel.agency"], href*=["robotzebra.agency"]))
 Error: "Unknown modifier: ~inline-font" in the rule: "||oldgames.4all.cc^$document,popup,~inline-font,~inline-script"
 Error: "Unknown modifier: ~inline-font" in the rule: "||useragentswitch.com^$document,popup,~inline-font,~inline-script"
 Error: "Unknown modifier: ~inline-font" in the rule: "||dev-nano.com^$document,popup,~inline-font,~inline-script"
@@ -10779,11 +10778,12 @@ All rules are valid.
 ---------------------------
 Filter ID: 253
 Filter name: IndianList
-Compiled rules: 9002
-Excluded rules: 2
+Compiled rules: 9014
+Excluded rules: 4
 URL: https://easylist-downloads.adblockplus.org/indianlist.txt
 INVALID RULES:
 Error: Invalid selector: 'div[id^="AS_O_LHS_"] > div:nth-child(15 + n)' -- Error: unable to select by 'div[id^="AS_O_LHS_"] > div:nth-child(15 + n)' — 'div[id^="AS_O_LHS_"] > div:nth-child(15 + n)' is not a valid selector in rule: cricketkhabara.com##div[id^="AS_O_LHS_"] > div:nth-child(15 + n)
+Error: Invalid selector: 'div.row: abp-has(> .col-md12 > .margin-top > img.attachment-full)' -- 'div.row: abp-has(> .col-md12 > .margin-top > img.attachment-full)' is not a valid selector in rule: onstimes.com#?#div.row: abp-has(> .col-md12 > .margin-top > img.attachment-full)
 ---------------------------
 Filter ID: 10
 Filter name: Filter unblocking search ads and self-promotion
@@ -10794,7 +10794,7 @@ All rules are valid.
 ---------------------------
 Filter ID: 11
 Filter name: AdGuard Mobile Ads filter
-Compiled rules: 7091
+Compiled rules: 7101
 Excluded rules: 0
 URL: https://filters.adtidy.org/extension/chromium/filters/11.txt
 All rules are valid.
@@ -10806,79 +10806,79 @@ URL: https://filters.adtidy.org/extension/chromium/filters/12.txt
 ---------------------------
 Filter ID: 13
 Filter name: AdGuard Turkish filter
-Compiled rules: 6955
+Compiled rules: 6961
 Excluded rules: 0
 URL: https://filters.adtidy.org/extension/chromium/filters/13.txt
 All rules are valid.
 ---------------------------
 Filter ID: 14
 Filter name: AdGuard Annoyances filter
-Compiled rules: 44803
+Compiled rules: 44945
 Excluded rules: 2
 URL: https://filters.adtidy.org/extension/chromium/filters/14.txt
 All rules are valid.
 ---------------------------
 Filter ID: 15
 Filter name: AdGuard DNS filter
-Compiled rules: 51033
+Compiled rules: 51263
 Excluded rules: 296
 URL: https://filters.adtidy.org/extension/chromium/filters/15.txt
 All rules are valid.
 ---------------------------
 Filter ID: 16
 Filter name: AdGuard French filter
-Compiled rules: 25646
+Compiled rules: 25660
 Excluded rules: 66
 URL: https://filters.adtidy.org/extension/chromium/filters/16.txt
 INVALID RULES:
-Error: "Unknown modifier: webrtc" in the rule: "$webrtc,domain=11anim.com|1337x.st|1337x.to|2ddl.ms|ajplugins.com|androidadult.com|animeid.tv|animekb.net|animeland.tv|animezone.pl|avametrie.fr|avgle.com|bindassbros.com|blizzboygames.net|bonstreams.net|catrumahminimalis.me|centrum-dramy.pl|chatytvgratis.net|cinemitas.com|cinestrenostv.tv|clik.pw|cmacapps.com|cocostreaming.com|crictime.com|crictime.is|daclips.com|datpiff.com|ddl.to|ddmix.net|ddownload.com|deltabit.co|deportesmax.info|descargas2020.com|djs.sk|dl-protect.info|dompl3.info|doodstream.co|doodstream.com|draculastream.org|drakula.top|dropapk.com|dropapk.to|dualpaste.net|earnwithshortlink.com|ebook-planete.org|ebookdz.com|fileone.tv|filmeserialeonline.org|filmtelecharger.net|flashx.net|flashx.tv|fluvore.com|free-telecharger.com|free-telecharger.net|free-telecharger.org|free-telecharger.xyz|freecardano.com|freenem.com|fullmatchesandshows.com|gamestorrent.co|ganol.ru|ganool.im|ganool123.com|gtaall.com|gum-gum-streaming.com|hdvid.online|healthoptimizer.net|heapfiles.com|hq-porns.com|ianimes.org|iegybest.film|imagenesmy.com|imgazure.com|immunicity.st|istream2watch.com|ithepiratebay.com|javher.com|jheberg.net|jkanime.net|kinohabr.net|kinokrad.co|kinoprofi.org|kinostuff.com|kinox.me|kinox.tv|kiss-anime.ws|kissasian.ch|kissasian.sh|kooralive.info|kora-live.tv|lafmacun.net|larati.net|latino-webtv.com|leggendaweb.com|leitor.net|lemondedekevin.fr|lewd.ninja|liketvw.com|liveflashplayer.org|lordhd.com|love-drama.pl|ma-famille-dabord-streaming.com|mangaku.in|mejortorrent.org|mejortorrent1.com|mkvcage.com|modsbase.com|monova.org|movie4k.is|movie4k.org|movies123.ac|mp4mania.xyz|multiimg.com|myfeed4u.com|mywatchseries.stream|netiap.com|nicoblog.org|nonpiusolo.com|o2tvseries.com|oasivip.com|oceanoffgames.com|oipeirates.online|onion.ly|onion.pet|openload.cc|openload.ch|openload.fun|opensubtitles.org|ovid.online|ovid.tv|papstream.info|pastehere.xyz|pcgamestorrents.com|pdf-giant.com|peeplink.in|pelislatino3gp.biz|pinoybay.ch|piratebayblocked.com|planet-streaming.net|planete-bd.org|planetfools.com|povwideo.cc|powvideo.cc|powvideo.net|putload.tv|radiofly.ws|reactor.cc|readmanga.today|rivosport.co|rojadirecta.fr|sawlive.tv|scuseami.net|senmanga.com|sharemods.com|sherlockonline.ru|shippuden.tv|short.pe|shrink-service.it|sintelevisor.com|sleeptimer.org|slyid.com|solarmovie.one|sorteosrd.com|srt.am|starmusiq.one|strdef.world|stream2watch.org|stream4free.live|streambeam.io|streamcdn.to|streamcloud.eu|streamhunter.net|streamhunter.top|streamplay.me|streamplay.to|subswiki.com|supervideo.tv|tamilmv.cz|tarjetarojatvonline.com|teleriumtv.net|theappguruz.com|thepiratebay.cr|thepiratebay.vip|thevid.net|thevid.tv|thevideo.ch|thevideo.io|thevideo.me|thevideo.us|tomadivx.tv|topsimages.com|torlock.com|torlock2.com|tpbprox.com|tubetitties.com|tvshqiphd.com|uii.io|ukpass.co|unblocked2.fun|unblocked2.vip|unblocksites.co|up-4.net|upbom.com|upbom.net|upload.ee|uploadfiles.eu|uploadocean.com|uppom.live|uptostream.com|upvid.host|vcrypt.net|veehd.com|vergol.com|verliga1.net|vertelevisor.com|vev.io|vev.red|videobin.co|videowood.tv|vidfile.net|vidoza.co|vidoza.net|vidshare.tv|vidup.io|vidup.tv|viewasian.tv|vup.to|watchonline.to|watchpornfree.ws|wstream.to|wstream.video|x1337x.eu|x1337x.se|x1337x.ws|xclusivejams.com|xfilesharing.com|xrivonet.info|xvideosharing.com|yify-torrent.org|zeroshare.me|zipansion.com|zone-ebook.com"
+Error: "Unknown modifier: webrtc" in the rule: "$webrtc,domain=11anim.com|1337x.st|1337x.to|2ddl.ms|ajplugins.com|androidadult.com|animeid.tv|animekb.net|animeland.tv|animezone.pl|avametrie.fr|avgle.com|bindassbros.com|blizzboygames.net|bonstreams.net|catrumahminimalis.me|centrum-dramy.pl|chatytvgratis.net|cinemitas.com|cinestrenostv.tv|clik.pw|cmacapps.com|cocostreaming.com|crictime.com|crictime.is|daclips.com|datpiff.com|ddl.to|ddmix.net|ddownload.com|deltabit.co|deportesmax.info|descargas2020.com|djs.sk|dl-protect.info|dompl3.info|doodstream.co|doodstream.com|draculastream.org|drakula.top|dropapk.com|dropapk.to|dualpaste.net|earnwithshortlink.com|ebook-planete.org|ebookdz.com|fileone.tv|filmeserialeonline.org|filmtelecharger.net|flashx.net|flashx.tv|fluvore.com|freecardano.com|freenem.com|fullmatchesandshows.com|gamestorrent.co|ganol.ru|ganool.im|ganool123.com|gtaall.com|gum-gum-streaming.com|hdvid.online|healthoptimizer.net|heapfiles.com|hq-porns.com|ianimes.org|iegybest.film|imagenesmy.com|imgazure.com|immunicity.st|istream2watch.com|ithepiratebay.com|javher.com|jheberg.net|jkanime.net|kinohabr.net|kinokrad.co|kinoprofi.org|kinostuff.com|kinox.me|kinox.tv|kiss-anime.ws|kissasian.ch|kissasian.sh|kooralive.info|kora-live.tv|lafmacun.net|larati.net|latino-webtv.com|leggendaweb.com|leitor.net|lemondedekevin.fr|lewd.ninja|liketvw.com|liveflashplayer.org|lordhd.com|love-drama.pl|ma-famille-dabord-streaming.com|mangaku.in|mejortorrent.org|mejortorrent1.com|mkvcage.com|modsbase.com|monova.org|movie4k.is|movie4k.org|movies123.ac|mp4mania.xyz|multiimg.com|myfeed4u.com|mywatchseries.stream|netiap.com|nicoblog.org|nonpiusolo.com|o2tvseries.com|oasivip.com|oceanoffgames.com|oipeirates.online|onion.ly|onion.pet|openload.cc|openload.ch|openload.fun|opensubtitles.org|ovid.online|ovid.tv|papstream.info|pastehere.xyz|pcgamestorrents.com|pdf-giant.com|peeplink.in|pelislatino3gp.biz|pinoybay.ch|piratebayblocked.com|planet-streaming.net|planete-bd.org|planetfools.com|povwideo.cc|powvideo.cc|powvideo.net|putload.tv|radiofly.ws|reactor.cc|readmanga.today|rivosport.co|rojadirecta.fr|sawlive.tv|scuseami.net|senmanga.com|sharemods.com|sherlockonline.ru|shippuden.tv|short.pe|shrink-service.it|sintelevisor.com|sleeptimer.org|slyid.com|solarmovie.one|sorteosrd.com|srt.am|starmusiq.one|strdef.world|stream2watch.org|stream4free.live|streambeam.io|streamcdn.to|streamcloud.eu|streamhunter.net|streamhunter.top|streamplay.me|streamplay.to|subswiki.com|supervideo.tv|tamilmv.cz|tarjetarojatvonline.com|teleriumtv.net|theappguruz.com|thepiratebay.cr|thepiratebay.vip|thevid.net|thevid.tv|thevideo.ch|thevideo.io|thevideo.me|thevideo.us|tomadivx.tv|topsimages.com|torlock.com|torlock2.com|tpbprox.com|tubetitties.com|tvshqiphd.com|uii.io|ukpass.co|unblocked2.fun|unblocked2.vip|unblocksites.co|up-4.net|upbom.com|upbom.net|upload.ee|uploadfiles.eu|uploadocean.com|uppom.live|uptostream.com|upvid.host|vcrypt.net|veehd.com|vergol.com|verliga1.net|vertelevisor.com|vev.io|vev.red|videobin.co|videowood.tv|vidfile.net|vidoza.co|vidoza.net|vidshare.tv|vidup.io|vidup.tv|viewasian.tv|vup.to|watchonline.to|watchpornfree.ws|wstream.to|wstream.video|x1337x.eu|x1337x.se|x1337x.ws|xclusivejams.com|xfilesharing.com|xrivonet.info|xvideosharing.com|yify-torrent.org|zeroshare.me|zipansion.com|zone-ebook.com"
 Error: Invalid selector: '#.ads-follow-next' -- Error: unable to select by '#.ads-follow-next' — '#.ads-follow-next' is not a valid selector in rule: ###.ads-follow-next
 ---------------------------
 Filter ID: 17
 Filter name: AdGuard URL Tracking filter
-Compiled rules: 1388
+Compiled rules: 1395
 Excluded rules: 0
 URL: https://filters.adtidy.org/windows/filters/17.txt
 All rules are valid.
 ---------------------------
 Filter ID: 18
 Filter name: AdGuard Cookie Notices filter
-Compiled rules: 16339
+Compiled rules: 16386
 Excluded rules: 0
 URL: https://filters.adtidy.org/extension/chromium/filters/18.txt
 All rules are valid.
 ---------------------------
 Filter ID: 19
 Filter name: AdGuard Popups filter
-Compiled rules: 15597
+Compiled rules: 15633
 Excluded rules: 2
 URL: https://filters.adtidy.org/extension/chromium/filters/19.txt
 All rules are valid.
 ---------------------------
 Filter ID: 1
 Filter name: AdGuard Russian filter
-Compiled rules: 24347
+Compiled rules: 24349
 Excluded rules: 0
 URL: https://filters.adtidy.org/extension/chromium/filters/1.txt
 All rules are valid.
 ---------------------------
 Filter ID: 20
 Filter name: AdGuard Mobile App Banners filter
-Compiled rules: 2881
+Compiled rules: 2892
 Excluded rules: 0
 URL: https://filters.adtidy.org/extension/chromium/filters/20.txt
 All rules are valid.
 ---------------------------
 Filter ID: 21
 Filter name: AdGuard Other Annoyances filter
-Compiled rules: 8404
+Compiled rules: 8440
 Excluded rules: 0
 URL: https://filters.adtidy.org/extension/chromium/filters/21.txt
 All rules are valid.
 ---------------------------
 Filter ID: 224
 Filter name: AdGuard Chinese filter
-Compiled rules: 24323
+Compiled rules: 24387
 Excluded rules: 50
 URL: https://filters.adtidy.org/extension/chromium/filters/224.txt
 INVALID RULES:
@@ -10886,21 +10886,21 @@ Error: Invalid selector: '.j_l_post[data-field*="\"user_name\":\"\\u4e3f\\u5929\
 ---------------------------
 Filter ID: 22
 Filter name: AdGuard Widgets filter
-Compiled rules: 1865
+Compiled rules: 1877
 Excluded rules: 0
 URL: https://filters.adtidy.org/extension/chromium/filters/22.txt
 All rules are valid.
 ---------------------------
 Filter ID: 23
 Filter name: AdGuard Ukrainian filter
-Compiled rules: 7801
+Compiled rules: 7804
 Excluded rules: 0
 URL: https://filters.adtidy.org/extension/chromium/filters/23.txt
 All rules are valid.
 ---------------------------
 Filter ID: 2
 Filter name: AdGuard Base filter
-Compiled rules: 121256
+Compiled rules: 121624
 Excluded rules: 62
 URL: https://filters.adtidy.org/extension/chromium/filters/2.txt
 INVALID RULES:
@@ -10911,35 +10911,35 @@ Error: Invalid selector: '[href^="https://s.click.aliexpress.com/“]' -- Unbala
 ---------------------------
 Filter ID: 3
 Filter name: AdGuard Tracking Protection filter
-Compiled rules: 45130
+Compiled rules: 45579
 Excluded rules: 0
 URL: https://filters.adtidy.org/extension/chromium/filters/3.txt
 All rules are valid.
 ---------------------------
 Filter ID: 4
 Filter name: AdGuard Social Media filter
-Compiled rules: 13553
+Compiled rules: 13574
 Excluded rules: 0
 URL: https://filters.adtidy.org/extension/chromium/filters/4.txt
 All rules are valid.
 ---------------------------
 Filter ID: 5
 Filter name: AdGuard Experimental filter
-Compiled rules: 307
+Compiled rules: 308
 Excluded rules: 0
 URL: https://filters.adtidy.org/extension/chromium/filters/5.txt
 All rules are valid.
 ---------------------------
 Filter ID: 6
 Filter name: AdGuard German filter
-Compiled rules: 11396
+Compiled rules: 11421
 Excluded rules: 12
 URL: https://filters.adtidy.org/extension/chromium/filters/6.txt
 All rules are valid.
 ---------------------------
 Filter ID: 7
 Filter name: AdGuard Japanese filter
-Compiled rules: 8321
+Compiled rules: 8382
 Excluded rules: 2
 URL: https://filters.adtidy.org/extension/chromium/filters/7.txt
 All rules are valid.
@@ -10953,7 +10953,7 @@ All rules are valid.
 ---------------------------
 Filter ID: 9
 Filter name: AdGuard Spanish/Portuguese filter
-Compiled rules: 5717
+Compiled rules: 5716
 Excluded rules: 0
 URL: https://filters.adtidy.org/extension/chromium/filters/9.txt
 All rules are valid.

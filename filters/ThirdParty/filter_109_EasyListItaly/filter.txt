@@ -1,8 +1,8 @@
 !
-! Checksum: yyOaE8aRgT4iEp2DdUEkLA
-! OriginalVersion: 202303200831
+! Checksum: p5GiSDlsJJV6G8nBmSS6fw
+! OriginalVersion: 202303230831
 ! Title: EasyList Italy
-! Last modified: 20 Mar 2023 08:31 UTC
+! Last modified: 23 Mar 2023 08:31 UTC
 ! Expires: 1 days (frequenza di aggiornamento)
 ! Homepage: https://easylist.to/
 ! Licenza: https://easylist.to/pages/licence.html
@@ -7054,6 +7054,7 @@ ortosemplice.it##.adv-links
 infomotori.com##.adv-listino-nuovo
 editorialedomani.it##.adv-placeholder
 rbe.it##.adv-section
+ansa.it##.adv-slot
 radiocittadelcapo.it##.adv-space
 diredonna.it,gravidanzaonline.it,robadadonne.it##.adv-style
 quattroruote.it##.adv-wrap

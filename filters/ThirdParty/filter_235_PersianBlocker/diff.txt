@@ -2,8 +2,10 @@
 opizo.me##.text-left:has-text(/ثانیه|رد تبلیغ/):others()
 ! xip.li##.form-inline:others() is excluded by "xip.li##.form-inline:others()" in exclusions.txt
 xip.li##.form-inline:others()
-! Rule "||websocket.*/?u=*&s=$websocket,1p" converted to: "||websocket.*/?u=*&s=$websocket,~third-party"
-||websocket.*/?u=*&s=$websocket,1p
+! Rule "/wp-content/uploads/*.gif^$image,1p,domain=ir|bazdeh.org|charbzaban.com|chetor.com|dlfox.com|filmin.info|ghatar.com|itresan.com|konkur.info|learnparsi.com|movienama.com|netpaak.com|parsfootball.com|pezeshket.com|p30konkor.com|sakhtafzar.com|techrato.com" converted to: "/wp-content/uploads/*.gif^$image,~third-party,domain=ir|bazdeh.org|charbzaban.com|chetor.com|dlfox.com|filmin.info|ghatar.com|itresan.com|konkur.info|learnparsi.com|movienama.com|netpaak.com|parsfootball.com|pezeshket.com|p30konkor.com|sakhtafzar.com|techrato.com"
+/wp-content/uploads/*.gif^$image,1p,domain=ir|bazdeh.org|charbzaban.com|chetor.com|dlfox.com|filmin.info|ghatar.com|itresan.com|konkur.info|learnparsi.com|movienama.com|netpaak.com|parsfootball.com|pezeshket.com|p30konkor.com|sakhtafzar.com|techrato.com
+! Rule "||websocket.*/?u=*&s=$websocket,1p,strict3p" converted to: "||websocket.*/?u=*&s=$websocket,~third-party,strict3p"
+||websocket.*/?u=*&s=$websocket,1p,strict3p
 ! Rule "/wp-admin/admin-ajax.php?postviews_id=$xhr,1p" converted to: "/wp-admin/admin-ajax.php?postviews_id=$xmlhttprequest,~third-party"
 /wp-admin/admin-ajax.php?postviews_id=$xhr,1p
 ! Rule "||aasaam.com^$3p" converted to: "||aasaam.com^$third-party"
@@ -408,10 +410,24 @@ khabarpu.com##+js(nano-stb, document.getElementById, *, 0.01)
 khabarfoori.com##.rowTwo .right_side, .rowTwo .column_1:style(width: 100% !important;)
 ! Rule "ketabesabz.com##+js(set, KetabrahPopup, noopFunc)" converted to: "ketabesabz.com#%#//scriptlet('ubo-set.js', 'KetabrahPopup', 'noopFunc')"
 ketabesabz.com##+js(set, KetabrahPopup, noopFunc)
-! Rule "||learnparsi.com/wp-content/uploads/*.gif$image,1p" converted to: "||learnparsi.com/wp-content/uploads/*.gif$image,~third-party"
-||learnparsi.com/wp-content/uploads/*.gif$image,1p
 ! Rule "lahzeakhar.com##+js(set, customnotify, noopFunc)" converted to: "lahzeakhar.com#%#//scriptlet('ubo-set.js', 'customnotify', 'noopFunc')"
 lahzeakhar.com##+js(set, customnotify, noopFunc)
+! Rule "musickhone.com##^script:has-text(window.open)" converted to: "musickhone.com$$script[tag-content="window.open"][max-length="262144"]"
+musickhone.com##^script:has-text(window.open)
+! Rule "musickhone.com##+js(nowoif)" converted to: "musickhone.com#%#//scriptlet('ubo-nowoif.js')"
+musickhone.com##+js(nowoif)
+! Rule "musickhone.com##+js(nowoif)" converted to: "musickhone.com#%#//scriptlet('ubo-nowoif.js')"
+musickhone.com##+js(nowoif)
+! Rule "my.mci.ir,pwa.mci.ir##+js(set, window.screen.width, 0)" converted to: "my.mci.ir,pwa.mci.ir#%#//scriptlet('ubo-set.js', 'window.screen.width', '0')"
+my.mci.ir,pwa.mci.ir##+js(set, window.screen.width, 0)
+! Rule "my.mci.ir,pwa.mci.ir##+js(set, window.screen.height, 0)" converted to: "my.mci.ir,pwa.mci.ir#%#//scriptlet('ubo-set.js', 'window.screen.height', '0')"
+my.mci.ir,pwa.mci.ir##+js(set, window.screen.height, 0)
+! Rule "my.mci.ir,pwa.mci.ir##+js(set, navigator.appVersion, '')" converted to: "my.mci.ir,pwa.mci.ir#%#//scriptlet('ubo-set.js', 'navigator.appVersion', '')"
+my.mci.ir,pwa.mci.ir##+js(set, navigator.appVersion, '')
+! Rule "my.mci.ir,pwa.mci.ir##+js(set, navigator.userAgent, '')" converted to: "my.mci.ir,pwa.mci.ir#%#//scriptlet('ubo-set.js', 'navigator.userAgent', '')"
+my.mci.ir,pwa.mci.ir##+js(set, navigator.userAgent, '')
+! Rule "my.mci.ir,pwa.mci.ir##+js(set, navigator.appName, '')" converted to: "my.mci.ir,pwa.mci.ir#%#//scriptlet('ubo-set.js', 'navigator.appName', '')"
+my.mci.ir,pwa.mci.ir##+js(set, navigator.appName, '')
 ! Rule "||mihanvideo.com/static/js/video_player/jwplayer/plugins/vast/vast.js^$script,1p" converted to: "||mihanvideo.com/static/js/video_player/jwplayer/plugins/vast/vast.js^$script,~third-party"
 ||mihanvideo.com/static/js/video_player/jwplayer/plugins/vast/vast.js^$script,1p
 ! Rule "||mihanvideo.com/static/js/video_player/jwplayer/*/jwpsrv.js^$script,1p" converted to: "||mihanvideo.com/static/js/video_player/jwplayer/*/jwpsrv.js^$script,~third-party"
@@ -472,10 +488,6 @@ opizo.me##+js(aeld, blur)
 ||plaza.ir/location/find-client-location^$xhr,1p
 ! Rule "||plaza.ir/wp-admin/admin-ajax.php?action=getClientDeviceRelatedPostItems^$xhr,1p" converted to: "||plaza.ir/wp-admin/admin-ajax.php?action=getClientDeviceRelatedPostItems^$xmlhttprequest,~third-party"
 ||plaza.ir/wp-admin/admin-ajax.php?action=getClientDeviceRelatedPostItems^$xhr,1p
-! Rule "||parsfootball.com/wp-content/uploads/*.gif$image,1p" converted to: "||parsfootball.com/wp-content/uploads/*.gif$image,~third-party"
-||parsfootball.com/wp-content/uploads/*.gif$image,1p
-! Rule "||parsfootball.com/na/wp-content/uploads/*.gif$image,1p" converted to: "||parsfootball.com/na/wp-content/uploads/*.gif$image,~third-party"
-||parsfootball.com/na/wp-content/uploads/*.gif$image,1p
 ! Rule "power-music.ir##^script:has-text(window.open)" converted to: "power-music.ir$$script[tag-content="window.open"][max-length="262144"]"
 power-music.ir##^script:has-text(window.open)
 ! Rule "power-music.ir##+js(nowoif)" converted to: "power-music.ir#%#//scriptlet('ubo-nowoif.js')"
@@ -506,6 +518,8 @@ rouydad24.ir##.container, .main:style(width: 95% !important;)
 rokna.net##.top_fixed_mob:remove()
 ! Rule "rokna.net##.top_fixed_mob:remove()" converted to: "rokna.net#$?#.top_fixed_mob { remove: true; }"
 rokna.net##.top_fixed_mob:remove()
+! Rule "||cdn.sargarme.com/uploads/*.gif$image,1p" converted to: "||cdn.sargarme.com/uploads/*.gif$image,~third-party"
+||cdn.sargarme.com/uploads/*.gif$image,1p
 ! Rule "||sobhtazeh.news/rss-file.php^$xhr" converted to: "||sobhtazeh.news/rss-file.php^$xmlhttprequest"
 ||sobhtazeh.news/rss-file.php^$xhr
 ! Rule "shmi.ir##.left_news_box > .left:style(width: 100% !important;)" converted to: "shmi.ir#$#.left_news_box > .left { width: 100% !important; }"
@@ -528,8 +542,8 @@ searchline.ir##*:style(-webkit-touch-callout: default !important; -webkit-user-s
 ||shomanews.com/box.php^$3p
 ! Rule "shomanews.com##.row_one_content:style(width: 100% !important;)" converted to: "shomanews.com#$#.row_one_content { width: 100% !important; }"
 shomanews.com##.row_one_content:style(width: 100% !important;)
-! Rule "sarzamindownload.com##+js(set, BetterJsPop, noopFunc)" converted to: "sarzamindownload.com#%#//scriptlet('ubo-set.js', 'BetterJsPop', 'noopFunc')"
-sarzamindownload.com##+js(set, BetterJsPop, noopFunc)
+! Rule "||sarzamindownload.com/images/banners^$image,1p" converted to: "||sarzamindownload.com/images/banners^$image,~third-party"
+||sarzamindownload.com/images/banners^$image,1p
 ! Rule "@@||sarzamindownload.com/images/Ads_Place.jpg$image,1p" converted to: "@@||sarzamindownload.com/images/Ads_Place.jpg$image,~third-party"
 @@||sarzamindownload.com/images/Ads_Place.jpg$image,1p
 ! Rule "instagram.com##+js(window-close-if, /[Ss][Mm][Oo][Ss][Tt][Aa][Ff][Aa][Mm][Oo][Oo][Ss][Aa][Vv][Ii]/)" converted to: "instagram.com#%#//scriptlet('ubo-window-close-if.js', '/[Ss][Mm][Oo][Ss][Tt][Aa][Ff][Aa][Mm][Oo][Oo][Ss][Aa][Vv][Ii]/')"
@@ -646,8 +660,6 @@ takmili.com##style:has-text(user-select):remove()
 techfars.com##:not(:matches-path(/category/website/reportage/)) .box:has-text(رپورتاژ آگهی)
 ! Rule "trainbit.com##+js(nano-stb, , , 0)" converted to: "trainbit.com#%#//scriptlet('ubo-nano-stb.js', '', '', '0')"
 trainbit.com##+js(nano-stb, , , 0)
-! Rule "||techrato.com/wp-content/uploads/*.gif$image,1p" converted to: "||techrato.com/wp-content/uploads/*.gif$image,~third-party"
-||techrato.com/wp-content/uploads/*.gif$image,1p
 ! Rule "techrato.com##:not(:matches-path(/tag/%D8%B1%D9%BE%D9%88%D8%B1%D8%AA%D8%A7%DA%98-%D8%A2%DA%AF%D9%87%DB%8C/)) .posts-list > article.tag-8164 > .clearfix > a[class="title"][href$="reportage/"]:upward(article)" converted to: "[$path=/^((?!tag/%D8%B1%D9%BE%D9%88%D8%B1%D8%AA%D8%A7%DA%98-%D8%A2%DA%AF%D9%87%DB%8C).)*$/]techrato.com## .posts-list > article.tag-8164 > .clearfix > a[class="title"][href$="reportage/"]:upward(article)"
 techrato.com##:not(:matches-path(/tag/%D8%B1%D9%BE%D9%88%D8%B1%D8%AA%D8%A7%DA%98-%D8%A2%DA%AF%D9%87%DB%8C/)) .posts-list > article.tag-8164 > .clearfix > a[class="title"][href$="reportage/"]:upward(article)
 ! Rule "tigatravel.com##+js(nostif, /^/)" converted to: "tigatravel.com#%#//scriptlet('ubo-nostif.js', '/^/')"
@@ -664,6 +676,16 @@ takhfifan.com##+js(ra, disabled, , stay)
 takhfifan.com##.filter:style(filter:none !important)
 ! Rule "@@||toranji.ir/wp-content/uploads/*/Toranji-Banner-Ad-$image,1p" converted to: "@@||toranji.ir/wp-content/uploads/*/Toranji-Banner-Ad-$image,~third-party"
 @@||toranji.ir/wp-content/uploads/*/Toranji-Banner-Ad-$image,1p
+! Rule "||tgju.org/cdn-cgi/apps/head^$script,1p" converted to: "||tgju.org/cdn-cgi/apps/head^$script,~third-party"
+||tgju.org/cdn-cgi/apps/head^$script,1p
+! Rule "||api.tgju.org/v1/advertisement^$xhr,1p" converted to: "||api.tgju.org/v1/advertisement^$xmlhttprequest,~third-party"
+||api.tgju.org/v1/advertisement^$xhr,1p
+! Rule "tgju.org##^script:has-text(ad.setAttribute)" converted to: "tgju.org$$script[tag-content="ad.setAttribute"][max-length="262144"]"
+tgju.org##^script:has-text(ad.setAttribute)
+! Rule "tgju.org##+js(acis, document.getElementById, ad)" converted to: "tgju.org#%#//scriptlet('ubo-acis.js', 'document.getElementById', 'ad')"
+tgju.org##+js(acis, document.getElementById, ad)
+! Rule "tgju.org##+js(acis, document.getElementById, ad)" converted to: "tgju.org#%#//scriptlet('ubo-acis.js', 'document.getElementById', 'ad')"
+tgju.org##+js(acis, document.getElementById, ad)
 ! Rule "tasnimnews.com##.col-md-9:style(width: 100% !important;)" converted to: "tasnimnews.com#$#.col-md-9 { width: 100% !important; }"
 tasnimnews.com##.col-md-9:style(width: 100% !important;)
 ! Rule "uploadgoogle.ir##+js(nowoif)" converted to: "uploadgoogle.ir#%#//scriptlet('ubo-nowoif.js')"
@@ -1470,6 +1492,8 @@ duckduckgo.com##a[data-testid="result-title-a"][href*="glp.ir"]::after:style(con
 duckduckgo.com##a[data-testid="result-title-a"][href*="hastidl.ir"]::after:style(content: ' [دارای حذفیات] ' !important; color: #E6000D !important;)
 ! Rule "oila.tj##+js(aopr, window.LOCO_DATA.copyrightTranslation)" converted to: "oila.tj#%#//scriptlet('ubo-aopr.js', 'window.LOCO_DATA.copyrightTranslation')"
 oila.tj##+js(aopr, window.LOCO_DATA.copyrightTranslation)
+Error: "Unknown modifier: strict3p" in the rule: "||websocket.*/?u=*&s=$websocket,~third-party,strict3p"
+||websocket.*/?u=*&s=$websocket,~third-party,strict3p
 Error: "Unknown pseudo-class ':remove-attr' in selector: '[onclick^="sendDataLayer"]:remove-attr(onclick)'" in the rule: "khanoumi.com##[onclick^="sendDataLayer"]:remove-attr(onclick)"
 khanoumi.com##[onclick^="sendDataLayer"]:remove-attr(onclick)
 Error: "Unknown pseudo-class ':remove-attr' in selector: '[onclick^="sendBannerDataLayer"]:remove-attr(onclick)'" in the rule: "khanoumi.com##[onclick^="sendBannerDataLayer"]:remove-attr(onclick)"
